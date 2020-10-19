@@ -1,0 +1,12 @@
+hakunekosgmailcom:
+manga-download_mangatown
+manga-download_mangapark
+manga-download_vrv-crunchyroll
+manga-download_unionmangas
+manga-download_vrv-funimation
+manga-download_mangago
+manga-download_kissmanga
+manga-download_manganel
+manga-download_mangadex
+manga-download_cdn.hakuneko
+

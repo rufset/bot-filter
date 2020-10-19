@@ -1,0 +1,4 @@
+kernelbotaltlinuxorg:
+vt-alt_specs
+zOrg1331_kernel-image-cuboxi
+

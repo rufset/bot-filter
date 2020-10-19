@@ -1,0 +1,4 @@
+homeassistantusersnoreplygithubcom:
+home-assistant_companion.home-assistant
+home-assistant_developers.home-assistant
+

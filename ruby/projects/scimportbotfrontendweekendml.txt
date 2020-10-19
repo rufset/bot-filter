@@ -1,0 +1,3 @@
+scimportbotfrontendweekendml:
+nuxdie_frontendweekend
+

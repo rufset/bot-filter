@@ -1,0 +1,10 @@
+itdocbibliosansfrontieresorg:
+bibliosansfrontieres_doc-ideasbox-handbook
+bibliosansfrontieres_doc-koombook-assembly
+bibliosansfrontieres_doc-ideascube
+bibliosansfrontieres_doc-faq-koombook
+bibliosansfrontieres_doc-koombook-kit
+bibliosansfrontieres_ansiblecap
+ideascube_ansiblecube
+bibliosansfrontieres_doc-koombook-training
+

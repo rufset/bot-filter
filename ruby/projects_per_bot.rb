@@ -29,10 +29,14 @@ class BotBag
     def print_project_lists(dir)
         Dir.mkdir(dir) unless Dir.exist?(dir)
         self.bots.each do |bot|
-            File.open("#{dir}/#{bot.name}.txt", 'w') do |f|
+            File.open("#{dir}/#{sanitize(bot.name)}.txt", 'w') do |f|
                 f.write(bot.to_string(summary=false))
             end
         end
+    end
+
+    def sanitize(s)
+        s.gsub!(/[^0-9A-Za-z]/, '')
     end
 end
 
@@ -85,9 +89,9 @@ def load_file(file)
         data = line.split(/;/)
         author = data[0].match(/<(.*)>/).captures[0]
         projects = data[5].split(/,/)
-        projects.map! do |project|
-            project.split(/\_/)[0]
-        end
+        # projects.map! do |project|
+        #     project.split(/\_/)[0]
+        # end
 
         bots[author] = Bot.new(author) unless bots.key?(author)
         bots[author] << projects
@@ -108,5 +112,5 @@ end
 
 # main method
 bots = load_file(ARGV[0])
-bots.print_overview_file('overview.txt')
+bots.print_overview_file('overview_allprojects.txt')
 bots.print_project_lists('projects')

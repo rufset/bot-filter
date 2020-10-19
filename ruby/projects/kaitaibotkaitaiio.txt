@@ -1,0 +1,10 @@
+kaitaibotkaitaiio:
+kaitai-io_ci_artifacts
+kaitai-io_doc-kaitai-io.github.io
+kaitai-io_ci_targets
+kaitai-io_kaitai-io.github.io
+kaitai-io_ide-kaitai-io.github.io
+kaitai-io_formats-kaitai-io.github.io
+kaitai-io_ci-kaitai-io.github.io
+kaitai-io_ide-devel-kaitai-io.github.io
+

@@ -1,0 +1,4 @@
+grasssvn2gitosgeoorg:
+grass-svn2git_grass-legacy
+OSGeo_grass-legacy
+

@@ -1,0 +1,11 @@
+webhookopenexoplanetcataloquecom:
+OpenExoplanetCatalogue_oec_gzip
+OpenExoplanetCatalogue_oec_tables
+douglase_oec_tables
+OpenExoplanetCatalogue_oec_meta
+Sol-d_oec_meta
+ziphead_oec_tables
+pedrolealdino_oec_tables
+suolike_oec_tables
+CadenArmstrong_oec_gzip
+

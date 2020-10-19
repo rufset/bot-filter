@@ -1,0 +1,7 @@
+netkanbotkspckanspace:
+KSP-CKAN_CKAN-meta
+BanditSan_CKAN-meta
+bb_mscg_ckan-meta
+gl_TeddyDD_ckan-meta
+Starwaster_CKAN-meta
+

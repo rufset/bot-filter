@@ -1,0 +1,10 @@
+mecomponentizrleosteracom:
+componentizr_angular-loader
+componentizr_angular-route
+327326724_angular-route
+stelcheck_angular-animate
+componentizr_angular-animate
+leostera_angular.js
+componentizr_angular.js
+npmcomponent_componentizr-angular.js
+

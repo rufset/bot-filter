@@ -1,0 +1,7 @@
+opamrecoilorg:
+ocaml_opam-bulk-logs
+avsm_docker-opam
+whitequark_docker-opam
+srenatus_docker-opam
+infidel_docker-opam
+

@@ -1,0 +1,7 @@
+backupbotg0vtw:
+g0v-data_hackpad-backup-g0v
+OsmHackTW_hackpad-backup-osmtw
+g0v-data_hackpad-backup-listening
+g0v-data_hackpad-backup-emovements
+g0v-data_hackpad-backup-g0vww
+

@@ -1,0 +1,4 @@
+deploybotexamplecom:
+hugovk_drop-python
+hugovk_top-pypi-packages
+

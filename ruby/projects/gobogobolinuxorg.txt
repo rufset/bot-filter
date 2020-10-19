@@ -1,0 +1,5 @@
+gobogobolinuxorg:
+AitorATuin_Recipes
+neowinx_Recipes
+gobolinux_Recipes
+

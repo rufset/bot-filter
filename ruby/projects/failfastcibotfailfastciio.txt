@@ -1,0 +1,14 @@
+failfastcibotfailfastciio:
+gl_kargo-ci_kubernetes-incubator__kubespray
+gl_kargo-ci_kubernetes-incubator__kargo
+gl_failfast-ci_coreos__kpm
+gl_failfast-ci_app-registry__appr
+gl_kargo-ci_kubernetes-incubator_kubespray
+gl_jj-ff_joejulian_oauth2_proxy
+gl_failfast-ci_cn-app-registry__cnr-server
+gl_failfast-ci_failfast-ci__failfast-api
+gl_failfast-ci_app-registry__appr-server
+gl_joejulian-robot1_joejulian__container-failfast-ci
+gl_kargo-ci_kubernetes-sigs-kubespray
+gl_joejulian-robot1_joejulian__chart-ingress-nginx
+

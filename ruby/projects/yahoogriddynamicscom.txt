@@ -1,0 +1,12 @@
+yahoogriddynamicscom:
+ganeshlam_yhadoop-common
+griddynamics_yhadoop-common
+griddynamics_hive
+griddynamics_oozie
+griddynamics_hbase
+aklochkovgd_hadoop-common
+griddynamics_pig
+apache_oozie
+griddynamics_plexus-utils
+griddynamics_maven-surefire
+

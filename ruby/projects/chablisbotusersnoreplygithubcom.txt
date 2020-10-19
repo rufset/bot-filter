@@ -1,0 +1,13 @@
+chablisbotusersnoreplygithubcom:
+chablis-pilot_challenges-dev0
+chablis-pilot_challenges
+chablis-pilot_explanations
+chablis-pilot_challenges-dev1
+chablis-pilot_challenges-staging0
+chablis-pilot_explanations-staging0
+chablis-pilot_explanations-dev1
+chablis-pilot_public-resources-dev1
+chablis-pilot_explanations-dev0
+chablis-pilot_public-resources
+chablis-pilot_public-resources-staging0
+

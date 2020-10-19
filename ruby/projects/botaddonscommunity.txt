@@ -1,0 +1,16 @@
+botaddonscommunity:
+gl_hassio-addons_repository-edge
+hassio-addons_repository-edge
+hassio-addons_repository
+gl_hassio-addons_repository
+hassio-addons_repository-beta
+gl_hassio-addons_repository-beta
+azzab80_repository
+nicksenger_repository
+vcliment89_repository
+tyldum_repository
+kevinsegal_hassio-addons
+tyldum_hassio-addons-repository
+myforkcode_repository
+errorkallu_hassio-addons-Orginal
+

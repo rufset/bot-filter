@@ -1,0 +1,4 @@
+stationeersgortcio:
+st-l10n_resources
+st-l10n_locales
+

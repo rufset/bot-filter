@@ -1,0 +1,11 @@
+dunecommunitybotwwude:
+dune-community_dune-xt-grid-testlogs
+dune-community_dune-gdt-testlogs
+dune-community_dune-xt-common-testlogs
+dune-community_dune-xt-functions-testlogs
+dune-community_dune-xt-la-testlogs
+dune-community_dune-community.github.io
+wwu-numerik_wwu-numerik.github.io
+wwu-numerik_dune-mlmc-testlogs
+wwu-numerik_dune-multiscale-testlogs
+

@@ -1,0 +1,8 @@
+dotnetbuildbotmicrosoftcom:
+dotnet_versions
+ryanbrandenburg_versions
+Anipik_versions
+dotnetrt_versions
+OpenVisionLabs_versions
+saurabh500_versions
+

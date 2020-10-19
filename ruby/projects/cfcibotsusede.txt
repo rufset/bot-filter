@@ -1,0 +1,15 @@
+cfcibotsusede:
+SUSE_scf
+SUSE_cf-sle12-release
+JulzDiverse_scf
+SUSE_cf-opensuse42-release
+berchtos_scf
+SUSE_cf-sle15-release
+rohitsakala_scf
+mvpk666_scf
+bluebosh_scf
+tiffanypark_scf
+edwardstudy_scf
+SUSE_cfsle15fs-release
+hemantkbajaj_scf
+

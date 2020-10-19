@@ -1,0 +1,8 @@
+slicerbotslicerorg:
+Slicer_slicer-packages-metadata
+UCL-RITS_SlicerDocker
+thewtex_SlicerDocker
+Slicer_apidocs.slicer.org
+pombreda_slicer-packages-metadata
+Slicer_preview.apidocs.slicer.org
+

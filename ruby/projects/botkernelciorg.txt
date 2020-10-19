@@ -1,0 +1,16 @@
+botkernelciorg:
+git.kernel.org_public-inbox_vger.kernel.org/stable/0
+git.kernel.org_public-inbox_vger.kernel.org/lkml/6
+linux-mailinglist-archives_linux-samsung-soc.vger.kernel.org.0
+git.kernel.org_public-inbox_vger.kernel.org/lkml/7
+git.kernel.org_public-inbox_vger.kernel.org/lkml/5
+git.kernel.org_public-inbox_lists.infradead.org/linux-arm-kernel/0
+git.kernel.org_public-inbox_vger.kernel.org/linux-crypto/0
+linux-mailinglist-archives_alsa-devel.alsa-project.org.0
+linux-mailinglist-archives_linux-mm.kvack.org.0
+linux-mailinglist-archives_linux-crypto.vger.kernel.org.0
+linux-mailinglist-archives_linux-rockchip.lists.infradead.org.0
+winysrj_linux-media
+git.kernel.org_public-inbox_vger.kernel.org/linux-media/0
+git.kernel.org_public-inbox_kvack.org/linux-mm/0
+

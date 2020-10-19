@@ -1,0 +1,4 @@
+xtextboteclipseorg:
+git.eclipse.org_r_www.eclipse.org/xtend.git/
+git.eclipse.org_r_www.eclipse.org/Xtext.git/
+

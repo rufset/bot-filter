@@ -1,0 +1,4 @@
+travispymororg:
+pymor_pymor-testlogs
+pymor_wheels.pymor.org
+

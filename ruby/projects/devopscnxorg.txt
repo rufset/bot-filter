@@ -1,0 +1,8 @@
+devopscnxorg:
+openstax_deploy-manifests
+openstax_cnx-deploy
+Connexions_cnx-deploy
+openstax_biglearn-api
+Rhaptos_Products.RhaptosPrint
+openstax_hypothesis-deployment
+

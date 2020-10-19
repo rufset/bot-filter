@@ -1,0 +1,16 @@
+37080477ledgerbotusersnoreplygithubcom:
+edlsantosmz_ledger-live-desktop
+LedgerHQ_ledger-live-desktop
+schnogz_ledger-live-desktop
+unik-name_ledger-live-desktop
+valpinkman_ledger-live-desktop
+kodxana_ledger-live-desktop
+meriadec_LL-desktop-test-update
+Utrum_ledger-live-desktop
+Arnaud97234_ledger-live-desktop
+KhalilBellakrid_ledger-live-desktop
+tzarebczan_ledger-live-desktop
+LedgerHQ_ledger-wallet-desktop
+LedgerHQ_ledger-live-mobile
+bgorlick_ledger-live-desktop
+

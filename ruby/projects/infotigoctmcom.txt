@@ -1,0 +1,13 @@
+infotigoctmcom:
+guld-games_ledger-prices
+TigoCTM_ledger-prices
+TigoCTM_token-prices
+TigoCTM_ledger-bitcoin
+TigoCTM_ledger-btc
+TigoCTM_ledger-dash
+TigoCTM_people
+TigoCTM_ledger-XCM
+TigoCTM_XCM
+bb_guld_ledger-guld
+TigoCTM_ledger-guld
+

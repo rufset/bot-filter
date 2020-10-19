@@ -1,0 +1,5 @@
+autorollnewspeaklanguageorg:
+newspeaklanguage_nsvm-macosx-ci
+newspeaklanguage_nsvm-linux-ci
+newspeaklanguage_bootimage-ci
+

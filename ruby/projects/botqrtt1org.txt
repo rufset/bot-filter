@@ -1,0 +1,4 @@
+botqrtt1org:
+bb_qrtt1_pttlogs
+qrtt1_scrapy-exercise
+

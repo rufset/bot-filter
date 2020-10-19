@@ -1,0 +1,11 @@
+osrfbuildosrfoundationorg:
+osrf_homebrew-simulation
+iche033_homebrew-simulation
+j-rivero_homebrew-simulation
+LucienBrule_homebrew-simulation
+dhood_homebrew-simulation
+scpeters_homebrew-simulation
+bhaskara_homebrew-simulation
+samuelb2_homebrew-simulation
+dimilar_homebrew-simulation
+

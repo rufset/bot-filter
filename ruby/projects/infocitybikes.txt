@@ -1,0 +1,7 @@
+infocitybikes:
+bikesharebot_bikesharestats
+azizshamim_bikesharestats
+Neogeografen_bikesharestats
+pierrelorioux_bikesharestats
+robinkraft_bikesharestats
+

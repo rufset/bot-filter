@@ -1,0 +1,6 @@
+traviscibuildbotexamplecom:
+python-doc-ja_cpython-doc-catalog
+python_python-docs-ja
+kuri8ive_python-docs-ja
+TomohikoK_python-docs-ja
+

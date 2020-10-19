@@ -1,0 +1,10 @@
+jenkinsusegalaxyeu:
+usegalaxy-eu_usegalaxy-eu.github.io
+usegalaxy-eu_infrastructure
+usegalaxy-eu_gdpr
+elixir-no-nels_gdpr
+usegalaxy-eu_usegalaxy-eu-tools
+ieguinoa_usegalaxy-be-tools
+usegalaxy-eu_website
+bagnacan_website
+

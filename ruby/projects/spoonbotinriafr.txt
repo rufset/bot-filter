@@ -1,0 +1,17 @@
+spoonbotinriafr:
+SpoonLabs_spoon-ci-data
+SpoonLabs_spoon-incubator
+monperrus_test
+SpoonLabs_spoon-examples
+GerardPaligot_spoon-examples
+bookerT303_spoon-examples
+petitpre_spoon-examples
+gl_fernandojavierguerra_spoon-examples
+FlyingPumba_spoon-examples
+emilva_spoon-examples
+entertainyou_spoon-gradle-plugin
+SpoonLabs_spoon-gradle-plugin
+GerardPaligot_spoon-gradle-plugin
+tmortagne_spoon-maven-plugin
+SpoonLabs_spoon-maven-plugin
+

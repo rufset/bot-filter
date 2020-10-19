@@ -1,0 +1,5 @@
+botphpmyadminnet:
+phpmyadmin_composer
+phpmyadmin_localized_docs
+TheFaR8_localized_docs
+

@@ -1,0 +1,13 @@
+apertiumbotprojectjjcom:
+apertium_apertium-all
+apertium_apertium-languages
+apertium_apertium-incubator
+apertium_apertium-trunk
+apertium_apertium-tools
+apertium_apertium-nursery
+sushain97_apertium-on-github
+apertium_apertium-on-github
+apertium_apertium-staging
+ftyers_calma
+oserikov_calma
+

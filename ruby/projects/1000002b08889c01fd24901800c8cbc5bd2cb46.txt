@@ -1,0 +1,3 @@
+1000002b08889c01fd24901800c8cbc5bd2cb46:
+repo.or.cz_coreboot2
+

@@ -1,0 +1,11 @@
+tipbotzytorcom:
+git.kernel.org_public-inbox_vger.kernel.org/lkml/5
+git.kernel.org_public-inbox_vger.kernel.org/lkml/6
+git.kernel.org_public-inbox_vger.kernel.org/lkml/4
+git.kernel.org_public-inbox_vger.kernel.org/lkml/3
+git.kernel.org_public-inbox_vger.kernel.org/lkml/7
+git.kernel.org_public-inbox_vger.kernel.org/stable/0
+git.kernel.org_public-inbox_lists.ozlabs.org/linuxppc-dev/0
+git.kernel.org_public-inbox_vger.kernel.org/linux-pci/0
+lfd_linux
+

@@ -1,0 +1,13 @@
+botslamdatacom:
+slamdata_quasar-datasource-s3
+slamdata_quasar-s3
+slamdata_quasar
+slamdata_quasar-datasource-url
+djspiewak_quasar-datasource-mongo
+slamdata_quasar-datasource-mongo
+slamdata_qdata
+quasar-analytics_quasar
+slamdata_quasar-datasource-azure
+djspiewak_quasar
+nicflores_quasar
+
