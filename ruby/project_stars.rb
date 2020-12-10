@@ -118,6 +118,8 @@ class ProjectFetcher
             rescue Octokit::RepositoryUnavailable
                 puts "Unavailable repo: #{project.name}"
             rescue Octokit::UnavailableForLegalReasons
+                puts "DMCA takedown: #{project.name}"
+            rescue Octokit::Unauthorized
                 puts "Access denied: #{project.name}"
             end
 
@@ -136,16 +138,12 @@ end
 
 infile = ARGV[0]
 outfile = ARGV[1]
-keyIdx = ARGV[2]
+keyfile = ARGV[2]
 
-API_KEYS = [
-    '2ca6d9594922b23f15171e60ac65eeb4b2b429ac',
-    'bd9571580b46ed7e6b024a54eb53188a00f1a311',
-    'dba6c44d2468f262a756861b9db5a2f5b63939f1'
-]
+key = File.read(keyfile)
 
 puts "Using in: #{infile} and out: #{outfile}"
-fetcher = ProjectFetcher.new(API_KEYS[keyIdx.to_i])
+fetcher = ProjectFetcher.new(key)
 puts "Fetching file #{infile}"
 projects = fetcher.fetchProjectsForFile(infile)
 
