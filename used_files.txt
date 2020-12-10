@@ -1,0 +1,9 @@
+# Bots and Files
+
+Whitesource -> whitesourceboltforgithubbotusersnoreplygithubcom.txt whitesource.csv
+Imgbot -> imgbotbotusersnoreplygithubcom.txt imgbot.csv
+Pyupbot -> githubbotpyupio.txt pyup.csv
+Renovate -> botrenovateappcom.txt renovate.csv
+Snyk -> adminsnykbotsnykio.txt snyk.csv
+Dependabot -> dependabotbotusersnoreplygithubcom.txt dependabot.csv
+Greenkeeper -> greenkeeperbotusersnoreplygithubcom.txt greenkeeper.csv
