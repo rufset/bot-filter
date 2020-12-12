@@ -130,11 +130,14 @@ class ProjectFetcher
     def checkRateLimit
         if @client.rate_limit.remaining <= 0 then
             puts "Rate limit reached, sleeping until #{@client.rate_limit.resets_at.to_s}"
-            sleep(@client.rate_limit.resets_at - Time.now + 60)
+            sleepTime = @client.rate_limit.resets_at - Time.now + 60
+            sleep(sleepTime) unless sleepTime <= 0
         end
     end
 
 end
+
+$stdout.sync = true # disable output buffering, required for non-interactive consoles
 
 infile = ARGV[0]
 outfile = ARGV[1]
