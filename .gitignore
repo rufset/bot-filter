@@ -57,3 +57,10 @@ build-iPhoneSimulator/
 franc_creds.txt
 phil_creds.txt
 linda_creds.txt
+.Rproj.user
+
+# Used by caching and rendering of the R Markdown file. Also, other files from the R Project.
+/R/DevBotAnalysis_cache/
+/R/DevBotAnalysis_files/
+/R/.Rproj_user/
+.DS_Store
