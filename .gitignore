@@ -62,5 +62,8 @@ linda_creds.txt
 # Used by caching and rendering of the R Markdown file. Also, other files from the R Project.
 /R/DevBotAnalysis_cache/
 /R/DevBotAnalysis_files/
-/R/.Rproj_user/
+/R/.Rproj_user
 .DS_Store
+/R/.RData
+/R/.Rhistory
+/R/R.Rproj
