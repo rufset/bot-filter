@@ -1,0 +1,155 @@
+---
+title: "Analysis of DevBots"
+css: ./rmarkdown_resources/tables_format.css
+output:
+  bookdown::html_document2:
+    toc: yes
+    toc_float: yes
+    df_print: paged
+  html_document:
+    toc: yes
+    df_print: paged
+bibliography: ./rmarkdown_resources/packages.bib
+---
+
+# Analysis of DevBots
+
+```{r installing, include=FALSE}
+# Uncomment this line in order to install all required packages.
+#install.packages(c("tidyverse","viridis","gridExtra", "ggrepel"))
+```
+
+```{r setup, include=FALSE}
+#List of library dependencies
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)  # Package for data wrangling and plotting.
+library(ggrepel)    # Package for better layout of labels in plots.
+library(viridis)    # Package for the colors used in the chart
+library(kableExtra) # Package to render tables that look nicer.
+
+# Here, we simply create a bib file to reference all packages we are using in this script.
+knitr::write_bib(c("tidyverse", "gridExtra", "kableExtra"), 
+                 file = "./rmarkdown_resources/packages.bib")
+
+#Color-blind friendly palette with 7 values.
+cbbPalette <- c("#CC79A7", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#000000")
+
+# A default theme for the PLOTS
+PLOT_THEME <- theme_minimal(base_size = 10) + 
+  theme(plot.title = element_text(size = 12, face = "bold", hjust = 0.5),
+        panel.grid.minor = element_blank(),legend.position = "bottom", 
+        axis.line = element_line(size = 1), axis.ticks = element_line(size = 1),
+        strip.background = element_rect(colour = "white", fill = "aliceblue"))
+
+# Path to folders with DevBots projects
+BOT_CSV_PATH <- "../ruby/watchers/"
+# Names of the devbots TODO: Change this to automatically parsing filenames.
+bot_names <- c("imgbot","snyk","pyup","whitesource","greenkeeper","dependabot","renovate")
+```
+
+```{r, echo=FALSE, message=FALSE,cache=TRUE}
+# --------------------------------------------------------------------
+# Data cleaning and processing
+# Goes through all files and build a big DataFrame with all bots.
+# --------------------------------------------------------------------
+all_bots_df <- data.frame()
+for(bot_name in bot_names){
+  bots_df <- read.csv2(paste(BOT_CSV_PATH,bot_name,".csv",sep=""),header = TRUE, sep= ";")
+  bots_df <- bots_df %>% filter(is_forked == "false") %>%  
+    mutate("BotName" = bot_name)
+    
+  all_bots_df <- bind_rows(all_bots_df, bots_df)
+}
+```
+
+## Tables
+
+Showing some of the tables that we generated:
+
+```{r, echo = FALSE}
+projects_per_bot <- all_bots_df %>% 
+  group_by(BotName) %>% 
+  tally(name = "TotalProjects") %>% 
+  mutate(Perc = round(100*TotalProjects/nrow(all_bots_df),2)) %>% 
+  arrange(-TotalProjects)
+knitr::kable(projects_per_bot, longtable = T, digits = 3,
+             caption = "Number of projects per each DevBot") %>% 
+  kable_styling(bootstrap_options = c("hover","striped","responsive","condensed")) %>% 
+  scroll_box(width = "100%", height = "200px")
+```
+
+Table that shows which projects have more than one DevBot. Its ordered in a descending order on projects with more DevBots.
+
+```{r, echo = FALSE}
+multibot_projects_df <- all_bots_df %>% 
+  group_by(project) %>% 
+  mutate(ListDevBots = paste0(BotName, collapse = ",")) %>% 
+  group_by(project, ListDevBots) %>% 
+  tally(name = "NumOfDevBots") %>% 
+  filter(NumOfDevBots > 1) %>% 
+  arrange(-NumOfDevBots) %>% 
+  select(project, NumOfDevBots, ListDevBots)
+
+knitr::kable(multibot_projects_df, longtable = T, digits = 3,
+             caption = "Projects that include more than one DevBot (descending order).") %>% 
+  kable_styling(bootstrap_options = c("hover","striped","responsive","condensed")) %>% 
+  scroll_box(width = "100%", height = "200px")
+```
+
+Table that shows the proportion of multiple bots in different projects. For instance: X% of the projects have 3 bots
+```{r, echo = FALSE}
+multibot_summary_df <- multibot_projects_df %>% 
+  group_by(NumOfDevBots) %>% count(NumOfDevBots, name = "Count") %>% 
+  mutate(Perc = round(100*Count/nrow(multibot_projects_df),2))
+
+knitr::kable(multibot_summary_df, longtable = T, digits = 3,
+             caption = "Proportion of multiple bots in different projects.") %>% 
+  kable_styling(bootstrap_options = c("hover","striped","responsive","condensed")) %>% 
+  scroll_box(width = "100%", height = "200px")
+```
+
+## Some plots:                     
+
+Shows the names of the bots with more than 500 watchers and subscribers
+
+```{r, echo = FALSE, warning=FALSE}
+# TODO: Rethink this plot, too crowded with information. Table better?!
+plot_popularity <- ggplot(all_bots_df, aes(x = subscribers, y = watchers)) + 
+  geom_point(alpha = 0.25, aes(color = BotName)) + 
+  scale_fill_manual(values = cbbPalette) +
+  geom_label_repel(data = filter(all_bots_df, watchers>500 & subscribers > 500),aes(label=project), max.overlaps = ) +
+  PLOT_THEME +
+  facet_wrap(~BotName, ncol = 4, scales = "free")
+plot_popularity
+```
+
+
+
+```{r, echo = FALSE, warning=FALSE}
+#Histogram of the distribution of watchers.
+# TODO:  Not good, because too many projects have few watchers.Fix this one.
+# Removed this plot from HTML because it takes too long to render
+#plot_watch_histogram <- ggplot(all_bots_df, aes(x = watchers)) + 
+#  geom_histogram(binwidth = 100) + 
+#  facet_wrap(~BotName, ncol = 4, scales = "free") + 
+#  PLOT_THEME
+```
+
+```{r, echo = FALSE, warning=FALSE}
+# Donut chart, but without the % values (TODO: add lab position column and then geom_text)
+donut_plot <- ggplot(projects_per_bot, aes(x = 2, y = Perc)) + geom_bar(stat= "identity", color = "white", aes(fill = BotName)) +
+  coord_polar(start = 0, theta = "y") + 
+  scale_fill_manual(values = cbbPalette) +
+  xlim(c(0.5, 2.5)) +
+  theme_void()
+  
+# Same information as the donut but perhaps clearer since its ordered
+devbot_perc_plot <- ggplot(projects_per_bot, aes(x = reorder(BotName, -Perc), y = Perc)) +
+  geom_bar(stat= "identity", color = "white", aes(fill = BotName)) +
+  #geom_text()
+  geom_text(aes( label = paste(Perc,"%")), vjust = -.5) +
+  labs(y = "Percent", fill="DevBots", x = "") +
+  scale_fill_manual(values = cbbPalette) +
+  PLOT_THEME
+devbot_perc_plot
+```

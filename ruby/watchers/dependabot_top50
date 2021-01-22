@@ -1,0 +1,63 @@
+freeCodeCamp/freeCodeCamp - learn to code from home
+ant-design/ant-design
+PanJiaChen/vue-element-admin mandarin
+webpack/webpack
+storybookjs/storybook
+storybooks/react-storybook same as storybookjs/storybook
+storybooks/storybook same as storybookjs/storybook
+kadirahq/paper-ui same as storybookjs/storybook
+ElemeFE/element
+grafana/grafana
+prettier/prettier
+Dogfalo/materialize one issue https://github.com/Dogfalo/materialize/pull/6241 Interesting?
+cdr/code-server 4 issues, nothing else
+syncthing/syncthing
+knsv/mermaid
+algorithm-visualizer/algorithm-visualizer
+tailwindcss/tailwindcss
+discourse/discourse
+hexojs/hexo
+lord/slate
+pixijs/pixi.js
+tldr-pages/tldr
+zurb/foundation-sites same as zurb/foundation
+NervJS/taro - mandarin
+GitSquared/edex-ui
+minio/minio
+Homebrew/brew
+sharkdp/bat
+powershell/PowerShell
+tootsuite/mastodon
+emberjs/ember.js
+t4t5/sweetalert - no issues mentioning dependabot, not existing as contributor either
+redux-saga/redux-saga
+facebook/flow
+balena-io/etcher -no issues, no contributor.
+feathericons/feather - icons
+swagger-api/swagger-ui
+react-bootstrap/react-bootstrap
+parse-community/parse-server
+getredash/redash
+streamich/react-use
+palantir/blueprint
+portainer/portainer
+bluebill1049/react-hook-form
+Eugeny/terminus
+remoteintech/remote-jobs - list of companies
+thepracticaldev/dev.to
+DIYgod/RSSHub - mandarin also same as DIYgod/Everything2RSS
+brettwooldridge/HikariCP
+oblador/react-native-vector-icons  -icons?
+angular-ui/ui-router
+starship/starship
+badges/shields -icons?
+diaspora/diaspora - https://github.com/diaspora/diaspora/pull/7911
+nextcloud/server - same as nextcloud/core
+formatjs/formatjs
+phanan/koel
+docker/kitematic
+monicahq/monica
+sorin-ionescu/prezto - no issues not a contributor
+CachetHQ/Cachet
+equinusocio/material-theme
+drcmda/react-three-fiber
