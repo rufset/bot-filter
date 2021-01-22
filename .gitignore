@@ -2,6 +2,7 @@
 *.rbc
 /.config
 /coverage/
+/mongo_dump
 /InstalledFiles
 /pkg/
 /spec/reports/
