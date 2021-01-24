@@ -1,11 +1,11 @@
-freeCodeCamp/freeCodeCamp - learn to code from home
+freeCodeCamp/freeCodeCamp - learn to code from home excluded
 ant-design/ant-design
-PanJiaChen/vue-element-admin mandarin
+PanJiaChen/vue-element-admin mandarin excluded
 webpack/webpack
 storybookjs/storybook
-storybooks/react-storybook same as storybookjs/storybook
-storybooks/storybook same as storybookjs/storybook
-kadirahq/paper-ui same as storybookjs/storybook
+storybooks/react-storybook same as storybookjs/storybook excluded
+storybooks/storybook same as storybookjs/storybook excluded
+kadirahq/paper-ui same as storybookjs/storybook excluded
 ElemeFE/element
 grafana/grafana
 prettier/prettier
@@ -21,7 +21,7 @@ lord/slate
 pixijs/pixi.js
 tldr-pages/tldr
 zurb/foundation-sites same as zurb/foundation
-NervJS/taro - mandarin
+NervJS/taro - mandarin  excluded
 GitSquared/edex-ui
 minio/minio
 Homebrew/brew
@@ -29,11 +29,11 @@ sharkdp/bat
 powershell/PowerShell
 tootsuite/mastodon
 emberjs/ember.js
-t4t5/sweetalert - no issues mentioning dependabot, not existing as contributor either
+t4t5/sweetalert - no issues mentioning dependabot, not existing as contributor either  excluded
 redux-saga/redux-saga
 facebook/flow
-balena-io/etcher -no issues, no contributor.
-feathericons/feather - icons
+balena-io/etcher -no issues, no contributor. excluded
+feathericons/feather - icons excluded
 swagger-api/swagger-ui
 react-bootstrap/react-bootstrap
 parse-community/parse-server
@@ -43,21 +43,22 @@ palantir/blueprint
 portainer/portainer
 bluebill1049/react-hook-form
 Eugeny/terminus
-remoteintech/remote-jobs - list of companies
+remoteintech/remote-jobs - list of companies excluded
 thepracticaldev/dev.to
-DIYgod/RSSHub - mandarin also same as DIYgod/Everything2RSS
+DIYgod/RSSHub - mandarin also same as DIYgod/Everything2RSS excluded
 brettwooldridge/HikariCP
-oblador/react-native-vector-icons  -icons?
+oblador/react-native-vector-icons  -icons? excluded
 angular-ui/ui-router
 starship/starship
-badges/shields -icons?
+badges/shields -icons? excluded
 diaspora/diaspora - https://github.com/diaspora/diaspora/pull/7911
 nextcloud/server - same as nextcloud/core
 formatjs/formatjs
 phanan/koel
 docker/kitematic
 monicahq/monica
-sorin-ionescu/prezto - no issues not a contributor
+sorin-ionescu/prezto - no issues not a contributor excluded
 CachetHQ/Cachet
 equinusocio/material-theme
 drcmda/react-three-fiber
+spree/spree
