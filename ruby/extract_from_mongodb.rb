@@ -31,11 +31,23 @@ client = Mongo::Client.new(['127.0.0.1'], :database => 'gh-issues')
 csv = CSV.new(ARGV[0])
 csv.add_header
 
-comment_count = client[:comments].count()
-prct = (comment_count / 100).to_i
+issue_count = client[:issues].count()
+
+used_ids = []
 
 counter = 0
 client[:issues].find().each do |issue|
+
+    counter += 1
+    puts "Handling issue #{counter} from #{issue_count}"
+
+    issue_id = issue[:id]
+    if used_ids.include? issue_id then
+        next
+    else
+        used_ids << issue_id
+    end
+
     issue_url = issue[:url]
     project = issue[:repository_url]
     bot = "dependabot"
@@ -46,7 +58,15 @@ client[:issues].find().each do |issue|
     issue_udate = issue[:updated_at]
     issue_state = issue[:state]
 
+    used_comments = []
     client[:comments].find(:issue_url => issue_url).each do |comment|
+        comment_id = comment[:id]
+        if used_comments.include? comment_id then
+            next
+        else
+            used_comments << comment_id
+        end
+
         comment_url = comment[:url]
         comment_author = comment[:user][:login]
         comment_cdate = comment[:created_at]
@@ -58,9 +78,5 @@ client[:issues].find().each do |issue|
             issue_url, comment_url, project, bot, issue_author, comment_author, mentioned_issue, mentioned_comment,
             bot_is_issue_author, bot_is_comment_author, issue_cdate, issue_udate, comment_cdate, comment_udate, issue_state
         )
-        counter += 1
-        if counter % prct == 0 then
-            puts "Handled #{(counter / prct).to_i}% of comments."
-        end
     end
 end
