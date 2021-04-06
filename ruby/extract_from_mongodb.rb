@@ -63,14 +63,14 @@ client[:issues].find().each do |issue|
 
     # find which bots have been mentioned in title or body
     mentioned_issue = bots.select do |bot|
-        issue[:title].include?(bot) || issue[:body].include?(bot)
+        issue[:title].downcase.include?(bot) || issue[:body].downcase.include?(bot)
     end
     mentioned_issue = mentioned_issue.join(',')
 
     # find which bots have authored this
     issue_author = issue[:user][:login]
     bot_is_issue_author = bots.select do |bot|
-        issue_author.include?(bot)
+        issue_author.downcase.include?(bot)
     end
     bot_is_issue_author = bot_is_issue_author.join(',')
 
@@ -94,12 +94,12 @@ client[:issues].find().each do |issue|
         comment_udate = comment[:updated_at]
 
         mentioned_comment = bots.select do |bot|
-            comment[:body].include?(bot)
+            comment[:body].downcase.include?(bot)
         end
         mentioned_comment = mentioned_comment.join(',')
         
         bot_is_comment_author = bots.select do |bot|
-            comment_author.include?(bot)
+            comment_author.downcase.include?(bot)
         end
         bot_is_comment_author = bot_is_comment_author.join(',')
         
