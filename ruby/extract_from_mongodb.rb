@@ -7,13 +7,13 @@ class CSV
     end
 
     def add_header
-        @file.puts('Issue;Comment;Project;Bot;IAuthor;CAuthor;IMentioned;CMentioned;BotIsIAuthor;BotIsCAuthor;ICreated;IUpdated;CCreated;CUpdated;IState')
+        @file.puts('Issue;Comment;Project;Bot;IAuthor;CAuthor;IMentioned;CMentioned;BotIsIAuthor;BotIsCAuthor;ICreated;IUpdated;CCreated;CUpdated;IState;ICloseDate;IIsPR')
     end
 
     def write_csv_entry(issue, comment, project, bot, author_issue, author_comment, mentioned_issue, mentioned_comment,
-        bot_is_issue_author, bot_is_comment_author, issue_cdate, issue_udate, comment_cdate, comment_udate, issue_state)
+        bot_is_issue_author, bot_is_comment_author, issue_cdate, issue_udate, comment_cdate, comment_udate, issue_state, issue_close_date, issue_pr)
         @file.puts([issue, comment, project, bot, author_issue, author_comment, mentioned_issue, mentioned_comment,
-        bot_is_issue_author, bot_is_comment_author, issue_cdate, issue_udate, comment_cdate, comment_udate, issue_state].join(';'))
+        bot_is_issue_author, bot_is_comment_author, issue_cdate, issue_udate, comment_cdate, comment_udate, issue_state, issue_close_date, issue_pr].join(';'))
     end
 
 end
@@ -78,6 +78,8 @@ client[:issues].find().each do |issue|
     issue_cdate = issue[:created_at]
     issue_udate = issue[:updated_at]
     issue_state = issue[:state]
+    issue_close_date = issue[:closed_at]
+    issue_is_pr = issue[:pull_request] != nil 
 
     used_comments = []
     client[:comments].find(:issue_url => issue_url).each do |comment|
@@ -102,10 +104,11 @@ client[:issues].find().each do |issue|
             comment_author.downcase.include?(bot)
         end
         bot_is_comment_author = bot_is_comment_author.join(',')
-        
+
         csv.write_csv_entry(
             issue_url, comment_url, project, bots.join(','), issue_author, comment_author, mentioned_issue, mentioned_comment,
-            bot_is_issue_author, bot_is_comment_author, issue_cdate, issue_udate, comment_cdate, comment_udate, issue_state
+            bot_is_issue_author, bot_is_comment_author, issue_cdate, issue_udate, comment_cdate, comment_udate, issue_state,
+            issue_close_date, issue_is_pr
         )
     end
 end
