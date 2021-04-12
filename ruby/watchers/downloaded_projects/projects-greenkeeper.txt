@@ -1,6 +1,6 @@
 ant-design/ant-design
 mui-org/material-ui
-zeit/next.js
+vercel/next.js
 storybookjs/storybook
 gatsbyjs/gatsby
 lodash/lodash
@@ -18,11 +18,11 @@ koajs/koa
 videojs/video.js
 preactjs/preact
 react-boilerplate/react-boilerplate
-dawnlabs/carbon
+carbon-app/carbon
 nolimits4web/swiper
 formium/formik
 GitSquared/edex-ui
-request/requestss
+request/request
 standard/standard
 Modernizr/Modernizr
 github/fetch
