@@ -25,6 +25,9 @@ class NilClass
   def include?(s)
     false
   end
+  def downcase
+    return self
+  end
 end
 
 client = Mongo::Client.new(['127.0.0.1'], :database => 'gh-issues')
@@ -36,7 +39,7 @@ bot_project_mappings = {}
 Dir.foreach(bot_project_dir) do |projects_file|
     qf = bot_project_dir+'/'+projects_file
     next if File.directory?(qf)
-    m = []    
+    m = []
     File.open(qf, 'r').each_line{ |l| m << l.chomp! }
     bot_project_mappings[projects_file.sub(".txt", "").sub("projects-", "")] = m
 end
@@ -46,7 +49,7 @@ issue_count = client[:issues].count()
 used_ids = []
 
 counter = 0
-client[:issues].find().each do |issue|
+client[:issues].find().no_cursor_timeout.each do |issue|
 
     counter += 1
     puts "Handling issue #{counter} from #{issue_count}"
@@ -79,10 +82,10 @@ client[:issues].find().each do |issue|
     issue_udate = issue[:updated_at]
     issue_state = issue[:state]
     issue_close_date = issue[:closed_at]
-    issue_is_pr = issue[:pull_request] != nil 
+    issue_is_pr = issue[:pull_request] != nil
 
     used_comments = []
-    client[:comments].find(:issue_url => issue_url).each do |comment|
+    client[:comments].find(:issue_url => issue_url).no_cursor_timeout.each do |comment|
         comment_id = comment[:id]
         if used_comments.include? comment_id then
             next
@@ -99,7 +102,7 @@ client[:issues].find().each do |issue|
             comment[:body].downcase.include?(bot)
         end
         mentioned_comment = mentioned_comment.join(',')
-        
+
         bot_is_comment_author = bots.select do |bot|
             comment_author.downcase.include?(bot)
         end
