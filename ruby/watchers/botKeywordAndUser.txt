@@ -1,0 +1,5 @@
+dependabot;app/dependabot;app/dependabot-preview;dependabot-bot
+greenkeeper;greenkeeperio-bot;greenkeeper-keeper-bot;app/greenkeeper;app/greenkeeperio-bot
+renovatebot;app/renovatebot;renovatebot
+pyup;pyupio;pyup-vuln-bot;pyup-bot
+depfu;depfu-bot;app/depfu
