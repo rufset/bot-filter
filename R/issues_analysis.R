@@ -114,8 +114,6 @@ issues_df <- raw_df %>%
          Comment = str_replace(string = Comment, pattern = "https://api.github.com/repos/", replacement = ""),
          IssueAuthor = parse_bot_v(IAuthor),
          ComAuthor = parse_bot_v(CAuthor),
-         IssueType = classify_content_v(IAuthor),
-         CommentType = classify_content_v(CAuthor),
          IDate = strftime(as.Date(ICreated), format = "%y-%m"), 
          IMonthDate = floor_date(as.Date(ICreated), "month"),
          ComIMonthDate = floor_date(as.Date(CCreated), "month")) %>% 
@@ -151,6 +149,20 @@ issues_p_month_plot <- ggplot(issues_per_month_df, aes(x = IMonthDate, y = NIssu
   PLOT_THEME
 ggsave(issues_p_month_plot, filename = "all_projects.pdf", width = 30, units = "cm", device = "pdf")
 
+
+for(project in unique(issues_per_month_df$Project)){
+  project_df <- issues_per_month_df %>% filter(Project == project)
+  proj_month_plot <- ggplot(project_df, aes(x = IMonthDate, y = NIssues, fill = IssueAuthor)) +
+    geom_bar(stat="identity", position = "stack") +
+    scale_x_date(date_labels = "%y-%m", date_breaks = "1 month") +
+    scale_fill_viridis_d()+
+    facet_wrap(~IssueAuthor, ncol = 1, scales = "free_y") +
+    labs(title = paste(project," - Bot issues per Month",sep=""), y = "Num of Issues", x = "Year-Month") +
+    PLOT_THEME
+  plot_filename <-paste("projs/",str_replace(string = project, pattern = "/", replacement = "-"),"_issues_monthly.pdf",sep="")
+  ggsave(proj_month_plot, filename = plot_filename, width = 30, units = "cm", device = "pdf")
+}
+
 # Same as above but faceted by Bot combination.
 # TODO: Update this to show per project and combinations of bots.
 issues_p_month_plot_facet <- ggplot(issues_per_month_df, aes(x = IMonthDate, y = NIssues, fill = IssueAuthor)) +
@@ -171,7 +183,7 @@ numissues_df <- only_issues %>% group_by(Project, Author) %>%
 
 issues_p_bot_plot <- ggplot(numissues_df, aes(x = Author, y = NIssues, fill = Author)) + geom_boxplot() +
   labs(title = "Num of Issues per Author (Filtered Projects)", y = "Num of Issues") +
-  scale_y_continuous(limits = c(0,max(numissues_df$NIssues)), breaks = seq(0,max(numissues_df$NIssues), by = 50)) +
+  scale_y_continuous(limits = c(0,max(numissues_df$NIssues)), breaks = seq(0,max(numissues_df$NIssues), by = 100)) +
   PLOT_THEME
 ggsave(issues_p_bot_plot, filename = "issues_p_bot.pdf", width = 15, height = 15, units = "cm", device = "pdf")
 
