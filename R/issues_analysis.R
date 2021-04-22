@@ -63,8 +63,8 @@ parse_bot <- function(raw_bot_name){
   }else if(grepl(raw_bot_name, pattern = "bot", ignore.case = TRUE) |
            grepl(raw_bot_name, pattern = "snyk", ignore.case = TRUE)|
            grepl(raw_bot_name, pattern = "whitesource", ignore.case = TRUE) |
-           grepl(raw_bot_name, pattern = "scala.*steward", ignore.case = TRUE)
-           ){
+           grepl(raw_bot_name, pattern = "scala.*steward", ignore.case = TRUE) |
+           raw_bot_name == "lock" ){
     parsed_name <- "other bot"
     
   }else{
@@ -222,3 +222,12 @@ ggsave(comments_plot2, filename = "comments_p_author.pdf", width = 15, height = 
 table_1 <- issues_df %>% group_by(Bot) %>% summarise(NIssue = n_distinct(Issue), 
                                                      NComments = n_distinct(Comment), 
                                                      NProjects = n_distinct(Project))
+
+
+# Find the comments in which they are mentioning the bot
+# - Group by bot.
+# - 
+
+
+linda_subset <- only_issues %>% filter( str_detect(string = Commentators, pattern = "human")  & ThreadSize > 2)
+write_csv(x = linda_subset, path = "interesting_issues.csv")
