@@ -20,7 +20,7 @@ michael-lazar/rtv
 okfn-brasil/serenata-de-amor
 freqtrade/freqtrade
 Kinto/kinto
-doccano/doccano chakki-works/doccano
+doccano/doccano
 ohld/igbot
 jayfk/statuspage
 amperser/proselint
@@ -47,3 +47,4 @@ exchangeratesapi/exchangeratesapi
 jeffknupp/sandman2
 ajinabraham/NodeJsScan
 archerysec/archerysec
+aio-libs/aioredis

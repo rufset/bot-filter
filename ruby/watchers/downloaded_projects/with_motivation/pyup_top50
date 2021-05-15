@@ -49,7 +49,7 @@ exchangeratesapi/exchangeratesapi;1669;1669;39;266;false
 jeffknupp/sandman2;1610;1610;66;179;false
 ajinabraham/NodeJsScan;1560;1560;57;255;false
 archerysec/archerysec;1548;1548;83;381;false
-
+aio-libs/aioredis;1547;1547;44;231;false
 
 
 one issue
@@ -107,7 +107,6 @@ notifiers/notifiers;1738;1738;37;69;false
 
 
 Not classified
-aio-libs/aioredis;1547;1547;44;231;false
 nerevu/riko;1543;1543;53;70;false
 dateutil/dateutil;1450;1450;40;347;false
 python-bonobo/bonobo;1353;1353;67;114;false
