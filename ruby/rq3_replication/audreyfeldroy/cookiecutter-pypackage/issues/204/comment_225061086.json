@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60721b3843dd71267de2cd78"
+  },
+  "author_association": "OWNER",
+  "issue_url": "https://api.github.com/repos/audreyfeldroy/cookiecutter-pypackage/issues/204",
+  "updated_at": "2016-06-09T23:59:53Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/audreyfeldroy/cookiecutter-pypackage/issues/204#issuecomment-225061086",
+  "created_at": "2016-06-09T23:59:53Z",
+  "id": 225061086,
+  "body": "While you're both in here, I should introduce you ⛄ \n@jayfk meet Cookiecutter PyPackage core dev @eliasdorneles. @eliasdorneles meet Cookiecutter Django core dev @jayfk.\n\nAlso the core of pyup.io is open-source, which is awesome.\n\nrequires.io is now deactivated, so this is complete. Closing.\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/audreyfeldroy/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/audreyfeldroy/repos",
+    "following_url": "https://api.github.com/users/audreyfeldroy/following{/other_user}",
+    "starred_url": "https://api.github.com/users/audreyfeldroy/starred{/owner}{/repo}",
+    "login": "audreyfeldroy",
+    "followers_url": "https://api.github.com/users/audreyfeldroy/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/audreyfeldroy",
+    "subscriptions_url": "https://api.github.com/users/audreyfeldroy/subscriptions",
+    "received_events_url": "https://api.github.com/users/audreyfeldroy/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/74739?v=4",
+    "events_url": "https://api.github.com/users/audreyfeldroy/events{/privacy}",
+    "html_url": "https://github.com/audreyfeldroy",
+    "site_admin": false,
+    "id": 74739,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjc0NzM5",
+    "organizations_url": "https://api.github.com/users/audreyfeldroy/orgs"
+  },
+  "url": "https://api.github.com/repos/audreyfeldroy/cookiecutter-pypackage/issues/comments/225061086",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDIyNTA2MTA4Ng=="
+}

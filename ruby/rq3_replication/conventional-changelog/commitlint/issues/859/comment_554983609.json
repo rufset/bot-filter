@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6072616a43dd71267de439c1"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/conventional-changelog/commitlint/issues/859",
+  "updated_at": "2019-11-18T11:52:54Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/conventional-changelog/commitlint/issues/859#issuecomment-554983609",
+  "created_at": "2019-11-18T11:52:54Z",
+  "id": 554983609,
+  "body": "Thank you for the tip, @escapedcat. I know I can. But I maintain numerous projects. If this is changed in @commitlint/config-conventional, then my automatic dependency updater would make a pull request for me in each of those projects and all I'd have to do is merge it. Hey, I'm just being lazy, like the rest of us.\r\n\r\nAnd I do find it difficult to maintain below 72 anyway, some times.\r\n\r\nhttps://github.com/conventional-changelog/commitlint/blob/5fd8a69cc1255f493447fac68264481d3e2e2ceb/%40commitlint/config-conventional/index.js#L6\r\n\r\nI don't know the other considerations for this value. I see a request to turn this up to 100 for Angular #303 .",
+  "user": {
+    "gists_url": "https://api.github.com/users/mightyiam/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/mightyiam/repos",
+    "following_url": "https://api.github.com/users/mightyiam/following{/other_user}",
+    "starred_url": "https://api.github.com/users/mightyiam/starred{/owner}{/repo}",
+    "login": "mightyiam",
+    "followers_url": "https://api.github.com/users/mightyiam/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/mightyiam",
+    "subscriptions_url": "https://api.github.com/users/mightyiam/subscriptions",
+    "received_events_url": "https://api.github.com/users/mightyiam/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/635591?v=4",
+    "events_url": "https://api.github.com/users/mightyiam/events{/privacy}",
+    "html_url": "https://github.com/mightyiam",
+    "site_admin": false,
+    "id": 635591,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYzNTU5MQ==",
+    "organizations_url": "https://api.github.com/users/mightyiam/orgs"
+  },
+  "url": "https://api.github.com/repos/conventional-changelog/commitlint/issues/comments/554983609",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU1NDk4MzYwOQ=="
+}

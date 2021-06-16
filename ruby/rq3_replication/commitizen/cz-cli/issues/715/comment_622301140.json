@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60725fa543dd71267de413aa"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/commitizen/cz-cli/issues/715",
+  "updated_at": "2020-05-01T08:34:53Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/commitizen/cz-cli/issues/715#issuecomment-622301140",
+  "created_at": "2020-05-01T08:34:53Z",
+  "id": 622301140,
+  "body": "@hdmr14 I have a branch that I made last night which I think solves it by not using `childProcess.{spawn,exec}` and explicitly passing the working directory. Just fell asleep before I got time to commit and push 😅 \r\n\r\nI'll push it later today, and then maybe you can review it for me?",
+  "user": {
+    "gists_url": "https://api.github.com/users/LinusU/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/LinusU/repos",
+    "following_url": "https://api.github.com/users/LinusU/following{/other_user}",
+    "starred_url": "https://api.github.com/users/LinusU/starred{/owner}{/repo}",
+    "login": "LinusU",
+    "followers_url": "https://api.github.com/users/LinusU/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/LinusU",
+    "subscriptions_url": "https://api.github.com/users/LinusU/subscriptions",
+    "received_events_url": "https://api.github.com/users/LinusU/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/189580?v=4",
+    "events_url": "https://api.github.com/users/LinusU/events{/privacy}",
+    "html_url": "https://github.com/LinusU",
+    "site_admin": false,
+    "id": 189580,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE4OTU4MA==",
+    "organizations_url": "https://api.github.com/users/LinusU/orgs"
+  },
+  "url": "https://api.github.com/repos/commitizen/cz-cli/issues/comments/622301140",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDYyMjMwMTE0MA=="
+}

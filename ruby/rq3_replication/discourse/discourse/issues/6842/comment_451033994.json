@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6059ffc46cf0a13ef5480088"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/discourse/discourse/issues/6842",
+  "updated_at": "2019-01-03T01:17:46Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/discourse/discourse/pull/6842#issuecomment-451033994",
+  "created_at": "2019-01-03T01:17:46Z",
+  "id": 451033994,
+  "body": "@tgxworld I've synced my branch with master. Will that be enough or should I start fresh?",
+  "user": {
+    "gists_url": "https://api.github.com/users/sau226/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/sau226/repos",
+    "following_url": "https://api.github.com/users/sau226/following{/other_user}",
+    "starred_url": "https://api.github.com/users/sau226/starred{/owner}{/repo}",
+    "login": "sau226",
+    "followers_url": "https://api.github.com/users/sau226/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/sau226",
+    "subscriptions_url": "https://api.github.com/users/sau226/subscriptions",
+    "received_events_url": "https://api.github.com/users/sau226/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/32805612?v=4",
+    "events_url": "https://api.github.com/users/sau226/events{/privacy}",
+    "html_url": "https://github.com/sau226",
+    "site_admin": false,
+    "id": 32805612,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjMyODA1NjEy",
+    "organizations_url": "https://api.github.com/users/sau226/orgs"
+  },
+  "url": "https://api.github.com/repos/discourse/discourse/issues/comments/451033994",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MTAzMzk5NA=="
+}

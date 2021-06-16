@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607252c743dd71267de3cf7d"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/12946",
+  "updated_at": "2018-02-05T21:51:55Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/issues/12946#issuecomment-363233635",
+  "created_at": "2018-02-05T21:51:55Z",
+  "id": 363233635,
+  "body": "@rsimha-amp could you update me with the results?",
+  "user": {
+    "gists_url": "https://api.github.com/users/rarkins/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/rarkins/repos",
+    "following_url": "https://api.github.com/users/rarkins/following{/other_user}",
+    "starred_url": "https://api.github.com/users/rarkins/starred{/owner}{/repo}",
+    "login": "rarkins",
+    "followers_url": "https://api.github.com/users/rarkins/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/rarkins",
+    "subscriptions_url": "https://api.github.com/users/rarkins/subscriptions",
+    "received_events_url": "https://api.github.com/users/rarkins/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6311784?v=4",
+    "events_url": "https://api.github.com/users/rarkins/events{/privacy}",
+    "html_url": "https://github.com/rarkins",
+    "site_admin": false,
+    "id": 6311784,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYzMTE3ODQ=",
+    "organizations_url": "https://api.github.com/users/rarkins/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/363233635",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM2MzIzMzYzNQ=="
+}

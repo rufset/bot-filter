@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071c53043dd71267de119c5"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/react-native-mapbox-gl/maps/issues/546",
+  "updated_at": "2019-12-31T11:04:41Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/react-native-mapbox-gl/maps/pull/546#issuecomment-569910546",
+  "created_at": "2019-12-31T11:04:41Z",
+  "id": 569910546,
+  "body": "> @RichardLindhout, if you find the time, could you please edit the title.\r\n> \r\n> Maybe something like: `feat(displacement): add setDisplacement functionality`\r\n> Or something similar. Just to signal, that this is no longer a `WIP`\r\n> \r\n> Thanks in advance\r\n\r\nThanks for your work!! I'm a little busy lately with some deadlines.",
+  "user": {
+    "gists_url": "https://api.github.com/users/RichardLindhout/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/RichardLindhout/repos",
+    "following_url": "https://api.github.com/users/RichardLindhout/following{/other_user}",
+    "starred_url": "https://api.github.com/users/RichardLindhout/starred{/owner}{/repo}",
+    "login": "RichardLindhout",
+    "followers_url": "https://api.github.com/users/RichardLindhout/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/RichardLindhout",
+    "subscriptions_url": "https://api.github.com/users/RichardLindhout/subscriptions",
+    "received_events_url": "https://api.github.com/users/RichardLindhout/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6492229?v=4",
+    "events_url": "https://api.github.com/users/RichardLindhout/events{/privacy}",
+    "html_url": "https://github.com/RichardLindhout",
+    "site_admin": false,
+    "id": 6492229,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjY0OTIyMjk=",
+    "organizations_url": "https://api.github.com/users/RichardLindhout/orgs"
+  },
+  "url": "https://api.github.com/repos/react-native-mapbox-gl/maps/issues/comments/569910546",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU2OTkxMDU0Ng=="
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60720d1343dd71267de27f2a"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/python-trio/trio/issues/654",
+  "updated_at": "2018-09-10T08:37:16Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/python-trio/trio/pull/654#issuecomment-419833063",
+  "created_at": "2018-09-10T08:37:16Z",
+  "id": 419833063,
+  "body": "Yeah, codecov can get very confused when one PR is merged while another's CI is running. (Partly this is the fault of the CI services: they actually pick a base revision for each job at the time the job starts, so if master moves while the CI is running, then you can end up with e.g. the py35 and the py36 jobs actually testing different trees...) We know nothing here should be touching coverage and the codecov results make no sense, so oh well, ignore it. There's a reason codecov isn't marked as mandatory for merge :-)\r\n\r\n> Using pip-compile from pip-tools is the best way to pin all indirect dependencies, but I think we need to make sure that renovate runs pip-compile itself? For example, say dependency A starts depending on dependency A1: you want to pin both A and A1 when we start depending on a new A version, and that's only possible with a new pip-compile run.\r\n\r\nInteresting point. I don't know if renovate (or any similar tools) pull in *new* pins when necessary. But, it's also not the end of the world if we have some deps missing from our requirements file... basically it just means that we continue to automatically test the latest version, and are at risk of being broken by their releases. Either this never happens, and it's fine, or else it eventually happens, and then we notice and add them to the requirements.txt-file-of-shame :-)",
+  "user": {
+    "gists_url": "https://api.github.com/users/njsmith/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/njsmith/repos",
+    "following_url": "https://api.github.com/users/njsmith/following{/other_user}",
+    "starred_url": "https://api.github.com/users/njsmith/starred{/owner}{/repo}",
+    "login": "njsmith",
+    "followers_url": "https://api.github.com/users/njsmith/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/njsmith",
+    "subscriptions_url": "https://api.github.com/users/njsmith/subscriptions",
+    "received_events_url": "https://api.github.com/users/njsmith/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/609896?v=4",
+    "events_url": "https://api.github.com/users/njsmith/events{/privacy}",
+    "html_url": "https://github.com/njsmith",
+    "site_admin": false,
+    "id": 609896,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYwOTg5Ng==",
+    "organizations_url": "https://api.github.com/users/njsmith/orgs"
+  },
+  "url": "https://api.github.com/repos/python-trio/trio/issues/comments/419833063",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQxOTgzMzA2Mw=="
+}

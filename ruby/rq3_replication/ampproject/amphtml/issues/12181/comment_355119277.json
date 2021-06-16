@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607252c243dd71267de3ce9b"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/12181",
+  "updated_at": "2018-01-03T20:32:44Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/issues/12181#issuecomment-355119277",
+  "created_at": "2018-01-03T20:32:44Z",
+  "id": 355119277,
+  "body": "I can't seem to install it to \"ampproject/amphtml\" and only allows me to install greenkeeper on my personal projects (i might not have enough access on the parent org)",
+  "user": {
+    "gists_url": "https://api.github.com/users/erwinmombay/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/erwinmombay/repos",
+    "following_url": "https://api.github.com/users/erwinmombay/following{/other_user}",
+    "starred_url": "https://api.github.com/users/erwinmombay/starred{/owner}{/repo}",
+    "login": "erwinmombay",
+    "followers_url": "https://api.github.com/users/erwinmombay/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/erwinmombay",
+    "subscriptions_url": "https://api.github.com/users/erwinmombay/subscriptions",
+    "received_events_url": "https://api.github.com/users/erwinmombay/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/354746?v=4",
+    "events_url": "https://api.github.com/users/erwinmombay/events{/privacy}",
+    "html_url": "https://github.com/erwinmombay",
+    "site_admin": false,
+    "id": 354746,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjM1NDc0Ng==",
+    "organizations_url": "https://api.github.com/users/erwinmombay/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/355119277",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM1NTExOTI3Nw=="
+}

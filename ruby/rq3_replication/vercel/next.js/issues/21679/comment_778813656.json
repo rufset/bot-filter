@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3143dd71267de53977"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-14T17:51:29Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-778813656",
+  "created_at": "2021-02-14T17:51:29Z",
+  "id": 778813656,
+  "body": "Thanks for your help! @maickoldxd \r\nI know it is working for older versions of `next` but the main point is that it should work for latest versions of `next`.\r\nAlso I don't have issue with `next@10.0.5`, it is actually what I'm using, because superior versions broke the build.",
+  "user": {
+    "gists_url": "https://api.github.com/users/Divlo/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/Divlo/repos",
+    "following_url": "https://api.github.com/users/Divlo/following{/other_user}",
+    "starred_url": "https://api.github.com/users/Divlo/starred{/owner}{/repo}",
+    "login": "Divlo",
+    "followers_url": "https://api.github.com/users/Divlo/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/Divlo",
+    "subscriptions_url": "https://api.github.com/users/Divlo/subscriptions",
+    "received_events_url": "https://api.github.com/users/Divlo/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/25207499?v=4",
+    "events_url": "https://api.github.com/users/Divlo/events{/privacy}",
+    "html_url": "https://github.com/Divlo",
+    "site_admin": false,
+    "id": 25207499,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI1MjA3NDk5",
+    "organizations_url": "https://api.github.com/users/Divlo/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/778813656",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3ODgxMzY1Ng=="
+}

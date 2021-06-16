@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "609f0fe1c12f0f030f91046c"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/15600",
+  "updated_at": "2018-05-29T20:29:07Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/issues/15600#issuecomment-392930795",
+  "created_at": "2018-05-29T20:23:04Z",
+  "id": 392930795,
+  "body": "## Runtime\r\ncontact: @choumx \r\n\r\n### What was accomplished\r\n\r\n- Integrated DOMPurify\r\n- Made amp-list initial render faster\r\n- amp-bind: Rebalanced complexity limits, data-amp-bind-* attributes\r\n- Two-way iframe messaging: launched and unlaunched \r\n- New onMeasureChanged callback\r\n- Bundle size\r\n   - kickoff & planning\r\n\r\n### What's next\r\n\r\n- Binary size: URL parsing service\r\n- New viewer capability: SSR for <amp-mustache> templates\r\n- Web worker security sandbox\r\n- Help out with 1-pass CC\r\n- Bundle size\r\n   - A/A Test for script type=module\r\n   - Assist Single Pass CC\r\n   - URL Parsing Service\r\n\r\n\r\n### Lessons learned\r\n\r\n- Err on the side of bringing things to design review for sanity checking\r\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/mrjoro/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/mrjoro/repos",
+    "following_url": "https://api.github.com/users/mrjoro/following{/other_user}",
+    "starred_url": "https://api.github.com/users/mrjoro/starred{/owner}{/repo}",
+    "login": "mrjoro",
+    "followers_url": "https://api.github.com/users/mrjoro/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/mrjoro",
+    "subscriptions_url": "https://api.github.com/users/mrjoro/subscriptions",
+    "received_events_url": "https://api.github.com/users/mrjoro/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/24625776?v=4",
+    "events_url": "https://api.github.com/users/mrjoro/events{/privacy}",
+    "html_url": "https://github.com/mrjoro",
+    "site_admin": false,
+    "id": 24625776,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI0NjI1Nzc2",
+    "organizations_url": "https://api.github.com/users/mrjoro/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/392930795",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM5MjkzMDc5NQ=="
+}

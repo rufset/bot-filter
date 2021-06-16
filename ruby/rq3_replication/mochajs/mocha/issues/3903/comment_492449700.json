@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605aab526cf0a13ef54c986c"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/mochajs/mocha/issues/3903",
+  "updated_at": "2019-05-14T23:39:58Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/mochajs/mocha/pull/3903#issuecomment-492449700",
+  "created_at": "2019-05-14T23:39:58Z",
+  "id": 492449700,
+  "body": "Updated PR again. `npm audit` results improved as well.\r\n\r\n`master`: found 7 vulnerabilities (2 low, 3 moderate, 2 high)\r\n`branch`: found 3 vulnerabilities (1 low, 2 moderate)\r\n\r\nAppVeyor failed due to failing to download Node. Appears to be a CI issue unrelated to this PR. Can anyone re-run it?",
+  "user": {
+    "gists_url": "https://api.github.com/users/AviVahl/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/AviVahl/repos",
+    "following_url": "https://api.github.com/users/AviVahl/following{/other_user}",
+    "starred_url": "https://api.github.com/users/AviVahl/starred{/owner}{/repo}",
+    "login": "AviVahl",
+    "followers_url": "https://api.github.com/users/AviVahl/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/AviVahl",
+    "subscriptions_url": "https://api.github.com/users/AviVahl/subscriptions",
+    "received_events_url": "https://api.github.com/users/AviVahl/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8952081?v=4",
+    "events_url": "https://api.github.com/users/AviVahl/events{/privacy}",
+    "html_url": "https://github.com/AviVahl",
+    "site_admin": false,
+    "id": 8952081,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjg5NTIwODE=",
+    "organizations_url": "https://api.github.com/users/AviVahl/orgs"
+  },
+  "url": "https://api.github.com/repos/mochajs/mocha/issues/comments/492449700",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQ5MjQ0OTcwMA=="
+}

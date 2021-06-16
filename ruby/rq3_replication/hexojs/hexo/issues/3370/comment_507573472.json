@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a01016cf0a13ef5481510"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/hexojs/hexo/issues/3370",
+  "updated_at": "2019-07-02T08:21:41Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/hexojs/hexo/issues/3370#issuecomment-507573472",
+  "created_at": "2019-07-02T08:21:05Z",
+  "id": 507573472,
+  "body": "A lock file in library repo is more for developers than end users. Lock files of dependencies are ignored on installation anyway, the only relevant lock file is the one created in the root folder on the users' side. We can't even publish `package-lock json` file to npm registery. \r\n\r\nAccording to https://docs.npmjs.com/files/package-lock.json\r\n\r\n> One key detail about package-lock.json is that it cannot be published, and it will be ignored if found in any place other than the toplevel package\r\n\r\nTo protect maintainers from breaking change installed in their unprotected projects, I would keep `package-lock.json` in repositories. When I contribute to my repos once a month, I'm not going to spend the first hours with the old project hunting issues with broken devDependencies. I would rather spend that time productively on features/bugfixes.\r\n\r\nFor my personal projects, I moved to yarn because of npm's problems with version resolution I encountered twice, so I would even vote for `yarn.lock. But to have any lock file is better than nothing.\r\n\r\nhexo-cli can be installed locally and pinned with lock file too. Then it can be used like `yarn hexo [command]` or some npm fallback, like \"scripts\".\r\n\r\nI prefer the flow with lock file committed and dependency bot updating the versions so I can switch to new version deliberately with care, rather than risking broken development experience every time I run `yarn` or `npm install` in the newly cloned repo.",
+  "user": {
+    "gists_url": "https://api.github.com/users/ertrzyiks/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/ertrzyiks/repos",
+    "following_url": "https://api.github.com/users/ertrzyiks/following{/other_user}",
+    "starred_url": "https://api.github.com/users/ertrzyiks/starred{/owner}{/repo}",
+    "login": "ertrzyiks",
+    "followers_url": "https://api.github.com/users/ertrzyiks/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/ertrzyiks",
+    "subscriptions_url": "https://api.github.com/users/ertrzyiks/subscriptions",
+    "received_events_url": "https://api.github.com/users/ertrzyiks/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2437969?v=4",
+    "events_url": "https://api.github.com/users/ertrzyiks/events{/privacy}",
+    "html_url": "https://github.com/ertrzyiks",
+    "site_admin": false,
+    "id": 2437969,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI0Mzc5Njk=",
+    "organizations_url": "https://api.github.com/users/ertrzyiks/orgs"
+  },
+  "url": "https://api.github.com/repos/hexojs/hexo/issues/comments/507573472",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUwNzU3MzQ3Mg=="
+}

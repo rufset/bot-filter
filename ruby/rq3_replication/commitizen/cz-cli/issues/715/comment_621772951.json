@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60725fa543dd71267de413a6"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/commitizen/cz-cli/issues/715",
+  "updated_at": "2020-04-30T12:08:48Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/commitizen/cz-cli/issues/715#issuecomment-621772951",
+  "created_at": "2020-04-30T11:23:25Z",
+  "id": 621772951,
+  "body": "> @bajtos https://dev.azure.com/commitizen/cbf3c633-a6bc-43ce-ae50-fe434d244768/_apis/build/builds/851/logs/50 is the current error I am working through. For some reason windows fails with a ShellJS internal error, something about permissions on package.json. Not sure why it is failing on windows.\r\n\r\nApply below changes fixes ShellJS internal error and some errors.\r\nThese changes passed all tests with Windows 10 for me.\r\nhope this helps.\r\n\r\n```diff\r\ndiff --git a/src/commitizen/adapter.js b/src/commitizen/adapter.js\r\nindex 6878946..6765618 100644\r\n--- a/src/commitizen/adapter.js\r\n+++ b/src/commitizen/adapter.js\r\n@@ -78,7 +78,7 @@ function generateNpmInstallAdapterCommand (stringMappings, adapterNpmName) {\r\n function generateYarnAddAdapterCommand (stringMappings, adapterNpmName) {\r\n\r\n   // Start with an initial yarn add command\r\n-  let installAdapterCommand = `yarn add ${adapterNpmName}`;\r\n+  let installAdapterCommand = `npx yarn add ${adapterNpmName}`;\r\n\r\n   // Append the necessary arguments to it based on user preferences\r\n   for (let value of stringMappings.values()) {\r\n```\r\n\r\n```diff\r\ndiff --git a/src/commitizen/init.js b/src/commitizen/init.js\r\nindex 624d5c4..396f0ae 100644\r\n--- a/src/commitizen/init.js\r\n+++ b/src/commitizen/init.js\r\n@@ -96,6 +96,8 @@ function init (sh, repoPath, adapterNpmName, {\r\n   } catch (e) {\r\n     console.error(e);\r\n   }\r\n+\r\n+  sh.cd(__dirname);\r\n }\r\n\r\n /**\r\n```\r\n\r\nsh.cd() is changing process.cwd(). due to this behavior, process grab directory access until test exit even if we want remove it.",
+  "user": {
+    "gists_url": "https://api.github.com/users/hdmr14/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/hdmr14/repos",
+    "following_url": "https://api.github.com/users/hdmr14/following{/other_user}",
+    "starred_url": "https://api.github.com/users/hdmr14/starred{/owner}{/repo}",
+    "login": "hdmr14",
+    "followers_url": "https://api.github.com/users/hdmr14/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/hdmr14",
+    "subscriptions_url": "https://api.github.com/users/hdmr14/subscriptions",
+    "received_events_url": "https://api.github.com/users/hdmr14/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/58992133?v=4",
+    "events_url": "https://api.github.com/users/hdmr14/events{/privacy}",
+    "html_url": "https://github.com/hdmr14",
+    "site_admin": false,
+    "id": 58992133,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjU4OTkyMTMz",
+    "organizations_url": "https://api.github.com/users/hdmr14/orgs"
+  },
+  "url": "https://api.github.com/repos/commitizen/cz-cli/issues/comments/621772951",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDYyMTc3Mjk1MQ=="
+}

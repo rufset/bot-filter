@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ec66cf0a13ef54bc1e2"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/16957",
+  "updated_at": "2020-02-08T17:36:02Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/16957#issuecomment-583758910",
+  "created_at": "2020-02-08T17:36:02Z",
+  "id": 583758910,
+  "body": "I had same issues on ubuntu 18.04, then I run the following step:\r\n\r\n1. delete package-lock.json\r\n2. use `yarn`\r\n3. `apt install libglu1 libxi-dev`\r\n\r\nIt works for me.",
+  "user": {
+    "gists_url": "https://api.github.com/users/xpzouying/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/xpzouying/repos",
+    "following_url": "https://api.github.com/users/xpzouying/following{/other_user}",
+    "starred_url": "https://api.github.com/users/xpzouying/starred{/owner}{/repo}",
+    "login": "xpzouying",
+    "followers_url": "https://api.github.com/users/xpzouying/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/xpzouying",
+    "subscriptions_url": "https://api.github.com/users/xpzouying/subscriptions",
+    "received_events_url": "https://api.github.com/users/xpzouying/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3946563?v=4",
+    "events_url": "https://api.github.com/users/xpzouying/events{/privacy}",
+    "html_url": "https://github.com/xpzouying",
+    "site_admin": false,
+    "id": 3946563,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjM5NDY1NjM=",
+    "organizations_url": "https://api.github.com/users/xpzouying/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/583758910",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU4Mzc1ODkxMA=="
+}

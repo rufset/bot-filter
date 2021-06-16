@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071e1bf43dd71267de19b62"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/aio-libs/aiohttp/issues/1730",
+  "updated_at": "2017-03-20T12:50:03Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/aio-libs/aiohttp/issues/1730#issuecomment-287749771",
+  "created_at": "2017-03-20T12:50:03Z",
+  "id": 287749771,
+  "body": "> We shouldn't have HISTORY.rst and CHANGES.rst, it's confusing for both users and pyup.\r\n\r\nWhile I agree that this is confusing, it isn't a problem for pyup to parse the changelog. The underlying issue is that the `1.3.5` changelog wasn't merged back into master and seems to only appear on the `1.3` branch.\r\n\r\nI can understand why that's been done, but I think that's even more confusing. As a user (and tool author) I'd expect to see the full changelog of all available releases on the master branch.\r\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/jayfk/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jayfk/repos",
+    "following_url": "https://api.github.com/users/jayfk/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jayfk/starred{/owner}{/repo}",
+    "login": "jayfk",
+    "followers_url": "https://api.github.com/users/jayfk/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jayfk",
+    "subscriptions_url": "https://api.github.com/users/jayfk/subscriptions",
+    "received_events_url": "https://api.github.com/users/jayfk/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2930472?v=4",
+    "events_url": "https://api.github.com/users/jayfk/events{/privacy}",
+    "html_url": "https://github.com/jayfk",
+    "site_admin": false,
+    "id": 2930472,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI5MzA0NzI=",
+    "organizations_url": "https://api.github.com/users/jayfk/orgs"
+  },
+  "url": "https://api.github.com/repos/aio-libs/aiohttp/issues/comments/287749771",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDI4Nzc0OTc3MQ=="
+}

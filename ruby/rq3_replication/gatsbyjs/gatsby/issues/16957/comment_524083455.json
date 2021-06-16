@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ec56cf0a13ef54bc1c1"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/16957",
+  "updated_at": "2019-08-22T21:24:02Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/16957#issuecomment-524083455",
+  "created_at": "2019-08-22T21:24:02Z",
+  "id": 524083455,
+  "body": "Could people try running `npm rebuild`?",
+  "user": {
+    "gists_url": "https://api.github.com/users/KyleAMathews/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/KyleAMathews/repos",
+    "following_url": "https://api.github.com/users/KyleAMathews/following{/other_user}",
+    "starred_url": "https://api.github.com/users/KyleAMathews/starred{/owner}{/repo}",
+    "login": "KyleAMathews",
+    "followers_url": "https://api.github.com/users/KyleAMathews/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/KyleAMathews",
+    "subscriptions_url": "https://api.github.com/users/KyleAMathews/subscriptions",
+    "received_events_url": "https://api.github.com/users/KyleAMathews/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/71047?v=4",
+    "events_url": "https://api.github.com/users/KyleAMathews/events{/privacy}",
+    "html_url": "https://github.com/KyleAMathews",
+    "site_admin": false,
+    "id": 71047,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjcxMDQ3",
+    "organizations_url": "https://api.github.com/users/KyleAMathews/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/524083455",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUyNDA4MzQ1NQ=="
+}

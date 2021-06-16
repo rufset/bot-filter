@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605aab526cf0a13ef54c9869"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/mochajs/mocha/issues/3903",
+  "updated_at": "2019-05-08T13:58:30Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/mochajs/mocha/pull/3903#issuecomment-490496588",
+  "created_at": "2019-05-08T13:58:30Z",
+  "id": 490496588,
+  "body": "We upgrade dependencies before releases, not just because. To knowledge, we still support the original CoffeeScript. Others are sometimes intentionally left not upgraded due to integration issues or other problems.",
+  "user": {
+    "gists_url": "https://api.github.com/users/plroebuck/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/plroebuck/repos",
+    "following_url": "https://api.github.com/users/plroebuck/following{/other_user}",
+    "starred_url": "https://api.github.com/users/plroebuck/starred{/owner}{/repo}",
+    "login": "plroebuck",
+    "followers_url": "https://api.github.com/users/plroebuck/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/plroebuck",
+    "subscriptions_url": "https://api.github.com/users/plroebuck/subscriptions",
+    "received_events_url": "https://api.github.com/users/plroebuck/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/16603429?v=4",
+    "events_url": "https://api.github.com/users/plroebuck/events{/privacy}",
+    "html_url": "https://github.com/plroebuck",
+    "site_admin": false,
+    "id": 16603429,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE2NjAzNDI5",
+    "organizations_url": "https://api.github.com/users/plroebuck/orgs"
+  },
+  "url": "https://api.github.com/repos/mochajs/mocha/issues/comments/490496588",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQ5MDQ5NjU4OA=="
+}

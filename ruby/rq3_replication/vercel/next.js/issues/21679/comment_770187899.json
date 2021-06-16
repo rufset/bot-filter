@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3043dd71267de53957"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-01-30T10:09:10Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-770187899",
+  "created_at": "2021-01-30T10:09:10Z",
+  "id": 770187899,
+  "body": "also getting this error when running it on windows, downgraded to 10.0.5",
+  "user": {
+    "gists_url": "https://api.github.com/users/TheSlayer-666/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/TheSlayer-666/repos",
+    "following_url": "https://api.github.com/users/TheSlayer-666/following{/other_user}",
+    "starred_url": "https://api.github.com/users/TheSlayer-666/starred{/owner}{/repo}",
+    "login": "TheSlayer-666",
+    "followers_url": "https://api.github.com/users/TheSlayer-666/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/TheSlayer-666",
+    "subscriptions_url": "https://api.github.com/users/TheSlayer-666/subscriptions",
+    "received_events_url": "https://api.github.com/users/TheSlayer-666/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/55629140?v=4",
+    "events_url": "https://api.github.com/users/TheSlayer-666/events{/privacy}",
+    "html_url": "https://github.com/TheSlayer-666",
+    "site_admin": false,
+    "id": 55629140,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjU1NjI5MTQw",
+    "organizations_url": "https://api.github.com/users/TheSlayer-666/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/770187899",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3MDE4Nzg5OQ=="
+}

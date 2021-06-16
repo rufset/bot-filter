@@ -1,0 +1,62 @@
+{
+  "_id": {
+    "$oid": "605a1e456cf0a13ef548d779"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2019-03-15T07:31:20Z",
+  "title": "Discussion: auto dependency bumping via bot",
+  "body": "In this discussion it should be clarified, if it makes sense to add e.g.:\r\n- https://renovatebot.com\r\n- https://greenkeeper.io\r\n- https://dependabot.com\r\n\r\nIn my mind, it would be good, because we often bump the dependencies of www or the main package manually and it solves partly some issues.",
+  "labels_url": "https://api.github.com/repos/react-bootstrap/react-bootstrap/issues/3547/labels{/name}",
+  "author_association": "MEMBER",
+  "number": 3547,
+  "score": 1,
+  "updated_at": "2019-04-11T18:26:57Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/react-bootstrap/react-bootstrap/issues/3547/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/react-bootstrap/react-bootstrap",
+  "id": 421387749,
+  "state": "closed",
+  "locked": false,
+  "comments": 8,
+  "closed_at": "2019-04-08T19:34:17Z",
+  "url": "https://api.github.com/repos/react-bootstrap/react-bootstrap/issues/3547",
+  "labels": [
+    {
+      "default": true,
+      "color": "84b6eb",
+      "name": "enhancement",
+      "description": null,
+      "id": 72397117,
+      "url": "https://api.github.com/repos/react-bootstrap/react-bootstrap/labels/enhancement",
+      "node_id": "MDU6TGFiZWw3MjM5NzExNw=="
+    }
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/react-bootstrap/react-bootstrap/issues/3547/events",
+  "html_url": "https://github.com/react-bootstrap/react-bootstrap/issues/3547",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/mxschmitt/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/mxschmitt/repos",
+    "following_url": "https://api.github.com/users/mxschmitt/following{/other_user}",
+    "starred_url": "https://api.github.com/users/mxschmitt/starred{/owner}{/repo}",
+    "login": "mxschmitt",
+    "followers_url": "https://api.github.com/users/mxschmitt/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/mxschmitt",
+    "subscriptions_url": "https://api.github.com/users/mxschmitt/subscriptions",
+    "received_events_url": "https://api.github.com/users/mxschmitt/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/17984549?v=4",
+    "events_url": "https://api.github.com/users/mxschmitt/events{/privacy}",
+    "html_url": "https://github.com/mxschmitt",
+    "site_admin": false,
+    "id": 17984549,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE3OTg0NTQ5",
+    "organizations_url": "https://api.github.com/users/mxschmitt/orgs"
+  },
+  "node_id": "MDU6SXNzdWU0MjEzODc3NDk="
+}

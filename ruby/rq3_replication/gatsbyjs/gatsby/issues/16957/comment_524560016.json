@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ec56cf0a13ef54bc1cc"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/16957",
+  "updated_at": "2019-08-24T15:35:44Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/16957#issuecomment-524560016",
+  "created_at": "2019-08-24T15:35:44Z",
+  "id": 524560016,
+  "body": "Hi guys,\r\n\r\nI'm afraid that I'm still experiencing this issue.\r\n\r\nI've tried the latest version of the libraries in question, as well as a number of permutations in between. I've also tried clearing node_modules and npm rebuild, but still can't get past this one.\r\n\r\n```\r\ngatsby info\r\n\r\nSystem:\r\n    OS: macOS 10.14.5\r\n    CPU: (8) x64 Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz\r\n    Shell: 3.2.57 - /bin/bash\r\n  Binaries:\r\n    Node: 10.16.0 - ~/.nvm/versions/node/v10.16.0/bin/node\r\n    Yarn: 1.13.0 - /usr/local/bin/yarn\r\n    npm: 6.9.0 - ~/.nvm/versions/node/v10.16.0/bin/npm\r\n  Languages:\r\n    Python: 3.7.0 - /usr/local/bin/python\r\n  Browsers:\r\n    Chrome: 76.0.3809.100\r\n    Firefox: 68.0.1\r\n    Safari: 12.1.1\r\n  npmPackages:\r\n    gatsby: ^2.9.0 => 2.13.82\r\n    gatsby-image: ^2.1.3 => 2.2.14\r\n    gatsby-link: ^2.1.1 => 2.2.9\r\n    gatsby-plugin-catch-links: ^2.0.15 => 2.1.5\r\n    gatsby-plugin-facebook-pixel: ^1.0.3 => 1.0.3\r\n    gatsby-plugin-feed: ^2.2.3 => 2.3.9\r\n    gatsby-plugin-google-analytics: ^2.0.21 => 2.1.11\r\n    gatsby-plugin-google-tagmanager: ^2.0.15 => 2.1.7\r\n    gatsby-plugin-manifest: ^2.1.1 => 2.2.9\r\n    gatsby-plugin-nprogress: ^2.0.10 => 2.1.4\r\n    gatsby-plugin-offline: ^2.1.1 => 2.2.10\r\n    gatsby-plugin-preact: ^3.0.0 => 3.1.6\r\n    gatsby-plugin-react-helmet: ^3.0.12 => 3.1.5\r\n    gatsby-plugin-s3: ^0.3.2 => 0.3.2\r\n    gatsby-plugin-sass: ^2.0.11 => 2.1.12\r\n    gatsby-plugin-sharp: 2.2.16 => 2.2.16\r\n    gatsby-plugin-sitemap: ^2.1.0 => 2.2.9\r\n    gatsby-plugin-twitter: ^2.0.13 => 2.1.4\r\n    gatsby-plugin-web-font-loader: ^1.0.4 => 1.0.4\r\n    gatsby-remark-autolink-headers: ^2.0.16 => 2.1.7\r\n    gatsby-remark-component: ^1.1.3 => 1.1.3\r\n    gatsby-remark-copy-linked-files: ^2.0.13 => 2.1.11\r\n    gatsby-remark-external-links: ^0.0.4 => 0.0.4\r\n    gatsby-remark-images: ^3.0.14 => 3.1.18\r\n    gatsby-remark-images-contentful: ^2.0.12 => 2.1.10\r\n    gatsby-remark-lazy-load: ^1.0.1 => 1.0.1\r\n    gatsby-remark-responsive-iframe: ^2.1.1 => 2.2.8\r\n    gatsby-remark-smartypants: ^2.0.9 => 2.1.5\r\n    gatsby-source-contentful: ^2.0.67 => 2.1.28\r\n    gatsby-source-filesystem: ^2.0.39 => 2.1.17\r\n    gatsby-source-wordpress: ^3.0.65 => 3.1.24\r\n    gatsby-transformer-json: ^2.1.11 => 2.2.5\r\n    gatsby-transformer-remark: ^2.3.12 => 2.6.19\r\n    gatsby-transformer-sharp: 2.2.12 => 2.2.12\r\n```\r\n\r\nIt doesn't look like there are any conflicting versions of sharp in the tree, see below.\r\n```\r\nnpm list sharp\r\n\r\n├─┬ gatsby-plugin-manifest@2.2.9\r\n│ └── sharp@0.23.0\r\n├─┬ gatsby-plugin-sharp@2.2.16\r\n│ └── sharp@0.23.0  deduped\r\n├─┬ gatsby-remark-images-contentful@2.1.10\r\n│ └── sharp@0.23.0  deduped\r\n├─┬ gatsby-source-contentful@2.1.28\r\n│ └─┬ gatsby-plugin-sharp@2.2.18\r\n│   └── sharp@0.23.0  deduped\r\n└─┬ gatsby-transformer-sharp@2.2.12\r\n  └── sharp@0.23.0  deduped\r\n```\r\n\r\nAny ideas on where to go next?",
+  "user": {
+    "gists_url": "https://api.github.com/users/benday280412/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/benday280412/repos",
+    "following_url": "https://api.github.com/users/benday280412/following{/other_user}",
+    "starred_url": "https://api.github.com/users/benday280412/starred{/owner}{/repo}",
+    "login": "benday280412",
+    "followers_url": "https://api.github.com/users/benday280412/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/benday280412",
+    "subscriptions_url": "https://api.github.com/users/benday280412/subscriptions",
+    "received_events_url": "https://api.github.com/users/benday280412/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1956451?v=4",
+    "events_url": "https://api.github.com/users/benday280412/events{/privacy}",
+    "html_url": "https://github.com/benday280412",
+    "site_admin": false,
+    "id": 1956451,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE5NTY0NTE=",
+    "organizations_url": "https://api.github.com/users/benday280412/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/524560016",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUyNDU2MDAxNg=="
+}

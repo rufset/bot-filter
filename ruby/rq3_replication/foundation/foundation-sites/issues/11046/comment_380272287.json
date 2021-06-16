@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727cb643dd71267de50116"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/foundation/foundation-sites/issues/11046",
+  "updated_at": "2018-04-10T22:50:43Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/foundation/foundation-sites/issues/11046#issuecomment-380272287",
+  "created_at": "2018-04-10T22:50:43Z",
+  "id": 380272287,
+  "body": "See https://github.com/zurb/foundation-sites/pull/11157/files for example. It updates the two lockfiles.",
+  "user": {
+    "gists_url": "https://api.github.com/users/ncoden/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/ncoden/repos",
+    "following_url": "https://api.github.com/users/ncoden/following{/other_user}",
+    "starred_url": "https://api.github.com/users/ncoden/starred{/owner}{/repo}",
+    "login": "ncoden",
+    "followers_url": "https://api.github.com/users/ncoden/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/ncoden",
+    "subscriptions_url": "https://api.github.com/users/ncoden/subscriptions",
+    "received_events_url": "https://api.github.com/users/ncoden/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/9939075?v=4",
+    "events_url": "https://api.github.com/users/ncoden/events{/privacy}",
+    "html_url": "https://github.com/ncoden",
+    "site_admin": false,
+    "id": 9939075,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjk5MzkwNzU=",
+    "organizations_url": "https://api.github.com/users/ncoden/orgs"
+  },
+  "url": "https://api.github.com/repos/foundation/foundation-sites/issues/comments/380272287",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM4MDI3MjI4Nw=="
+}

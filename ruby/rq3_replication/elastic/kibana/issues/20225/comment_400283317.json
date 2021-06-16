@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607251a443dd71267de3b854"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/elastic/kibana/issues/20225",
+  "updated_at": "2018-06-26T12:06:22Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/elastic/kibana/issues/20225#issuecomment-400283317",
+  "created_at": "2018-06-26T12:06:22Z",
+  "id": 400283317,
+  "body": "Thanks for considering this! \r\n\r\nRight now in cases when we want to use the latest & greatest version of some packages, but it's hard to update entire repo due to large amount of breaking changes, we just resort to [yarn aliased packages](https://yarnpkg.com/lang/en/docs/cli/add/#toc-yarn-add-alias) and end up with dependencies like `\"hapi-latest\": \"npm:hapi@17.5.0\"` (3 major versions behind) and `\"lodash-latest\": \"npm:lodash@4.17.10\"` (one major behind) accompanied by `@types/*-latest` packages. It allows us to gradually migrate code to the latest library and eventually switch `something-latest` to `something`, but may significantly increase the size of distributable packages.\r\n\r\nMaybe there is a better interim solution for that?\r\n\r\n/cc @weltenwort ",
+  "user": {
+    "gists_url": "https://api.github.com/users/azasypkin/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/azasypkin/repos",
+    "following_url": "https://api.github.com/users/azasypkin/following{/other_user}",
+    "starred_url": "https://api.github.com/users/azasypkin/starred{/owner}{/repo}",
+    "login": "azasypkin",
+    "followers_url": "https://api.github.com/users/azasypkin/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/azasypkin",
+    "subscriptions_url": "https://api.github.com/users/azasypkin/subscriptions",
+    "received_events_url": "https://api.github.com/users/azasypkin/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1713708?v=4",
+    "events_url": "https://api.github.com/users/azasypkin/events{/privacy}",
+    "html_url": "https://github.com/azasypkin",
+    "site_admin": false,
+    "id": 1713708,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE3MTM3MDg=",
+    "organizations_url": "https://api.github.com/users/azasypkin/orgs"
+  },
+  "url": "https://api.github.com/repos/elastic/kibana/issues/comments/400283317",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQwMDI4MzMxNw=="
+}

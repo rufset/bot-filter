@@ -1,0 +1,54 @@
+{
+  "_id": {
+    "$oid": "60720d1243dd71267de27f17"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2018-09-08T01:34:48Z",
+  "title": "Start using pyup/requires.io?",
+  "body": "So that's twice in three days that we've had CI broken by other projects releasing stuff: #646, #651 \r\n\r\nI suppose this is a gentle nudge to set up pyup.io/requires.io, so these things result in a nice PR with failing tests, rather than a fire drill where it breaks random other people's work. (The way they work is you pin your test dependencies, and then when one of the dependencies gets a new release they automagically send a PR to update the pin, which means you get to run CI on *just that dependency upgrade* as a standalone thing. So upgrades can't break the world.\r\n\r\nThe downside of these services is that they tend to create a lot of noise with trivial PRs that someone has to merge...",
+  "labels_url": "https://api.github.com/repos/python-trio/trio/issues/652/labels{/name}",
+  "author_association": "MEMBER",
+  "number": 652,
+  "score": 1,
+  "updated_at": "2018-09-28T04:04:37Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/python-trio/trio/issues/652/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/python-trio/trio",
+  "id": 358252758,
+  "state": "closed",
+  "locked": false,
+  "comments": 8,
+  "closed_at": "2018-09-28T04:04:36Z",
+  "url": "https://api.github.com/repos/python-trio/trio/issues/652",
+  "labels": [
+
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/python-trio/trio/issues/652/events",
+  "html_url": "https://github.com/python-trio/trio/issues/652",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/njsmith/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/njsmith/repos",
+    "following_url": "https://api.github.com/users/njsmith/following{/other_user}",
+    "starred_url": "https://api.github.com/users/njsmith/starred{/owner}{/repo}",
+    "login": "njsmith",
+    "followers_url": "https://api.github.com/users/njsmith/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/njsmith",
+    "subscriptions_url": "https://api.github.com/users/njsmith/subscriptions",
+    "received_events_url": "https://api.github.com/users/njsmith/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/609896?v=4",
+    "events_url": "https://api.github.com/users/njsmith/events{/privacy}",
+    "html_url": "https://github.com/njsmith",
+    "site_admin": false,
+    "id": 609896,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYwOTg5Ng==",
+    "organizations_url": "https://api.github.com/users/njsmith/orgs"
+  },
+  "node_id": "MDU6SXNzdWUzNTgyNTI3NTg="
+}

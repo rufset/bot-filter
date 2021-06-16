@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60720d1343dd71267de27f28"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/python-trio/trio/issues/654",
+  "updated_at": "2018-09-10T06:11:39Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/python-trio/trio/pull/654#issuecomment-419799033",
+  "created_at": "2018-09-10T06:11:39Z",
+  "id": 419799033,
+  "body": "From the todo list:\r\n\r\n> Tell travis and appveyor not to build renovate/* branches in the main repo\r\n\r\nI've added https://github.com/python-trio/trio/pull/654/commits/8289d5b1d658188acb1b7bfe18dcc6de4a613e10 to this effect. renovate/* branches are now ignored in all repos. I don't think this can be configured per repository, but there's no reason to have renovate/* branches in forks, so that's OK?",
+  "user": {
+    "gists_url": "https://api.github.com/users/pquentin/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/pquentin/repos",
+    "following_url": "https://api.github.com/users/pquentin/following{/other_user}",
+    "starred_url": "https://api.github.com/users/pquentin/starred{/owner}{/repo}",
+    "login": "pquentin",
+    "followers_url": "https://api.github.com/users/pquentin/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/pquentin",
+    "subscriptions_url": "https://api.github.com/users/pquentin/subscriptions",
+    "received_events_url": "https://api.github.com/users/pquentin/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/42327?v=4",
+    "events_url": "https://api.github.com/users/pquentin/events{/privacy}",
+    "html_url": "https://github.com/pquentin",
+    "site_admin": false,
+    "id": 42327,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjQyMzI3",
+    "organizations_url": "https://api.github.com/users/pquentin/orgs"
+  },
+  "url": "https://api.github.com/repos/python-trio/trio/issues/comments/419799033",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQxOTc5OTAzMw=="
+}

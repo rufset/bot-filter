@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605ab9d66cf0a13ef54ce463"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/highlightjs/highlight.js/issues/678",
+  "updated_at": "2019-12-23T01:43:19Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/highlightjs/highlight.js/issues/678#issuecomment-568325803",
+  "created_at": "2019-12-23T01:41:02Z",
+  "id": 568325803,
+  "body": "Well the actual built package is in `build`, not the root of the repo... so if we added those files to the package/build that's where they'd end up, not root.\r\n\r\nAlthough we could probably add a root license... a simple PR would probably resolve that. ;-)\r\n\r\nhttps://github.com/highlightjs/highlight.js/pull/2312/commits/925256256170be2ef8ce6d24a484a2e37a8742e2",
+  "user": {
+    "gists_url": "https://api.github.com/users/joshgoebel/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/joshgoebel/repos",
+    "following_url": "https://api.github.com/users/joshgoebel/following{/other_user}",
+    "starred_url": "https://api.github.com/users/joshgoebel/starred{/owner}{/repo}",
+    "login": "joshgoebel",
+    "followers_url": "https://api.github.com/users/joshgoebel/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/joshgoebel",
+    "subscriptions_url": "https://api.github.com/users/joshgoebel/subscriptions",
+    "received_events_url": "https://api.github.com/users/joshgoebel/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6473?v=4",
+    "events_url": "https://api.github.com/users/joshgoebel/events{/privacy}",
+    "html_url": "https://github.com/joshgoebel",
+    "site_admin": false,
+    "id": 6473,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjY0NzM=",
+    "organizations_url": "https://api.github.com/users/joshgoebel/orgs"
+  },
+  "url": "https://api.github.com/repos/highlightjs/highlight.js/issues/comments/568325803",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU2ODMyNTgwMw=="
+}

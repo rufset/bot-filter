@@ -1,0 +1,54 @@
+{
+  "_id": {
+    "$oid": "605a7ec56cf0a13ef54bc1b4"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2019-08-22T07:03:03Z",
+  "title": " GLib-GObject-CRITICAL error with last gatsby-transformer-sharp",
+  "body": "## Description\r\n\r\nHey all,\r\nSince I updated all of my packages I have been unable to run `gatsby develop` nor `gatsby build`.\r\nThe builder is able run all of my static and page queries and then fails once it reaches the `start webpack server` process.\r\nI have tried reinstalling all of my node modules,  updating glib through brew, I've also tried to run on several different environments.\r\n\r\n_(Other OSX computers are getting the same error for me, whilst my Ubuntu machine can run develop and build fine)_\r\n\r\n\r\n### Actual result\r\nOnce `gatsby develop` gets to `start webpack server` it throws the following as errors and then the develop process stops.\r\n\r\n`(sharp:65167): GLib-GObject-WARNING **: 16:35:38.095: cannot register existing type 'VipsObject'`\r\n\r\n`(sharp:65167): GLib-CRITICAL **: 16:35:38.095: g_once_init_leave: assertion 'result != 0' failed`\r\n\r\n`(sharp:65167): GLib-GObject-CRITICAL **: 16:35:38.095: g_type_register_static: assertion 'parent_type > 0' failed`\r\n\r\n`(sharp:65167): GLib-CRITICAL **: 16:35:38.095: g_once_init_leave: assertion 'result != 0' failed`\r\n\r\n\r\n### Environment\r\n\r\n  System:\r\n    OS: macOS 10.14.6\r\n    CPU: (12) x64 Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz\r\n    Shell: 5.3 - /bin/zsh\r\n  Binaries:\r\n    Node: 10.16.3 - /usr/local/bin/node\r\n    Yarn: 1.17.3 - /usr/local/bin/yarn\r\n    npm: 6.9.0 - /usr/local/bin/npm\r\n  Languages:\r\n    Python: 2.7.16 - /usr/local/bin/python\r\n  Browsers:\r\n    Chrome: 76.0.3809.100\r\n    Safari: 12.1.2\r\n  npmPackages:\r\n    gatsby: ^2.13.72 => 2.13.75\r\n    gatsby-background-image: ^0.8.5 => 0.8.5\r\n    gatsby-graphiql-explorer: ^0.2.4 => 0.2.6\r\n    gatsby-image: ^2.2.10 => 2.2.11\r\n    gatsby-plugin-catch-links: ^2.1.4 => 2.1.4\r\n    gatsby-plugin-favicon: ^3.1.6 => 3.1.6\r\n    gatsby-plugin-feed: ^2.3.7 => 2.3.7\r\n    gatsby-plugin-google-analytics: ^2.1.8 => 2.1.8\r\n    gatsby-plugin-humans-txt: ^1.1.3 => 1.1.3\r\n    gatsby-plugin-manifest: ^2.2.6 => 2.2.8\r\n    gatsby-plugin-no-sourcemaps: ^2.1.1 => 2.1.1\r\n    gatsby-plugin-offline: ^2.2.7 => 2.2.9\r\n    gatsby-plugin-page-transitions: ^1.0.8 => 1.0.8\r\n    gatsby-plugin-react-helmet: ^3.1.4 => 3.1.4\r\n    gatsby-plugin-s3: ^0.3.2 => 0.3.2\r\n    gatsby-plugin-sass: ^2.1.10 => 2.1.11\r\n    gatsby-plugin-sharp: ^2.2.15 => 2.2.15\r\n    gatsby-plugin-styled-components: ^3.1.2 => 3.1.2\r\n    gatsby-plugin-transition-link: ^1.12.4 => 1.12.4\r\n    gatsby-remark-copy-linked-files: ^2.1.7 => 2.1.9\r\n    gatsby-remark-images: ^3.1.13 => 3.1.15\r\n    gatsby-remark-prismjs: ^3.3.6 => 3.3.7\r\n    gatsby-remark-responsive-iframe: ^2.2.5 => 2.2.7\r\n    gatsby-remark-smartypants: ^2.1.3 => 2.1.4\r\n    gatsby-source-filesystem: ^2.1.10 => 2.1.13\r\n    gatsby-source-instagram: ^0.5.1 => 0.5.1\r\n    gatsby-transformer-remark: ^2.6.15 => 2.6.17\r\n    gatsby-transformer-sharp: ^2.2.7 => 2.2.9\r\n  npmGlobalPackages:\r\n    gatsby-cli: 2.7.36\r\n    gatsby: 2.13.75\r\n\r\nAny help would be fantastic \r\n",
+  "labels_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/16957/labels{/name}",
+  "author_association": "NONE",
+  "number": 16957,
+  "score": 1,
+  "updated_at": "2020-05-22T14:36:20Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/16957/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/gatsbyjs/gatsby",
+  "id": 483807939,
+  "state": "closed",
+  "locked": false,
+  "comments": 47,
+  "closed_at": "2019-10-18T13:04:43Z",
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/16957",
+  "labels": [
+
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/16957/events",
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/16957",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/tjands/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/tjands/repos",
+    "following_url": "https://api.github.com/users/tjands/following{/other_user}",
+    "starred_url": "https://api.github.com/users/tjands/starred{/owner}{/repo}",
+    "login": "tjands",
+    "followers_url": "https://api.github.com/users/tjands/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/tjands",
+    "subscriptions_url": "https://api.github.com/users/tjands/subscriptions",
+    "received_events_url": "https://api.github.com/users/tjands/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/34981174?v=4",
+    "events_url": "https://api.github.com/users/tjands/events{/privacy}",
+    "html_url": "https://github.com/tjands",
+    "site_admin": false,
+    "id": 34981174,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjM0OTgxMTc0",
+    "organizations_url": "https://api.github.com/users/tjands/orgs"
+  },
+  "node_id": "MDU6SXNzdWU0ODM4MDc5Mzk="
+}

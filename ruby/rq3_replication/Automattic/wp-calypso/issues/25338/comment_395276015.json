@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607254ca43dd71267de4038a"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/Automattic/wp-calypso/issues/25338",
+  "updated_at": "2018-06-07T02:51:06Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/Automattic/wp-calypso/issues/25338#issuecomment-395276015",
+  "created_at": "2018-06-07T02:51:06Z",
+  "id": 395276015,
+  "body": "@blowery Looks like it was only recently fixed: https://github.com/Automattic/wp-calypso/issues/16961. Greenkeeper is not playing nice!",
+  "user": {
+    "gists_url": "https://api.github.com/users/sagirk/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/sagirk/repos",
+    "following_url": "https://api.github.com/users/sagirk/following{/other_user}",
+    "starred_url": "https://api.github.com/users/sagirk/starred{/owner}{/repo}",
+    "login": "sagirk",
+    "followers_url": "https://api.github.com/users/sagirk/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/sagirk",
+    "subscriptions_url": "https://api.github.com/users/sagirk/subscriptions",
+    "received_events_url": "https://api.github.com/users/sagirk/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2608321?v=4",
+    "events_url": "https://api.github.com/users/sagirk/events{/privacy}",
+    "html_url": "https://github.com/sagirk",
+    "site_admin": false,
+    "id": 2608321,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI2MDgzMjE=",
+    "organizations_url": "https://api.github.com/users/sagirk/orgs"
+  },
+  "url": "https://api.github.com/repos/Automattic/wp-calypso/issues/comments/395276015",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM5NTI3NjAxNQ=="
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a014e6cf0a13ef54819fe"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/tldr-pages/tldr/issues/2868",
+  "updated_at": "2019-04-28T18:36:17Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/tldr-pages/tldr/pull/2868#issuecomment-479978201",
+  "created_at": "2019-04-04T16:53:38Z",
+  "id": 479978201,
+  "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/not_signed)](https://cla-assistant.io/tldr-pages/tldr?pullRequest=2868) <br/>Thank you for your submission, we really appreciate it. Like many open source projects, we ask that you sign our [Contributor License Agreement](https://cla-assistant.io/tldr-pages/tldr?pullRequest=2868) before we can accept your contribution.<br/><sub>You have signed the CLA already but the status is still pending? Let us [recheck](https://cla-assistant.io/check/tldr-pages/tldr?pullRequest=2868) it.</sub>",
+  "user": {
+    "gists_url": "https://api.github.com/users/CLAassistant/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/CLAassistant/repos",
+    "following_url": "https://api.github.com/users/CLAassistant/following{/other_user}",
+    "starred_url": "https://api.github.com/users/CLAassistant/starred{/owner}{/repo}",
+    "login": "CLAassistant",
+    "followers_url": "https://api.github.com/users/CLAassistant/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/CLAassistant",
+    "subscriptions_url": "https://api.github.com/users/CLAassistant/subscriptions",
+    "received_events_url": "https://api.github.com/users/CLAassistant/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/11571300?v=4",
+    "events_url": "https://api.github.com/users/CLAassistant/events{/privacy}",
+    "html_url": "https://github.com/CLAassistant",
+    "site_admin": false,
+    "id": 11571300,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjExNTcxMzAw",
+    "organizations_url": "https://api.github.com/users/CLAassistant/orgs"
+  },
+  "url": "https://api.github.com/repos/tldr-pages/tldr/issues/comments/479978201",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQ3OTk3ODIwMQ=="
+}

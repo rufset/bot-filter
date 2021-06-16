@@ -1,0 +1,61 @@
+{
+  "_id": {
+    "$oid": "6072005c43dd71267de25ac2"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2019-08-17T15:28:32Z",
+  "title": "Enable/dependabot",
+  "body": "## Summary\r\n- Add configuration file for dependabot\r\n- change schedule for pyup to monthly (we'll need @gcarq to disable pyup since he set this up - please)\r\n\r\nCloses #2147\r\n",
+  "labels_url": "https://api.github.com/repos/freqtrade/freqtrade/issues/2153/labels{/name}",
+  "author_association": "MEMBER",
+  "number": 2153,
+  "score": 1,
+  "updated_at": "2019-08-17T17:41:04Z",
+  "performed_via_github_app": null,
+  "draft": false,
+  "comments_url": "https://api.github.com/repos/freqtrade/freqtrade/issues/2153/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/freqtrade/freqtrade",
+  "id": 481897579,
+  "state": "closed",
+  "locked": false,
+  "pull_request": {
+    "patch_url": "https://github.com/freqtrade/freqtrade/pull/2153.patch",
+    "html_url": "https://github.com/freqtrade/freqtrade/pull/2153",
+    "diff_url": "https://github.com/freqtrade/freqtrade/pull/2153.diff",
+    "url": "https://api.github.com/repos/freqtrade/freqtrade/pulls/2153"
+  },
+  "comments": 4,
+  "closed_at": "2019-08-17T17:40:37Z",
+  "url": "https://api.github.com/repos/freqtrade/freqtrade/issues/2153",
+  "labels": [
+
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/freqtrade/freqtrade/issues/2153/events",
+  "html_url": "https://github.com/freqtrade/freqtrade/pull/2153",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/xmatthias/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/xmatthias/repos",
+    "following_url": "https://api.github.com/users/xmatthias/following{/other_user}",
+    "starred_url": "https://api.github.com/users/xmatthias/starred{/owner}{/repo}",
+    "login": "xmatthias",
+    "followers_url": "https://api.github.com/users/xmatthias/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/xmatthias",
+    "subscriptions_url": "https://api.github.com/users/xmatthias/subscriptions",
+    "received_events_url": "https://api.github.com/users/xmatthias/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/5024695?v=4",
+    "events_url": "https://api.github.com/users/xmatthias/events{/privacy}",
+    "html_url": "https://github.com/xmatthias",
+    "site_admin": false,
+    "id": 5024695,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjUwMjQ2OTU=",
+    "organizations_url": "https://api.github.com/users/xmatthias/orgs"
+  },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MzA4Mjk5NDE1"
+}

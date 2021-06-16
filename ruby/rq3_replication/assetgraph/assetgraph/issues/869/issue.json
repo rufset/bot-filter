@@ -1,0 +1,61 @@
+{
+  "_id": {
+    "$oid": "6071ba1e43dd71267de10db5"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2018-06-01T13:59:53Z",
+  "title": "Add more verbose errors for missing glyphs to allow the user to locat…",
+  "body": "…e the glyph on theor page\r\n\r\nSwitched to using `opentype` for inspecting the resulting subsets CMAP and inspect the available glyphs from that. Under the assumption that if a known used glyph should be part of the subset, but isn't included, we can infer that the glyph is also missing in the original font.\r\n\r\nWith that change we can avoid running `pyftsubset` in a way where it throws and reruns in a more forgiving way. We will also get missing glyph warnings when subsetting using google fonts!",
+  "labels_url": "https://api.github.com/repos/assetgraph/assetgraph/issues/869/labels{/name}",
+  "author_association": "MEMBER",
+  "number": 869,
+  "score": 1,
+  "updated_at": "2018-06-03T08:15:54Z",
+  "performed_via_github_app": null,
+  "draft": false,
+  "comments_url": "https://api.github.com/repos/assetgraph/assetgraph/issues/869/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/assetgraph/assetgraph",
+  "id": 328531278,
+  "state": "closed",
+  "locked": false,
+  "pull_request": {
+    "patch_url": "https://github.com/assetgraph/assetgraph/pull/869.patch",
+    "html_url": "https://github.com/assetgraph/assetgraph/pull/869",
+    "diff_url": "https://github.com/assetgraph/assetgraph/pull/869.diff",
+    "url": "https://api.github.com/repos/assetgraph/assetgraph/pulls/869"
+  },
+  "comments": 5,
+  "closed_at": "2018-06-03T07:53:31Z",
+  "url": "https://api.github.com/repos/assetgraph/assetgraph/issues/869",
+  "labels": [
+
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/assetgraph/assetgraph/issues/869/events",
+  "html_url": "https://github.com/assetgraph/assetgraph/pull/869",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/Munter/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/Munter/repos",
+    "following_url": "https://api.github.com/users/Munter/following{/other_user}",
+    "starred_url": "https://api.github.com/users/Munter/starred{/owner}{/repo}",
+    "login": "Munter",
+    "followers_url": "https://api.github.com/users/Munter/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/Munter",
+    "subscriptions_url": "https://api.github.com/users/Munter/subscriptions",
+    "received_events_url": "https://api.github.com/users/Munter/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/331790?v=4",
+    "events_url": "https://api.github.com/users/Munter/events{/privacy}",
+    "html_url": "https://github.com/Munter",
+    "site_admin": false,
+    "id": 331790,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjMzMTc5MA==",
+    "organizations_url": "https://api.github.com/users/Munter/orgs"
+  },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MTkyMDQzMzcz"
+}

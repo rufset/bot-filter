@@ -1,0 +1,69 @@
+{
+  "_id": {
+    "$oid": "6071a89a43dd71267de0872f"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2018-08-09T08:57:52Z",
+  "title": "Update markdown-plugin",
+  "body": "<!-- FILL OUT THE BELOW FORM OR YOUR PR WILL BE AUTOMATICALLY CLOSED -->\n**Status**\n- [ ] WIP\n- [x] Ready for review\n- [ ] Needs testing\n\n**Deploy after merge (delete what needn't be deployed)**\n- hyperion (frontend)\n\nFixes annoying bug where one can't type a link with underscores in it",
+  "labels_url": "https://api.github.com/repos/withspectrum/spectrum/issues/3741/labels{/name}",
+  "author_association": "CONTRIBUTOR",
+  "number": 3741,
+  "score": 1,
+  "updated_at": "2018-08-11T02:31:16Z",
+  "performed_via_github_app": null,
+  "draft": false,
+  "comments_url": "https://api.github.com/repos/withspectrum/spectrum/issues/3741/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/withspectrum/spectrum",
+  "id": 349037622,
+  "state": "closed",
+  "locked": false,
+  "pull_request": {
+    "patch_url": "https://github.com/withspectrum/spectrum/pull/3741.patch",
+    "html_url": "https://github.com/withspectrum/spectrum/pull/3741",
+    "diff_url": "https://github.com/withspectrum/spectrum/pull/3741.diff",
+    "url": "https://api.github.com/repos/withspectrum/spectrum/pulls/3741"
+  },
+  "comments": 4,
+  "closed_at": "2018-08-09T08:58:17Z",
+  "url": "https://api.github.com/repos/withspectrum/spectrum/issues/3741",
+  "labels": [
+    {
+      "default": false,
+      "color": "00b88b",
+      "name": "Ready for Review",
+      "description": "",
+      "id": 737428259,
+      "url": "https://api.github.com/repos/withspectrum/spectrum/labels/Ready%20for%20Review",
+      "node_id": "MDU6TGFiZWw3Mzc0MjgyNTk="
+    }
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/withspectrum/spectrum/issues/3741/events",
+  "html_url": "https://github.com/withspectrum/spectrum/pull/3741",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/mxstbr/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/mxstbr/repos",
+    "following_url": "https://api.github.com/users/mxstbr/following{/other_user}",
+    "starred_url": "https://api.github.com/users/mxstbr/starred{/owner}{/repo}",
+    "login": "mxstbr",
+    "followers_url": "https://api.github.com/users/mxstbr/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/mxstbr",
+    "subscriptions_url": "https://api.github.com/users/mxstbr/subscriptions",
+    "received_events_url": "https://api.github.com/users/mxstbr/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/7525670?v=4",
+    "events_url": "https://api.github.com/users/mxstbr/events{/privacy}",
+    "html_url": "https://github.com/mxstbr",
+    "site_admin": false,
+    "id": 7525670,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjc1MjU2NzA=",
+    "organizations_url": "https://api.github.com/users/mxstbr/orgs"
+  },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MjA3MjQ1Mzc3"
+}

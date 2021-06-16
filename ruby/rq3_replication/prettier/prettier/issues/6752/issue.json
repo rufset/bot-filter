@@ -1,0 +1,112 @@
+{
+  "_id": {
+    "$oid": "6059f5076cf0a13ef547ef7f"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2019-10-30T15:28:38Z",
+  "title": "Bump rollup from 1.21.4 to 1.26.0",
+  "body": "Bumps [rollup](https://github.com/rollup/rollup) from 1.21.4 to 1.26.0.\n<details>\n<summary>Release notes</summary>\n\n*Sourced from [rollup's releases](https://github.com/rollup/rollup/releases).*\n\n> ## v1.26.0\n> *2019-10-27*\r\n> \r\n> ### Features\r\n> * Only warn when no output is provided for an IIFE bundle but still produce valid code ([#3181](https://github-redirect.dependabot.com/rollup/rollup/issues/3181))\r\n> * Support reexporting namespaces as a binding ([#3193](https://github-redirect.dependabot.com/rollup/rollup/issues/3193))\r\n> * Switch from hash.js to crypto for hashing in the Node build for better performance and support for very large assets ([#3194](https://github-redirect.dependabot.com/rollup/rollup/issues/3194))\r\n> \r\n> ### Bug Fixes\r\n> * Correctly handle chunks reexporting the same namespace as two different bindings ([#3193](https://github-redirect.dependabot.com/rollup/rollup/issues/3193))\r\n> \r\n> ### Pull Requests\r\n> * [#3181](https://github-redirect.dependabot.com/rollup/rollup/pull/3181): Remove the need to provide an output name for IIFE bundles ([@&#8203;bterrier](https://github.com/bterrier))\r\n> * [#3193](https://github-redirect.dependabot.com/rollup/rollup/pull/3193): Add support for \"export * as name from …\" ([@&#8203;lukastaegert](https://github.com/lukastaegert))\r\n> * [#3194](https://github-redirect.dependabot.com/rollup/rollup/pull/3194): Add support for large assets (> 100 MB) ([@&#8203;SebastianNiemann](https://github.com/SebastianNiemann))\r\n> \n> ## v1.25.2\n> *2019-10-23*\r\n> \r\n> ### Bug Fixes\r\n> * Improve performance of bundled UMD code by adding additional parentheses to enforce eager parsing ([#3183](https://github-redirect.dependabot.com/rollup/rollup/issues/3183))\r\n> * Improve types to tolerate passing a Rollup config with multiple outputs to `rollup.rollup` ([#3184](https://github-redirect.dependabot.com/rollup/rollup/issues/3184))\r\n> \r\n> ### Pull Requests\r\n> * [#3183](https://github-redirect.dependabot.com/rollup/rollup/pull/3183): Add parentheses to factory function of UMD bundles ([@&#8203;ajihyf](https://github.com/ajihyf))\r\n> * [#3184](https://github-redirect.dependabot.com/rollup/rollup/pull/3184): RollupOptions accept output as array ([@&#8203;imcotton](https://github.com/imcotton))\r\n> \n> ## v1.25.1\n> *2019-10-20*\r\n> \r\n> ### Bug Fixes\r\n> * Handle a situation where code was not included after a switch statement ([#3178](https://github-redirect.dependabot.com/rollup/rollup/issues/3178))\r\n> * Handle a situation where code was not included after a do-while loop ([#3180](https://github-redirect.dependabot.com/rollup/rollup/issues/3180))\r\n> * Do not fail if different outputs emit the same file ([#3175](https://github-redirect.dependabot.com/rollup/rollup/issues/3175))\r\n> * Give access to the original acorn error for parse errors ([#3176](https://github-redirect.dependabot.com/rollup/rollup/issues/3176))\r\n> \r\n> ### Pull Requests\r\n> * [#3175](https://github-redirect.dependabot.com/rollup/rollup/pull/3175): Disable errors for duplicate emitted file names ([@&#8203;marijnh](https://github.com/marijnh))\r\n> * [#3176](https://github-redirect.dependabot.com/rollup/rollup/pull/3176): Add original parser error to rollup error; Update tests ([@&#8203;gribnoysup](https://github.com/gribnoysup))\r\n> * [#3178](https://github-redirect.dependabot.com/rollup/rollup/pull/3178): Fix switch case not being included correctly ([@&#8203;lukastaegert](https://github.com/lukastaegert))\r\n> * [#3179](https://github-redirect.dependabot.com/rollup/rollup/pull/3179): Update dependencies ([@&#8203;lukastaegert](https://github.com/lukastaegert))\r\n> * [#3180](https://github-redirect.dependabot.com/rollup/rollup/pull/3180): Handle conditional breaks in do-while loops with unconditional return ([@&#8203;lukastaegert](https://github.com/lukastaegert))\r\n> \n> ## v1.25.0\n> *2019-10-18*\r\n> \r\n> ### Features\r\n> * Remove try-catch if there is no side-effect in the try-block ([#3166](https://github-redirect.dependabot.com/rollup/rollup/issues/3166))\r\n> * Omit side-effect-free trailing cases in switch-statements ([#3166](https://github-redirect.dependabot.com/rollup/rollup/issues/3166))\r\n> * Remove unused labels ([#3170](https://github-redirect.dependabot.com/rollup/rollup/issues/3170))\r\n></tr></table> ... (truncated)\n</details>\n<details>\n<summary>Changelog</summary>\n\n*Sourced from [rollup's changelog](https://github.com/rollup/rollup/blob/master/CHANGELOG.md).*\n\n> ## 1.26.0\n> *2019-10-27*\n> \n> ### Features\n> * Only warn when no output is provided for an IIFE bundle but still produce valid code ([#3181](https://github-redirect.dependabot.com/rollup/rollup/issues/3181))\n> * Support reexporting namespaces as a binding ([#3193](https://github-redirect.dependabot.com/rollup/rollup/issues/3193))\n> * Switch from hash.js to crypto for hashing in the Node build for better performance and support for very large assets ([#3194](https://github-redirect.dependabot.com/rollup/rollup/issues/3194))\n> \n> ### Bug Fixes\n> * Correctly handle chunks reexporting the same namespace as two different bindings ([#3193](https://github-redirect.dependabot.com/rollup/rollup/issues/3193))\n> \n> ### Pull Requests\n> * [#3181](https://github-redirect.dependabot.com/rollup/rollup/pull/3181): Remove the need to provide an output name for IIFE bundles ([@&#8203;bterrier](https://github.com/bterrier))\n> * [#3193](https://github-redirect.dependabot.com/rollup/rollup/pull/3193): Add support for \"export * as name from …\" ([@&#8203;lukastaegert](https://github.com/lukastaegert))\n> * [#3194](https://github-redirect.dependabot.com/rollup/rollup/pull/3194): Add support for large assets (> 100 MB) ([@&#8203;SebastianNiemann](https://github.com/SebastianNiemann))\n> \n> ## 1.25.2\n> *2019-10-23*\n> \n> ### Bug Fixes\n> * Improve performance of bundled UMD code by adding additional parentheses to enforce eager parsing ([#3183](https://github-redirect.dependabot.com/rollup/rollup/issues/3183))\n> * Improve types to tolerate passing a Rollup config with multiple outputs to `rollup.rollup` ([#3184](https://github-redirect.dependabot.com/rollup/rollup/issues/3184))\n> \n> ### Pull Requests\n> * [#3183](https://github-redirect.dependabot.com/rollup/rollup/pull/3183): Add parentheses to factory function of UMD bundles ([@&#8203;ajihyf](https://github.com/ajihyf))\n> * [#3184](https://github-redirect.dependabot.com/rollup/rollup/pull/3184): RollupOptions accept output as array ([@&#8203;imcotton](https://github.com/imcotton))\n> \n> ## 1.25.1\n> *2019-10-20*\n> \n> ### Bug Fixes\n> * Handle a situation where code was not included after a switch statement ([#3178](https://github-redirect.dependabot.com/rollup/rollup/issues/3178))\n> * Handle a situation where code was not included after a do-while loop ([#3180](https://github-redirect.dependabot.com/rollup/rollup/issues/3180))\n> * Do not fail if different outputs emit the same file ([#3175](https://github-redirect.dependabot.com/rollup/rollup/issues/3175))\n> * Give access to the original acorn error for parse errors ([#3176](https://github-redirect.dependabot.com/rollup/rollup/issues/3176))\n> \n> ### Pull Requests\n> * [#3175](https://github-redirect.dependabot.com/rollup/rollup/pull/3175): Disable errors for duplicate emitted file names ([@&#8203;marijnh](https://github.com/marijnh))\n> * [#3176](https://github-redirect.dependabot.com/rollup/rollup/pull/3176): Add original parser error to rollup error; Update tests ([@&#8203;gribnoysup](https://github.com/gribnoysup))\n> * [#3178](https://github-redirect.dependabot.com/rollup/rollup/pull/3178): Fix switch case not being included correctly ([@&#8203;lukastaegert](https://github.com/lukastaegert))\n> * [#3179](https://github-redirect.dependabot.com/rollup/rollup/pull/3179): Update dependencies ([@&#8203;lukastaegert](https://github.com/lukastaegert))\n> * [#3180](https://github-redirect.dependabot.com/rollup/rollup/pull/3180): Handle conditional breaks in do-while loops with unconditional return ([@&#8203;lukastaegert](https://github.com/lukastaegert))\n> \n> ## 1.25.0\n> *2019-10-18*\n> \n> ### Features\n> * Remove try-catch if there is no side-effect in the try-block ([#3166](https://github-redirect.dependabot.com/rollup/rollup/issues/3166))\n> * Omit side-effect-free trailing cases in switch-statements ([#3166](https://github-redirect.dependabot.com/rollup/rollup/issues/3166))\n> * Remove unused labels ([#3170](https://github-redirect.dependabot.com/rollup/rollup/issues/3170))\n></tr></table> ... (truncated)\n</details>\n<details>\n<summary>Commits</summary>\n\n- [`53fb6fe`](https://github.com/rollup/rollup/commit/53fb6fe344376cad0af73d43a6d9790cb7a1e2b9) 1.26.0\n- [`1fad958`](https://github.com/rollup/rollup/commit/1fad9580fe2a6f75e0f590b79d09bb85edd14bfa) Update changelog\n- [`1e1a111`](https://github.com/rollup/rollup/commit/1e1a11107dbee11636dcf975e57b6ba87cc62c59) Add support for \"export * as name from …\" ([#3193](https://github-redirect.dependabot.com/rollup/rollup/issues/3193))\n- [`2f7e064`](https://github.com/rollup/rollup/commit/2f7e064037d3fe101a52e6a5be6009fe3980fbce) Remove the need to provide an output name for IIFE bundles ([#3181](https://github-redirect.dependabot.com/rollup/rollup/issues/3181))\n- [`b4c8b43`](https://github.com/rollup/rollup/commit/b4c8b43a9fa2afa65b79e9aad0b3507219770e79) [feat] Adds support for large assets (> 100 MB) ([#3194](https://github-redirect.dependabot.com/rollup/rollup/issues/3194))\n- [`b123169`](https://github.com/rollup/rollup/commit/b123169865e670d3b961d5afaef090aa4e019fef) 1.25.2\n- [`52e5ba5`](https://github.com/rollup/rollup/commit/52e5ba562a2dabcd8baa5ba06c453545894a1b8a) Update changelog\n- [`e24bc46`](https://github.com/rollup/rollup/commit/e24bc468a45263714ad660aa7cae7f13c0929414) RollupOptions accept output as array ([#3184](https://github-redirect.dependabot.com/rollup/rollup/issues/3184))\n- [`dae509d`](https://github.com/rollup/rollup/commit/dae509dbe7fd658ed4de743ec7c5b0073ad80558) Add parentheses to factory function of UMD bundles ([#3183](https://github-redirect.dependabot.com/rollup/rollup/issues/3183))\n- [`b0d35e1`](https://github.com/rollup/rollup/commit/b0d35e158379e36de521820846f5571741eed7cf) 1.25.1\n- Additional commits viewable in [compare view](https://github.com/rollup/rollup/compare/v1.21.4...v1.26.0)\n</details>\n<br />\n\n[![Dependabot compatibility score](https://api.dependabot.com/badges/compatibility_score?dependency-name=rollup&package-manager=npm_and_yarn&previous-version=1.21.4&new-version=1.26.0)](https://dependabot.com/compatibility-score.html?dependency-name=rollup&package-manager=npm_and_yarn&previous-version=1.21.4&new-version=1.26.0)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it\n- `@dependabot merge` will merge this PR after your CI passes on it\n- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it\n- `@dependabot cancel merge` will cancel a previously requested merge and block automerging\n- `@dependabot reopen` will reopen this PR if it is closed\n- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language\n- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language\n- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language\n- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language\n- `@dependabot badge me` will comment on this PR with code to add a \"Dependabot enabled\" badge to your readme\n\nAdditionally, you can set the following in your Dependabot [dashboard](https://app.dependabot.com):\n- Update frequency (including time of day and day of week)\n- Pull request limits (per update run and/or open at any time)\n- Automerge options (never/patch/minor, and dev/runtime dependencies)\n- Out-of-range updates (receive only lockfile updates, if desired)\n- Security updates (receive only security updates, if desired)\n\n\n\n</details>",
+  "labels_url": "https://api.github.com/repos/prettier/prettier/issues/6752/labels{/name}",
+  "author_association": "CONTRIBUTOR",
+  "number": 6752,
+  "updated_at": "2020-01-30T16:38:48Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/prettier/prettier/issues/6752/comments",
+  "active_lock_reason": "resolved",
+  "repository_url": "https://api.github.com/repos/prettier/prettier",
+  "id": 514764021,
+  "state": "closed",
+  "locked": true,
+  "pull_request": {
+    "patch_url": "https://github.com/prettier/prettier/pull/6752.patch",
+    "html_url": "https://github.com/prettier/prettier/pull/6752",
+    "diff_url": "https://github.com/prettier/prettier/pull/6752.diff",
+    "url": "https://api.github.com/repos/prettier/prettier/pulls/6752"
+  },
+  "comments": 7,
+  "closed_at": "2019-10-31T13:02:00Z",
+  "url": "https://api.github.com/repos/prettier/prettier/issues/6752",
+  "labels": [
+    {
+      "default": false,
+      "color": "000000",
+      "name": "locked-due-to-inactivity",
+      "description": "Please open a new issue and fill out the template instead of commenting.",
+      "id": 985033474,
+      "url": "https://api.github.com/repos/prettier/prettier/labels/locked-due-to-inactivity",
+      "node_id": "MDU6TGFiZWw5ODUwMzM0NzQ="
+    },
+    {
+      "default": false,
+      "color": "ffefd5",
+      "name": "scope:dependency",
+      "description": "Issues that cannot be solved inside Prettier itself, and must be fixed in a dependency",
+      "id": 545668944,
+      "url": "https://api.github.com/repos/prettier/prettier/labels/scope:dependency",
+      "node_id": "MDU6TGFiZWw1NDU2Njg5NDQ="
+    }
+  ],
+  "milestone": {
+    "creator": {
+      "gists_url": "https://api.github.com/users/lipis/gists{/gist_id}",
+      "repos_url": "https://api.github.com/users/lipis/repos",
+      "following_url": "https://api.github.com/users/lipis/following{/other_user}",
+      "starred_url": "https://api.github.com/users/lipis/starred{/owner}{/repo}",
+      "login": "lipis",
+      "followers_url": "https://api.github.com/users/lipis/followers",
+      "type": "User",
+      "url": "https://api.github.com/users/lipis",
+      "subscriptions_url": "https://api.github.com/users/lipis/subscriptions",
+      "received_events_url": "https://api.github.com/users/lipis/received_events",
+      "avatar_url": "https://avatars.githubusercontent.com/u/125676?v=4",
+      "events_url": "https://api.github.com/users/lipis/events{/privacy}",
+      "html_url": "https://github.com/lipis",
+      "site_admin": false,
+      "id": 125676,
+      "gravatar_id": "",
+      "node_id": "MDQ6VXNlcjEyNTY3Ng==",
+      "organizations_url": "https://api.github.com/users/lipis/orgs"
+    },
+    "closed_at": "2019-11-09T00:24:41Z",
+    "description": "",
+    "created_at": "2019-08-28T11:04:49Z",
+    "title": "1.19",
+    "closed_issues": 152,
+    "url": "https://api.github.com/repos/prettier/prettier/milestones/32",
+    "due_on": null,
+    "labels_url": "https://api.github.com/repos/prettier/prettier/milestones/32/labels",
+    "number": 32,
+    "updated_at": "2019-11-09T00:56:59Z",
+    "html_url": "https://github.com/prettier/prettier/milestone/32",
+    "id": 4609527,
+    "state": "closed",
+    "open_issues": 0,
+    "node_id": "MDk6TWlsZXN0b25lNDYwOTUyNw=="
+  },
+  "events_url": "https://api.github.com/repos/prettier/prettier/issues/6752/events",
+  "html_url": "https://github.com/prettier/prettier/pull/6752",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/repos",
+    "following_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/following{/other_user}",
+    "starred_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/starred{/owner}{/repo}",
+    "login": "dependabot-preview[bot]",
+    "followers_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/followers",
+    "type": "Bot",
+    "url": "https://api.github.com/users/dependabot-preview%5Bbot%5D",
+    "subscriptions_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/subscriptions",
+    "received_events_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/in/2141?v=4",
+    "events_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/events{/privacy}",
+    "html_url": "https://github.com/apps/dependabot-preview",
+    "site_admin": false,
+    "id": 27856297,
+    "gravatar_id": "",
+    "node_id": "MDM6Qm90Mjc4NTYyOTc=",
+    "organizations_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/orgs"
+  },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MzM0MzMyOTYx"
+}

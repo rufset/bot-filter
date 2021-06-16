@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60720d1343dd71267de27f1d"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/python-trio/trio/issues/652",
+  "updated_at": "2018-09-28T00:36:47Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/python-trio/trio/issues/652#issuecomment-425284164",
+  "created_at": "2018-09-28T00:36:47Z",
+  "id": 425284164,
+  "body": "The nice thing about dependabot is that it has an automerge option. The not so nice thing is that it seems to always send individual PRs for each dependency. (It has options for \"daily\", \"weekly\", etc., but its initial \"get caught up\" update sends a bunch of individual PRs so I'm assuming the other forms of batching work the same.) This means that it simply can't handle upgrades like the ipython 6.5 → 7.0 release, which depends on a new version of prompt-toolkit.\r\n\r\nI guess tentatively we're going to end up with pyup.io, set to update weekly to minimize noise.",
+  "user": {
+    "gists_url": "https://api.github.com/users/njsmith/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/njsmith/repos",
+    "following_url": "https://api.github.com/users/njsmith/following{/other_user}",
+    "starred_url": "https://api.github.com/users/njsmith/starred{/owner}{/repo}",
+    "login": "njsmith",
+    "followers_url": "https://api.github.com/users/njsmith/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/njsmith",
+    "subscriptions_url": "https://api.github.com/users/njsmith/subscriptions",
+    "received_events_url": "https://api.github.com/users/njsmith/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/609896?v=4",
+    "events_url": "https://api.github.com/users/njsmith/events{/privacy}",
+    "html_url": "https://github.com/njsmith",
+    "site_admin": false,
+    "id": 609896,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYwOTg5Ng==",
+    "organizations_url": "https://api.github.com/users/njsmith/orgs"
+  },
+  "url": "https://api.github.com/repos/python-trio/trio/issues/comments/425284164",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQyNTI4NDE2NA=="
+}

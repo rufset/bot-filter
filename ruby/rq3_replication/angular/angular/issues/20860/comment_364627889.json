@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "609ec75ec12f0f030f8e8d4e"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/angular/angular/issues/20860",
+  "updated_at": "2018-02-10T05:34:56Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/angular/angular/issues/20860#issuecomment-364627889",
+  "created_at": "2018-02-10T05:34:56Z",
+  "id": 364627889,
+  "body": "> One will be against latest snapshots of dependencies\r\n\r\nDo I understand this flow correctly?\r\n\r\n- New code lands on `angular/angular` master\r\n- A snapshot build is pushed to `angular/core-builds`\r\n- Renovate should submit a PR back to `angular/angular` updating the integrations `package.json` to point to the new commit?\r\n\r\nAnd how exactly would it specify the \"latest snaphot\"? I notice that `angular/core-builds` seems to have both branches and tags, so I'm not sure I know what naming/tagging convention you have in use.\r\n\r\n> We'll change the integration test runner so that it kicks off the test N times, once for each package.json file.\r\n\r\nThe package.json files will be within separate subdirectories within that particular \"integration\" folder?",
+  "user": {
+    "gists_url": "https://api.github.com/users/rarkins/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/rarkins/repos",
+    "following_url": "https://api.github.com/users/rarkins/following{/other_user}",
+    "starred_url": "https://api.github.com/users/rarkins/starred{/owner}{/repo}",
+    "login": "rarkins",
+    "followers_url": "https://api.github.com/users/rarkins/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/rarkins",
+    "subscriptions_url": "https://api.github.com/users/rarkins/subscriptions",
+    "received_events_url": "https://api.github.com/users/rarkins/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6311784?v=4",
+    "events_url": "https://api.github.com/users/rarkins/events{/privacy}",
+    "html_url": "https://github.com/rarkins",
+    "site_admin": false,
+    "id": 6311784,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYzMTE3ODQ=",
+    "organizations_url": "https://api.github.com/users/rarkins/orgs"
+  },
+  "url": "https://api.github.com/repos/angular/angular/issues/comments/364627889",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM2NDYyNzg4OQ=="
+}

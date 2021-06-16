@@ -1,0 +1,61 @@
+{
+  "_id": {
+    "$oid": "6071f17643dd71267de203a1"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2019-09-26T17:19:31Z",
+  "title": "Update mypy to 0.730",
+  "body": "\nThis PR updates [mypy](https://pypi.org/project/mypy) from **0.720** to **0.730**.\n\n\n\n*The bot wasn't able to find a changelog for this release. [Got an idea?](https://github.com/pyupio/changelogs/issues/new)*\n\n<details>\n  <summary>Links</summary>\n  \n  - PyPI: https://pypi.org/project/mypy\n  - Homepage: http://www.mypy-lang.org/\n</details>\n\n",
+  "labels_url": "https://api.github.com/repos/samuelcolvin/pydantic/issues/836/labels{/name}",
+  "author_association": "CONTRIBUTOR",
+  "number": 836,
+  "score": 1,
+  "updated_at": "2019-09-30T13:38:49Z",
+  "performed_via_github_app": null,
+  "draft": false,
+  "comments_url": "https://api.github.com/repos/samuelcolvin/pydantic/issues/836/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/samuelcolvin/pydantic",
+  "id": 499014918,
+  "state": "closed",
+  "locked": false,
+  "pull_request": {
+    "patch_url": "https://github.com/samuelcolvin/pydantic/pull/836.patch",
+    "html_url": "https://github.com/samuelcolvin/pydantic/pull/836",
+    "diff_url": "https://github.com/samuelcolvin/pydantic/pull/836.diff",
+    "url": "https://api.github.com/repos/samuelcolvin/pydantic/pulls/836"
+  },
+  "comments": 3,
+  "closed_at": "2019-09-30T11:14:55Z",
+  "url": "https://api.github.com/repos/samuelcolvin/pydantic/issues/836",
+  "labels": [
+
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/samuelcolvin/pydantic/issues/836/events",
+  "html_url": "https://github.com/samuelcolvin/pydantic/pull/836",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/pyup-bot/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/pyup-bot/repos",
+    "following_url": "https://api.github.com/users/pyup-bot/following{/other_user}",
+    "starred_url": "https://api.github.com/users/pyup-bot/starred{/owner}{/repo}",
+    "login": "pyup-bot",
+    "followers_url": "https://api.github.com/users/pyup-bot/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/pyup-bot",
+    "subscriptions_url": "https://api.github.com/users/pyup-bot/subscriptions",
+    "received_events_url": "https://api.github.com/users/pyup-bot/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/16239342?v=4",
+    "events_url": "https://api.github.com/users/pyup-bot/events{/privacy}",
+    "html_url": "https://github.com/pyup-bot",
+    "site_admin": false,
+    "id": 16239342,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE2MjM5MzQy",
+    "organizations_url": "https://api.github.com/users/pyup-bot/orgs"
+  },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MzIxODI1MjIx"
+}

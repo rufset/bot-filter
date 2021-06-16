@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607254de43dd71267de40794"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/Automattic/wp-calypso/issues/48734",
+  "updated_at": "2021-02-22T09:37:21Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/Automattic/wp-calypso/pull/48734#issuecomment-783237679",
+  "created_at": "2021-02-22T09:37:21Z",
+  "id": 783237679,
+  "body": "> Then we should switch to volta, not having it just as an alternative to nvm.\r\n\r\nI agree, but I'm reluctant to make that switch based solely my experience. I'd suggest a trial period where a few folks opt-in to volta (and this PR is landed) then make a decision based on a slightly larger sample size. Team Calypso might be a good group to participate in the experiment and make the call.\r\n\r\n> Honestly, having to change (and maintain) 194 files to provide a second option seems a bit too much.\r\n\r\nTwo clarifications about the number of changed files:\r\n- To properly support volta, we should absolutely pin it at the root.\r\n- We only _need_ to add a volta in directories under which folks will run node, yarn, etc. The minimum is probably the the root, client,  apps/*, and maybe packages/*.\r\n- What I've done here is pedantically correct. Calypso is a bit unusual in that it has package.json files all over the project that don't correspond to projects/workspaces in the traditional sense. I've done these as well even though we don't expect folks to move into these directories and run yarn commands.\r\n\r\nOnly the root declaration needs to be maintained going forward. All of the other modifications to extend the root volta config need to happen exactly once (in this PR). They won't be touched again.\r\n\r\n> > I've been using volta myself (without project support!)\r\n> How does that work? Can we give folks that alternative if they don't like nvm?\r\n\r\nI either apply a stashed change with the pinned versions or run `volta install node@$( cat .nvmrc )` to set the project node version as my global default version. This winds up being similar to nvm.\r\n\r\n> nvm has solutions for that as well, but they are not enabled out of the box … I don't see a huge difference between \"install volta to get rid of this problem\" and \"install this shell script to get rid of this problem\"\r\n\r\nThe volta experience is \"use volta.\"\r\nThe nvm experience is \"use nvm and set up this shell script according to their documentation.\" I've never set up the additional script to auto-change versions and I don't believe it's recommended anywhere in the calypso docs.\r\n\r\nThe other big difference is that volta has optimized for speed. It seeks to minimize directory traversal and file reads as much as possible. It will also hit the network exactly one time for a given version. nvm needs to periodically check the network to make sure that it has the latest version because of its fuzzy \"version-ish\" specifiers. (With a fully-qualified version in our .nvmrc it may not hit the network).\r\n\r\n> Looking at volta's issues looks like they won't support .nvmrc\r\n\r\nRight, or more that they can't because nvm semantics are incompatible with the volta project goals.\r\n\r\n---\r\n\r\n> To be clear: I don't like nvm. Is causing lots of duplication (check how many times we have to call nvm.sh in https://github.com/Automattic/wp-calypso/blob/trunk/.teamcity/settings.kts) and it is not particularly fast. I'm eager to find an alternative, and volta seems like it could be it.\r\n\r\nWe may be able to replace volta with nvm for better results. The volta executable can be installed in the environment and/or cached. The installed versions can be cached, and the setup should work without calling nvm over and over.\r\n\r\n> In my opinion, having two tools for the same thing falls into the second category. That's why I think this PR should be reframed as a replacement for nvm.\r\n\r\nI'd be fine with that, except I don't want to make a decision on what this project should be using especially since I'm not contributing as frequently to Calypso. I don't think I'm a good authority to make this decision (alone) and I certainly don't want to be the sole party responsible for helping folks to adjust.",
+  "user": {
+    "gists_url": "https://api.github.com/users/sirreal/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/sirreal/repos",
+    "following_url": "https://api.github.com/users/sirreal/following{/other_user}",
+    "starred_url": "https://api.github.com/users/sirreal/starred{/owner}{/repo}",
+    "login": "sirreal",
+    "followers_url": "https://api.github.com/users/sirreal/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/sirreal",
+    "subscriptions_url": "https://api.github.com/users/sirreal/subscriptions",
+    "received_events_url": "https://api.github.com/users/sirreal/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/841763?v=4",
+    "events_url": "https://api.github.com/users/sirreal/events{/privacy}",
+    "html_url": "https://github.com/sirreal",
+    "site_admin": false,
+    "id": 841763,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjg0MTc2Mw==",
+    "organizations_url": "https://api.github.com/users/sirreal/orgs"
+  },
+  "url": "https://api.github.com/repos/Automattic/wp-calypso/issues/comments/783237679",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc4MzIzNzY3OQ=="
+}

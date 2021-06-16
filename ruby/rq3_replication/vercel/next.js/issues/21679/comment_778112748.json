@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3143dd71267de53974"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-12T10:29:23Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-778112748",
+  "created_at": "2021-02-12T10:29:23Z",
+  "id": 778112748,
+  "body": "Please try using `next@canary`, a patch was applied.",
+  "user": {
+    "gists_url": "https://api.github.com/users/timneutkens/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/timneutkens/repos",
+    "following_url": "https://api.github.com/users/timneutkens/following{/other_user}",
+    "starred_url": "https://api.github.com/users/timneutkens/starred{/owner}{/repo}",
+    "login": "timneutkens",
+    "followers_url": "https://api.github.com/users/timneutkens/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/timneutkens",
+    "subscriptions_url": "https://api.github.com/users/timneutkens/subscriptions",
+    "received_events_url": "https://api.github.com/users/timneutkens/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6324199?v=4",
+    "events_url": "https://api.github.com/users/timneutkens/events{/privacy}",
+    "html_url": "https://github.com/timneutkens",
+    "site_admin": false,
+    "id": 6324199,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYzMjQxOTk=",
+    "organizations_url": "https://api.github.com/users/timneutkens/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/778112748",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3ODExMjc0OA=="
+}

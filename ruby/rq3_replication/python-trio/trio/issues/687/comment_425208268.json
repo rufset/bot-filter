@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60720d1443dd71267de27f4d"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/python-trio/trio/issues/687",
+  "updated_at": "2018-09-27T19:09:35Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/python-trio/trio/pull/687#issuecomment-425208268",
+  "created_at": "2018-09-27T19:06:53Z",
+  "id": 425208268,
+  "body": "# [Codecov](https://codecov.io/gh/python-trio/trio/pull/687?src=pr&el=h1) Report\n> Merging [#687](https://codecov.io/gh/python-trio/trio/pull/687?src=pr&el=desc) into [master](https://codecov.io/gh/python-trio/trio/commit/cdd2f9c30436fd74b610b954c85b1f4ff7cf78ee?src=pr&el=desc) will **decrease** coverage by `0.19%`.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/python-trio/trio/pull/687/graphs/tree.svg?width=650&token=Lhvc0OnSCw&height=150&src=pr)](https://codecov.io/gh/python-trio/trio/pull/687?src=pr&el=tree)\n\n```diff\n@@            Coverage Diff            @@\n##           master     #687     +/-   ##\n=========================================\n- Coverage   83.77%   83.57%   -0.2%     \n=========================================\n  Files          94       94             \n  Lines       13046    13046             \n  Branches      788      788             \n=========================================\n- Hits        10929    10903     -26     \n- Misses       2096     2119     +23     \n- Partials       21       24      +3\n```\n\n\n| [Impacted Files](https://codecov.io/gh/python-trio/trio/pull/687?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [...st\\_multierror\\_scripts/simple\\_excepthook\\_IPython.py](https://codecov.io/gh/python-trio/trio/pull/687/diff?src=pr&el=tree#diff-dHJpby9fY29yZS90ZXN0cy90ZXN0X211bHRpZXJyb3Jfc2NyaXB0cy9zaW1wbGVfZXhjZXB0aG9va19JUHl0aG9uLnB5) | `0% <0%> (-100%)` | :arrow_down: |\n| [trio/\\_core/\\_multierror.py](https://codecov.io/gh/python-trio/trio/pull/687/diff?src=pr&el=tree#diff-dHJpby9fY29yZS9fbXVsdGllcnJvci5weQ==) | `69.85% <0%> (-5.75%)` | :arrow_down: |\n| [trio/\\_core/tests/test\\_multierror.py](https://codecov.io/gh/python-trio/trio/pull/687/diff?src=pr&el=tree#diff-dHJpby9fY29yZS90ZXN0cy90ZXN0X211bHRpZXJyb3IucHk=) | `75.72% <0%> (-2.45%)` | :arrow_down: |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/python-trio/trio/pull/687?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/python-trio/trio/pull/687?src=pr&el=footer). Last update [cdd2f9c...916a057](https://codecov.io/gh/python-trio/trio/pull/687?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/codecov%5Bbot%5D/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/codecov%5Bbot%5D/repos",
+    "following_url": "https://api.github.com/users/codecov%5Bbot%5D/following{/other_user}",
+    "starred_url": "https://api.github.com/users/codecov%5Bbot%5D/starred{/owner}{/repo}",
+    "login": "codecov[bot]",
+    "followers_url": "https://api.github.com/users/codecov%5Bbot%5D/followers",
+    "type": "Bot",
+    "url": "https://api.github.com/users/codecov%5Bbot%5D",
+    "subscriptions_url": "https://api.github.com/users/codecov%5Bbot%5D/subscriptions",
+    "received_events_url": "https://api.github.com/users/codecov%5Bbot%5D/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/in/254?v=4",
+    "events_url": "https://api.github.com/users/codecov%5Bbot%5D/events{/privacy}",
+    "html_url": "https://github.com/apps/codecov",
+    "site_admin": false,
+    "id": 22429695,
+    "gravatar_id": "",
+    "node_id": "MDM6Qm90MjI0Mjk2OTU=",
+    "organizations_url": "https://api.github.com/users/codecov%5Bbot%5D/orgs"
+  },
+  "url": "https://api.github.com/repos/python-trio/trio/issues/comments/425208268",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQyNTIwODI2OA=="
+}

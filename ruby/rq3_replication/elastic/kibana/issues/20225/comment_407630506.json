@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607251a443dd71267de3b856"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/elastic/kibana/issues/20225",
+  "updated_at": "2018-07-25T12:27:37Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/elastic/kibana/issues/20225#issuecomment-407630506",
+  "created_at": "2018-07-25T04:35:32Z",
+  "id": 407630506,
+  "body": "@mistic @tylersmalley  here is more context of why we need Greenkeeper and how we should leverage it. \r\n\r\nBelow is from Brandon's comment about our current vulnerable scanning. \r\n\r\nI usually spend and hour or two a week going through the security vuln flag results to make sure that nothing particularly nasty needs to be addressed, and researching whether we're actually vulnerable or not given our usage of the library. I haven't made it through the entire list yet, but I've generally prioritize the list by what the software considers to be the highest severity.\r\n\r\nThis manual remediation process is a rather significant effort, so if we could implement GreenKeeper to address what can be automatically ugpraded, it'll definitely help us in that regard.\r\n\r\n**There will likely be quite a few libraries that require manual intervention** to address, mainly when there are breaking changes introduced by upgrading the library, or some other remediation strategy is required. If we could implement a process to track the need for these dependencies to be upgraded and the team that should be responsible for addressing it (if it's not the security team) I can help with the triaging and assignment process, I just need somewhere to track all of this.",
+  "user": {
+    "gists_url": "https://api.github.com/users/jinmu03/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jinmu03/repos",
+    "following_url": "https://api.github.com/users/jinmu03/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jinmu03/starred{/owner}{/repo}",
+    "login": "jinmu03",
+    "followers_url": "https://api.github.com/users/jinmu03/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jinmu03",
+    "subscriptions_url": "https://api.github.com/users/jinmu03/subscriptions",
+    "received_events_url": "https://api.github.com/users/jinmu03/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/36862642?v=4",
+    "events_url": "https://api.github.com/users/jinmu03/events{/privacy}",
+    "html_url": "https://github.com/jinmu03",
+    "site_admin": false,
+    "id": 36862642,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjM2ODYyNjQy",
+    "organizations_url": "https://api.github.com/users/jinmu03/orgs"
+  },
+  "url": "https://api.github.com/repos/elastic/kibana/issues/comments/407630506",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQwNzYzMDUwNg=="
+}

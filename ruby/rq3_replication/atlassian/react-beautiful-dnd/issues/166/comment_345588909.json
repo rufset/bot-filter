@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605aa9796cf0a13ef54c78ea"
+  },
+  "author_association": "COLLABORATOR",
+  "issue_url": "https://api.github.com/repos/atlassian/react-beautiful-dnd/issues/166",
+  "updated_at": "2017-11-20T04:28:24Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/atlassian/react-beautiful-dnd/issues/166#issuecomment-345588909",
+  "created_at": "2017-11-20T04:28:24Z",
+  "id": 345588909,
+  "body": "We also added greenkeeper @leipert to help going forward. This was not added previously due to an eslint issue (see #37 for details)",
+  "user": {
+    "gists_url": "https://api.github.com/users/alexreardon/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/alexreardon/repos",
+    "following_url": "https://api.github.com/users/alexreardon/following{/other_user}",
+    "starred_url": "https://api.github.com/users/alexreardon/starred{/owner}{/repo}",
+    "login": "alexreardon",
+    "followers_url": "https://api.github.com/users/alexreardon/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/alexreardon",
+    "subscriptions_url": "https://api.github.com/users/alexreardon/subscriptions",
+    "received_events_url": "https://api.github.com/users/alexreardon/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2182637?v=4",
+    "events_url": "https://api.github.com/users/alexreardon/events{/privacy}",
+    "html_url": "https://github.com/alexreardon",
+    "site_admin": false,
+    "id": 2182637,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjIxODI2Mzc=",
+    "organizations_url": "https://api.github.com/users/alexreardon/orgs"
+  },
+  "url": "https://api.github.com/repos/atlassian/react-beautiful-dnd/issues/comments/345588909",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM0NTU4ODkwOQ=="
+}

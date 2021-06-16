@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ecc6cf0a13ef54bc344"
+  },
+  "author_association": "COLLABORATOR",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/26128",
+  "updated_at": "2020-08-04T14:15:08Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/26128#issuecomment-668622395",
+  "created_at": "2020-08-04T14:15:08Z",
+  "id": 668622395,
+  "body": "gatsbybot got a little hasty there, still needs devcert to be patched",
+  "user": {
+    "gists_url": "https://api.github.com/users/herecydev/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/herecydev/repos",
+    "following_url": "https://api.github.com/users/herecydev/following{/other_user}",
+    "starred_url": "https://api.github.com/users/herecydev/starred{/owner}{/repo}",
+    "login": "herecydev",
+    "followers_url": "https://api.github.com/users/herecydev/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/herecydev",
+    "subscriptions_url": "https://api.github.com/users/herecydev/subscriptions",
+    "received_events_url": "https://api.github.com/users/herecydev/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/11328618?v=4",
+    "events_url": "https://api.github.com/users/herecydev/events{/privacy}",
+    "html_url": "https://github.com/herecydev",
+    "site_admin": false,
+    "id": 11328618,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjExMzI4NjE4",
+    "organizations_url": "https://api.github.com/users/herecydev/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/668622395",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY2ODYyMjM5NQ=="
+}

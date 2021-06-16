@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3143dd71267de5398e"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-22T17:11:14Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-783527824",
+  "created_at": "2021-02-22T17:11:14Z",
+  "id": 783527824,
+  "body": "> So what's the final fix for this? I am using next 10.0.7 and have\r\n> \r\n> ```\r\n>   future: {\r\n>     webpack5: true,\r\n>   },\r\n> ```\r\n> \r\n> in my `next.config.js` but my build is still broken.\r\n> \r\n> FYI, I use `workbox-webpack-plugin` and I can indeed see that `workbox-webpack-plugin/build/generate-sw.js` has a\r\n> \r\n> ```\r\n> const webpack = require('webpack');\r\n> ```\r\n> \r\n> and that seems to trigger Vercel's build failure:\r\n> \r\n> ```\r\n> 16:08:18.117 | > next build\r\n> -- | --\r\n> 16:08:19.385 | > Build error occurred\r\n> 16:08:19.388 | Error: Cannot find module 'webpack'\r\n> 16:08:19.388 | Require stack:\r\n> 16:08:19.388 | - /vercel/workpath0/client-web/node_modules/workbox-webpack-plugin/build/generate-sw.js\r\n> 16:08:19.389 | - /vercel/workpath0/client-web/node_modules/workbox-webpack-plugin/build/index.js\r\n> 16:08:19.389 | - /vercel/workpath0/client-web/next.config.__vercel_builder_backup__.js\r\n> 16:08:19.389 | - /vercel/workpath0/client-web/next.config.js\r\n> 16:08:19.389 | - /vercel/workpath0/client-web/node_modules/next/dist/next-server/server/config.js\r\n> 16:08:19.389 | - /vercel/workpath0/client-web/node_modules/next/dist/build/index.js\r\n> 16:08:19.389 | - /vercel/workpath0/client-web/node_modules/next/dist/cli/next-build.js\r\n> 16:08:19.389 | - /vercel/workpath0/client-web/node_modules/next/dist/bin/next\r\n> 16:08:19.389 | at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)\r\n> 16:08:19.389 | at Function.Module._load (internal/modules/cjs/loader.js:667:27)\r\n> 16:08:19.389 | at Module.require (internal/modules/cjs/loader.js:887:19)\r\n> 16:08:19.389 | at require (internal/modules/cjs/helpers.js:74:18)\r\n> 16:08:19.389 | at Object.<anonymous> (/vercel/workpath0/client-web/node_modules/workbox-webpack-plugin/build/generate-sw.js:18:17)\r\n> 16:08:19.389 | at Module._compile (internal/modules/cjs/loader.js:999:30)\r\n> 16:08:19.389 | at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\r\n> 16:08:19.389 | at Module.load (internal/modules/cjs/loader.js:863:32)\r\n> 16:08:19.389 | at Function.Module._load (internal/modules/cjs/loader.js:708:14)\r\n> 16:08:19.390 | at Module.require (internal/modules/cjs/loader.js:887:19)\r\n> 16:08:19.390 | at require (internal/modules/cjs/helpers.js:74:18)\r\n> 16:08:19.390 | at Object.<anonymous> (/vercel/workpath0/client-web/node_modules/workbox-webpack-plugin/build/index.js:10:20)\r\n> 16:08:19.390 | at Module._compile (internal/modules/cjs/loader.js:999:30)\r\n> 16:08:19.390 | at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\r\n> 16:08:19.390 | at Module.load (internal/modules/cjs/loader.js:863:32)\r\n> 16:08:19.390 | at Function.Module._load (internal/modules/cjs/loader.js:708:14) {\r\n> 16:08:19.390 | code: 'MODULE_NOT_FOUND',\r\n> 16:08:19.390 | requireStack: [\r\n> 16:08:19.390 | '/vercel/workpath0/client-web/node_modules/workbox-webpack-plugin/build/generate-sw.js',\r\n> 16:08:19.390 | '/vercel/workpath0/client-web/node_modules/workbox-webpack-plugin/build/index.js',\r\n> 16:08:19.390 | '/vercel/workpath0/client-web/next.config.__vercel_builder_backup__.js',\r\n> 16:08:19.390 | '/vercel/workpath0/client-web/next.config.js',\r\n> 16:08:19.390 | '/vercel/workpath0/client-web/node_modules/next/dist/next-server/server/config.js',\r\n> 16:08:19.390 | '/vercel/workpath0/client-web/node_modules/next/dist/build/index.js',\r\n> 16:08:19.390 | '/vercel/workpath0/client-web/node_modules/next/dist/cli/next-build.js',\r\n> 16:08:19.390 | '/vercel/workpath0/client-web/node_modules/next/dist/bin/next'\r\n> 16:08:19.391 | ]\r\n> 16:08:19.391 | }\r\n> ```\r\n\r\nSee my post above",
+  "user": {
+    "gists_url": "https://api.github.com/users/techandmedia/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/techandmedia/repos",
+    "following_url": "https://api.github.com/users/techandmedia/following{/other_user}",
+    "starred_url": "https://api.github.com/users/techandmedia/starred{/owner}{/repo}",
+    "login": "techandmedia",
+    "followers_url": "https://api.github.com/users/techandmedia/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/techandmedia",
+    "subscriptions_url": "https://api.github.com/users/techandmedia/subscriptions",
+    "received_events_url": "https://api.github.com/users/techandmedia/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/15700861?v=4",
+    "events_url": "https://api.github.com/users/techandmedia/events{/privacy}",
+    "html_url": "https://github.com/techandmedia",
+    "site_admin": false,
+    "id": 15700861,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE1NzAwODYx",
+    "organizations_url": "https://api.github.com/users/techandmedia/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/783527824",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc4MzUyNzgyNA=="
+}

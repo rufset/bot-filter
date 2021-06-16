@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3043dd71267de5395f"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-01-31T14:55:22Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-770394714",
+  "created_at": "2021-01-31T14:55:22Z",
+  "id": 770394714,
+  "body": "So I have also had this problem, and tried the [10.0.6-canary.0](https://github.com/vercel/next.js/releases/tag/v10.0.6-canary.0) version. This works surprisingly.\r\n\r\nBut bumping it to the next version, 10.0.6-*canary.1* where webpack is inlined according to the following commit and file line in the package.json: \r\n\r\nhttps://github.com/vercel/next.js/pull/20598/commits/099cd30b36cbd1dc3be6e3f9966a607100ea7dd4#diff-9c1a3867443c54525b4f24ef171f231a6e8bb065ffc8b7b62c4843d5ff62dd42L106-L108\r\n\r\nWebpack is removed, so to me this means that any packages that were relying on that existence wouldn't have webpack? (I stand to be corrected on this)\r\n\r\nBecause as soon as you move to the next version, these warnings show: \r\n```bash\r\nnpm WARN clean-webpack-plugin@3.0.0 requires a peer of webpack@* but none is installed. You must install peer dependencies yourself.\r\nnpm WARN next-pwa@5.0.2 requires a peer of next@>=7.0.0 but none is installed. You must install peer dependencies yourself.\r\nnpm WARN next-pwa@5.0.2 requires a peer of webpack@>=4.0.0 but none is installed. You must install peer dependencies yourself.\r\nnpm WARN workbox-webpack-plugin@6.1.0 requires a peer of webpack@^4.4.0 || ^5.9.0 but none is installed. You must install peer dependencies yourself.\r\nnpm WARN css-loader@4.3.0 requires a peer of webpack@^4.27.0 || ^5.0.0 but none is installed. You must install peer dependencies yourself.\r\nnpm WARN style-loader@1.2.1 requires a peer of webpack@^4.0.0 || ^5.0.0 but none is installed. You must install peer dependencies yourself.\r\nnpm WARN @next/react-refresh-utils@10.0.6-canary.1 requires a peer of webpack@^4 || ^5 but none is installed. You must install peer dependencies yourself.\r\nnpm WARN @next/react-dev-overlay@10.0.6-canary.1 requires a peer of webpack@^4 || ^5 but none is installed. You must install peer dependencies yourself.\r\n```\r\n\r\nWhereas before that none of those messages came up. \r\n\r\nThis seems to persist to the main release, so does that mean it is needed to install webpack at the top project level? As most the packages that need web pack require it for dev, but not a dependancy. Are there side effects then?",
+  "user": {
+    "gists_url": "https://api.github.com/users/ReeceM/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/ReeceM/repos",
+    "following_url": "https://api.github.com/users/ReeceM/following{/other_user}",
+    "starred_url": "https://api.github.com/users/ReeceM/starred{/owner}{/repo}",
+    "login": "ReeceM",
+    "followers_url": "https://api.github.com/users/ReeceM/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/ReeceM",
+    "subscriptions_url": "https://api.github.com/users/ReeceM/subscriptions",
+    "received_events_url": "https://api.github.com/users/ReeceM/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2767904?v=4",
+    "events_url": "https://api.github.com/users/ReeceM/events{/privacy}",
+    "html_url": "https://github.com/ReeceM",
+    "site_admin": false,
+    "id": 2767904,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI3Njc5MDQ=",
+    "organizations_url": "https://api.github.com/users/ReeceM/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/770394714",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3MDM5NDcxNA=="
+}

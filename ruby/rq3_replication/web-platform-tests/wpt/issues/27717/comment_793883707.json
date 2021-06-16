@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60721a0843dd71267de2b776"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/web-platform-tests/wpt/issues/27717",
+  "updated_at": "2021-03-09T13:15:29Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/web-platform-tests/wpt/pull/27717#issuecomment-793883707",
+  "created_at": "2021-03-09T13:15:29Z",
+  "id": 793883707,
+  "body": "So if the concern with dependabot was Python-version-specific pinning, I think we could switch to that now that we're on Py3?",
+  "user": {
+    "gists_url": "https://api.github.com/users/jgraham/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jgraham/repos",
+    "following_url": "https://api.github.com/users/jgraham/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jgraham/starred{/owner}{/repo}",
+    "login": "jgraham",
+    "followers_url": "https://api.github.com/users/jgraham/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jgraham",
+    "subscriptions_url": "https://api.github.com/users/jgraham/subscriptions",
+    "received_events_url": "https://api.github.com/users/jgraham/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/294864?v=4",
+    "events_url": "https://api.github.com/users/jgraham/events{/privacy}",
+    "html_url": "https://github.com/jgraham",
+    "site_admin": false,
+    "id": 294864,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI5NDg2NA==",
+    "organizations_url": "https://api.github.com/users/jgraham/orgs"
+  },
+  "url": "https://api.github.com/repos/web-platform-tests/wpt/issues/comments/793883707",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc5Mzg4MzcwNw=="
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ec56cf0a13ef54bc1c8"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/16957",
+  "updated_at": "2019-08-22T22:06:16Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/16957#issuecomment-524096335",
+  "created_at": "2019-08-22T22:06:16Z",
+  "id": 524096335,
+  "body": "The `cannot register existing type 'VipsObject'` message suggests two different versions of the libvips shared libraries are being used in the same `node` process, which might suggest that both sharp v0.22.x and v0.23.x are in the dependency tree.\r\n\r\nIf so, please see https://github.com/lovell/sharp/issues/1680#issuecomment-487701749 for some previous advice on how Gatsby might be able to manage this.",
+  "user": {
+    "gists_url": "https://api.github.com/users/lovell/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/lovell/repos",
+    "following_url": "https://api.github.com/users/lovell/following{/other_user}",
+    "starred_url": "https://api.github.com/users/lovell/starred{/owner}{/repo}",
+    "login": "lovell",
+    "followers_url": "https://api.github.com/users/lovell/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/lovell",
+    "subscriptions_url": "https://api.github.com/users/lovell/subscriptions",
+    "received_events_url": "https://api.github.com/users/lovell/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/210965?v=4",
+    "events_url": "https://api.github.com/users/lovell/events{/privacy}",
+    "html_url": "https://github.com/lovell",
+    "site_admin": false,
+    "id": 210965,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjIxMDk2NQ==",
+    "organizations_url": "https://api.github.com/users/lovell/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/524096335",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUyNDA5NjMzNQ=="
+}

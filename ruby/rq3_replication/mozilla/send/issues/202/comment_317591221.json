@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071d5ca43dd71267de177f2"
+  },
+  "author_association": "COLLABORATOR",
+  "issue_url": "https://api.github.com/repos/mozilla/send/issues/202",
+  "updated_at": "2017-07-25T00:16:02Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/mozilla/send/issues/202#issuecomment-317591221",
+  "created_at": "2017-07-25T00:16:02Z",
+  "id": 317591221,
+  "body": "I'm happy if @jvehent is happy",
+  "user": {
+    "gists_url": "https://api.github.com/users/wresuolc/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/wresuolc/repos",
+    "following_url": "https://api.github.com/users/wresuolc/following{/other_user}",
+    "starred_url": "https://api.github.com/users/wresuolc/starred{/owner}{/repo}",
+    "login": "wresuolc",
+    "followers_url": "https://api.github.com/users/wresuolc/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/wresuolc",
+    "subscriptions_url": "https://api.github.com/users/wresuolc/subscriptions",
+    "received_events_url": "https://api.github.com/users/wresuolc/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/16946141?v=4",
+    "events_url": "https://api.github.com/users/wresuolc/events{/privacy}",
+    "html_url": "https://github.com/wresuolc",
+    "site_admin": false,
+    "id": 16946141,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE2OTQ2MTQx",
+    "organizations_url": "https://api.github.com/users/wresuolc/orgs"
+  },
+  "url": "https://api.github.com/repos/mozilla/send/issues/comments/317591221",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDMxNzU5MTIyMQ=="
+}

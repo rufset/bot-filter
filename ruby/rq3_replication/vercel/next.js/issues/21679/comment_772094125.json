@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3043dd71267de53967"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-03T02:11:51Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-772094125",
+  "created_at": "2021-02-02T23:47:18Z",
+  "id": 772094125,
+  "body": "Removing `@zeit/next-css` helps, but there are other packages that depends on it like `@zeit/next-less`.\r\n\r\nI had to remove those as well, and in the case of `@zeit/next-less`, I had to replace it with custom Webpack rules to handle `.less`. With `@zeit/next-css` deprecated, I am wondering what is the \"new\" solution to using `cssLoaderConfig` ?\r\n \r\n EDIT: I have a hacky workaround in place that works using some internals:\r\n\r\n```js\r\nconst { loader } = require(\"next/dist/build/webpack/config/helpers\");\r\nconst { getGlobalCssLoader } = require(\"next/dist/build/webpack/config/blocks/css/loaders\");\r\n```",
+  "user": {
+    "gists_url": "https://api.github.com/users/MrSaints/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/MrSaints/repos",
+    "following_url": "https://api.github.com/users/MrSaints/following{/other_user}",
+    "starred_url": "https://api.github.com/users/MrSaints/starred{/owner}{/repo}",
+    "login": "MrSaints",
+    "followers_url": "https://api.github.com/users/MrSaints/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/MrSaints",
+    "subscriptions_url": "https://api.github.com/users/MrSaints/subscriptions",
+    "received_events_url": "https://api.github.com/users/MrSaints/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/68859?v=4",
+    "events_url": "https://api.github.com/users/MrSaints/events{/privacy}",
+    "html_url": "https://github.com/MrSaints",
+    "site_admin": false,
+    "id": 68859,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjY4ODU5",
+    "organizations_url": "https://api.github.com/users/MrSaints/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/772094125",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3MjA5NDEyNQ=="
+}

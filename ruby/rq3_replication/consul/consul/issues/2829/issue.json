@@ -1,0 +1,54 @@
+{
+  "_id": {
+    "$oid": "6071b7b943dd71267de0e0cb"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2018-07-31T19:04:22Z",
+  "title": "Upgrade Gems",
+  "body": "Context\r\n===\r\nCode keeps moving forward and we must stay up to date\r\n\r\nWhat\r\n===\r\nFind a [gem](https://github.com/consul/consul/blob/master/Gemfile) that is [obsolete](https://rubygems.org/) and [upgrade it](https://bundler.io/v1.16/guides/updating_gems.html)\r\n\r\nWhy\r\n===\r\nFor security, quality and maintainability\r\n\r\nHow\r\n===\r\nCheck out the [release notes](https://github.com/thoughtbot/factory_bot_rails/releases) of that gem version and apply, if any, the changes required for the upgrade\r\n\r\nHere is an example template to submit a PR:\r\n\r\n_Title_\r\nUpgrade gem _name_ to version _x_\r\n\r\n_Description_\r\nPrevious version X (link to changelog of version X)\r\nNew version Y (link to changelog of version Y)\r\n\r\n_Upgrade Changes_\r\nNone, or description of changes applied\r\n\r\n_Notes_\r\nNone, or anything special to take into account\r\n  \r\nNotes\r\n===\r\nThis is a forever-opened issue 😌\r\n\r\nJust go ahead and send a PR 👍",
+  "labels_url": "https://api.github.com/repos/consul/consul/issues/2829/labels{/name}",
+  "author_association": "MEMBER",
+  "number": 2829,
+  "score": 1,
+  "updated_at": "2018-09-17T17:13:57Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/consul/consul/issues/2829/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/consul/consul",
+  "id": 346318692,
+  "state": "closed",
+  "locked": false,
+  "comments": 17,
+  "closed_at": "2018-09-17T17:12:37Z",
+  "url": "https://api.github.com/repos/consul/consul/issues/2829",
+  "labels": [
+
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/consul/consul/issues/2829/events",
+  "html_url": "https://github.com/consul/consul/issues/2829",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/voodoorai2000/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/voodoorai2000/repos",
+    "following_url": "https://api.github.com/users/voodoorai2000/following{/other_user}",
+    "starred_url": "https://api.github.com/users/voodoorai2000/starred{/owner}{/repo}",
+    "login": "voodoorai2000",
+    "followers_url": "https://api.github.com/users/voodoorai2000/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/voodoorai2000",
+    "subscriptions_url": "https://api.github.com/users/voodoorai2000/subscriptions",
+    "received_events_url": "https://api.github.com/users/voodoorai2000/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/4169?v=4",
+    "events_url": "https://api.github.com/users/voodoorai2000/events{/privacy}",
+    "html_url": "https://github.com/voodoorai2000",
+    "site_admin": false,
+    "id": 4169,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjQxNjk=",
+    "organizations_url": "https://api.github.com/users/voodoorai2000/orgs"
+  },
+  "node_id": "MDU6SXNzdWUzNDYzMTg2OTI="
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a01016cf0a13ef5481503"
+  },
+  "author_association": "COLLABORATOR",
+  "issue_url": "https://api.github.com/repos/hexojs/hexo/issues/3370",
+  "updated_at": "2018-11-22T13:29:48Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/hexojs/hexo/issues/3370#issuecomment-441031354",
+  "created_at": "2018-11-22T13:29:48Z",
+  "id": 441031354,
+  "body": "I also agree that lockfile should be commit to the repository as recommended from https://docs.npmjs.com/files/package-locks#using-locked-packages. \r\n\r\nAnd we should stick to one package manager. After years on yarn vs npm I have no specific preference, both are good to go.",
+  "user": {
+    "gists_url": "https://api.github.com/users/JLHwung/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/JLHwung/repos",
+    "following_url": "https://api.github.com/users/JLHwung/following{/other_user}",
+    "starred_url": "https://api.github.com/users/JLHwung/starred{/owner}{/repo}",
+    "login": "JLHwung",
+    "followers_url": "https://api.github.com/users/JLHwung/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/JLHwung",
+    "subscriptions_url": "https://api.github.com/users/JLHwung/subscriptions",
+    "received_events_url": "https://api.github.com/users/JLHwung/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3607926?v=4",
+    "events_url": "https://api.github.com/users/JLHwung/events{/privacy}",
+    "html_url": "https://github.com/JLHwung",
+    "site_admin": false,
+    "id": 3607926,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjM2MDc5MjY=",
+    "organizations_url": "https://api.github.com/users/JLHwung/orgs"
+  },
+  "url": "https://api.github.com/repos/hexojs/hexo/issues/comments/441031354",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQ0MTAzMTM1NA=="
+}

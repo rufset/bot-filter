@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60720d1343dd71267de27f27"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/python-trio/trio/issues/654",
+  "updated_at": "2018-09-10T05:57:54Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/python-trio/trio/pull/654#issuecomment-419796300",
+  "created_at": "2018-09-10T05:57:54Z",
+  "id": 419796300,
+  "body": "Using pip-compile from pip-tools is the best way to pin all indirect dependencies, but I think we need to make sure that renovate runs pip-compile itself? For example, say dependency A starts depending on dependency A1: you want to pin both A and A1 when we start depending on a new A version, and that's only possible with a new pip-compile run.\r\n\r\nIf that's not an option, I guess only pinning direct dependencies is a better compromise?",
+  "user": {
+    "gists_url": "https://api.github.com/users/pquentin/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/pquentin/repos",
+    "following_url": "https://api.github.com/users/pquentin/following{/other_user}",
+    "starred_url": "https://api.github.com/users/pquentin/starred{/owner}{/repo}",
+    "login": "pquentin",
+    "followers_url": "https://api.github.com/users/pquentin/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/pquentin",
+    "subscriptions_url": "https://api.github.com/users/pquentin/subscriptions",
+    "received_events_url": "https://api.github.com/users/pquentin/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/42327?v=4",
+    "events_url": "https://api.github.com/users/pquentin/events{/privacy}",
+    "html_url": "https://github.com/pquentin",
+    "site_admin": false,
+    "id": 42327,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjQyMzI3",
+    "organizations_url": "https://api.github.com/users/pquentin/orgs"
+  },
+  "url": "https://api.github.com/repos/python-trio/trio/issues/comments/419796300",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQxOTc5NjMwMA=="
+}

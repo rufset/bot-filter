@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a62f06cf0a13ef54abf9d"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/CachetHQ/Cachet/issues/3255",
+  "updated_at": "2018-09-24T19:30:24Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/CachetHQ/Cachet/issues/3255#issuecomment-424096445",
+  "created_at": "2018-09-24T19:30:24Z",
+  "id": 424096445,
+  "body": ":wave: Thank you for opening your first issue. I'm just an automated bot that's here to help you get the information you need quicker, so please ignore this message if it doesn't apply to your issue.\nIf you're looking for support, you should try the Slack group by registering your email address at https://cachethq-slack.herokuapp.com. Alternatively, email support@alt-three.com for our Professional support service (please note, this a paid service.)\nIf you're issue is with documentation, you can suggest edits by clicking the **Suggest Edits** link on any page, or open an issue at https://github.com/CachetHQ/Docs\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/welcome%5Bbot%5D/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/welcome%5Bbot%5D/repos",
+    "following_url": "https://api.github.com/users/welcome%5Bbot%5D/following{/other_user}",
+    "starred_url": "https://api.github.com/users/welcome%5Bbot%5D/starred{/owner}{/repo}",
+    "login": "welcome[bot]",
+    "followers_url": "https://api.github.com/users/welcome%5Bbot%5D/followers",
+    "type": "Bot",
+    "url": "https://api.github.com/users/welcome%5Bbot%5D",
+    "subscriptions_url": "https://api.github.com/users/welcome%5Bbot%5D/subscriptions",
+    "received_events_url": "https://api.github.com/users/welcome%5Bbot%5D/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/in/4141?v=4",
+    "events_url": "https://api.github.com/users/welcome%5Bbot%5D/events{/privacy}",
+    "html_url": "https://github.com/apps/welcome",
+    "site_admin": false,
+    "id": 30606887,
+    "gravatar_id": "",
+    "node_id": "MDM6Qm90MzA2MDY4ODc=",
+    "organizations_url": "https://api.github.com/users/welcome%5Bbot%5D/orgs"
+  },
+  "url": "https://api.github.com/repos/CachetHQ/Cachet/issues/comments/424096445",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQyNDA5NjQ0NQ=="
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ead6cf0a13ef54bbaa7"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/18615",
+  "updated_at": "2019-10-16T20:46:28Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/18615#issuecomment-542884412",
+  "created_at": "2019-10-16T20:46:28Z",
+  "id": 542884412,
+  "body": "@FailedSitcom That was a setting I ended up setting while I was playing with Renovate and while it made sense in the beginning (for visibility into a vast set of updates when we first enabled it for packages), it seems less necessary now. \r\n\r\n@muescha I'm not sure if adding a label or changing the title to include that it is made by a bot adds any value since one can filter by user to see these PRs (or commits) ",
+  "user": {
+    "gists_url": "https://api.github.com/users/sidharthachatterjee/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/sidharthachatterjee/repos",
+    "following_url": "https://api.github.com/users/sidharthachatterjee/following{/other_user}",
+    "starred_url": "https://api.github.com/users/sidharthachatterjee/starred{/owner}{/repo}",
+    "login": "sidharthachatterjee",
+    "followers_url": "https://api.github.com/users/sidharthachatterjee/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/sidharthachatterjee",
+    "subscriptions_url": "https://api.github.com/users/sidharthachatterjee/subscriptions",
+    "received_events_url": "https://api.github.com/users/sidharthachatterjee/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/7701981?v=4",
+    "events_url": "https://api.github.com/users/sidharthachatterjee/events{/privacy}",
+    "html_url": "https://github.com/sidharthachatterjee",
+    "site_admin": false,
+    "id": 7701981,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjc3MDE5ODE=",
+    "organizations_url": "https://api.github.com/users/sidharthachatterjee/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/542884412",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU0Mjg4NDQxMg=="
+}

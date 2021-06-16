@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607252c343dd71267de3ced1"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/12552",
+  "updated_at": "2018-01-22T18:08:02Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/issues/12552#issuecomment-359512826",
+  "created_at": "2018-01-22T18:08:02Z",
+  "id": 359512826,
+  "body": "[Intent to implement] Document-level infinite-scroll: #12945",
+  "user": {
+    "gists_url": "https://api.github.com/users/emarchiori/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/emarchiori/repos",
+    "following_url": "https://api.github.com/users/emarchiori/following{/other_user}",
+    "starred_url": "https://api.github.com/users/emarchiori/starred{/owner}{/repo}",
+    "login": "emarchiori",
+    "followers_url": "https://api.github.com/users/emarchiori/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/emarchiori",
+    "subscriptions_url": "https://api.github.com/users/emarchiori/subscriptions",
+    "received_events_url": "https://api.github.com/users/emarchiori/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1260600?v=4",
+    "events_url": "https://api.github.com/users/emarchiori/events{/privacy}",
+    "html_url": "https://github.com/emarchiori",
+    "site_admin": false,
+    "id": 1260600,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEyNjA2MDA=",
+    "organizations_url": "https://api.github.com/users/emarchiori/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/359512826",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM1OTUxMjgyNg=="
+}

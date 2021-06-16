@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605aab546cf0a13ef54c98a8"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/mochajs/mocha/issues/4458",
+  "updated_at": "2020-10-06T18:59:01Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/mochajs/mocha/pull/4458#issuecomment-704487531",
+  "created_at": "2020-10-06T18:59:01Z",
+  "id": 704487531,
+  "body": "[build here](https://travis-ci.org/github/mochajs/mocha/builds/733434524)",
+  "user": {
+    "gists_url": "https://api.github.com/users/boneskull/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/boneskull/repos",
+    "following_url": "https://api.github.com/users/boneskull/following{/other_user}",
+    "starred_url": "https://api.github.com/users/boneskull/starred{/owner}{/repo}",
+    "login": "boneskull",
+    "followers_url": "https://api.github.com/users/boneskull/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/boneskull",
+    "subscriptions_url": "https://api.github.com/users/boneskull/subscriptions",
+    "received_events_url": "https://api.github.com/users/boneskull/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/924465?v=4",
+    "events_url": "https://api.github.com/users/boneskull/events{/privacy}",
+    "html_url": "https://github.com/boneskull",
+    "site_admin": false,
+    "id": 924465,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjkyNDQ2NQ==",
+    "organizations_url": "https://api.github.com/users/boneskull/orgs"
+  },
+  "url": "https://api.github.com/repos/mochajs/mocha/issues/comments/704487531",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDcwNDQ4NzUzMQ=="
+}

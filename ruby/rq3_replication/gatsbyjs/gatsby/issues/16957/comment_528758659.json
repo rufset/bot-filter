@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ec66cf0a13ef54bc1d4"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/16957",
+  "updated_at": "2019-09-06T08:14:04Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/16957#issuecomment-528758659",
+  "created_at": "2019-09-06T08:13:46Z",
+  "id": 528758659,
+  "body": "Whats your installed `libvips` version? And please try running `npm rebuild`, your issues occur most likely due to the fact that your newly installed binary doesn't work with the installed libvips version on your machine. There should be no need to downgrade the version of gatsby plugins :)",
+  "user": {
+    "gists_url": "https://api.github.com/users/LekoArts/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/LekoArts/repos",
+    "following_url": "https://api.github.com/users/LekoArts/following{/other_user}",
+    "starred_url": "https://api.github.com/users/LekoArts/starred{/owner}{/repo}",
+    "login": "LekoArts",
+    "followers_url": "https://api.github.com/users/LekoArts/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/LekoArts",
+    "subscriptions_url": "https://api.github.com/users/LekoArts/subscriptions",
+    "received_events_url": "https://api.github.com/users/LekoArts/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/16143594?v=4",
+    "events_url": "https://api.github.com/users/LekoArts/events{/privacy}",
+    "html_url": "https://github.com/LekoArts",
+    "site_admin": false,
+    "id": 16143594,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE2MTQzNTk0",
+    "organizations_url": "https://api.github.com/users/LekoArts/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/528758659",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUyODc1ODY1OQ=="
+}

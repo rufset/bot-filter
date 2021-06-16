@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3043dd71267de53966"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-02T21:19:24Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-771995258",
+  "created_at": "2021-02-02T21:19:24Z",
+  "id": 771995258,
+  "body": "@JoseGarciaM what I find interesting is that it isn't the one that is directly requiring webpack, but the error is coming from the `workbox-webpack-plugin`. \r\n\r\nThe JS files in the `next-pwa` repo don't seem to have needed it directly before anyway?\r\n\r\nSo I am not sure why that has been dropped then??",
+  "user": {
+    "gists_url": "https://api.github.com/users/ReeceM/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/ReeceM/repos",
+    "following_url": "https://api.github.com/users/ReeceM/following{/other_user}",
+    "starred_url": "https://api.github.com/users/ReeceM/starred{/owner}{/repo}",
+    "login": "ReeceM",
+    "followers_url": "https://api.github.com/users/ReeceM/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/ReeceM",
+    "subscriptions_url": "https://api.github.com/users/ReeceM/subscriptions",
+    "received_events_url": "https://api.github.com/users/ReeceM/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2767904?v=4",
+    "events_url": "https://api.github.com/users/ReeceM/events{/privacy}",
+    "html_url": "https://github.com/ReeceM",
+    "site_admin": false,
+    "id": 2767904,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI3Njc5MDQ=",
+    "organizations_url": "https://api.github.com/users/ReeceM/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/771995258",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3MTk5NTI1OA=="
+}

@@ -1,0 +1,71 @@
+{
+  "_id": {
+    "$oid": "6071f1f343dd71267de20c6b"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2017-06-07T08:51:59Z",
+  "title": "Reduce Pyup dependency churn",
+  "body": "A solid majority of our pull requests are simple dependency updates, which is placing undue strain on reviewers and our CI queues - especially when a single package updates several times in one day, as requests and isort have done recently.\r\n\r\nWeekly batch updates seem like a good balance - ensuring we have very recent versions without the current churn - but our `check-requirements` CI job would fail when a newer release is available but unmerged.  I propose to\r\n\r\n- [ ] reduce the Pyup frequency to weekly (see #675, replaced by this issue)\r\n- [ ] add a filter to the `check-requirements` job, so it only fails if a pinned version that `pip-compile` would update has been superseded for at least eight days.  This check can use the release-date history from PyPI ([eg](https://pypi.python.org/pypi/hypothesis/json)), and should be pretty quick if it caches responses and minimises downloads.",
+  "labels_url": "https://api.github.com/repos/HypothesisWorks/hypothesis/issues/680/labels{/name}",
+  "author_association": "MEMBER",
+  "number": 680,
+  "score": 1,
+  "updated_at": "2017-06-12T17:08:02Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/HypothesisWorks/hypothesis/issues/680/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/HypothesisWorks/hypothesis",
+  "id": 234137015,
+  "state": "closed",
+  "locked": false,
+  "comments": 4,
+  "closed_at": "2017-06-07T09:14:45Z",
+  "url": "https://api.github.com/repos/HypothesisWorks/hypothesis/issues/680",
+  "labels": [
+    {
+      "default": false,
+      "color": "0e8a16",
+      "name": "meta",
+      "description": "for wider topics than the software itself",
+      "id": 587047512,
+      "url": "https://api.github.com/repos/HypothesisWorks/hypothesis/labels/meta",
+      "node_id": "MDU6TGFiZWw1ODcwNDc1MTI="
+    },
+    {
+      "default": false,
+      "color": "fbca04",
+      "name": "tests/build/CI",
+      "description": "about testing or deployment *of* Hypothesis",
+      "id": 602737425,
+      "url": "https://api.github.com/repos/HypothesisWorks/hypothesis/labels/tests/build/CI",
+      "node_id": "MDU6TGFiZWw2MDI3Mzc0MjU="
+    }
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/HypothesisWorks/hypothesis/issues/680/events",
+  "html_url": "https://github.com/HypothesisWorks/hypothesis/issues/680",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/Zac-HD/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/Zac-HD/repos",
+    "following_url": "https://api.github.com/users/Zac-HD/following{/other_user}",
+    "starred_url": "https://api.github.com/users/Zac-HD/starred{/owner}{/repo}",
+    "login": "Zac-HD",
+    "followers_url": "https://api.github.com/users/Zac-HD/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/Zac-HD",
+    "subscriptions_url": "https://api.github.com/users/Zac-HD/subscriptions",
+    "received_events_url": "https://api.github.com/users/Zac-HD/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/12229877?v=4",
+    "events_url": "https://api.github.com/users/Zac-HD/events{/privacy}",
+    "html_url": "https://github.com/Zac-HD",
+    "site_admin": false,
+    "id": 12229877,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEyMjI5ODc3",
+    "organizations_url": "https://api.github.com/users/Zac-HD/orgs"
+  },
+  "node_id": "MDU6SXNzdWUyMzQxMzcwMTU="
+}

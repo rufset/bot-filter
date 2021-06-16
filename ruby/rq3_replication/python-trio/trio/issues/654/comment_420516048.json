@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60720d1343dd71267de27f2f"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/python-trio/trio/issues/654",
+  "updated_at": "2018-09-12T05:55:13Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/python-trio/trio/pull/654#issuecomment-420516048",
+  "created_at": "2018-09-12T05:23:25Z",
+  "id": 420516048,
+  "body": "@njsmith any preferences regarding the location of .in and .txt requirement files?\r\n\r\n\r\nOh, and the PyPy builds have all failed with:\r\n\r\n```\r\n  Running setup.py bdist_wheel for typed-ast ... error\r\n  Complete output from command /home/travis/build/python-trio/trio/testenv/bin/python -u -c \"import setuptools, tokenize;__file__='/tmp/pip-install-e2kfi_hj/typed-ast/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\\r\\n', '\\n');f.close();exec(compile(code, __file__, 'exec'))\" bdist_wheel -d /tmp/pip-wheel-dd9twx1x --python-tag pp361:\r\n  running bdist_wheel\r\n  running build\r\n  running build_py\r\n  creating build\r\n  creating build/lib.linux-x86_64-3.6\r\n  creating build/lib.linux-x86_64-3.6/typed_ast\r\n  copying typed_ast/__init__.py -> build/lib.linux-x86_64-3.6/typed_ast\r\n  copying typed_ast/ast27.py -> build/lib.linux-x86_64-3.6/typed_ast\r\n  copying typed_ast/ast3.py -> build/lib.linux-x86_64-3.6/typed_ast\r\n  copying typed_ast/conversions.py -> build/lib.linux-x86_64-3.6/typed_ast\r\n  running build_ext\r\n  building '_ast27' extension\r\n  creating build/temp.linux-x86_64-3.6\r\n  creating build/temp.linux-x86_64-3.6/ast27\r\n  creating build/temp.linux-x86_64-3.6/ast27/Parser\r\n  creating build/temp.linux-x86_64-3.6/ast27/Python\r\n  creating build/temp.linux-x86_64-3.6/ast27/Custom\r\n  gcc -pthread -DNDEBUG -O2 -fPIC -Iast27/Include -I/home/travis/build/python-trio/trio/pypy-c-jit-95085-dd78db026ae0-linux64/include -c ast27/Parser/acceler.c -o build/temp.linux-x86_64-3.6/ast27/Parser/acceler.o\r\n  ast27/Parser/acceler.c:13:25: fatal error: pgenheaders.h: No such file or directory\r\n   #include \"pgenheaders.h\"\r\n                           ^\r\n  compilation terminated.\r\n  error: command 'gcc' failed with exit status 1\r\n  ----------------------------------------\r\n  Failed building wheel for typed-ast\r\n\r\n...\r\n\r\n  Running setup.py install for typed-ast ... error\r\n    Complete output from command /home/travis/build/python-trio/trio/testenv/bin/python -u -c \"import setuptools, tokenize;__file__='/tmp/pip-install-e2kfi_hj/typed-ast/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\\r\\n', '\\n');f.close();exec(compile(code, __file__, 'exec'))\" install --record /tmp/pip-record-su__se3r/install-record.txt --single-version-externally-managed --compile --install-headers /home/travis/build/python-trio/trio/testenv/include/site/python3.6/typed-ast:\r\n    running install\r\n    running build\r\n    running build_py\r\n    creating build\r\n    creating build/lib.linux-x86_64-3.6\r\n    creating build/lib.linux-x86_64-3.6/typed_ast\r\n    copying typed_ast/__init__.py -> build/lib.linux-x86_64-3.6/typed_ast\r\n    copying typed_ast/ast27.py -> build/lib.linux-x86_64-3.6/typed_ast\r\n    copying typed_ast/ast3.py -> build/lib.linux-x86_64-3.6/typed_ast\r\n    copying typed_ast/conversions.py -> build/lib.linux-x86_64-3.6/typed_ast\r\n    running build_ext\r\n    building '_ast27' extension\r\n    creating build/temp.linux-x86_64-3.6\r\n    creating build/temp.linux-x86_64-3.6/ast27\r\n    creating build/temp.linux-x86_64-3.6/ast27/Parser\r\n    creating build/temp.linux-x86_64-3.6/ast27/Python\r\n    creating build/temp.linux-x86_64-3.6/ast27/Custom\r\n    gcc -pthread -DNDEBUG -O2 -fPIC -Iast27/Include -I/home/travis/build/python-trio/trio/pypy-c-jit-95085-dd78db026ae0-linux64/include -c ast27/Parser/acceler.c -o build/temp.linux-x86_64-3.6/ast27/Parser/acceler.o\r\n    ast27/Parser/acceler.c:13:25: fatal error: pgenheaders.h: No such file or directory\r\n     #include \"pgenheaders.h\"\r\n                             ^\r\n    compilation terminated.\r\n    error: command 'gcc' failed with exit status 1\r\n```\r\n\r\nAnd indeed, astroid (a pylint dependency) only depends on typed_ast with CPython: https://github.com/PyCQA/astroid/blob/6acd49c33e0143da5ab8aaf8caca49d1d564467c/astroid/__pkginfo__.py#L33. I guess pip-compile should have been able to pick that up?",
+  "user": {
+    "gists_url": "https://api.github.com/users/pquentin/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/pquentin/repos",
+    "following_url": "https://api.github.com/users/pquentin/following{/other_user}",
+    "starred_url": "https://api.github.com/users/pquentin/starred{/owner}{/repo}",
+    "login": "pquentin",
+    "followers_url": "https://api.github.com/users/pquentin/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/pquentin",
+    "subscriptions_url": "https://api.github.com/users/pquentin/subscriptions",
+    "received_events_url": "https://api.github.com/users/pquentin/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/42327?v=4",
+    "events_url": "https://api.github.com/users/pquentin/events{/privacy}",
+    "html_url": "https://github.com/pquentin",
+    "site_admin": false,
+    "id": 42327,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjQyMzI3",
+    "organizations_url": "https://api.github.com/users/pquentin/orgs"
+  },
+  "url": "https://api.github.com/repos/python-trio/trio/issues/comments/420516048",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQyMDUxNjA0OA=="
+}

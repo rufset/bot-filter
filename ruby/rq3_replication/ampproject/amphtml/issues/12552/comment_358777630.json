@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607252c343dd71267de3cecf"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/12552",
+  "updated_at": "2018-01-18T20:59:10Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/issues/12552#issuecomment-358777630",
+  "created_at": "2018-01-18T20:51:25Z",
+  "id": 358777630,
+  "body": "Introduce a high entropy page_view_id #12674  (5 min)",
+  "user": {
+    "gists_url": "https://api.github.com/users/lannka/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/lannka/repos",
+    "following_url": "https://api.github.com/users/lannka/following{/other_user}",
+    "starred_url": "https://api.github.com/users/lannka/starred{/owner}{/repo}",
+    "login": "lannka",
+    "followers_url": "https://api.github.com/users/lannka/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/lannka",
+    "subscriptions_url": "https://api.github.com/users/lannka/subscriptions",
+    "received_events_url": "https://api.github.com/users/lannka/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8496897?v=4",
+    "events_url": "https://api.github.com/users/lannka/events{/privacy}",
+    "html_url": "https://github.com/lannka",
+    "site_admin": false,
+    "id": 8496897,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjg0OTY4OTc=",
+    "organizations_url": "https://api.github.com/users/lannka/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/358777630",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM1ODc3NzYzMA=="
+}

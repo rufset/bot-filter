@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a99f96cf0a13ef54c22da"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/strapi/strapi/issues/2433",
+  "updated_at": "2018-12-13T13:17:52Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/strapi/strapi/pull/2433#issuecomment-446964897",
+  "created_at": "2018-12-13T13:17:52Z",
+  "id": 446964897,
+  "body": "\nHey there 👋,\n\nwe noticed that this PR isn’t merged yet. Just to let you know: if you don't merge this PR, _Greenkeeper will not be enabled_ on this repo, and you won't receive updates for your dependencies.\n\nIf you don't want to enable Greenkeeper here, just close or ignore this PR, we won't nag you again. ✌️\n\nHave a great day! 🌴\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/repos",
+    "following_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/following{/other_user}",
+    "starred_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/starred{/owner}{/repo}",
+    "login": "greenkeeper[bot]",
+    "followers_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/followers",
+    "type": "Bot",
+    "url": "https://api.github.com/users/greenkeeper%5Bbot%5D",
+    "subscriptions_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/subscriptions",
+    "received_events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/in/505?v=4",
+    "events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/events{/privacy}",
+    "html_url": "https://github.com/apps/greenkeeper",
+    "site_admin": false,
+    "id": 23040076,
+    "gravatar_id": "",
+    "node_id": "MDM6Qm90MjMwNDAwNzY=",
+    "organizations_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/orgs"
+  },
+  "url": "https://api.github.com/repos/strapi/strapi/issues/comments/446964897",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQ0Njk2NDg5Nw=="
+}

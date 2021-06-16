@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60725fa543dd71267de413a9"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/commitizen/cz-cli/issues/715",
+  "updated_at": "2020-05-01T00:21:21Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/commitizen/cz-cli/issues/715#issuecomment-622181011",
+  "created_at": "2020-04-30T23:57:56Z",
+  "id": 622181011,
+  "body": "@LinusU thanks update packages!\r\n\r\nTests failed on Windows is not caused by ShellJS.\r\nIt's just a problem with changing working directory(even if not via ShellJS) for exec some command(`git`, `npm`) in temporally directory for tests.\r\n\r\nCould you approve above fix(`sh.cd(__dirname)`, `npx yarn add`(yarn is locally installed at test))?\r\nIf so, I'll create a PR and test non-Windows platforms as well.",
+  "user": {
+    "gists_url": "https://api.github.com/users/hdmr14/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/hdmr14/repos",
+    "following_url": "https://api.github.com/users/hdmr14/following{/other_user}",
+    "starred_url": "https://api.github.com/users/hdmr14/starred{/owner}{/repo}",
+    "login": "hdmr14",
+    "followers_url": "https://api.github.com/users/hdmr14/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/hdmr14",
+    "subscriptions_url": "https://api.github.com/users/hdmr14/subscriptions",
+    "received_events_url": "https://api.github.com/users/hdmr14/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/58992133?v=4",
+    "events_url": "https://api.github.com/users/hdmr14/events{/privacy}",
+    "html_url": "https://github.com/hdmr14",
+    "site_admin": false,
+    "id": 58992133,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjU4OTkyMTMz",
+    "organizations_url": "https://api.github.com/users/hdmr14/orgs"
+  },
+  "url": "https://api.github.com/repos/commitizen/cz-cli/issues/comments/622181011",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDYyMjE4MTAxMQ=="
+}

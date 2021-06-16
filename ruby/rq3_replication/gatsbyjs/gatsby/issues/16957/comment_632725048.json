@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ec66cf0a13ef54bc1e3"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/16957",
+  "updated_at": "2020-05-22T14:36:20Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/16957#issuecomment-632725048",
+  "created_at": "2020-05-22T14:36:20Z",
+  "id": 632725048,
+  "body": "Was experiencing the same issues, working with yarn as package manager. What worked for me was running `yarn cache clean` and doing a reinstall of all dependencies. Hope this helps someone.",
+  "user": {
+    "gists_url": "https://api.github.com/users/gvdp/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/gvdp/repos",
+    "following_url": "https://api.github.com/users/gvdp/following{/other_user}",
+    "starred_url": "https://api.github.com/users/gvdp/starred{/owner}{/repo}",
+    "login": "gvdp",
+    "followers_url": "https://api.github.com/users/gvdp/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/gvdp",
+    "subscriptions_url": "https://api.github.com/users/gvdp/subscriptions",
+    "received_events_url": "https://api.github.com/users/gvdp/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/11733084?v=4",
+    "events_url": "https://api.github.com/users/gvdp/events{/privacy}",
+    "html_url": "https://github.com/gvdp",
+    "site_admin": false,
+    "id": 11733084,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjExNzMzMDg0",
+    "organizations_url": "https://api.github.com/users/gvdp/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/632725048",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDYzMjcyNTA0OA=="
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607246bc43dd71267de3ae37"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/electron-react-boilerplate/electron-react-boilerplate/issues/1899",
+  "updated_at": "2018-10-31T19:40:59Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/electron-react-boilerplate/electron-react-boilerplate/pull/1899#issuecomment-434821321",
+  "created_at": "2018-10-31T19:40:59Z",
+  "id": 434821321,
+  "body": ">  I think we should add a note of how to work with these changes to the\r\n\r\nGood idea. I think the `CHANGELOG.md` should strictly be a list of changes. IMO we should move the migration steps to a migration guide. [Laravel does this nicely with their upgrade guide](https://laravel.com/docs/5.7/upgrade):\r\n\r\n![screen shot 2018-10-31 at 12 40 24 pm](https://user-images.githubusercontent.com/6374832/47814165-31d11e80-dd0a-11e8-80fc-4242677f80b4.png)\r\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/amilajack/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/amilajack/repos",
+    "following_url": "https://api.github.com/users/amilajack/following{/other_user}",
+    "starred_url": "https://api.github.com/users/amilajack/starred{/owner}{/repo}",
+    "login": "amilajack",
+    "followers_url": "https://api.github.com/users/amilajack/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/amilajack",
+    "subscriptions_url": "https://api.github.com/users/amilajack/subscriptions",
+    "received_events_url": "https://api.github.com/users/amilajack/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6374832?v=4",
+    "events_url": "https://api.github.com/users/amilajack/events{/privacy}",
+    "html_url": "https://github.com/amilajack",
+    "site_admin": false,
+    "id": 6374832,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYzNzQ4MzI=",
+    "organizations_url": "https://api.github.com/users/amilajack/orgs"
+  },
+  "url": "https://api.github.com/repos/electron-react-boilerplate/electron-react-boilerplate/issues/comments/434821321",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQzNDgyMTMyMQ=="
+}

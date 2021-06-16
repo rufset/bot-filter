@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727e9943dd71267de52dd8"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/tailwindlabs/tailwindcss/issues/1907",
+  "updated_at": "2020-09-09T10:31:49Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/tailwindlabs/tailwindcss/pull/1907#issuecomment-689448403",
+  "created_at": "2020-09-09T09:35:29Z",
+  "id": 689448403,
+  "body": "Hi @adamwathan, I noticed you had some questions. I've got some answers for you! :wink: \r\n> Nice! Is there anything I need to do to explicitly enable auto-merging or any other custom configuration I had, and do I need to manually disable the old one?\r\n\r\n### On auto-merge support for the integrated Dependabot:\r\n\r\nAuto-merging is not supported anymore, it's also not going to be supported. Quote from the project manager for Dependabot at https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-640918321:\r\n> Auto-merge will not be supported in GitHub-native Dependabot for the foreseeable future. We know some of you have built great workflows that rely on auto-merge, but right now, we’re concerned about auto-merge being used to quickly propagate a malicious package across the ecosystem. We recommend always verifying your dependencies before merging them.\r\n\r\n### On removing the old `dependabot-preview` bot:\r\n\r\nWhen you're not using the old `dependabot-preview` bot anymore on any of your repositories, you can remove it from your GitHub apps. When you're logged into GitHub, got to https://github.com/settings/installations and then click on the **applications** tab, to see a list of installed GitHub apps, you can remove the `dependabot-preview` bot from that screen.\r\n\r\n### On custom configurations:\r\n\r\nThere's a full list of configuration options that you can put in the `dependabot.yml` file: [GitHub Docs for Dependabot configuration options](https://docs.github.com/en/github/administering-a-repository/configuration-options-for-dependency-updates).\r\n\r\nFor a overview of all the Dependabot functionality go the [GitHub docs on \"Keeping your dependencies updated automatically\"](https://docs.github.com/en/github/administering-a-repository/keeping-your-dependencies-updated-automatically).",
+  "user": {
+    "gists_url": "https://api.github.com/users/HonkingGoose/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/HonkingGoose/repos",
+    "following_url": "https://api.github.com/users/HonkingGoose/following{/other_user}",
+    "starred_url": "https://api.github.com/users/HonkingGoose/starred{/owner}{/repo}",
+    "login": "HonkingGoose",
+    "followers_url": "https://api.github.com/users/HonkingGoose/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/HonkingGoose",
+    "subscriptions_url": "https://api.github.com/users/HonkingGoose/subscriptions",
+    "received_events_url": "https://api.github.com/users/HonkingGoose/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/34918129?v=4",
+    "events_url": "https://api.github.com/users/HonkingGoose/events{/privacy}",
+    "html_url": "https://github.com/HonkingGoose",
+    "site_admin": false,
+    "id": 34918129,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjM0OTE4MTI5",
+    "organizations_url": "https://api.github.com/users/HonkingGoose/orgs"
+  },
+  "url": "https://api.github.com/repos/tailwindlabs/tailwindcss/issues/comments/689448403",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY4OTQ0ODQwMw=="
+}

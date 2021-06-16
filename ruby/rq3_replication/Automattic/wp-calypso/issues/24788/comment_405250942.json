@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607254c743dd71267de40315"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/Automattic/wp-calypso/issues/24788",
+  "updated_at": "2018-07-16T13:40:55Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/Automattic/wp-calypso/pull/24788#issuecomment-405250942",
+  "created_at": "2018-07-16T13:40:55Z",
+  "id": 405250942,
+  "body": "> Since we want Calypso (and possibly other consumers) to continue to use untranspiled code (to benefit from features such as tree-shaking), the npms we produce should contain both transpiled and untranspiled versions of the code.\r\n\r\nI'm not sure we want to publish untranspiled code, ever. That pushes the burden of transpiling and the associated babel config down to a client, who may be running a different version of babel with different presets. \r\n\r\nI think publishing es5 with modules is likely fine, this is what lodash and a bunch of others are doing with the `module` flag on package.json, but I'm not sure how untranspiled modules would work.",
+  "user": {
+    "gists_url": "https://api.github.com/users/blowery/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/blowery/repos",
+    "following_url": "https://api.github.com/users/blowery/following{/other_user}",
+    "starred_url": "https://api.github.com/users/blowery/starred{/owner}{/repo}",
+    "login": "blowery",
+    "followers_url": "https://api.github.com/users/blowery/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/blowery",
+    "subscriptions_url": "https://api.github.com/users/blowery/subscriptions",
+    "received_events_url": "https://api.github.com/users/blowery/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/14350?v=4",
+    "events_url": "https://api.github.com/users/blowery/events{/privacy}",
+    "html_url": "https://github.com/blowery",
+    "site_admin": false,
+    "id": 14350,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE0MzUw",
+    "organizations_url": "https://api.github.com/users/blowery/orgs"
+  },
+  "url": "https://api.github.com/repos/Automattic/wp-calypso/issues/comments/405250942",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQwNTI1MDk0Mg=="
+}

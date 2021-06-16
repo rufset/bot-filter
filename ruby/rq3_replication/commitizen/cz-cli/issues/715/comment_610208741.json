@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60725fa543dd71267de413a3"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/commitizen/cz-cli/issues/715",
+  "updated_at": "2020-04-07T06:50:13Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/commitizen/cz-cli/issues/715#issuecomment-610208741",
+  "created_at": "2020-04-07T06:50:13Z",
+  "id": 610208741,
+  "body": "Note that I'm coming here because I have this very security warning with `cz-conventional-changelog` so once fixed it would be good to get `cz-conventional-changelog` use the new minimist version as well.",
+  "user": {
+    "gists_url": "https://api.github.com/users/cjolif/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/cjolif/repos",
+    "following_url": "https://api.github.com/users/cjolif/following{/other_user}",
+    "starred_url": "https://api.github.com/users/cjolif/starred{/owner}{/repo}",
+    "login": "cjolif",
+    "followers_url": "https://api.github.com/users/cjolif/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/cjolif",
+    "subscriptions_url": "https://api.github.com/users/cjolif/subscriptions",
+    "received_events_url": "https://api.github.com/users/cjolif/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/623171?v=4",
+    "events_url": "https://api.github.com/users/cjolif/events{/privacy}",
+    "html_url": "https://github.com/cjolif",
+    "site_admin": false,
+    "id": 623171,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYyMzE3MQ==",
+    "organizations_url": "https://api.github.com/users/cjolif/orgs"
+  },
+  "url": "https://api.github.com/repos/commitizen/cz-cli/issues/comments/610208741",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDYxMDIwODc0MQ=="
+}

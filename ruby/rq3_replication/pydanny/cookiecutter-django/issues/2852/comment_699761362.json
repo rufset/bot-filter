@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071e42343dd71267de1d46f"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/pydanny/cookiecutter-django/issues/2852",
+  "updated_at": "2020-09-28T04:24:06Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/pydanny/cookiecutter-django/issues/2852#issuecomment-699761362",
+  "created_at": "2020-09-28T04:22:34Z",
+  "id": 699761362,
+  "body": "@browniebroke You can just go into GitHub marketplace and add dependabot-preview. Then you can select the repo, select which requirements files you want, choose the labels you want, and it'll auto update, just like how pyup does it. You can see the outcome [here](https://github.com/Donate-Anything/Donate-Anything) where dependabot just litters my repo with updates to botocore and boto3 lmao.\r\n\r\nYou can find more info on configuring the auto merge here: https://dependabot.com/docs/config-file/#automerged_updates\r\n\r\nIf I'm not wrong, since GitHub bought dependabot, I think you don't even need to register in dependabot. You can just create their .dependabot.yaml file... somewhere... I can't remember.",
+  "user": {
+    "gists_url": "https://api.github.com/users/Andrew-Chen-Wang/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/Andrew-Chen-Wang/repos",
+    "following_url": "https://api.github.com/users/Andrew-Chen-Wang/following{/other_user}",
+    "starred_url": "https://api.github.com/users/Andrew-Chen-Wang/starred{/owner}{/repo}",
+    "login": "Andrew-Chen-Wang",
+    "followers_url": "https://api.github.com/users/Andrew-Chen-Wang/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/Andrew-Chen-Wang",
+    "subscriptions_url": "https://api.github.com/users/Andrew-Chen-Wang/subscriptions",
+    "received_events_url": "https://api.github.com/users/Andrew-Chen-Wang/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/60190294?v=4",
+    "events_url": "https://api.github.com/users/Andrew-Chen-Wang/events{/privacy}",
+    "html_url": "https://github.com/Andrew-Chen-Wang",
+    "site_admin": false,
+    "id": 60190294,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYwMTkwMjk0",
+    "organizations_url": "https://api.github.com/users/Andrew-Chen-Wang/orgs"
+  },
+  "url": "https://api.github.com/repos/pydanny/cookiecutter-django/issues/comments/699761362",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY5OTc2MTM2Mg=="
+}

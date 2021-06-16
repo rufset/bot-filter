@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605aab526cf0a13ef54c986f"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/mochajs/mocha/issues/3903",
+  "updated_at": "2019-05-17T12:55:20Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/mochajs/mocha/pull/3903#issuecomment-493443062",
+  "created_at": "2019-05-17T12:55:20Z",
+  "id": 493443062,
+  "body": "By pushing your branch directly to this repo, not yours. Do you have permission to do that as a contributor?\r\nI don't know.",
+  "user": {
+    "gists_url": "https://api.github.com/users/juergba/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/juergba/repos",
+    "following_url": "https://api.github.com/users/juergba/following{/other_user}",
+    "starred_url": "https://api.github.com/users/juergba/starred{/owner}{/repo}",
+    "login": "juergba",
+    "followers_url": "https://api.github.com/users/juergba/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/juergba",
+    "subscriptions_url": "https://api.github.com/users/juergba/subscriptions",
+    "received_events_url": "https://api.github.com/users/juergba/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/44573692?v=4",
+    "events_url": "https://api.github.com/users/juergba/events{/privacy}",
+    "html_url": "https://github.com/juergba",
+    "site_admin": false,
+    "id": 44573692,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjQ0NTczNjky",
+    "organizations_url": "https://api.github.com/users/juergba/orgs"
+  },
+  "url": "https://api.github.com/repos/mochajs/mocha/issues/comments/493443062",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQ5MzQ0MzA2Mg=="
+}

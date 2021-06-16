@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "609ec75ec12f0f030f8e8d4f"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/angular/angular/issues/20860",
+  "updated_at": "2020-10-16T20:47:07Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/angular/angular/issues/20860#issuecomment-710603525",
+  "created_at": "2020-10-16T20:47:07Z",
+  "id": 710603525,
+  "body": "@josephperrott is this still relevant? ",
+  "user": {
+    "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jelbourn/repos",
+    "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+    "login": "jelbourn",
+    "followers_url": "https://api.github.com/users/jelbourn/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jelbourn",
+    "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+    "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/838736?v=4",
+    "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+    "html_url": "https://github.com/jelbourn",
+    "site_admin": false,
+    "id": 838736,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjgzODczNg==",
+    "organizations_url": "https://api.github.com/users/jelbourn/orgs"
+  },
+  "url": "https://api.github.com/repos/angular/angular/issues/comments/710603525",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDcxMDYwMzUyNQ=="
+}

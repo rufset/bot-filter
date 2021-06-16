@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60720d1343dd71267de27f1c"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/python-trio/trio/issues/652",
+  "updated_at": "2018-09-28T00:18:39Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/python-trio/trio/issues/652#issuecomment-425281765",
+  "created_at": "2018-09-28T00:18:39Z",
+  "id": 425281765,
+  "body": "> I guess there's also dependabot? Apparently I turned that on a few weeks ago too and it just never did anything.\r\n\r\nOh, I'm wrong: I apparently turned it on for some random personal repo, and it never did anything, which makes sense because there was nothing to do. I've gone ahead and enabled it for python-trio/trio now, so we can at least see what it does...",
+  "user": {
+    "gists_url": "https://api.github.com/users/njsmith/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/njsmith/repos",
+    "following_url": "https://api.github.com/users/njsmith/following{/other_user}",
+    "starred_url": "https://api.github.com/users/njsmith/starred{/owner}{/repo}",
+    "login": "njsmith",
+    "followers_url": "https://api.github.com/users/njsmith/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/njsmith",
+    "subscriptions_url": "https://api.github.com/users/njsmith/subscriptions",
+    "received_events_url": "https://api.github.com/users/njsmith/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/609896?v=4",
+    "events_url": "https://api.github.com/users/njsmith/events{/privacy}",
+    "html_url": "https://github.com/njsmith",
+    "site_admin": false,
+    "id": 609896,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYwOTg5Ng==",
+    "organizations_url": "https://api.github.com/users/njsmith/orgs"
+  },
+  "url": "https://api.github.com/repos/python-trio/trio/issues/comments/425281765",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQyNTI4MTc2NQ=="
+}

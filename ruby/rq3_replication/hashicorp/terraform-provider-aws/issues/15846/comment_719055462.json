@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60726e1b43dd71267de46a47"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/hashicorp/terraform-provider-aws/issues/15846",
+  "updated_at": "2020-10-29T22:16:55Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/hashicorp/terraform-provider-aws/pull/15846#issuecomment-719055462",
+  "created_at": "2020-10-29T22:16:55Z",
+  "id": 719055462,
+  "body": "This has been released in [version 3.13.0 of the Terraform AWS provider](https://github.com/terraform-providers/terraform-provider-aws/blob/v3.13.0/CHANGELOG.md). Please see the [Terraform documentation on provider versioning](https://www.terraform.io/docs/configuration/providers.html#provider-versions) or reach out if you need any assistance upgrading.\n\nFor further feature requests or bug reports with this functionality, please create a [new GitHub issue](https://github.com/terraform-providers/terraform-provider-aws/issues/new/choose) following the template for triage. Thanks!\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/hashibot%5Bbot%5D/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/hashibot%5Bbot%5D/repos",
+    "following_url": "https://api.github.com/users/hashibot%5Bbot%5D/following{/other_user}",
+    "starred_url": "https://api.github.com/users/hashibot%5Bbot%5D/starred{/owner}{/repo}",
+    "login": "hashibot[bot]",
+    "followers_url": "https://api.github.com/users/hashibot%5Bbot%5D/followers",
+    "type": "Bot",
+    "url": "https://api.github.com/users/hashibot%5Bbot%5D",
+    "subscriptions_url": "https://api.github.com/users/hashibot%5Bbot%5D/subscriptions",
+    "received_events_url": "https://api.github.com/users/hashibot%5Bbot%5D/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/in/8332?v=4",
+    "events_url": "https://api.github.com/users/hashibot%5Bbot%5D/events{/privacy}",
+    "html_url": "https://github.com/apps/hashibot",
+    "site_admin": false,
+    "id": 35615658,
+    "gravatar_id": "",
+    "node_id": "MDM6Qm90MzU2MTU2NTg=",
+    "organizations_url": "https://api.github.com/users/hashibot%5Bbot%5D/orgs"
+  },
+  "url": "https://api.github.com/repos/hashicorp/terraform-provider-aws/issues/comments/719055462",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDcxOTA1NTQ2Mg=="
+}

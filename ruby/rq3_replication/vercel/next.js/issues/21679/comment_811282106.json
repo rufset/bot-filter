@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3143dd71267de53996"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-03-31T17:42:10Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-811282106",
+  "created_at": "2021-03-31T17:42:10Z",
+  "id": 811282106,
+  "body": "Is this issue supposed to be fixed now? I can see that it was closed due to a pull request. \r\n\r\nAfter being stuck on 10.0.5 because of this bug, I wanted to update to 10.1.2 today since I saw the pull-request merged and ticket closed.\r\nBut as soon as I update I get an error when trying to build:\r\n```\r\nError: Cannot find module 'webpack/lib/node/NodeTemplatePlugin'\r\nRequire stack:\r\n- /Users/maekeler/projects/makaira/storefront/node_modules/mini-css-extract-plugin/dist/loader.js\r\n- /Users/maekeler/projects/makaira/storefront/node_modules/next/dist/compiled/webpack/bundle4.js\r\n- /Users/maekeler/projects/makaira/storefront/node_modules/next/dist/compiled/webpack/webpack.js\r\n- /Users/maekeler/projects/makaira/storefront/node_modules/next/dist/next-server/server/config-utils.js\r\n- /Users/maekeler/projects/makaira/storefront/node_modules/next/dist/next-server/server/config.js\r\n- /Users/maekeler/projects/makaira/storefront/node_modules/next/dist/build/index.js\r\n- /Users/maekeler/projects/makaira/storefront/node_modules/next/dist/cli/next-build.js\r\n- /Users/maekeler/projects/makaira/storefront/node_modules/next/dist/bin/next\r\n```\r\n\r\nThe related ticket is marked as a duplicate of this one: https://github.com/vercel/next.js/issues/21721\r\n\r\n\r\n\r\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/MrAvantiC/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/MrAvantiC/repos",
+    "following_url": "https://api.github.com/users/MrAvantiC/following{/other_user}",
+    "starred_url": "https://api.github.com/users/MrAvantiC/starred{/owner}{/repo}",
+    "login": "MrAvantiC",
+    "followers_url": "https://api.github.com/users/MrAvantiC/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/MrAvantiC",
+    "subscriptions_url": "https://api.github.com/users/MrAvantiC/subscriptions",
+    "received_events_url": "https://api.github.com/users/MrAvantiC/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/17713179?v=4",
+    "events_url": "https://api.github.com/users/MrAvantiC/events{/privacy}",
+    "html_url": "https://github.com/MrAvantiC",
+    "site_admin": false,
+    "id": 17713179,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE3NzEzMTc5",
+    "organizations_url": "https://api.github.com/users/MrAvantiC/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/811282106",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgxMTI4MjEwNg=="
+}

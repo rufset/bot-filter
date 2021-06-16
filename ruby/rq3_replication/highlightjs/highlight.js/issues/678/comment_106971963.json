@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605ab9d66cf0a13ef54ce442"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/highlightjs/highlight.js/issues/678",
+  "updated_at": "2015-05-30T01:41:53Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/highlightjs/highlight.js/issues/678#issuecomment-106971963",
+  "created_at": "2015-05-30T01:41:53Z",
+  "id": 106971963,
+  "body": "``` js\ngulp.task('hjs', function (done) {\n  var opts = {\n    cwd: __dirname + '/node_modules/highlight.js'\n  }\n\n  var npmInstall = spawn('npm', ['install'], opts)\n  npmInstall.stdout.pipe(process.stdout)\n  npmInstall.stderr.pipe(process.stderr)\n\n  npmInstall.on('close', function (code) {\n    if (0 !== code) throw new Error('npm install exited with ' + code)\n\n    var build = spawn('node', ['tools/build.js', '-n', 'json'], opts)\n    build.stdout.pipe(process.stdout)\n    build.stderr.pipe(process.stderr)\n\n    build.on('close', function (code) {\n      if (0 !== code) throw new Error('node tools/build.js exited with ' + code)\n      done()\n    })\n  })\n})\n```\n\n@idleberg this is what I came up with for https://github.com/kilianc/rtail and it works\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/kilianc/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/kilianc/repos",
+    "following_url": "https://api.github.com/users/kilianc/following{/other_user}",
+    "starred_url": "https://api.github.com/users/kilianc/starred{/owner}{/repo}",
+    "login": "kilianc",
+    "followers_url": "https://api.github.com/users/kilianc/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/kilianc",
+    "subscriptions_url": "https://api.github.com/users/kilianc/subscriptions",
+    "received_events_url": "https://api.github.com/users/kilianc/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/385716?v=4",
+    "events_url": "https://api.github.com/users/kilianc/events{/privacy}",
+    "html_url": "https://github.com/kilianc",
+    "site_admin": false,
+    "id": 385716,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjM4NTcxNg==",
+    "organizations_url": "https://api.github.com/users/kilianc/orgs"
+  },
+  "url": "https://api.github.com/repos/highlightjs/highlight.js/issues/comments/106971963",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDEwNjk3MTk2Mw=="
+}

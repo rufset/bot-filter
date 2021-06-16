@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3043dd71267de5396c"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-07T06:17:52Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-774611699",
+  "created_at": "2021-02-07T06:17:52Z",
+  "id": 774611699,
+  "body": "Same error anyone found a solution that works? Downgrade o 10.0.5 dont work for me now, after upgrade its broken :)",
+  "user": {
+    "gists_url": "https://api.github.com/users/digitaltim-de/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/digitaltim-de/repos",
+    "following_url": "https://api.github.com/users/digitaltim-de/following{/other_user}",
+    "starred_url": "https://api.github.com/users/digitaltim-de/starred{/owner}{/repo}",
+    "login": "digitaltim-de",
+    "followers_url": "https://api.github.com/users/digitaltim-de/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/digitaltim-de",
+    "subscriptions_url": "https://api.github.com/users/digitaltim-de/subscriptions",
+    "received_events_url": "https://api.github.com/users/digitaltim-de/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/18602381?v=4",
+    "events_url": "https://api.github.com/users/digitaltim-de/events{/privacy}",
+    "html_url": "https://github.com/digitaltim-de",
+    "site_admin": false,
+    "id": 18602381,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE4NjAyMzgx",
+    "organizations_url": "https://api.github.com/users/digitaltim-de/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/774611699",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3NDYxMTY5OQ=="
+}

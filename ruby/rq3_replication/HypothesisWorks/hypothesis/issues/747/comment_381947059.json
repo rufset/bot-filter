@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071f1f443dd71267de20c84"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/HypothesisWorks/hypothesis/issues/747",
+  "updated_at": "2018-04-17T10:57:17Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/HypothesisWorks/hypothesis/issues/747#issuecomment-381947059",
+  "created_at": "2018-04-17T10:54:25Z",
+  "id": 381947059,
+  "body": "TBH I think it's less maintenance effort to do it by hand than to keep it working automatically, so there we are.\r\n\r\nThe problem with checking branches is that any such protection would be defined in configuration that lives in this repo, and thus subject to change by a malicious pull.  Or at least that's my understanding, and I'm not keen to get clever with security.",
+  "user": {
+    "gists_url": "https://api.github.com/users/Zac-HD/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/Zac-HD/repos",
+    "following_url": "https://api.github.com/users/Zac-HD/following{/other_user}",
+    "starred_url": "https://api.github.com/users/Zac-HD/starred{/owner}{/repo}",
+    "login": "Zac-HD",
+    "followers_url": "https://api.github.com/users/Zac-HD/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/Zac-HD",
+    "subscriptions_url": "https://api.github.com/users/Zac-HD/subscriptions",
+    "received_events_url": "https://api.github.com/users/Zac-HD/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/12229877?v=4",
+    "events_url": "https://api.github.com/users/Zac-HD/events{/privacy}",
+    "html_url": "https://github.com/Zac-HD",
+    "site_admin": false,
+    "id": 12229877,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEyMjI5ODc3",
+    "organizations_url": "https://api.github.com/users/Zac-HD/orgs"
+  },
+  "url": "https://api.github.com/repos/HypothesisWorks/hypothesis/issues/comments/381947059",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM4MTk0NzA1OQ=="
+}

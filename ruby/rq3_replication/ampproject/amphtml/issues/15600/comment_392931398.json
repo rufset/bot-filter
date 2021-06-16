@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "609f0fe1c12f0f030f91046d"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/15600",
+  "updated_at": "2018-05-29T20:25:08Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/issues/15600#issuecomment-392931398",
+  "created_at": "2018-05-29T20:25:08Z",
+  "id": 392931398,
+  "body": "## Infrastructure\r\ncontact: @rsimha \r\n\r\n### What was accomplished\r\n\r\n- ~1000 to ~200 JSDoc warnings\r\n- New optional hook before “git push”\r\n- Dependency checking for gulp test --local-changes\r\n- Public validator toolchain updated\r\n- Consider reevaluating Greenkeeper vs. Renovate (build cop troubles)\r\n- Investigate s/BrowserStack/Sauce Labs\r\n\r\n### What's next\r\n\r\n- Real world visual diffing\r\n- CC: Support source transformations for binary size project, etc.\r\n- Work with Yuxuan for PR review rotation tooling design/requirements\r\n- 1-pass CC: Include document-register-element polyfill\r\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/mrjoro/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/mrjoro/repos",
+    "following_url": "https://api.github.com/users/mrjoro/following{/other_user}",
+    "starred_url": "https://api.github.com/users/mrjoro/starred{/owner}{/repo}",
+    "login": "mrjoro",
+    "followers_url": "https://api.github.com/users/mrjoro/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/mrjoro",
+    "subscriptions_url": "https://api.github.com/users/mrjoro/subscriptions",
+    "received_events_url": "https://api.github.com/users/mrjoro/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/24625776?v=4",
+    "events_url": "https://api.github.com/users/mrjoro/events{/privacy}",
+    "html_url": "https://github.com/mrjoro",
+    "site_admin": false,
+    "id": 24625776,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI0NjI1Nzc2",
+    "organizations_url": "https://api.github.com/users/mrjoro/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/392931398",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM5MjkzMTM5OA=="
+}

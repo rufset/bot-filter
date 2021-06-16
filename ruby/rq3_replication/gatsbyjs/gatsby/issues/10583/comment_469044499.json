@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ea76cf0a13ef54bb9d9"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/10583",
+  "updated_at": "2019-03-03T17:27:35Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/10583#issuecomment-469044499",
+  "created_at": "2019-03-03T17:27:35Z",
+  "id": 469044499,
+  "body": "Hey again!\n\nIt’s been 30 days since anything happened on this issue, so our friendly neighborhood robot (that’s me!) is going to close it.\n\nPlease keep in mind that I’m only a robot, so if I’ve closed this issue in error, I’m `HUMAN_EMOTION_SORRY`. Please feel free to reopen this issue or create a new one if you need anything else.\n\nThanks again for being part of the Gatsby community!",
+  "user": {
+    "gists_url": "https://api.github.com/users/gatsbot%5Bbot%5D/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/gatsbot%5Bbot%5D/repos",
+    "following_url": "https://api.github.com/users/gatsbot%5Bbot%5D/following{/other_user}",
+    "starred_url": "https://api.github.com/users/gatsbot%5Bbot%5D/starred{/owner}{/repo}",
+    "login": "gatsbot[bot]",
+    "followers_url": "https://api.github.com/users/gatsbot%5Bbot%5D/followers",
+    "type": "Bot",
+    "url": "https://api.github.com/users/gatsbot%5Bbot%5D",
+    "subscriptions_url": "https://api.github.com/users/gatsbot%5Bbot%5D/subscriptions",
+    "received_events_url": "https://api.github.com/users/gatsbot%5Bbot%5D/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/in/12849?v=4",
+    "events_url": "https://api.github.com/users/gatsbot%5Bbot%5D/events{/privacy}",
+    "html_url": "https://github.com/apps/gatsbot",
+    "site_admin": false,
+    "id": 39779558,
+    "gravatar_id": "",
+    "node_id": "MDM6Qm90Mzk3Nzk1NTg=",
+    "organizations_url": "https://api.github.com/users/gatsbot%5Bbot%5D/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/469044499",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQ2OTA0NDQ5OQ=="
+}

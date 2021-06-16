@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605ab9d66cf0a13ef54ce45e"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/highlightjs/highlight.js/issues/678",
+  "updated_at": "2019-12-23T00:31:53Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/highlightjs/highlight.js/issues/678#issuecomment-568317105",
+  "created_at": "2019-12-23T00:30:18Z",
+  "id": 568317105,
+  "body": "Following up on https://github.com/highlightjs/highlight.js/issues/678#issuecomment-72732720\r\n\r\nIf a `package.json` was included in https://github.com/highlightjs/cdn-release that would work well enough for a personal project I'm working on. The `package.json` can be dead simple, just needs a name and version.\r\n\r\nAs an example I forked cdn-release, and created a new branch from tag `9.17.1` called `9.17.1-with-package`: https://github.com/rajsite/cdn-release/tree/9.17.1-with-package\r\n\r\nThe `package.json` content was:\r\n```json\r\n{\r\n  \"name\":\"@rajsite/highlightjs-cdn-release\",\r\n  \"version\": \"0.0.1\",\r\n  \"private\": true\r\n}\r\n```\r\nWhere the name I'm using is under a public scope I own (`@rajsite`) so it won't accidentally conflict elsewhere.\r\n\r\nThen I was able to add it to a project using:\r\n```\r\nnpm install git://github.com/rajsite/cdn-release.git#9.17.1-with-package\r\n```\r\n\r\nFor what it's worth, I would still prefer a `/dist` folder in the highlight.js npm package or a separate npm package with the cdn output. I wouldn't use a git based dependency like this for a work project (we have tools to cache public registry packages it would not mesh well with) and it would be a uncommon transitive dependency for other projects to rely on (it won't play well with semantic versioning, etc).",
+  "user": {
+    "gists_url": "https://api.github.com/users/rajsite/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/rajsite/repos",
+    "following_url": "https://api.github.com/users/rajsite/following{/other_user}",
+    "starred_url": "https://api.github.com/users/rajsite/starred{/owner}{/repo}",
+    "login": "rajsite",
+    "followers_url": "https://api.github.com/users/rajsite/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/rajsite",
+    "subscriptions_url": "https://api.github.com/users/rajsite/subscriptions",
+    "received_events_url": "https://api.github.com/users/rajsite/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1588923?v=4",
+    "events_url": "https://api.github.com/users/rajsite/events{/privacy}",
+    "html_url": "https://github.com/rajsite",
+    "site_admin": false,
+    "id": 1588923,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE1ODg5MjM=",
+    "organizations_url": "https://api.github.com/users/rajsite/orgs"
+  },
+  "url": "https://api.github.com/repos/highlightjs/highlight.js/issues/comments/568317105",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU2ODMxNzEwNQ=="
+}

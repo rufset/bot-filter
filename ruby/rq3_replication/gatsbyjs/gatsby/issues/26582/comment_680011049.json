@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7eba6cf0a13ef54bbf8e"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/26582",
+  "updated_at": "2020-08-25T13:04:10Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/pull/26582#issuecomment-680011049",
+  "created_at": "2020-08-25T13:02:55Z",
+  "id": 680011049,
+  "body": "I appreciate the cherry pick but this is too much to review. It'll have to be merged in smaller chunks or as renovatebot's own PR. Many packages have subtle (and not so subtle) breaking changes which is why we can't blindly upgrade, even minor bumps, and sometimes even patch bumps (although they're usually fine).\r\n\r\nI'm not sure what to do with this one but I'm inclined to close it.\r\n\r\nPlease either take small subsets of packages to bump so we can verify what's being bumped and why that's not breaking, or leave it to renovate...",
+  "user": {
+    "gists_url": "https://api.github.com/users/pvdz/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/pvdz/repos",
+    "following_url": "https://api.github.com/users/pvdz/following{/other_user}",
+    "starred_url": "https://api.github.com/users/pvdz/starred{/owner}{/repo}",
+    "login": "pvdz",
+    "followers_url": "https://api.github.com/users/pvdz/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/pvdz",
+    "subscriptions_url": "https://api.github.com/users/pvdz/subscriptions",
+    "received_events_url": "https://api.github.com/users/pvdz/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/209817?v=4",
+    "events_url": "https://api.github.com/users/pvdz/events{/privacy}",
+    "html_url": "https://github.com/pvdz",
+    "site_admin": false,
+    "id": 209817,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjIwOTgxNw==",
+    "organizations_url": "https://api.github.com/users/pvdz/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/680011049",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY4MDAxMTA0OQ=="
+}

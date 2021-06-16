@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60721b3843dd71267de2cd76"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/audreyfeldroy/cookiecutter-pypackage/issues/204",
+  "updated_at": "2016-06-09T20:52:56Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/audreyfeldroy/cookiecutter-pypackage/issues/204#issuecomment-225022922",
+  "created_at": "2016-06-09T20:52:56Z",
+  "id": 225022922,
+  "body": "@eliasdorneles That's because `{{cookiecutter.project_slug}}/requirements_dev.txt` is already up-to-date.\n\nIt's being processed by the bot. As soon as there is an update it will be covered, too.\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/jayfk/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jayfk/repos",
+    "following_url": "https://api.github.com/users/jayfk/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jayfk/starred{/owner}{/repo}",
+    "login": "jayfk",
+    "followers_url": "https://api.github.com/users/jayfk/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jayfk",
+    "subscriptions_url": "https://api.github.com/users/jayfk/subscriptions",
+    "received_events_url": "https://api.github.com/users/jayfk/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2930472?v=4",
+    "events_url": "https://api.github.com/users/jayfk/events{/privacy}",
+    "html_url": "https://github.com/jayfk",
+    "site_admin": false,
+    "id": 2930472,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI5MzA0NzI=",
+    "organizations_url": "https://api.github.com/users/jayfk/orgs"
+  },
+  "url": "https://api.github.com/repos/audreyfeldroy/cookiecutter-pypackage/issues/comments/225022922",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDIyNTAyMjkyMg=="
+}

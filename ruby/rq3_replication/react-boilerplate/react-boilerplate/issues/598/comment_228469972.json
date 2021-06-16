@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a9b896cf0a13ef54c3d17"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/598",
+  "updated_at": "2016-06-26T17:03:46Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/react-boilerplate/react-boilerplate/issues/598#issuecomment-228469972",
+  "created_at": "2016-06-24T21:46:56Z",
+  "id": 228469972,
+  "body": "@mxstbr `greenkeeper enable` used to pin deps automatically. [see here](https://www.youtube.com/watch?v=XbQvxCLkBbw) @0:55 but this seems not to be the case presently. Don't know why, sure seems like a good idea. For reference see a lodash GK PR [here](https://github.com/lodash/lodash/commit/fa29123c5e32e4bd07e1a3a80a11e5331f36d4a2). Opened an issue on https://github.com/greenkeeperio/greenkeeper/issues/229.\n\nI enabled GK on my react-boilerplate fork, without pinning deps, took about 5 minutes, totally automated.\nGK [Getting Started](https://greenkeeper.io/#getting-started) tells everthing you need to do (three commands).\n\nHere is [GK's PR](https://github.com/gihrig/react-boilerplate/pull/1/commits/52daa7d74cb70dd46bc46707027947fbdbf06598) on my fork.\n\nSome things to note:\n\n![image](https://cloud.githubusercontent.com/assets/1481063/16350353/196adcc4-3a13-11e6-8c50-67804be22a83.png)\n\nGK sometimes ignores old deps that have been updated - Current stylelint is 6.7.1\nGK sometimes updates to latest including breaking changes - stylelint-config-standard 8.0.0 -> 9.0.0 causes `Undefined rule \"selector-pseudo-class-no-unknown\"`. This is due to the outdated stylelint.\n\nAll in all, the changes required to accommodate GKs update were minor.\n\nAfter making the required changes to get the project working and passing all tests, `npm install` reports many warnings, but I guess this is to be expected. The whole world can't be expected stay up to date. ;-)\n\n![image](https://cloud.githubusercontent.com/assets/1481063/16351129/3dcd2f22-3a18-11e6-890d-c4b489284707.png)\n![image](https://cloud.githubusercontent.com/assets/1481063/16351142/5afec006-3a18-11e6-8e6b-ce1b3b201dc3.png)\n\nsee PR #602 \n",
+  "user": {
+    "gists_url": "https://api.github.com/users/gihrig/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/gihrig/repos",
+    "following_url": "https://api.github.com/users/gihrig/following{/other_user}",
+    "starred_url": "https://api.github.com/users/gihrig/starred{/owner}{/repo}",
+    "login": "gihrig",
+    "followers_url": "https://api.github.com/users/gihrig/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/gihrig",
+    "subscriptions_url": "https://api.github.com/users/gihrig/subscriptions",
+    "received_events_url": "https://api.github.com/users/gihrig/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1481063?v=4",
+    "events_url": "https://api.github.com/users/gihrig/events{/privacy}",
+    "html_url": "https://github.com/gihrig",
+    "site_admin": false,
+    "id": 1481063,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE0ODEwNjM=",
+    "organizations_url": "https://api.github.com/users/gihrig/orgs"
+  },
+  "url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/comments/228469972",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDIyODQ2OTk3Mg=="
+}

@@ -1,0 +1,62 @@
+{
+  "_id": {
+    "$oid": "6059ebc16cf0a13ef54767fb"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2016-06-22T05:18:00Z",
+  "title": "register with greenkeeper",
+  "body": "greenkeeper is a tool that is free for open source projects that is a big help in keeping dependencies up to date by providing PRs each time one of your dependencies publishes an update. \n\nit's obviously up to you how you manage your own dependencies, but for those of us that consume your package and also use the greenkeeper service, registering would be a big help. since this is a scoped package, a `postpublish` hook is needed for greenkeeper to be aware of the new versions that you publish. this is added automatically if you follow their getting-started steps.\n\nit is [very simple to register](https://greenkeeper.io/#getting-started) a package with the service. if you would be willing to at least add the `postpublish` hook, it would be a big help to any of your consumers that happen to use greenkeeper.\n",
+  "labels_url": "https://api.github.com/repos/storybookjs/storybook/issues/267/labels{/name}",
+  "author_association": "NONE",
+  "number": 267,
+  "score": 1,
+  "updated_at": "2016-09-04T18:20:38Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/storybookjs/storybook/issues/267/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/storybookjs/storybook",
+  "id": 161595854,
+  "state": "closed",
+  "locked": false,
+  "comments": 4,
+  "closed_at": "2016-09-04T07:33:01Z",
+  "url": "https://api.github.com/repos/storybookjs/storybook/issues/267",
+  "labels": [
+    {
+      "default": false,
+      "color": "9B58D8",
+      "name": "feature request",
+      "description": null,
+      "id": 343576456,
+      "url": "https://api.github.com/repos/storybookjs/storybook/labels/feature%20request",
+      "node_id": "MDU6TGFiZWwzNDM1NzY0NTY="
+    }
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/storybookjs/storybook/issues/267/events",
+  "html_url": "https://github.com/storybookjs/storybook/issues/267",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/travi/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/travi/repos",
+    "following_url": "https://api.github.com/users/travi/following{/other_user}",
+    "starred_url": "https://api.github.com/users/travi/starred{/owner}{/repo}",
+    "login": "travi",
+    "followers_url": "https://api.github.com/users/travi/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/travi",
+    "subscriptions_url": "https://api.github.com/users/travi/subscriptions",
+    "received_events_url": "https://api.github.com/users/travi/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/126441?v=4",
+    "events_url": "https://api.github.com/users/travi/events{/privacy}",
+    "html_url": "https://github.com/travi",
+    "site_admin": false,
+    "id": 126441,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEyNjQ0MQ==",
+    "organizations_url": "https://api.github.com/users/travi/orgs"
+  },
+  "node_id": "MDU6SXNzdWUxNjE1OTU4NTQ="
+}

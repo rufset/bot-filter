@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a9b8c6cf0a13ef54c3d7a"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/2673",
+  "updated_at": "2019-07-03T16:45:11Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/react-boilerplate/react-boilerplate/issues/2673#issuecomment-508170150",
+  "created_at": "2019-07-03T16:45:11Z",
+  "id": 508170150,
+  "body": "I've been using Dependabot on a few repos, I really like it, but my only complaint is that there's no option to batch all dependency updates into 1 PR instead of having an individual PR for every dependency update. That's just my preference tho.",
+  "user": {
+    "gists_url": "https://api.github.com/users/gretzky/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/gretzky/repos",
+    "following_url": "https://api.github.com/users/gretzky/following{/other_user}",
+    "starred_url": "https://api.github.com/users/gretzky/starred{/owner}{/repo}",
+    "login": "gretzky",
+    "followers_url": "https://api.github.com/users/gretzky/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/gretzky",
+    "subscriptions_url": "https://api.github.com/users/gretzky/subscriptions",
+    "received_events_url": "https://api.github.com/users/gretzky/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/15176096?v=4",
+    "events_url": "https://api.github.com/users/gretzky/events{/privacy}",
+    "html_url": "https://github.com/gretzky",
+    "site_admin": false,
+    "id": 15176096,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE1MTc2MDk2",
+    "organizations_url": "https://api.github.com/users/gretzky/orgs"
+  },
+  "url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/comments/508170150",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUwODE3MDE1MA=="
+}

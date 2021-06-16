@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6072601243dd71267de41ae6"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/pnpm/pnpm/issues/1177",
+  "updated_at": "2018-05-20T19:46:42Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/pnpm/pnpm/pull/1177#issuecomment-390506443",
+  "created_at": "2018-05-20T19:46:29Z",
+  "id": 390506443,
+  "body": "> @rarkins We found that in many cases, the tarball is actually smaller than the non-corgi protocol response. This is because it always includes a full copy of package.json for every single version of the package since its initial release. Might be useful to compare install times for the two approaches. The new version might actually be faster. :-)\r\n\r\nThis might be true but maybe you'll have to prune the store from time to time with the `pnpm store prune` command, to remove the old tarballs. Maybe we can fine-tune that command for renovate's needs.",
+  "user": {
+    "gists_url": "https://api.github.com/users/zkochan/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/zkochan/repos",
+    "following_url": "https://api.github.com/users/zkochan/following{/other_user}",
+    "starred_url": "https://api.github.com/users/zkochan/starred{/owner}{/repo}",
+    "login": "zkochan",
+    "followers_url": "https://api.github.com/users/zkochan/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/zkochan",
+    "subscriptions_url": "https://api.github.com/users/zkochan/subscriptions",
+    "received_events_url": "https://api.github.com/users/zkochan/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1927579?v=4",
+    "events_url": "https://api.github.com/users/zkochan/events{/privacy}",
+    "html_url": "https://github.com/zkochan",
+    "site_admin": false,
+    "id": 1927579,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE5Mjc1Nzk=",
+    "organizations_url": "https://api.github.com/users/zkochan/orgs"
+  },
+  "url": "https://api.github.com/repos/pnpm/pnpm/issues/comments/390506443",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM5MDUwNjQ0Mw=="
+}

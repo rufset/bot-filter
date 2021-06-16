@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6072002c43dd71267de25823"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/okfn-brasil/serenata-de-amor/issues/427",
+  "updated_at": "2019-01-28T10:14:49Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/okfn-brasil/serenata-de-amor/issues/427#issuecomment-458070863",
+  "created_at": "2019-01-28T10:14:49Z",
+  "id": 458070863,
+  "body": "We did a clean up. There are still some stale and not merged branches we would like to keep for documentation (stuff we might link in a talk or another, for example). So I'm closing this issue — thanks for the heads up, @willianpaixao ; )",
+  "user": {
+    "gists_url": "https://api.github.com/users/cuducos/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/cuducos/repos",
+    "following_url": "https://api.github.com/users/cuducos/following{/other_user}",
+    "starred_url": "https://api.github.com/users/cuducos/starred{/owner}{/repo}",
+    "login": "cuducos",
+    "followers_url": "https://api.github.com/users/cuducos/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/cuducos",
+    "subscriptions_url": "https://api.github.com/users/cuducos/subscriptions",
+    "received_events_url": "https://api.github.com/users/cuducos/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/4732915?v=4",
+    "events_url": "https://api.github.com/users/cuducos/events{/privacy}",
+    "html_url": "https://github.com/cuducos",
+    "site_admin": false,
+    "id": 4732915,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjQ3MzI5MTU=",
+    "organizations_url": "https://api.github.com/users/cuducos/orgs"
+  },
+  "url": "https://api.github.com/repos/okfn-brasil/serenata-de-amor/issues/comments/458070863",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQ1ODA3MDg2Mw=="
+}

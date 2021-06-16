@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6072531443dd71267de3dfee"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/25335",
+  "updated_at": "2019-10-30T19:05:10Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/pull/25335#issuecomment-548066899",
+  "created_at": "2019-10-30T19:05:10Z",
+  "id": 548066899,
+  "body": "Ah, great point! I think merging the dependabot PR and circling back with another PR should do it 😃 ",
+  "user": {
+    "gists_url": "https://api.github.com/users/Robdel12/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/Robdel12/repos",
+    "following_url": "https://api.github.com/users/Robdel12/following{/other_user}",
+    "starred_url": "https://api.github.com/users/Robdel12/starred{/owner}{/repo}",
+    "login": "Robdel12",
+    "followers_url": "https://api.github.com/users/Robdel12/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/Robdel12",
+    "subscriptions_url": "https://api.github.com/users/Robdel12/subscriptions",
+    "received_events_url": "https://api.github.com/users/Robdel12/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2072894?v=4",
+    "events_url": "https://api.github.com/users/Robdel12/events{/privacy}",
+    "html_url": "https://github.com/Robdel12",
+    "site_admin": false,
+    "id": 2072894,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjIwNzI4OTQ=",
+    "organizations_url": "https://api.github.com/users/Robdel12/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/548066899",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU0ODA2Njg5OQ=="
+}

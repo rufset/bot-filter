@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60720d1343dd71267de27f23"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/python-trio/trio/issues/654",
+  "updated_at": "2018-09-12T07:23:49Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/python-trio/trio/pull/654#issuecomment-419682528",
+  "created_at": "2018-09-09T00:44:24Z",
+  "id": 419682528,
+  "body": "# [Codecov](https://codecov.io/gh/python-trio/trio/pull/654?src=pr&el=h1) Report\n> Merging [#654](https://codecov.io/gh/python-trio/trio/pull/654?src=pr&el=desc) into [master](https://codecov.io/gh/python-trio/trio/commit/ca14ffe1be03cfd56c2d4ab79fa7297ecc20602e?src=pr&el=desc) will **decrease** coverage by `<.01%`.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/python-trio/trio/pull/654/graphs/tree.svg?width=650&token=Lhvc0OnSCw&height=150&src=pr)](https://codecov.io/gh/python-trio/trio/pull/654?src=pr&el=tree)\n\n```diff\n@@            Coverage Diff             @@\n##           master     #654      +/-   ##\n==========================================\n- Coverage   99.31%   99.31%   -0.01%     \n==========================================\n  Files          94       94              \n  Lines       11014    11002      -12     \n  Branches      790      789       -1     \n==========================================\n- Hits        10939    10927      -12     \n  Misses         56       56              \n  Partials       19       19\n```\n\n\n| [Impacted Files](https://codecov.io/gh/python-trio/trio/pull/654?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [trio/\\_core/\\_ki.py](https://codecov.io/gh/python-trio/trio/pull/654/diff?src=pr&el=tree#diff-dHJpby9fY29yZS9fa2kucHk=) | `98.36% <0%> (-0.03%)` | :arrow_down: |\n| [trio/\\_core/\\_multierror.py](https://codecov.io/gh/python-trio/trio/pull/654/diff?src=pr&el=tree#diff-dHJpby9fY29yZS9fbXVsdGllcnJvci5weQ==) | `99.37% <0%> (-0.02%)` | :arrow_down: |\n| [trio/tests/test\\_ssl.py](https://codecov.io/gh/python-trio/trio/pull/654/diff?src=pr&el=tree#diff-dHJpby90ZXN0cy90ZXN0X3NzbC5weQ==) | `100% <0%> (ø)` | :arrow_up: |\n| [trio/\\_core/tests/test\\_multierror.py](https://codecov.io/gh/python-trio/trio/pull/654/diff?src=pr&el=tree#diff-dHJpby9fY29yZS90ZXN0cy90ZXN0X211bHRpZXJyb3IucHk=) | `100% <0%> (ø)` | :arrow_up: |\n| [trio/testing/\\_checkpoints.py](https://codecov.io/gh/python-trio/trio/pull/654/diff?src=pr&el=tree#diff-dHJpby90ZXN0aW5nL19jaGVja3BvaW50cy5weQ==) | `100% <0%> (ø)` | :arrow_up: |\n| [trio/\\_ssl.py](https://codecov.io/gh/python-trio/trio/pull/654/diff?src=pr&el=tree#diff-dHJpby9fc3NsLnB5) | `100% <0%> (ø)` | :arrow_up: |\n| [trio/\\_core/\\_run.py](https://codecov.io/gh/python-trio/trio/pull/654/diff?src=pr&el=tree#diff-dHJpby9fY29yZS9fcnVuLnB5) | `99.7% <0%> (ø)` | :arrow_up: |\n| [trio/tests/test\\_signals.py](https://codecov.io/gh/python-trio/trio/pull/654/diff?src=pr&el=tree#diff-dHJpby90ZXN0cy90ZXN0X3NpZ25hbHMucHk=) | `100% <0%> (ø)` | :arrow_up: |\n| [trio/\\_socket.py](https://codecov.io/gh/python-trio/trio/pull/654/diff?src=pr&el=tree#diff-dHJpby9fc29ja2V0LnB5) | `100% <0%> (ø)` | :arrow_up: |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/python-trio/trio/pull/654?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/python-trio/trio/pull/654?src=pr&el=footer). Last update [ca14ffe...ca50541](https://codecov.io/gh/python-trio/trio/pull/654?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/codecov%5Bbot%5D/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/codecov%5Bbot%5D/repos",
+    "following_url": "https://api.github.com/users/codecov%5Bbot%5D/following{/other_user}",
+    "starred_url": "https://api.github.com/users/codecov%5Bbot%5D/starred{/owner}{/repo}",
+    "login": "codecov[bot]",
+    "followers_url": "https://api.github.com/users/codecov%5Bbot%5D/followers",
+    "type": "Bot",
+    "url": "https://api.github.com/users/codecov%5Bbot%5D",
+    "subscriptions_url": "https://api.github.com/users/codecov%5Bbot%5D/subscriptions",
+    "received_events_url": "https://api.github.com/users/codecov%5Bbot%5D/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/in/254?v=4",
+    "events_url": "https://api.github.com/users/codecov%5Bbot%5D/events{/privacy}",
+    "html_url": "https://github.com/apps/codecov",
+    "site_admin": false,
+    "id": 22429695,
+    "gravatar_id": "",
+    "node_id": "MDM6Qm90MjI0Mjk2OTU=",
+    "organizations_url": "https://api.github.com/users/codecov%5Bbot%5D/orgs"
+  },
+  "url": "https://api.github.com/repos/python-trio/trio/issues/comments/419682528",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQxOTY4MjUyOA=="
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605ab9d66cf0a13ef54ce43d"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/highlightjs/highlight.js/issues/678",
+  "updated_at": "2014-12-15T18:48:18Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/highlightjs/highlight.js/issues/678#issuecomment-67043724",
+  "created_at": "2014-12-15T18:47:50Z",
+  "id": 67043724,
+  "body": "Hi Ivan, that looks promising. Is there anything speaking against the addition of a `package.json` to that repo, so one could download it with npm as well? Afaik, a barebon private package would already do, e.g. \n\n``` json\n{\n  \"name\": \"highlight.js\",\n  \"version\": \"8.4.0\",\n  \"description\": \"a syntax highlighter written in JavaScript\",\n  \"private\": true,\n  \"license\": \"BSD\"\n}\n```\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/idleberg/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/idleberg/repos",
+    "following_url": "https://api.github.com/users/idleberg/following{/other_user}",
+    "starred_url": "https://api.github.com/users/idleberg/starred{/owner}{/repo}",
+    "login": "idleberg",
+    "followers_url": "https://api.github.com/users/idleberg/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/idleberg",
+    "subscriptions_url": "https://api.github.com/users/idleberg/subscriptions",
+    "received_events_url": "https://api.github.com/users/idleberg/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1504938?v=4",
+    "events_url": "https://api.github.com/users/idleberg/events{/privacy}",
+    "html_url": "https://github.com/idleberg",
+    "site_admin": false,
+    "id": 1504938,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE1MDQ5Mzg=",
+    "organizations_url": "https://api.github.com/users/idleberg/orgs"
+  },
+  "url": "https://api.github.com/repos/highlightjs/highlight.js/issues/comments/67043724",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY3MDQzNzI0"
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ec66cf0a13ef54bc1d3"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/16957",
+  "updated_at": "2019-09-01T04:17:05Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/16957#issuecomment-526884863",
+  "created_at": "2019-09-01T04:17:05Z",
+  "id": 526884863,
+  "body": "I had the same issue on Netlify but got it working by:\r\n\r\n1) downgrade gatsby-plugin-sharp to 2.2.14 (`gatsby-plugin-sharp@2.2.14`)\r\n2) `rm package-lock.json`\r\n3) `rm yarn.lock`\r\n\r\nthen push your changes. \r\nif the build fails again then in netlify you will have to click on the failed build \r\nclick on `retry deploy` then `Clear cache and deploy site`",
+  "user": {
+    "gists_url": "https://api.github.com/users/jcursoli/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jcursoli/repos",
+    "following_url": "https://api.github.com/users/jcursoli/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jcursoli/starred{/owner}{/repo}",
+    "login": "jcursoli",
+    "followers_url": "https://api.github.com/users/jcursoli/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jcursoli",
+    "subscriptions_url": "https://api.github.com/users/jcursoli/subscriptions",
+    "received_events_url": "https://api.github.com/users/jcursoli/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10988122?v=4",
+    "events_url": "https://api.github.com/users/jcursoli/events{/privacy}",
+    "html_url": "https://github.com/jcursoli",
+    "site_admin": false,
+    "id": 10988122,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEwOTg4MTIy",
+    "organizations_url": "https://api.github.com/users/jcursoli/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/526884863",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUyNjg4NDg2Mw=="
+}

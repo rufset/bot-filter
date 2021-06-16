@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7f416cf0a13ef54bcdf6"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/yarnpkg/yarn/issues/5073",
+  "updated_at": "2018-01-07T13:46:57Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/yarnpkg/yarn/issues/5073#issuecomment-355823892",
+  "created_at": "2018-01-07T13:46:57Z",
+  "id": 355823892,
+  "body": "At Algolia we use Renovate pretty much everywhere (from libraries to websites), it's a key part of our developer toolkit.\r\n\r\nWe activated it because many times we found ourselves willing to use module-x and discovering at the same time that 10 or 20 other modules needs to be updated in order to use module-x effectively. This is a pain and renovate solve it very well by constantly looking for upgrades, bundling them when feasible (eslint-*, babel-*, react-*) while giving us the possibility to reduce the noise such tools can generate (for example pushing patch upgrades directly to the master branch, without any PR).\r\n\r\nWith it's automatic pining and locking support, renovate also helps us in providing re-producible dev environements for collaborators.\r\n\r\n👍 ",
+  "user": {
+    "gists_url": "https://api.github.com/users/vvo/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/vvo/repos",
+    "following_url": "https://api.github.com/users/vvo/following{/other_user}",
+    "starred_url": "https://api.github.com/users/vvo/starred{/owner}{/repo}",
+    "login": "vvo",
+    "followers_url": "https://api.github.com/users/vvo/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/vvo",
+    "subscriptions_url": "https://api.github.com/users/vvo/subscriptions",
+    "received_events_url": "https://api.github.com/users/vvo/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/123822?v=4",
+    "events_url": "https://api.github.com/users/vvo/events{/privacy}",
+    "html_url": "https://github.com/vvo",
+    "site_admin": false,
+    "id": 123822,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEyMzgyMg==",
+    "organizations_url": "https://api.github.com/users/vvo/orgs"
+  },
+  "url": "https://api.github.com/repos/yarnpkg/yarn/issues/comments/355823892",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM1NTgyMzg5Mg=="
+}

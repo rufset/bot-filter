@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607252c243dd71267de3ce9f"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/12181",
+  "updated_at": "2018-01-05T23:00:20Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/issues/12181#issuecomment-355688690",
+  "created_at": "2018-01-05T23:00:20Z",
+  "id": 355688690,
+  "body": "I checked and they are whitelisted. Should now be configured.",
+  "user": {
+    "gists_url": "https://api.github.com/users/cramforce/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/cramforce/repos",
+    "following_url": "https://api.github.com/users/cramforce/following{/other_user}",
+    "starred_url": "https://api.github.com/users/cramforce/starred{/owner}{/repo}",
+    "login": "cramforce",
+    "followers_url": "https://api.github.com/users/cramforce/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/cramforce",
+    "subscriptions_url": "https://api.github.com/users/cramforce/subscriptions",
+    "received_events_url": "https://api.github.com/users/cramforce/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/89679?v=4",
+    "events_url": "https://api.github.com/users/cramforce/events{/privacy}",
+    "html_url": "https://github.com/cramforce",
+    "site_admin": false,
+    "id": 89679,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjg5Njc5",
+    "organizations_url": "https://api.github.com/users/cramforce/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/355688690",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM1NTY4ODY5MA=="
+}

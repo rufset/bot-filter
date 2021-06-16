@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071b7b943dd71267de0e0cf"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/consul/consul/issues/2829",
+  "updated_at": "2018-08-10T04:24:23Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/consul/consul/issues/2829#issuecomment-411971292",
+  "created_at": "2018-08-10T04:24:23Z",
+  "id": 411971292,
+  "body": "@greysteil Can I take this?",
+  "user": {
+    "gists_url": "https://api.github.com/users/viren140290/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/viren140290/repos",
+    "following_url": "https://api.github.com/users/viren140290/following{/other_user}",
+    "starred_url": "https://api.github.com/users/viren140290/starred{/owner}{/repo}",
+    "login": "viren140290",
+    "followers_url": "https://api.github.com/users/viren140290/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/viren140290",
+    "subscriptions_url": "https://api.github.com/users/viren140290/subscriptions",
+    "received_events_url": "https://api.github.com/users/viren140290/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1681774?v=4",
+    "events_url": "https://api.github.com/users/viren140290/events{/privacy}",
+    "html_url": "https://github.com/viren140290",
+    "site_admin": false,
+    "id": 1681774,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE2ODE3NzQ=",
+    "organizations_url": "https://api.github.com/users/viren140290/orgs"
+  },
+  "url": "https://api.github.com/repos/consul/consul/issues/comments/411971292",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQxMTk3MTI5Mg=="
+}

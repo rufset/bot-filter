@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6072375643dd71267de343c1"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/hypothesis/h/issues/4795",
+  "updated_at": "2018-02-13T14:49:05Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/hypothesis/h/pull/4795#issuecomment-365280035",
+  "created_at": "2018-02-13T14:19:55Z",
+  "id": 365280035,
+  "body": "# [Codecov](https://codecov.io/gh/hypothesis/h/pull/4795?src=pr&el=h1) Report\n> Merging [#4795](https://codecov.io/gh/hypothesis/h/pull/4795?src=pr&el=desc) into [master](https://codecov.io/gh/hypothesis/h/commit/884c4eb1d451207d2409940079b7d83d4167af54?src=pr&el=desc) will **increase** coverage by `<.01%`.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/hypothesis/h/pull/4795/graphs/tree.svg?width=650&src=pr&token=72k5qW81Oa&height=150)](https://codecov.io/gh/hypothesis/h/pull/4795?src=pr&el=tree)\n\n```diff\n@@            Coverage Diff             @@\n##           master    #4795      +/-   ##\n==========================================\n+ Coverage   96.56%   96.57%   +<.01%     \n==========================================\n  Files         379      379              \n  Lines       20853    20912      +59     \n  Branches     1174     1185      +11     \n==========================================\n+ Hits        20137    20195      +58     \n- Misses        605      606       +1     \n  Partials      111      111\n```\n\n\n| [Impacted Files](https://codecov.io/gh/hypothesis/h/pull/4795?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [tests/h/util/query\\_test.py](https://codecov.io/gh/hypothesis/h/pull/4795/diff?src=pr&el=tree#diff-dGVzdHMvaC91dGlsL3F1ZXJ5X3Rlc3QucHk=) | `98.33% <0%> (-1.67%)` | :arrow_down: |\n| [h/util/markdown.py](https://codecov.io/gh/hypothesis/h/pull/4795/diff?src=pr&el=tree#diff-aC91dGlsL21hcmtkb3duLnB5) | `98.24% <0%> (+0.8%)` | :arrow_up: |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/hypothesis/h/pull/4795?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/hypothesis/h/pull/4795?src=pr&el=footer). Last update [884c4eb...3052442](https://codecov.io/gh/hypothesis/h/pull/4795?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/codecov%5Bbot%5D/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/codecov%5Bbot%5D/repos",
+    "following_url": "https://api.github.com/users/codecov%5Bbot%5D/following{/other_user}",
+    "starred_url": "https://api.github.com/users/codecov%5Bbot%5D/starred{/owner}{/repo}",
+    "login": "codecov[bot]",
+    "followers_url": "https://api.github.com/users/codecov%5Bbot%5D/followers",
+    "type": "Bot",
+    "url": "https://api.github.com/users/codecov%5Bbot%5D",
+    "subscriptions_url": "https://api.github.com/users/codecov%5Bbot%5D/subscriptions",
+    "received_events_url": "https://api.github.com/users/codecov%5Bbot%5D/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/in/254?v=4",
+    "events_url": "https://api.github.com/users/codecov%5Bbot%5D/events{/privacy}",
+    "html_url": "https://github.com/apps/codecov",
+    "site_admin": false,
+    "id": 22429695,
+    "gravatar_id": "",
+    "node_id": "MDM6Qm90MjI0Mjk2OTU=",
+    "organizations_url": "https://api.github.com/users/codecov%5Bbot%5D/orgs"
+  },
+  "url": "https://api.github.com/repos/hypothesis/h/issues/comments/365280035",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM2NTI4MDAzNQ=="
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071b7b943dd71267de0e0da"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/consul/consul/issues/2829",
+  "updated_at": "2018-09-07T16:48:41Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/consul/consul/issues/2829#issuecomment-419499750",
+  "created_at": "2018-09-07T16:48:41Z",
+  "id": 419499750,
+  "body": "Things seem to be working very nicely with @greysteil's Dependabot! 🎉 \r\nPutting this issue on hold for now",
+  "user": {
+    "gists_url": "https://api.github.com/users/voodoorai2000/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/voodoorai2000/repos",
+    "following_url": "https://api.github.com/users/voodoorai2000/following{/other_user}",
+    "starred_url": "https://api.github.com/users/voodoorai2000/starred{/owner}{/repo}",
+    "login": "voodoorai2000",
+    "followers_url": "https://api.github.com/users/voodoorai2000/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/voodoorai2000",
+    "subscriptions_url": "https://api.github.com/users/voodoorai2000/subscriptions",
+    "received_events_url": "https://api.github.com/users/voodoorai2000/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/4169?v=4",
+    "events_url": "https://api.github.com/users/voodoorai2000/events{/privacy}",
+    "html_url": "https://github.com/voodoorai2000",
+    "site_admin": false,
+    "id": 4169,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjQxNjk=",
+    "organizations_url": "https://api.github.com/users/voodoorai2000/orgs"
+  },
+  "url": "https://api.github.com/repos/consul/consul/issues/comments/419499750",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQxOTQ5OTc1MA=="
+}

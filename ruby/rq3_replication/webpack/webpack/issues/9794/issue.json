@@ -1,0 +1,54 @@
+{
+  "_id": {
+    "$oid": "6059ea016cf0a13ef5473d94"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2019-10-10T13:14:14Z",
+  "title": "react-styleguidist production build broken: Error: RangeError: Maximum call stack size exceeded",
+  "body": "I am using Webpack `4.41.0` and I have issue with production build of documentations.\r\n\r\nI got all my documentation production build broken for some reason.\r\n\r\nExample: https://rollup-umd.github.io/test/\r\n\r\n`Error:  RangeError: Maximum call stack size exceeded`\r\n\r\nI haven't change anything in my source code. It just happen to be broken. \r\n\r\nI can't remove UglifyJS plugin because `react-styleguidist` forbid it. \r\n\r\n**Current behavior**\r\n\r\nAfter running `npm run styleguide:build`, I have:\r\n\r\n```bash\r\nbundle.ebc589be.js:65 Uncaught RangeError: Maximum call stack size exceeded\r\n    at e (bundle.ebc589be.js:65)\r\n    at e (bundle.ebc589be.js:65)\r\n   ...\r\nShow 170 more frames\r\n```\r\n\r\n**To reproduce**\r\n\r\n- Example: https://rollup-umd.github.io/test\r\n- Local Reproduction:\r\n\r\n```\r\ngit clone git@github.com:rollup-umd/test.git\r\ncd test\r\nnpm i\r\nnpm run styleguide:build\r\nnpm i -g serve\r\nserve public\r\n# open chrome and http://localhost:5000\r\n```\r\n\r\n**Expected behavior**\r\n\r\n- Work as in `npm run styleguide`.\r\n\r\n**Related information**\r\n\r\nIt was working 24h ago, since then, I have not change anything in all my sources codes.\r\n\r\n**All my production build** in all my projects are down.\r\n\r\nI believe (unless I am wrong but to me it is the only valid reason): the dep tree as changed.\r\n\r\nFor those who ask why I don't have a lock file: It is because we do not use `package-lock.json` in distributed modules, because lock file are for application.\r\n\r\nDoes anybody have an idea of what changes recently?\r\nIs there a way I can trace and find what cause all my documentations to be broken?",
+  "labels_url": "https://api.github.com/repos/webpack/webpack/issues/9794/labels{/name}",
+  "author_association": "NONE",
+  "number": 9794,
+  "score": 1,
+  "updated_at": "2019-10-10T16:23:55Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/webpack/webpack/issues/9794/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/webpack/webpack",
+  "id": 505263596,
+  "state": "closed",
+  "locked": false,
+  "comments": 19,
+  "closed_at": "2019-10-10T16:23:55Z",
+  "url": "https://api.github.com/repos/webpack/webpack/issues/9794",
+  "labels": [
+
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/webpack/webpack/issues/9794/events",
+  "html_url": "https://github.com/webpack/webpack/issues/9794",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/kopax/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/kopax/repos",
+    "following_url": "https://api.github.com/users/kopax/following{/other_user}",
+    "starred_url": "https://api.github.com/users/kopax/starred{/owner}{/repo}",
+    "login": "kopax",
+    "followers_url": "https://api.github.com/users/kopax/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/kopax",
+    "subscriptions_url": "https://api.github.com/users/kopax/subscriptions",
+    "received_events_url": "https://api.github.com/users/kopax/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1866564?v=4",
+    "events_url": "https://api.github.com/users/kopax/events{/privacy}",
+    "html_url": "https://github.com/kopax",
+    "site_admin": false,
+    "id": 1866564,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE4NjY1NjQ=",
+    "organizations_url": "https://api.github.com/users/kopax/orgs"
+  },
+  "node_id": "MDU6SXNzdWU1MDUyNjM1OTY="
+}

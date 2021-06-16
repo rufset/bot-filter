@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607254c743dd71267de40316"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/Automattic/wp-calypso/issues/24788",
+  "updated_at": "2018-07-17T12:34:20Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/Automattic/wp-calypso/pull/24788#issuecomment-405566148",
+  "created_at": "2018-07-17T12:34:20Z",
+  "id": 405566148,
+  "body": "> I'm not sure we want to publish untranspiled code, ever. That pushes the burden of transpiling and the associated babel config down to a client, who may be running a different version of babel with different presets.\r\n\r\nThere's a precedent in several npm packages to publish with multiple copies of the same code, including commonjs, minified bundle, and even the original es2015+ code. While I agree that the `package.json` main should be the commonjs implementation at this point, there's no harm in giving people options--especially if we document which babel options are required to transpile.",
+  "user": {
+    "gists_url": "https://api.github.com/users/coderkevin/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/coderkevin/repos",
+    "following_url": "https://api.github.com/users/coderkevin/following{/other_user}",
+    "starred_url": "https://api.github.com/users/coderkevin/starred{/owner}{/repo}",
+    "login": "coderkevin",
+    "followers_url": "https://api.github.com/users/coderkevin/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/coderkevin",
+    "subscriptions_url": "https://api.github.com/users/coderkevin/subscriptions",
+    "received_events_url": "https://api.github.com/users/coderkevin/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/945228?v=4",
+    "events_url": "https://api.github.com/users/coderkevin/events{/privacy}",
+    "html_url": "https://github.com/coderkevin",
+    "site_admin": false,
+    "id": 945228,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjk0NTIyOA==",
+    "organizations_url": "https://api.github.com/users/coderkevin/orgs"
+  },
+  "url": "https://api.github.com/repos/Automattic/wp-calypso/issues/comments/405566148",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQwNTU2NjE0OA=="
+}

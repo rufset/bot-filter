@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6072469d43dd71267de3ac32"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/angular/angular-cli/issues/19580",
+  "updated_at": "2021-01-11T08:27:16Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/angular/angular-cli/pull/19580#issuecomment-757708361",
+  "created_at": "2021-01-11T08:27:16Z",
+  "id": 757708361,
+  "body": "This issue has been automatically locked due to inactivity.\nPlease file a new issue if you are encountering a similar or related problem.\n\nRead more about our [automatic conversation locking policy](https://github.com/angular/angular/blob/8f24bc9443b3872fe095d9f7f77b308a361a13b4/docs/GITHUB_PROCESS.md#conversation-locking).\n\n<sub>_This action has been performed automatically by a bot._</sub>",
+  "user": {
+    "gists_url": "https://api.github.com/users/angular-automatic-lock-bot%5Bbot%5D/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/angular-automatic-lock-bot%5Bbot%5D/repos",
+    "following_url": "https://api.github.com/users/angular-automatic-lock-bot%5Bbot%5D/following{/other_user}",
+    "starred_url": "https://api.github.com/users/angular-automatic-lock-bot%5Bbot%5D/starred{/owner}{/repo}",
+    "login": "angular-automatic-lock-bot[bot]",
+    "followers_url": "https://api.github.com/users/angular-automatic-lock-bot%5Bbot%5D/followers",
+    "type": "Bot",
+    "url": "https://api.github.com/users/angular-automatic-lock-bot%5Bbot%5D",
+    "subscriptions_url": "https://api.github.com/users/angular-automatic-lock-bot%5Bbot%5D/subscriptions",
+    "received_events_url": "https://api.github.com/users/angular-automatic-lock-bot%5Bbot%5D/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/in/40213?v=4",
+    "events_url": "https://api.github.com/users/angular-automatic-lock-bot%5Bbot%5D/events{/privacy}",
+    "html_url": "https://github.com/apps/angular-automatic-lock-bot",
+    "site_admin": false,
+    "id": 54863671,
+    "gravatar_id": "",
+    "node_id": "MDM6Qm90NTQ4NjM2NzE=",
+    "organizations_url": "https://api.github.com/users/angular-automatic-lock-bot%5Bbot%5D/orgs"
+  },
+  "url": "https://api.github.com/repos/angular/angular-cli/issues/comments/757708361",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc1NzcwODM2MQ=="
+}

@@ -1,0 +1,71 @@
+{
+  "_id": {
+    "$oid": "605a9b8d6cf0a13ef54c3d94"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2018-11-27T14:08:00Z",
+  "title": "[RFC] Implement a security layer",
+  "body": "**Is your feature request related to a problem? Please describe.**\r\nIn light of this: [dominictarr/event-stream#116](https://github.com/dominictarr/event-stream/issues/116), we ~should~ need to consider adding a security layer for dependencies.\r\n\r\n**Describe the solution you'd like**\r\nThere are a few ways we could go about this, but two of them are [Snyk](https://snyk.io/) and [npm-audit-ci](https://www.npmjs.com/package/npm-audit-ci) which would run through Travis. Personally, I've used Snyk as my go-to for this and have enjoyed it.\r\n\r\n**Describe alternatives you've considered**\r\nAn alternate here would be totally ignoring the situation, but we need to take some responsibility over our dependencies.\r\n\r\n**Additional context**\r\nIf anyone wants to add their ideas for what we could use, we're open to them.\r\n",
+  "labels_url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/2499/labels{/name}",
+  "author_association": "MEMBER",
+  "number": 2499,
+  "score": 1,
+  "updated_at": "2019-08-21T20:39:20Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/2499/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/react-boilerplate/react-boilerplate",
+  "id": 384811423,
+  "state": "open",
+  "locked": false,
+  "comments": 21,
+  "closed_at": null,
+  "url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/2499",
+  "labels": [
+    {
+      "default": false,
+      "color": "009800",
+      "name": "PR welcome",
+      "description": null,
+      "id": 311421233,
+      "url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/labels/PR%20welcome",
+      "node_id": "MDU6TGFiZWwzMTE0MjEyMzM="
+    },
+    {
+      "default": false,
+      "color": "cc317c",
+      "name": "discussion",
+      "description": null,
+      "id": 178320897,
+      "url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/labels/discussion",
+      "node_id": "MDU6TGFiZWwxNzgzMjA4OTc="
+    }
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/2499/events",
+  "html_url": "https://github.com/react-boilerplate/react-boilerplate/issues/2499",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/gretzky/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/gretzky/repos",
+    "following_url": "https://api.github.com/users/gretzky/following{/other_user}",
+    "starred_url": "https://api.github.com/users/gretzky/starred{/owner}{/repo}",
+    "login": "gretzky",
+    "followers_url": "https://api.github.com/users/gretzky/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/gretzky",
+    "subscriptions_url": "https://api.github.com/users/gretzky/subscriptions",
+    "received_events_url": "https://api.github.com/users/gretzky/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/15176096?v=4",
+    "events_url": "https://api.github.com/users/gretzky/events{/privacy}",
+    "html_url": "https://github.com/gretzky",
+    "site_admin": false,
+    "id": 15176096,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE1MTc2MDk2",
+    "organizations_url": "https://api.github.com/users/gretzky/orgs"
+  },
+  "node_id": "MDU6SXNzdWUzODQ4MTE0MjM="
+}

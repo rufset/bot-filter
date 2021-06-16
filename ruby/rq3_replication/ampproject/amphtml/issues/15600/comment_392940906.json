@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "609f0fe1c12f0f030f91046f"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/15600",
+  "updated_at": "2018-05-29T20:53:59Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/issues/15600#issuecomment-392940906",
+  "created_at": "2018-05-29T20:53:59Z",
+  "id": 392940906,
+  "body": "## UX\r\ncontact: @spacedino \r\n\r\n### What was accomplished\r\n\r\n- Launched light-box-gallery + ABE’s\r\n- Keep working on infinite scroll / rotating video  / amp-fx all / loading states / date picker\r\n\r\n### What's next\r\n\r\n- Keep working on infinite scroll / rotating video  / amp-fx all / loading states\r\n\r\n### Lessons learned\r\n\r\n- Problem framing is soooo useful, and also time consuming.",
+  "user": {
+    "gists_url": "https://api.github.com/users/mrjoro/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/mrjoro/repos",
+    "following_url": "https://api.github.com/users/mrjoro/following{/other_user}",
+    "starred_url": "https://api.github.com/users/mrjoro/starred{/owner}{/repo}",
+    "login": "mrjoro",
+    "followers_url": "https://api.github.com/users/mrjoro/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/mrjoro",
+    "subscriptions_url": "https://api.github.com/users/mrjoro/subscriptions",
+    "received_events_url": "https://api.github.com/users/mrjoro/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/24625776?v=4",
+    "events_url": "https://api.github.com/users/mrjoro/events{/privacy}",
+    "html_url": "https://github.com/mrjoro",
+    "site_admin": false,
+    "id": 24625776,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI0NjI1Nzc2",
+    "organizations_url": "https://api.github.com/users/mrjoro/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/392940906",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM5Mjk0MDkwNg=="
+}

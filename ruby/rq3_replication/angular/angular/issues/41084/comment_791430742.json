@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607243f643dd71267de369ca"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/angular/angular/issues/41084",
+  "updated_at": "2021-03-05T13:49:50Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/angular/angular/issues/41084#issuecomment-791430742",
+  "created_at": "2021-03-05T13:49:50Z",
+  "id": 791430742,
+  "body": "@nbittich Hmm, then I don't understand the difference if you do the same once a week or once two weeks. The Angular part is just one building block inside of the whole frame of how the NodeJS world works. You can accept it or not. We also even use the exact version for each package mentioned in `package.json` and manually increase them together with all tests, building phase, and runtime behavior check.",
+  "user": {
+    "gists_url": "https://api.github.com/users/mlc-mlapis/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/mlc-mlapis/repos",
+    "following_url": "https://api.github.com/users/mlc-mlapis/following{/other_user}",
+    "starred_url": "https://api.github.com/users/mlc-mlapis/starred{/owner}{/repo}",
+    "login": "mlc-mlapis",
+    "followers_url": "https://api.github.com/users/mlc-mlapis/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/mlc-mlapis",
+    "subscriptions_url": "https://api.github.com/users/mlc-mlapis/subscriptions",
+    "received_events_url": "https://api.github.com/users/mlc-mlapis/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/5693835?v=4",
+    "events_url": "https://api.github.com/users/mlc-mlapis/events{/privacy}",
+    "html_url": "https://github.com/mlc-mlapis",
+    "site_admin": false,
+    "id": 5693835,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjU2OTM4MzU=",
+    "organizations_url": "https://api.github.com/users/mlc-mlapis/orgs"
+  },
+  "url": "https://api.github.com/repos/angular/angular/issues/comments/791430742",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc5MTQzMDc0Mg=="
+}

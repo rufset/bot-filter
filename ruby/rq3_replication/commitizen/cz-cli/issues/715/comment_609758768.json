@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60725fa543dd71267de413a2"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/commitizen/cz-cli/issues/715",
+  "updated_at": "2020-04-06T12:17:55Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/commitizen/cz-cli/issues/715#issuecomment-609758768",
+  "created_at": "2020-04-06T12:17:55Z",
+  "id": 609758768,
+  "body": "Ping @jimthedev, what's the status of this project? I see the last commit was merged in August 2019. I am an open-source maintainer myself, so I totally understand if you don't have time or energy to maintain this project going forward. Do you have any recommendations for us, commitizen users, how to deal with the current security warning and/or help this project to become actively maintained again? ",
+  "user": {
+    "gists_url": "https://api.github.com/users/bajtos/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/bajtos/repos",
+    "following_url": "https://api.github.com/users/bajtos/following{/other_user}",
+    "starred_url": "https://api.github.com/users/bajtos/starred{/owner}{/repo}",
+    "login": "bajtos",
+    "followers_url": "https://api.github.com/users/bajtos/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/bajtos",
+    "subscriptions_url": "https://api.github.com/users/bajtos/subscriptions",
+    "received_events_url": "https://api.github.com/users/bajtos/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1140553?v=4",
+    "events_url": "https://api.github.com/users/bajtos/events{/privacy}",
+    "html_url": "https://github.com/bajtos",
+    "site_admin": false,
+    "id": 1140553,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjExNDA1NTM=",
+    "organizations_url": "https://api.github.com/users/bajtos/orgs"
+  },
+  "url": "https://api.github.com/repos/commitizen/cz-cli/issues/comments/609758768",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDYwOTc1ODc2OA=="
+}

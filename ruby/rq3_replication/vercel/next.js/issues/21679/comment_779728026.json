@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3143dd71267de53981"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-16T10:06:10Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-779728026",
+  "created_at": "2021-02-16T10:06:10Z",
+  "id": 779728026,
+  "body": "@timneutkens Could you maybe require webpack 5 to be enabled a different way, eg. via an environment variable?",
+  "user": {
+    "gists_url": "https://api.github.com/users/jleclanche/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jleclanche/repos",
+    "following_url": "https://api.github.com/users/jleclanche/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jleclanche/starred{/owner}{/repo}",
+    "login": "jleclanche",
+    "followers_url": "https://api.github.com/users/jleclanche/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jleclanche",
+    "subscriptions_url": "https://api.github.com/users/jleclanche/subscriptions",
+    "received_events_url": "https://api.github.com/users/jleclanche/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/235410?v=4",
+    "events_url": "https://api.github.com/users/jleclanche/events{/privacy}",
+    "html_url": "https://github.com/jleclanche",
+    "site_admin": false,
+    "id": 235410,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjIzNTQxMA==",
+    "organizations_url": "https://api.github.com/users/jleclanche/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/779728026",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3OTcyODAyNg=="
+}

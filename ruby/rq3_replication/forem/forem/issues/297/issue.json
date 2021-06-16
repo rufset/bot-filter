@@ -1,0 +1,61 @@
+{
+  "_id": {
+    "$oid": "60726f0f43dd71267de480a6"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2018-08-09T07:08:18Z",
+  "title": "Bump nokogiri from 1.8.3 to 1.8.4",
+  "body": "Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.8.3 to 1.8.4.\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n*Sourced from [nokogiri's changelog](https://github.com/sparklemotion/nokogiri/blob/master/CHANGELOG.md).*\r\n\r\n> # 1.8.4 / 2018-07-03\r\n> \r\n> ## Bug fixes\r\n> \r\n> * [MRI] Fix memory leak when creating nodes with namespaces. (Introduced in v1.5.7) [#1771]\r\n</details>\r\n<details>\r\n<summary>Commits</summary>\r\n\r\n- [`254f341`](https://github.com/sparklemotion/nokogiri/commit/254f3414811b6d2fff8b0630efe4ce8d29778fb6) version bump to v1.8.4\r\n- [`056f66d`](https://github.com/sparklemotion/nokogiri/commit/056f66df44fb274de3c950df586a71a9a74c05ae) enforcing formatting in xml_node.c\r\n- [`ca4f9b2`](https://github.com/sparklemotion/nokogiri/commit/ca4f9b262ba4cbf7e6c47e55a8a5d5024665fd93) Merge branch '1771-memory-leak'\r\n- [`0d26561`](https://github.com/sparklemotion/nokogiri/commit/0d26561bd7821dfe1c02b8dd0c82e8a1f510cc49) fix memory leak with creating nodes with a namespace\r\n- [`117ca2e`](https://github.com/sparklemotion/nokogiri/commit/117ca2e067dbbf054bef9078c79387c8170d2156) README format\r\n- See full diff in [compare view](https://github.com/sparklemotion/nokogiri/compare/v1.8.3...v1.8.4)\r\n</details>\r\n<br />\r\n\r\n[![Dependabot compatibility score](https://api.dependabot.com/badges/compatibility_score?dependency-name=nokogiri&package-manager=bundler&previous-version=1.8.3&new-version=1.8.4)](https://dependabot.com/compatibility-score.html?dependency-name=nokogiri&package-manager=bundler&previous-version=1.8.3&new-version=1.8.4)\r\n\r\nI generated this by using [Dependabot](https://dependabot.com), a tool I built, on my fork. Would love to get you using it - it's totally free for open source and always will be. Hopefully it can save you a bunch of time, but having more repos use it that have great test suites also helps keep the compatibility score numbers super robust, so is good for everyone.\r\n",
+  "labels_url": "https://api.github.com/repos/forem/forem/issues/297/labels{/name}",
+  "author_association": "CONTRIBUTOR",
+  "number": 297,
+  "score": 1,
+  "updated_at": "2018-08-24T21:59:01Z",
+  "performed_via_github_app": null,
+  "draft": false,
+  "comments_url": "https://api.github.com/repos/forem/forem/issues/297/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/forem/forem",
+  "id": 349003782,
+  "state": "closed",
+  "locked": false,
+  "pull_request": {
+    "patch_url": "https://github.com/forem/forem/pull/297.patch",
+    "html_url": "https://github.com/forem/forem/pull/297",
+    "diff_url": "https://github.com/forem/forem/pull/297.diff",
+    "url": "https://api.github.com/repos/forem/forem/pulls/297"
+  },
+  "comments": 3,
+  "closed_at": "2018-08-09T20:04:32Z",
+  "url": "https://api.github.com/repos/forem/forem/issues/297",
+  "labels": [
+
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/forem/forem/issues/297/events",
+  "html_url": "https://github.com/forem/forem/pull/297",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/greysteil/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/greysteil/repos",
+    "following_url": "https://api.github.com/users/greysteil/following{/other_user}",
+    "starred_url": "https://api.github.com/users/greysteil/starred{/owner}{/repo}",
+    "login": "greysteil",
+    "followers_url": "https://api.github.com/users/greysteil/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/greysteil",
+    "subscriptions_url": "https://api.github.com/users/greysteil/subscriptions",
+    "received_events_url": "https://api.github.com/users/greysteil/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1144873?v=4",
+    "events_url": "https://api.github.com/users/greysteil/events{/privacy}",
+    "html_url": "https://github.com/greysteil",
+    "site_admin": true,
+    "id": 1144873,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjExNDQ4NzM=",
+    "organizations_url": "https://api.github.com/users/greysteil/orgs"
+  },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MjA3MjIwMDYw"
+}

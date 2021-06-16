@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6059f2816cf0a13ef547b85f"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/grafana/grafana/issues/28159",
+  "updated_at": "2020-10-15T21:47:09Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/grafana/grafana/pull/28159#issuecomment-709607998",
+  "created_at": "2020-10-15T21:47:09Z",
+  "id": 709607998,
+  "body": "The following are some actions that are used within this project.\r\n- checkout@v2\r\n- checkout@v1\r\n- setup-node@v1\r\n\r\nI believe the v1 instance of the checkout action will try to be upgraded to v2. The same goes for setup-node. I see that there exists a v2 for setup-node.\r\n\r\nYes, I believe this PR will have an effect on the actions that this project currently uses. \r\n\r\nNote that this PR only allows dependabot to submit PRs for actions that are out of date such as checkout@v1, but the PR from dependabot could always be denied.",
+  "user": {
+    "gists_url": "https://api.github.com/users/jlosito/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jlosito/repos",
+    "following_url": "https://api.github.com/users/jlosito/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jlosito/starred{/owner}{/repo}",
+    "login": "jlosito",
+    "followers_url": "https://api.github.com/users/jlosito/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jlosito",
+    "subscriptions_url": "https://api.github.com/users/jlosito/subscriptions",
+    "received_events_url": "https://api.github.com/users/jlosito/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/25142529?v=4",
+    "events_url": "https://api.github.com/users/jlosito/events{/privacy}",
+    "html_url": "https://github.com/jlosito",
+    "site_admin": false,
+    "id": 25142529,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI1MTQyNTI5",
+    "organizations_url": "https://api.github.com/users/jlosito/orgs"
+  },
+  "url": "https://api.github.com/repos/grafana/grafana/issues/comments/709607998",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDcwOTYwNzk5OA=="
+}

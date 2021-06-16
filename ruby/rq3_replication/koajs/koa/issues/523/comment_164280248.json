@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a9a9a6cf0a13ef54c2fe5"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/koajs/koa/issues/523",
+  "updated_at": "2015-12-13T17:46:07Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/koajs/koa/issues/523#issuecomment-164280248",
+  "created_at": "2015-12-13T17:46:07Z",
+  "id": 164280248,
+  "body": "Thanks @tj! Where do I find changelog and usage information for Koa v2.x?\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/pensierinmusica/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/pensierinmusica/repos",
+    "following_url": "https://api.github.com/users/pensierinmusica/following{/other_user}",
+    "starred_url": "https://api.github.com/users/pensierinmusica/starred{/owner}{/repo}",
+    "login": "pensierinmusica",
+    "followers_url": "https://api.github.com/users/pensierinmusica/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/pensierinmusica",
+    "subscriptions_url": "https://api.github.com/users/pensierinmusica/subscriptions",
+    "received_events_url": "https://api.github.com/users/pensierinmusica/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3594037?v=4",
+    "events_url": "https://api.github.com/users/pensierinmusica/events{/privacy}",
+    "html_url": "https://github.com/pensierinmusica",
+    "site_admin": false,
+    "id": 3594037,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjM1OTQwMzc=",
+    "organizations_url": "https://api.github.com/users/pensierinmusica/orgs"
+  },
+  "url": "https://api.github.com/repos/koajs/koa/issues/comments/164280248",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDE2NDI4MDI0OA=="
+}

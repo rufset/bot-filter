@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a9b8c6cf0a13ef54c3d75"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/2673",
+  "updated_at": "2019-06-11T21:01:39Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/react-boilerplate/react-boilerplate/issues/2673#issuecomment-501021447",
+  "created_at": "2019-06-11T21:01:39Z",
+  "id": 501021447,
+  "body": "> ...configs similar to what I already have in my fork...\r\n\r\nThis is what I was referring to: https://github.com/jamesdh/react-boilerplate/blob/master/renovate.json\r\n\r\nAll of that stuff can be defined in there if you can make sense of the Renovate docs. That's my only complaint. They're extensive but for me personally very difficult to comprehend. ",
+  "user": {
+    "gists_url": "https://api.github.com/users/jamesdh/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jamesdh/repos",
+    "following_url": "https://api.github.com/users/jamesdh/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jamesdh/starred{/owner}{/repo}",
+    "login": "jamesdh",
+    "followers_url": "https://api.github.com/users/jamesdh/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jamesdh",
+    "subscriptions_url": "https://api.github.com/users/jamesdh/subscriptions",
+    "received_events_url": "https://api.github.com/users/jamesdh/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1085322?v=4",
+    "events_url": "https://api.github.com/users/jamesdh/events{/privacy}",
+    "html_url": "https://github.com/jamesdh",
+    "site_admin": false,
+    "id": 1085322,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEwODUzMjI=",
+    "organizations_url": "https://api.github.com/users/jamesdh/orgs"
+  },
+  "url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/comments/501021447",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUwMTAyMTQ0Nw=="
+}

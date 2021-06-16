@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607252dc43dd71267de3d2fb"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/19050",
+  "updated_at": "2018-11-05T17:14:25Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/issues/19050#issuecomment-435956511",
+  "created_at": "2018-11-05T17:14:25Z",
+  "id": 435956511,
+  "body": "It sounds like what we need to do is change the requirement from LTS to a major version number.  The version we select should always be in the LTS window and when a new LTS is available we should test it in the CI/CD chain and make a change to the tooling requirement on our schedule (but always before the current version EOL).\r\n\r\nThis still means devs have to update their toolchain so @torch2424's point about dev workload is still valid (although only once a year).  That's unavoidable as we'll always need to deprecate node versions as they fall out of their maintenance window.",
+  "user": {
+    "gists_url": "https://api.github.com/users/jpettitt/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jpettitt/repos",
+    "following_url": "https://api.github.com/users/jpettitt/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jpettitt/starred{/owner}{/repo}",
+    "login": "jpettitt",
+    "followers_url": "https://api.github.com/users/jpettitt/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jpettitt",
+    "subscriptions_url": "https://api.github.com/users/jpettitt/subscriptions",
+    "received_events_url": "https://api.github.com/users/jpettitt/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/524856?v=4",
+    "events_url": "https://api.github.com/users/jpettitt/events{/privacy}",
+    "html_url": "https://github.com/jpettitt",
+    "site_admin": false,
+    "id": 524856,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjUyNDg1Ng==",
+    "organizations_url": "https://api.github.com/users/jpettitt/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/435956511",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQzNTk1NjUxMQ=="
+}

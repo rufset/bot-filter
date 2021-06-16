@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607252c343dd71267de3ced4"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/12552",
+  "updated_at": "2018-01-28T17:27:04Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/issues/12552#issuecomment-361079761",
+  "created_at": "2018-01-28T17:27:04Z",
+  "id": 361079761,
+  "body": "**document level infinite scroll**\r\n\r\n- meant for third party content?  no, for first party (same origin) content for now\r\n  - future proposal would cover third party content\r\n  - potential users have been happy with this solution\r\n- how are we determining limits to help with performance (e.g. 3 or 4 number of articles)\r\n  - for now, we'll try it out with these initial limits and see what the performance is\r\n- is this a new component?\r\n  - yes\r\n  - it requires configuration & we need to decide how much control to give publishers\r\n  - it also has some configurable default UI associated with it (e.g. possibly cards-based approach when you have multiple articles, collapsing dots)\r\n  - John: based on experience, if we get too prescriptive about the UI a lot of publishers will push back on it\r\n- is this a component provided by a third-party recommendation provider?\r\n  - they could provide configuration for the behavior\r\n- name\r\n  - amp-content-discovery is proposal, but should it be something like amp-article-infinite-scroll?\r\n  - people aren't just going to use it for content discovery\r\n  - \"chain\" would potentially be better\r\n  - people may be confused between amp-list and this component when they are creating AMP pages, name can help with that\r\n  - name will be discussed offline",
+  "user": {
+    "gists_url": "https://api.github.com/users/mrjoro/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/mrjoro/repos",
+    "following_url": "https://api.github.com/users/mrjoro/following{/other_user}",
+    "starred_url": "https://api.github.com/users/mrjoro/starred{/owner}{/repo}",
+    "login": "mrjoro",
+    "followers_url": "https://api.github.com/users/mrjoro/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/mrjoro",
+    "subscriptions_url": "https://api.github.com/users/mrjoro/subscriptions",
+    "received_events_url": "https://api.github.com/users/mrjoro/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/24625776?v=4",
+    "events_url": "https://api.github.com/users/mrjoro/events{/privacy}",
+    "html_url": "https://github.com/mrjoro",
+    "site_admin": false,
+    "id": 24625776,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI0NjI1Nzc2",
+    "organizations_url": "https://api.github.com/users/mrjoro/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/361079761",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM2MTA3OTc2MQ=="
+}

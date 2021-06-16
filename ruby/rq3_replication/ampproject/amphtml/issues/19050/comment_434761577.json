@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607252dc43dd71267de3d2f7"
+  },
+  "author_association": "COLLABORATOR",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/19050",
+  "updated_at": "2018-10-31T16:45:47Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/issues/19050#issuecomment-434761577",
+  "created_at": "2018-10-31T16:45:47Z",
+  "id": 434761577,
+  "body": "There is definitely a tradeoff. Supporting multiple versions means we need to ensure (via travis) that each commit works against the supported versions. When debugging an issue it will be important to know which versions are impacted. Developers working on the AMP codebase will likely need to use `nvm` or similar to test changes on multiple versions of Node (especially if leveraging newer APIs).\r\n\r\nAs code is changing, we should have a strong preference around the usage of Node features if we support multiple versions of Node. Should all build code be transpiled to ensure it runs against the oldest supported version?\r\n\r\n**Because of these factors, I'd ask we support a single Node version going forward, and only one at a time. \"lts/*\" meets this criteria.**\r\n\r\n> But abandoning v8 just because v10 became the active LTS doesn't make good sense. We're just cutting off potential users.\r\n\r\nLet's see if any of the [AMP design principles](https://github.com/ampproject/amphtml/blob/master/contributing/DESIGN_PRINCIPLES.md) might assist in an answer.\r\n\r\n**User Experience > Developer Experience > Ease of Implementation.**\r\n\r\nThis issue only impacts the ease of implementation, since developers of author pages shouldn't need to run the repository to test their documents. As a result, its by far the lowest priority for informing a design decision.\r\n\r\n**Don’t design for a hypothetical faster future browser.**\r\n\r\nNo impact.\r\n\r\n**Don’t break the web.**\r\n\r\nPotentially supporting only a single node version reduces the time for a Travis build to complete, but they are run mostly in parallel (so the impact isn't that significant). If the version of AMP that is deployed is broken, pushing a fix could be slower. However, we also would likely rollback before pushing a fix – likely no impact.\r\n\r\n**Solve problems on the right layer.**\r\n\r\nNo impact.\r\n\r\n**Only do things if they can be made fast.**\r\n\r\nNo significant impact, newer versions of Node incorporate later versions of V8 which should improve overall build performance. However, the delta is likely low enough to be immaterial (metrics would help inform).\r\n\r\n**Prioritise things that improve the user experience – but compromise when needed.**\r\n\r\nNo impact.\r\n\r\n**No \"nicelists\" or \"allowed lists\".**\r\n\r\nNo impact since this relates to allowlists for special treatment of domains.",
+  "user": {
+    "gists_url": "https://api.github.com/users/kristoferbaxter/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/kristoferbaxter/repos",
+    "following_url": "https://api.github.com/users/kristoferbaxter/following{/other_user}",
+    "starred_url": "https://api.github.com/users/kristoferbaxter/starred{/owner}{/repo}",
+    "login": "kristoferbaxter",
+    "followers_url": "https://api.github.com/users/kristoferbaxter/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/kristoferbaxter",
+    "subscriptions_url": "https://api.github.com/users/kristoferbaxter/subscriptions",
+    "received_events_url": "https://api.github.com/users/kristoferbaxter/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/61764?v=4",
+    "events_url": "https://api.github.com/users/kristoferbaxter/events{/privacy}",
+    "html_url": "https://github.com/kristoferbaxter",
+    "site_admin": false,
+    "id": 61764,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYxNzY0",
+    "organizations_url": "https://api.github.com/users/kristoferbaxter/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/434761577",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQzNDc2MTU3Nw=="
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6059ffc46cf0a13ef548008b"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/discourse/discourse/issues/6842",
+  "updated_at": "2019-01-03T08:12:17Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/discourse/discourse/pull/6842#issuecomment-451077195",
+  "created_at": "2019-01-03T08:12:17Z",
+  "id": 451077195,
+  "body": "@tgxworld Dependabot is basically a script that automatically upgrades Ruby dependencies (more info about its proposed use on Discourse [here](https://meta.discourse.org/t/use-dependabot-for-dependency-updates/98823)). As the creator states that their GitHub app requires write access to the Discourse repo to allow for its patches, the app has been presently rejected for Discourse's main repo. I don't have a problem with allowing the app to write to my fork of the repo and my fork is constantly synced with that of the canonical Discourse repo so I don't have a problem with integrating patches into Discourse's master branch.\r\n\r\nThe bot is making commits to my fork using the message format you stated and to be honest I have no control over what it uses for a commit message. If you prefer I can tell GitHub to use a different merge method (squash merge) so that their commit message doesn't get logged in GitHub (the disadvantage is not giving credit to the app) and I can set something like `UPDATE: Updating dependencies` or similar if you prefer.",
+  "user": {
+    "gists_url": "https://api.github.com/users/sau226/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/sau226/repos",
+    "following_url": "https://api.github.com/users/sau226/following{/other_user}",
+    "starred_url": "https://api.github.com/users/sau226/starred{/owner}{/repo}",
+    "login": "sau226",
+    "followers_url": "https://api.github.com/users/sau226/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/sau226",
+    "subscriptions_url": "https://api.github.com/users/sau226/subscriptions",
+    "received_events_url": "https://api.github.com/users/sau226/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/32805612?v=4",
+    "events_url": "https://api.github.com/users/sau226/events{/privacy}",
+    "html_url": "https://github.com/sau226",
+    "site_admin": false,
+    "id": 32805612,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjMyODA1NjEy",
+    "organizations_url": "https://api.github.com/users/sau226/orgs"
+  },
+  "url": "https://api.github.com/repos/discourse/discourse/issues/comments/451077195",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MTA3NzE5NQ=="
+}

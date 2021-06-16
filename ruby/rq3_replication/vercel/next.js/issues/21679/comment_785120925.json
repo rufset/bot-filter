@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3143dd71267de53994"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-24T14:39:28Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-785120925",
+  "created_at": "2021-02-24T14:38:43Z",
+  "id": 785120925,
+  "body": "> > See my post above\r\n> \r\n> Which part? Not upgrading next to 10.0.7?\r\n> \r\n> Right now I fixed the issue with 10.0.7 and the `workbox-webpack-plugin` by explicitly requiring `webpack`:\r\n> \r\n> ```\r\n> npm i webpack —save-dev\r\n> ```\r\n@SylvainGarrigues \r\n\r\nI had [commented earlier](https://github.com/vercel/next.js/issues/21679#issuecomment-774652496) (hidden under 40 items though) about installing `webpack` at the user level, I personally did not see any change in file size in local or production deployments, which is the conveyed idea that people seem to feel is the problem (please correct me if I misunderstand that). \r\n\r\nWhen you consider that `workbox` tags `webpack` as peer dependency, that would mean `next-pwa` should have it, but it is still a peer one.\r\n\r\nWhich based on the latest updates to nom even, as the end user you should install it. \r\n\r\nI did not have anything break installing webpack in a production app using `next-pwa`, it fixed it. \r\n\r\nAlso, workbox is pulling it in, and as Tim mentioned, also there is one odd one, so the initial fix didn't work in that instance. (But should be appreciated really, that they are fixing it)\r\n\r\nI have also just updated to `^10.0.7` with `webpack` installed  and it still runs. So for a temporary fix, it doesn't sound that bad or adversely affect having webpack added and still retain a functioning website?\r\n\r\nedit: sorry to the 31 other people still subscribed to this \\:)",
+  "user": {
+    "gists_url": "https://api.github.com/users/ReeceM/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/ReeceM/repos",
+    "following_url": "https://api.github.com/users/ReeceM/following{/other_user}",
+    "starred_url": "https://api.github.com/users/ReeceM/starred{/owner}{/repo}",
+    "login": "ReeceM",
+    "followers_url": "https://api.github.com/users/ReeceM/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/ReeceM",
+    "subscriptions_url": "https://api.github.com/users/ReeceM/subscriptions",
+    "received_events_url": "https://api.github.com/users/ReeceM/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2767904?v=4",
+    "events_url": "https://api.github.com/users/ReeceM/events{/privacy}",
+    "html_url": "https://github.com/ReeceM",
+    "site_admin": false,
+    "id": 2767904,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI3Njc5MDQ=",
+    "organizations_url": "https://api.github.com/users/ReeceM/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/785120925",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc4NTEyMDkyNQ=="
+}

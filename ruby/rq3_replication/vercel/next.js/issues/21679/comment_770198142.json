@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3043dd71267de53959"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-01-30T11:33:49Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-770198142",
+  "created_at": "2021-01-30T11:31:29Z",
+  "id": 770198142,
+  "body": " Thanks @kachkaev \r\n\r\n> After upgrading from `\"next\": \"10.0.3\"/ \"next\": \"10.0.5\"` to `\"next\": \"10.0.6\"` and running `yarn install`:\r\n> \r\n> ```\r\n> yarn why webpack\r\n> yarn why v1.22.10\r\n> [1/4] 🤔  Why do we have the module \"webpack\"...?\r\n> [2/4] 🚚  Initialising dependency graph...\r\n> [3/4] 🔍  Finding dependency...\r\n> error We couldn't find a match!\r\n> ✨  Done in 0.89s.\r\n> ```\r\n> \r\n> Adding `\"webpack\": \"^4.46.0\"` to `package.json` dependencies provided a workaround.\r\n\r\n If anyone  getting this error  \r\n![image](https://user-images.githubusercontent.com/37132588/106354989-6aae3280-631b-11eb-8be3-0cf5bdc1c91d.png)\r\n\r\nFind below steps\r\n\r\n1.  Install `\"webpack\": \"^5.19.0\"` in devDependencies \r\n2.   Add in next.config.js ` future: {\r\n    webpack5: true,\r\n  },`",
+  "user": {
+    "gists_url": "https://api.github.com/users/Manikanta-20/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/Manikanta-20/repos",
+    "following_url": "https://api.github.com/users/Manikanta-20/following{/other_user}",
+    "starred_url": "https://api.github.com/users/Manikanta-20/starred{/owner}{/repo}",
+    "login": "Manikanta-20",
+    "followers_url": "https://api.github.com/users/Manikanta-20/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/Manikanta-20",
+    "subscriptions_url": "https://api.github.com/users/Manikanta-20/subscriptions",
+    "received_events_url": "https://api.github.com/users/Manikanta-20/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/37132588?v=4",
+    "events_url": "https://api.github.com/users/Manikanta-20/events{/privacy}",
+    "html_url": "https://github.com/Manikanta-20",
+    "site_admin": false,
+    "id": 37132588,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjM3MTMyNTg4",
+    "organizations_url": "https://api.github.com/users/Manikanta-20/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/770198142",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3MDE5ODE0Mg=="
+}

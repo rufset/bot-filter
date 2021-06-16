@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60721bdb43dd71267de2d87a"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/pypa/warehouse/issues/3907",
+  "updated_at": "2018-05-15T18:44:30Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/pypa/warehouse/pull/3907#issuecomment-389272260",
+  "created_at": "2018-05-15T18:44:30Z",
+  "id": 389272260,
+  "body": "Yeah, I agree with that - seems odd for you to be curating this list.\r\n\r\nThe only place with an organisation curating this that I'm aware of is the dependency management section of the GitHub Marketplace, [filtered for Python](https://github.com/marketplace/category/dependency-management?utf8=%E2%9C%93&query=python). The downside is that that doesn't (yet) have pyup.io on it, but the upside is it would shift these requests to GitHub and away from PyPI.\r\n\r\n**Update:** Even better might be [this link](https://github.com/works-with/category/dependency-management?utf8=%E2%9C%93&query=python), which has all the apps that work with GitHub on it (a lower bar than getting into the marketplace) so includes pyup 🎉 ",
+  "user": {
+    "gists_url": "https://api.github.com/users/greysteil/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/greysteil/repos",
+    "following_url": "https://api.github.com/users/greysteil/following{/other_user}",
+    "starred_url": "https://api.github.com/users/greysteil/starred{/owner}{/repo}",
+    "login": "greysteil",
+    "followers_url": "https://api.github.com/users/greysteil/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/greysteil",
+    "subscriptions_url": "https://api.github.com/users/greysteil/subscriptions",
+    "received_events_url": "https://api.github.com/users/greysteil/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1144873?v=4",
+    "events_url": "https://api.github.com/users/greysteil/events{/privacy}",
+    "html_url": "https://github.com/greysteil",
+    "site_admin": true,
+    "id": 1144873,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjExNDQ4NzM=",
+    "organizations_url": "https://api.github.com/users/greysteil/orgs"
+  },
+  "url": "https://api.github.com/repos/pypa/warehouse/issues/comments/389272260",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM4OTI3MjI2MA=="
+}

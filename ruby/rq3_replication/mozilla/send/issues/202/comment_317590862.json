@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071d5ca43dd71267de177f1"
+  },
+  "author_association": "COLLABORATOR",
+  "issue_url": "https://api.github.com/repos/mozilla/send/issues/202",
+  "updated_at": "2017-07-25T00:13:35Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/mozilla/send/issues/202#issuecomment-317590862",
+  "created_at": "2017-07-25T00:13:35Z",
+  "id": 317590862,
+  "body": "27/27... @jvehent @clouserw Any objections to us closing this?",
+  "user": {
+    "gists_url": "https://api.github.com/users/pdehaan/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/pdehaan/repos",
+    "following_url": "https://api.github.com/users/pdehaan/following{/other_user}",
+    "starred_url": "https://api.github.com/users/pdehaan/starred{/owner}{/repo}",
+    "login": "pdehaan",
+    "followers_url": "https://api.github.com/users/pdehaan/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/pdehaan",
+    "subscriptions_url": "https://api.github.com/users/pdehaan/subscriptions",
+    "received_events_url": "https://api.github.com/users/pdehaan/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/557895?v=4",
+    "events_url": "https://api.github.com/users/pdehaan/events{/privacy}",
+    "html_url": "https://github.com/pdehaan",
+    "site_admin": false,
+    "id": 557895,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjU1Nzg5NQ==",
+    "organizations_url": "https://api.github.com/users/pdehaan/orgs"
+  },
+  "url": "https://api.github.com/repos/mozilla/send/issues/comments/317590862",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDMxNzU5MDg2Mg=="
+}

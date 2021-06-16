@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a63d96cf0a13ef54ace31"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/mui-org/material-ui/issues/14433",
+  "updated_at": "2019-02-06T11:59:23Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/mui-org/material-ui/pull/14433#issuecomment-460998502",
+  "created_at": "2019-02-06T11:59:23Z",
+  "id": 460998502,
+  "body": "Thanks for the links.",
+  "user": {
+    "gists_url": "https://api.github.com/users/oliviertassinari/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/oliviertassinari/repos",
+    "following_url": "https://api.github.com/users/oliviertassinari/following{/other_user}",
+    "starred_url": "https://api.github.com/users/oliviertassinari/starred{/owner}{/repo}",
+    "login": "oliviertassinari",
+    "followers_url": "https://api.github.com/users/oliviertassinari/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/oliviertassinari",
+    "subscriptions_url": "https://api.github.com/users/oliviertassinari/subscriptions",
+    "received_events_url": "https://api.github.com/users/oliviertassinari/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3165635?v=4",
+    "events_url": "https://api.github.com/users/oliviertassinari/events{/privacy}",
+    "html_url": "https://github.com/oliviertassinari",
+    "site_admin": false,
+    "id": 3165635,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjMxNjU2MzU=",
+    "organizations_url": "https://api.github.com/users/oliviertassinari/orgs"
+  },
+  "url": "https://api.github.com/repos/mui-org/material-ui/issues/comments/460998502",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQ2MDk5ODUwMg=="
+}

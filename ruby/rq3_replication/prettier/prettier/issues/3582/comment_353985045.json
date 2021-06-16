@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6059f2c26cf0a13ef547c024"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/prettier/prettier/issues/3582",
+  "updated_at": "2017-12-26T16:14:43Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/prettier/prettier/issues/3582#issuecomment-353985045",
+  "created_at": "2017-12-26T16:14:43Z",
+  "id": 353985045,
+  "body": "If we're going to use bot to keep dependencies up to date, I'd recommend [renovate](https://renovateapp.com/) ([example](https://github.com/pulls?utf8=%E2%9C%93&q=user%3Aikatyang+author%3Aapp%2Frenovate)) as it can be configured to auto-merge specific semver level for specific package.\r\n\r\nBut I think we should not touch them unless it's necessary since we should aim to be stable, sometimes they'll introduce unexpected behavior that we don't have tests covered.",
+  "user": {
+    "gists_url": "https://api.github.com/users/ikatyang/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/ikatyang/repos",
+    "following_url": "https://api.github.com/users/ikatyang/following{/other_user}",
+    "starred_url": "https://api.github.com/users/ikatyang/starred{/owner}{/repo}",
+    "login": "ikatyang",
+    "followers_url": "https://api.github.com/users/ikatyang/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/ikatyang",
+    "subscriptions_url": "https://api.github.com/users/ikatyang/subscriptions",
+    "received_events_url": "https://api.github.com/users/ikatyang/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8341033?v=4",
+    "events_url": "https://api.github.com/users/ikatyang/events{/privacy}",
+    "html_url": "https://github.com/ikatyang",
+    "site_admin": false,
+    "id": 8341033,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjgzNDEwMzM=",
+    "organizations_url": "https://api.github.com/users/ikatyang/orgs"
+  },
+  "url": "https://api.github.com/repos/prettier/prettier/issues/comments/353985045",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM1Mzk4NTA0NQ=="
+}

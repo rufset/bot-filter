@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605aab556cf0a13ef54c98d3"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/mochajs/mocha/issues/3461",
+  "updated_at": "2018-11-10T19:26:49Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/mochajs/mocha/pull/3461#issuecomment-414052546",
+  "created_at": "2018-08-18T11:49:43Z",
+  "id": 414052546,
+  "body": "[![CLA assistant check](https://cla.js.foundation/pull/badge/signed)](https://cla.js.foundation/mochajs/mocha?pullRequest=3461) <br/>All committers have signed the CLA.",
+  "user": {
+    "gists_url": "https://api.github.com/users/jsf-clabot/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jsf-clabot/repos",
+    "following_url": "https://api.github.com/users/jsf-clabot/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jsf-clabot/starred{/owner}{/repo}",
+    "login": "jsf-clabot",
+    "followers_url": "https://api.github.com/users/jsf-clabot/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jsf-clabot",
+    "subscriptions_url": "https://api.github.com/users/jsf-clabot/subscriptions",
+    "received_events_url": "https://api.github.com/users/jsf-clabot/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/23005875?v=4",
+    "events_url": "https://api.github.com/users/jsf-clabot/events{/privacy}",
+    "html_url": "https://github.com/jsf-clabot",
+    "site_admin": false,
+    "id": 23005875,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjIzMDA1ODc1",
+    "organizations_url": "https://api.github.com/users/jsf-clabot/orgs"
+  },
+  "url": "https://api.github.com/repos/mochajs/mocha/issues/comments/414052546",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQxNDA1MjU0Ng=="
+}

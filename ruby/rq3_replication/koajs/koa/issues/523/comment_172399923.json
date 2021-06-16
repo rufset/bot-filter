@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a9a9a6cf0a13ef54c2fe9"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/koajs/koa/issues/523",
+  "updated_at": "2016-01-18T00:30:49Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/koajs/koa/issues/523#issuecomment-172399923",
+  "created_at": "2016-01-18T00:30:49Z",
+  "id": 172399923,
+  "body": "i don't think it's worth setting up and having everyone follow the rules. publishing also takes 5 seconds and happens once every few months. it's not something that needs to be optimized.\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/jonathanong/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jonathanong/repos",
+    "following_url": "https://api.github.com/users/jonathanong/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jonathanong/starred{/owner}{/repo}",
+    "login": "jonathanong",
+    "followers_url": "https://api.github.com/users/jonathanong/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jonathanong",
+    "subscriptions_url": "https://api.github.com/users/jonathanong/subscriptions",
+    "received_events_url": "https://api.github.com/users/jonathanong/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/643505?v=4",
+    "events_url": "https://api.github.com/users/jonathanong/events{/privacy}",
+    "html_url": "https://github.com/jonathanong",
+    "site_admin": false,
+    "id": 643505,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjY0MzUwNQ==",
+    "organizations_url": "https://api.github.com/users/jonathanong/orgs"
+  },
+  "url": "https://api.github.com/repos/koajs/koa/issues/comments/172399923",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDE3MjM5OTkyMw=="
+}

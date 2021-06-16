@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605ab9d66cf0a13ef54ce446"
+  },
+  "author_association": "COLLABORATOR",
+  "issue_url": "https://api.github.com/repos/highlightjs/highlight.js/issues/678",
+  "updated_at": "2015-07-27T22:02:38Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/highlightjs/highlight.js/issues/678#issuecomment-125356554",
+  "created_at": "2015-07-27T22:02:38Z",
+  "id": 125356554,
+  "body": "@idleberg, is @kilianc snippet solved your problem?\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/Sannis/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/Sannis/repos",
+    "following_url": "https://api.github.com/users/Sannis/following{/other_user}",
+    "starred_url": "https://api.github.com/users/Sannis/starred{/owner}{/repo}",
+    "login": "Sannis",
+    "followers_url": "https://api.github.com/users/Sannis/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/Sannis",
+    "subscriptions_url": "https://api.github.com/users/Sannis/subscriptions",
+    "received_events_url": "https://api.github.com/users/Sannis/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/77367?v=4",
+    "events_url": "https://api.github.com/users/Sannis/events{/privacy}",
+    "html_url": "https://github.com/Sannis",
+    "site_admin": false,
+    "id": 77367,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjc3MzY3",
+    "organizations_url": "https://api.github.com/users/Sannis/orgs"
+  },
+  "url": "https://api.github.com/repos/highlightjs/highlight.js/issues/comments/125356554",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDEyNTM1NjU1NA=="
+}

@@ -1,0 +1,54 @@
+{
+  "_id": {
+    "$oid": "605a9b8b6cf0a13ef54c3d6f"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2019-06-11T16:25:29Z",
+  "title": "Add Renovate Bot",
+  "body": "**Is your feature request related to a problem? Please describe.**\r\nSome of the dependencies get a little stale and are updated infrequently. \r\n\r\n**Describe the solution you'd like**\r\nRenovateBot will automatically detect new versions of dependencies and create PR's to update them (and associated lock files). Works with both both npm and yarn and also updates associated lockfiles. PR's can be discarded, modified and/or merged. See https://renovatebot.com for more info. \r\n\r\n**Describe alternatives you've considered**\r\n\"bio robots\" aka humans. meh. \r\n\r\n**Additional context**\r\nRenovateBot is free for open source projects, but it would require one of the project maintainers to approve it. See https://github.com/marketplace/renovate#pricing-and-setup for more info. It's dead simple to get up and running and in my opinion, helps keep projects feeling \"fresh\". At the very least, it makes you aware of upgraded dependencies that you might not normally keep track of. ",
+  "labels_url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/2673/labels{/name}",
+  "author_association": "NONE",
+  "number": 2673,
+  "score": 1,
+  "updated_at": "2019-09-28T17:15:13Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/2673/comments",
+  "active_lock_reason": "resolved",
+  "repository_url": "https://api.github.com/repos/react-boilerplate/react-boilerplate",
+  "id": 454787920,
+  "state": "closed",
+  "locked": true,
+  "comments": 16,
+  "closed_at": "2019-08-29T16:29:46Z",
+  "url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/2673",
+  "labels": [
+
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/2673/events",
+  "html_url": "https://github.com/react-boilerplate/react-boilerplate/issues/2673",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/jamesdh/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jamesdh/repos",
+    "following_url": "https://api.github.com/users/jamesdh/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jamesdh/starred{/owner}{/repo}",
+    "login": "jamesdh",
+    "followers_url": "https://api.github.com/users/jamesdh/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jamesdh",
+    "subscriptions_url": "https://api.github.com/users/jamesdh/subscriptions",
+    "received_events_url": "https://api.github.com/users/jamesdh/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1085322?v=4",
+    "events_url": "https://api.github.com/users/jamesdh/events{/privacy}",
+    "html_url": "https://github.com/jamesdh",
+    "site_admin": false,
+    "id": 1085322,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEwODUzMjI=",
+    "organizations_url": "https://api.github.com/users/jamesdh/orgs"
+  },
+  "node_id": "MDU6SXNzdWU0NTQ3ODc5MjA="
+}

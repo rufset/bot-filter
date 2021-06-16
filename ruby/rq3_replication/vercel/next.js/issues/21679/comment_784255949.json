@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3143dd71267de53992"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-23T14:50:29Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-784255949",
+  "created_at": "2021-02-23T14:50:29Z",
+  "id": 784255949,
+  "body": "Not sure how about the rest of you but this issue (combined with some other well known problems) has unfortunately plagued deployment of my project to insanity.\r\n\r\nI can confirm that removing the ^ works but only intermittently. As soon as I try to Dockerize the app the ghost of webpack dependency comes back. ",
+  "user": {
+    "gists_url": "https://api.github.com/users/nazywamsiepawel/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/nazywamsiepawel/repos",
+    "following_url": "https://api.github.com/users/nazywamsiepawel/following{/other_user}",
+    "starred_url": "https://api.github.com/users/nazywamsiepawel/starred{/owner}{/repo}",
+    "login": "nazywamsiepawel",
+    "followers_url": "https://api.github.com/users/nazywamsiepawel/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/nazywamsiepawel",
+    "subscriptions_url": "https://api.github.com/users/nazywamsiepawel/subscriptions",
+    "received_events_url": "https://api.github.com/users/nazywamsiepawel/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/334875?v=4",
+    "events_url": "https://api.github.com/users/nazywamsiepawel/events{/privacy}",
+    "html_url": "https://github.com/nazywamsiepawel",
+    "site_admin": false,
+    "id": 334875,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjMzNDg3NQ==",
+    "organizations_url": "https://api.github.com/users/nazywamsiepawel/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/784255949",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc4NDI1NTk0OQ=="
+}

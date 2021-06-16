@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a9cb96cf0a13ef54c5296"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/standard/standard/issues/1629",
+  "updated_at": "2021-01-29T04:33:26Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/standard/standard/pull/1629#issuecomment-769568302",
+  "created_at": "2021-01-29T04:33:26Z",
+  "id": 769568302,
+  "body": "Great! :+1: \r\n\r\nI guess we'll cache dependencies, personally I always cache dependencies for the CI on my own repo, and I never ran into issues or bugs, maybe I'm lucky enough, and I've got faster CI.\r\n\r\n> I think using caching without having a package-lock.json file is going to cause problems sooner or later...\r\n\r\nI don't see anywhere in the docs, that we should not cache dependencies without `package-lock.json`.\r\n\r\nThat's another discussion not directly related to this PR but in my opinion, if we everyone could use exact version in their `package.json` and we didn't invented version match with `^` or `~` etc symbol, we would have less problems.\r\nIn my own repo even if it's not an npm package, I only use `package.json` and ignore `lockfiles` so it works with whatever package manager `npm`, `yarn`, `pnpm`, etc, and we don't need to manage a big ugly `package-lock.json` file, also in `git` we should avoid to commit generated files, as we do for build.\r\n\r\n> This will also have the added benefit of making the build reproducible.\r\n\r\nThat's right, but if every packages would use exact version match, we would not need to use `package-lock.json`, I know that's not the case unfortunately. ",
+  "user": {
+    "gists_url": "https://api.github.com/users/Divlo/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/Divlo/repos",
+    "following_url": "https://api.github.com/users/Divlo/following{/other_user}",
+    "starred_url": "https://api.github.com/users/Divlo/starred{/owner}{/repo}",
+    "login": "Divlo",
+    "followers_url": "https://api.github.com/users/Divlo/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/Divlo",
+    "subscriptions_url": "https://api.github.com/users/Divlo/subscriptions",
+    "received_events_url": "https://api.github.com/users/Divlo/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/25207499?v=4",
+    "events_url": "https://api.github.com/users/Divlo/events{/privacy}",
+    "html_url": "https://github.com/Divlo",
+    "site_admin": false,
+    "id": 25207499,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI1MjA3NDk5",
+    "organizations_url": "https://api.github.com/users/Divlo/orgs"
+  },
+  "url": "https://api.github.com/repos/standard/standard/issues/comments/769568302",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc2OTU2ODMwMg=="
+}

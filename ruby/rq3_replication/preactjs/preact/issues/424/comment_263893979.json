@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a9b416cf0a13ef54c39af"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/preactjs/preact/issues/424",
+  "updated_at": "2016-11-30T14:58:35Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/preactjs/preact/issues/424#issuecomment-263893979",
+  "created_at": "2016-11-30T14:57:52Z",
+  "id": 263893979,
+  "body": "Running sauce only on master was for some reason not working for me - I was trying to do it from within Karma, maybe it'd be simpler to just do that conditional in `npm run test`?  Or maybe [in `.travis.yml`](https://github.com/developit/preact-www/blob/master/.travis.yml#L6)...",
+  "user": {
+    "gists_url": "https://api.github.com/users/developit/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/developit/repos",
+    "following_url": "https://api.github.com/users/developit/following{/other_user}",
+    "starred_url": "https://api.github.com/users/developit/starred{/owner}{/repo}",
+    "login": "developit",
+    "followers_url": "https://api.github.com/users/developit/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/developit",
+    "subscriptions_url": "https://api.github.com/users/developit/subscriptions",
+    "received_events_url": "https://api.github.com/users/developit/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/105127?v=4",
+    "events_url": "https://api.github.com/users/developit/events{/privacy}",
+    "html_url": "https://github.com/developit",
+    "site_admin": false,
+    "id": 105127,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEwNTEyNw==",
+    "organizations_url": "https://api.github.com/users/developit/orgs"
+  },
+  "url": "https://api.github.com/repos/preactjs/preact/issues/comments/263893979",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDI2Mzg5Mzk3OQ=="
+}

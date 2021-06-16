@@ -1,0 +1,61 @@
+{
+  "_id": {
+    "$oid": "605a9cb46cf0a13ef54c522f"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2020-10-29T12:34:06Z",
+  "title": "Create Dependabot configuration",
+  "body": "**What is the purpose of this pull request? (put an \"X\" next to item)**\r\n\r\n[ ] Documentation update\r\n[ ] Bug fix\r\n[ ] New feature\r\n[x] Other, please explain: Configure Dependabot so that you have a working dependency bot.\r\n\r\n**What changes did you make? (Give an overview)**\r\n\r\n- Create a Dependabot config.\r\n\r\n**Which issue (if any) does this pull request address?**\r\n\r\nCloses #1550\r\n\r\n**Is there anything you'd like reviewers to focus on?**\r\n\r\n**References:**\r\n\r\n[Official GitHub Dependabot configuration options documentation](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/configuration-options-for-dependency-updates)\r\n\r\n**Things you probably should do after merging:**\r\n\r\n- [ ] Delete Greenkeeper app, see the [GitHub Docs on deleting a GitHub app](https://docs.github.com/en/free-pro-team@latest/developers/apps/deleting-a-github-app).\r\n- [x] Remove stale Greenkeeper branches on this repository, see this [list of stale branches for standard/standard repository](https://github.com/standard/standard/branches/stale).",
+  "labels_url": "https://api.github.com/repos/standard/standard/issues/1582/labels{/name}",
+  "author_association": "CONTRIBUTOR",
+  "number": 1582,
+  "score": 1,
+  "updated_at": "2020-11-10T09:25:18Z",
+  "performed_via_github_app": null,
+  "draft": false,
+  "comments_url": "https://api.github.com/repos/standard/standard/issues/1582/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/standard/standard",
+  "id": 732275433,
+  "state": "closed",
+  "locked": false,
+  "pull_request": {
+    "patch_url": "https://github.com/standard/standard/pull/1582.patch",
+    "html_url": "https://github.com/standard/standard/pull/1582",
+    "diff_url": "https://github.com/standard/standard/pull/1582.diff",
+    "url": "https://api.github.com/repos/standard/standard/pulls/1582"
+  },
+  "comments": 7,
+  "closed_at": "2020-11-05T21:43:32Z",
+  "url": "https://api.github.com/repos/standard/standard/issues/1582",
+  "labels": [
+
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/standard/standard/issues/1582/events",
+  "html_url": "https://github.com/standard/standard/pull/1582",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/HonkingGoose/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/HonkingGoose/repos",
+    "following_url": "https://api.github.com/users/HonkingGoose/following{/other_user}",
+    "starred_url": "https://api.github.com/users/HonkingGoose/starred{/owner}{/repo}",
+    "login": "HonkingGoose",
+    "followers_url": "https://api.github.com/users/HonkingGoose/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/HonkingGoose",
+    "subscriptions_url": "https://api.github.com/users/HonkingGoose/subscriptions",
+    "received_events_url": "https://api.github.com/users/HonkingGoose/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/34918129?v=4",
+    "events_url": "https://api.github.com/users/HonkingGoose/events{/privacy}",
+    "html_url": "https://github.com/HonkingGoose",
+    "site_admin": false,
+    "id": 34918129,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjM0OTE4MTI5",
+    "organizations_url": "https://api.github.com/users/HonkingGoose/orgs"
+  },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0NTEyMjQyODAx"
+}

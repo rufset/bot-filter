@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6072601243dd71267de41aea"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/pnpm/pnpm/issues/1177",
+  "updated_at": "2018-08-08T00:46:19Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/pnpm/pnpm/pull/1177#issuecomment-411244866",
+  "created_at": "2018-08-08T00:27:50Z",
+  "id": 411244866,
+  "body": "With this change, is there actually any speed improvement while using `--shrinkwrap-only`? @pgonzal @zkochan \r\n\r\nWhy is it necessary to download the tarballs when using this flag? Can we work around it, e.g. with @pgonzal's suggestion:\r\n\r\n> To handle @rarkins 's issue, couldn't you simply omit the corgi header if the --shrinkwrap-only option was specified?",
+  "user": {
+    "gists_url": "https://api.github.com/users/nickpape/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/nickpape/repos",
+    "following_url": "https://api.github.com/users/nickpape/following{/other_user}",
+    "starred_url": "https://api.github.com/users/nickpape/starred{/owner}{/repo}",
+    "login": "nickpape",
+    "followers_url": "https://api.github.com/users/nickpape/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/nickpape",
+    "subscriptions_url": "https://api.github.com/users/nickpape/subscriptions",
+    "received_events_url": "https://api.github.com/users/nickpape/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/17131271?v=4",
+    "events_url": "https://api.github.com/users/nickpape/events{/privacy}",
+    "html_url": "https://github.com/nickpape",
+    "site_admin": false,
+    "id": 17131271,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE3MTMxMjcx",
+    "organizations_url": "https://api.github.com/users/nickpape/orgs"
+  },
+  "url": "https://api.github.com/repos/pnpm/pnpm/issues/comments/411244866",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQxMTI0NDg2Ng=="
+}

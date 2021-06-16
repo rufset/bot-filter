@@ -1,0 +1,61 @@
+{
+  "_id": {
+    "$oid": "6072375643dd71267de343c0"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2018-02-13T14:12:47Z",
+  "title": "Enable all updates in pyup",
+  "body": "Have the pyup bot send us pull requests for all dependency updates, not just for known security updates.",
+  "labels_url": "https://api.github.com/repos/hypothesis/h/issues/4795/labels{/name}",
+  "author_association": "CONTRIBUTOR",
+  "number": 4795,
+  "score": 1,
+  "updated_at": "2018-02-15T17:00:16Z",
+  "performed_via_github_app": null,
+  "draft": false,
+  "comments_url": "https://api.github.com/repos/hypothesis/h/issues/4795/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/hypothesis/h",
+  "id": 296750769,
+  "state": "closed",
+  "locked": false,
+  "pull_request": {
+    "patch_url": "https://github.com/hypothesis/h/pull/4795.patch",
+    "html_url": "https://github.com/hypothesis/h/pull/4795",
+    "diff_url": "https://github.com/hypothesis/h/pull/4795.diff",
+    "url": "https://api.github.com/repos/hypothesis/h/pulls/4795"
+  },
+  "comments": 4,
+  "closed_at": "2018-02-15T17:00:09Z",
+  "url": "https://api.github.com/repos/hypothesis/h/issues/4795",
+  "labels": [
+
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/hypothesis/h/issues/4795/events",
+  "html_url": "https://github.com/hypothesis/h/pull/4795",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/seanh/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/seanh/repos",
+    "following_url": "https://api.github.com/users/seanh/following{/other_user}",
+    "starred_url": "https://api.github.com/users/seanh/starred{/owner}{/repo}",
+    "login": "seanh",
+    "followers_url": "https://api.github.com/users/seanh/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/seanh",
+    "subscriptions_url": "https://api.github.com/users/seanh/subscriptions",
+    "received_events_url": "https://api.github.com/users/seanh/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/22498?v=4",
+    "events_url": "https://api.github.com/users/seanh/events{/privacy}",
+    "html_url": "https://github.com/seanh",
+    "site_admin": false,
+    "id": 22498,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjIyNDk4",
+    "organizations_url": "https://api.github.com/users/seanh/orgs"
+  },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MTY4ODU0NjYx"
+}

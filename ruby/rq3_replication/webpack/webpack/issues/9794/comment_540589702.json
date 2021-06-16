@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6059ea026cf0a13ef5473d96"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/webpack/webpack/issues/9794",
+  "updated_at": "2019-10-10T13:48:08Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/webpack/webpack/issues/9794#issuecomment-540589702",
+  "created_at": "2019-10-10T13:43:33Z",
+  "id": 540589702,
+  "body": "I just added a breakpoint in the minified code and went up the trace, and it happen in a library called [color](https://github.com/Qix-/color), exactly [here](https://github.com/Qix-/color/blob/master/index.js#L409).\r\n\r\n![image](https://user-images.githubusercontent.com/1866564/66574903-5918a880-eb75-11e9-86da-67287b3f85f8.png)\r\n\r\n\r\nThis file as not been changed since June, and the library where I use it [here](https://github.com/bootstrap-styled/bootstrap-styled/blob/master/src/theme/index.js#L179) as also not changed since February. \r\n\r\nYes, when I run it in development it work fine (As you can see, all sources are open.). \r\n\r\nSomething must have change somewhere in the prod build and webpack is in charge of that.",
+  "user": {
+    "gists_url": "https://api.github.com/users/kopax/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/kopax/repos",
+    "following_url": "https://api.github.com/users/kopax/following{/other_user}",
+    "starred_url": "https://api.github.com/users/kopax/starred{/owner}{/repo}",
+    "login": "kopax",
+    "followers_url": "https://api.github.com/users/kopax/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/kopax",
+    "subscriptions_url": "https://api.github.com/users/kopax/subscriptions",
+    "received_events_url": "https://api.github.com/users/kopax/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1866564?v=4",
+    "events_url": "https://api.github.com/users/kopax/events{/privacy}",
+    "html_url": "https://github.com/kopax",
+    "site_admin": false,
+    "id": 1866564,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE4NjY1NjQ=",
+    "organizations_url": "https://api.github.com/users/kopax/orgs"
+  },
+  "url": "https://api.github.com/repos/webpack/webpack/issues/comments/540589702",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU0MDU4OTcwMg=="
+}

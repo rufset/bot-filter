@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a9a9a6cf0a13ef54c2fe7"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/koajs/koa/issues/523",
+  "updated_at": "2015-12-13T18:01:17Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/koajs/koa/issues/523#issuecomment-164284106",
+  "created_at": "2015-12-13T18:01:17Z",
+  "id": 164284106,
+  "body": "Is there any explanation I can find about:\n- What is being changed from 1.x to 2.x, why, and what is the performance difference\n- How 2.x works\n- What are best practices to convert from 1.x to 2.x\n- What modules support 2.x\n\nThanks!\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/pensierinmusica/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/pensierinmusica/repos",
+    "following_url": "https://api.github.com/users/pensierinmusica/following{/other_user}",
+    "starred_url": "https://api.github.com/users/pensierinmusica/starred{/owner}{/repo}",
+    "login": "pensierinmusica",
+    "followers_url": "https://api.github.com/users/pensierinmusica/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/pensierinmusica",
+    "subscriptions_url": "https://api.github.com/users/pensierinmusica/subscriptions",
+    "received_events_url": "https://api.github.com/users/pensierinmusica/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3594037?v=4",
+    "events_url": "https://api.github.com/users/pensierinmusica/events{/privacy}",
+    "html_url": "https://github.com/pensierinmusica",
+    "site_admin": false,
+    "id": 3594037,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjM1OTQwMzc=",
+    "organizations_url": "https://api.github.com/users/pensierinmusica/orgs"
+  },
+  "url": "https://api.github.com/repos/koajs/koa/issues/comments/164284106",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDE2NDI4NDEwNg=="
+}

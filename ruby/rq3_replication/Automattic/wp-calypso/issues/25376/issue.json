@@ -1,0 +1,69 @@
+{
+  "_id": {
+    "$oid": "607254cb43dd71267de403a8"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2018-06-07T17:54:25Z",
+  "title": "Update README badge from greenkeeper to renovate",
+  "body": "* We're moving off Greenkeeper and on to Renovate. In light of this,\r\n  - Remove greenkeeper badge\r\n  - Add renovate badge\r\n\r\nFixes: https://github.com/Automattic/wp-calypso/issues/25338",
+  "labels_url": "https://api.github.com/repos/Automattic/wp-calypso/issues/25376/labels{/name}",
+  "author_association": "CONTRIBUTOR",
+  "number": 25376,
+  "score": 1,
+  "updated_at": "2018-07-14T03:54:59Z",
+  "performed_via_github_app": null,
+  "draft": false,
+  "comments_url": "https://api.github.com/repos/Automattic/wp-calypso/issues/25376/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/Automattic/wp-calypso",
+  "id": 330374815,
+  "state": "closed",
+  "locked": false,
+  "pull_request": {
+    "patch_url": "https://github.com/Automattic/wp-calypso/pull/25376.patch",
+    "html_url": "https://github.com/Automattic/wp-calypso/pull/25376",
+    "diff_url": "https://github.com/Automattic/wp-calypso/pull/25376.diff",
+    "url": "https://api.github.com/repos/Automattic/wp-calypso/pulls/25376"
+  },
+  "comments": 0,
+  "closed_at": "2018-06-11T13:37:51Z",
+  "url": "https://api.github.com/repos/Automattic/wp-calypso/issues/25376",
+  "labels": [
+    {
+      "default": false,
+      "color": "5319e7",
+      "name": "OSS Citizen",
+      "description": null,
+      "id": 301697869,
+      "url": "https://api.github.com/repos/Automattic/wp-calypso/labels/OSS%20Citizen",
+      "node_id": "MDU6TGFiZWwzMDE2OTc4Njk="
+    }
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/Automattic/wp-calypso/issues/25376/events",
+  "html_url": "https://github.com/Automattic/wp-calypso/pull/25376",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/sagirk/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/sagirk/repos",
+    "following_url": "https://api.github.com/users/sagirk/following{/other_user}",
+    "starred_url": "https://api.github.com/users/sagirk/starred{/owner}{/repo}",
+    "login": "sagirk",
+    "followers_url": "https://api.github.com/users/sagirk/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/sagirk",
+    "subscriptions_url": "https://api.github.com/users/sagirk/subscriptions",
+    "received_events_url": "https://api.github.com/users/sagirk/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2608321?v=4",
+    "events_url": "https://api.github.com/users/sagirk/events{/privacy}",
+    "html_url": "https://github.com/sagirk",
+    "site_admin": false,
+    "id": 2608321,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI2MDgzMjE=",
+    "organizations_url": "https://api.github.com/users/sagirk/orgs"
+  },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MTkzNDAwODgy"
+}

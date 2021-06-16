@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ec56cf0a13ef54bc1d2"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/16957",
+  "updated_at": "2019-08-31T12:39:19Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/16957#issuecomment-526827396",
+  "created_at": "2019-08-31T12:39:19Z",
+  "id": 526827396,
+  "body": "Same issue on Netlify. Try downgrading `gatsby-plugin-sharp` but still not working.",
+  "user": {
+    "gists_url": "https://api.github.com/users/RomainCscn/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/RomainCscn/repos",
+    "following_url": "https://api.github.com/users/RomainCscn/following{/other_user}",
+    "starred_url": "https://api.github.com/users/RomainCscn/starred{/owner}{/repo}",
+    "login": "RomainCscn",
+    "followers_url": "https://api.github.com/users/RomainCscn/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/RomainCscn",
+    "subscriptions_url": "https://api.github.com/users/RomainCscn/subscriptions",
+    "received_events_url": "https://api.github.com/users/RomainCscn/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6696530?v=4",
+    "events_url": "https://api.github.com/users/RomainCscn/events{/privacy}",
+    "html_url": "https://github.com/RomainCscn",
+    "site_admin": false,
+    "id": 6696530,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjY2OTY1MzA=",
+    "organizations_url": "https://api.github.com/users/RomainCscn/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/526827396",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUyNjgyNzM5Ng=="
+}

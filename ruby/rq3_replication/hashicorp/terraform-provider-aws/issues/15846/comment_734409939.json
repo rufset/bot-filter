@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60726e1b43dd71267de46a48"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/hashicorp/terraform-provider-aws/issues/15846",
+  "updated_at": "2020-11-26T17:10:01Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/hashicorp/terraform-provider-aws/pull/15846#issuecomment-734409939",
+  "created_at": "2020-11-26T17:10:01Z",
+  "id": 734409939,
+  "body": "I'm going to lock this issue because it has been closed for _30 days_ ⏳. This helps our maintainers find and focus on the active issues.\n\nIf you feel this issue should be reopened, we encourage creating a new issue linking back to this one for added context. Thanks!\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/hashibot%5Bbot%5D/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/hashibot%5Bbot%5D/repos",
+    "following_url": "https://api.github.com/users/hashibot%5Bbot%5D/following{/other_user}",
+    "starred_url": "https://api.github.com/users/hashibot%5Bbot%5D/starred{/owner}{/repo}",
+    "login": "hashibot[bot]",
+    "followers_url": "https://api.github.com/users/hashibot%5Bbot%5D/followers",
+    "type": "Bot",
+    "url": "https://api.github.com/users/hashibot%5Bbot%5D",
+    "subscriptions_url": "https://api.github.com/users/hashibot%5Bbot%5D/subscriptions",
+    "received_events_url": "https://api.github.com/users/hashibot%5Bbot%5D/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/in/8332?v=4",
+    "events_url": "https://api.github.com/users/hashibot%5Bbot%5D/events{/privacy}",
+    "html_url": "https://github.com/apps/hashibot",
+    "site_admin": false,
+    "id": 35615658,
+    "gravatar_id": "",
+    "node_id": "MDM6Qm90MzU2MTU2NTg=",
+    "organizations_url": "https://api.github.com/users/hashibot%5Bbot%5D/orgs"
+  },
+  "url": "https://api.github.com/repos/hashicorp/terraform-provider-aws/issues/comments/734409939",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDczNDQwOTkzOQ=="
+}

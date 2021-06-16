@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ecc6cf0a13ef54bc33e"
+  },
+  "author_association": "COLLABORATOR",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/26128",
+  "updated_at": "2020-07-30T15:25:01Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/26128#issuecomment-666453958",
+  "created_at": "2020-07-30T15:25:01Z",
+  "id": 666453958,
+  "body": "There's an additional issue with `devcert` as it depends on an even older version of update-notifier. I'll see if I can resolve that too.",
+  "user": {
+    "gists_url": "https://api.github.com/users/herecydev/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/herecydev/repos",
+    "following_url": "https://api.github.com/users/herecydev/following{/other_user}",
+    "starred_url": "https://api.github.com/users/herecydev/starred{/owner}{/repo}",
+    "login": "herecydev",
+    "followers_url": "https://api.github.com/users/herecydev/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/herecydev",
+    "subscriptions_url": "https://api.github.com/users/herecydev/subscriptions",
+    "received_events_url": "https://api.github.com/users/herecydev/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/11328618?v=4",
+    "events_url": "https://api.github.com/users/herecydev/events{/privacy}",
+    "html_url": "https://github.com/herecydev",
+    "site_admin": false,
+    "id": 11328618,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjExMzI4NjE4",
+    "organizations_url": "https://api.github.com/users/herecydev/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/666453958",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY2NjQ1Mzk1OA=="
+}

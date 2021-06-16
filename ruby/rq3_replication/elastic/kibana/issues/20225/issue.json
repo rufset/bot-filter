@@ -1,0 +1,80 @@
+{
+  "_id": {
+    "$oid": "607251a443dd71267de3b853"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2018-06-26T11:47:15Z",
+  "title": "Use automation in order to keep Kibana's dependencies up to date",
+  "body": "As our project has a considerable amount of external dependencies it's not easy to keep them up to date. In @elastic/kibana-operations we have already talked about using some automation tools to help us get this job done and one of the options to accomplish this is [Greenkeeper](https://github.com/integration/greenkeeper). \r\n\r\nThe issue aims to track the developments on this matter.\r\n\r\nPS: @azasypkin asked today if we have any plans in mind to implement a thing that help us keep our dependencies up to date so I believe it is a requested feature 😃 ",
+  "labels_url": "https://api.github.com/repos/elastic/kibana/issues/20225/labels{/name}",
+  "author_association": "MEMBER",
+  "number": 20225,
+  "score": 1,
+  "updated_at": "2019-07-15T14:27:10Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/elastic/kibana/issues/20225/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/elastic/kibana",
+  "id": 335781557,
+  "state": "closed",
+  "locked": false,
+  "comments": 5,
+  "closed_at": "2019-07-15T14:27:09Z",
+  "url": "https://api.github.com/repos/elastic/kibana/issues/20225",
+  "labels": [
+    {
+      "default": false,
+      "color": "fef2c0",
+      "name": "Team:Operations",
+      "description": "Team label for Operations Team",
+      "id": 470241342,
+      "url": "https://api.github.com/repos/elastic/kibana/labels/Team:Operations",
+      "node_id": "MDU6TGFiZWw0NzAyNDEzNDI="
+    },
+    {
+      "default": false,
+      "color": "fbca04",
+      "name": "discuss",
+      "description": null,
+      "id": 135902874,
+      "url": "https://api.github.com/repos/elastic/kibana/labels/discuss",
+      "node_id": "MDU6TGFiZWwxMzU5MDI4NzQ="
+    },
+    {
+      "default": true,
+      "color": "4a4ea8",
+      "name": "enhancement",
+      "description": "",
+      "id": 836553987,
+      "url": "https://api.github.com/repos/elastic/kibana/labels/enhancement",
+      "node_id": "MDU6TGFiZWw4MzY1NTM5ODc="
+    }
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/elastic/kibana/issues/20225/events",
+  "html_url": "https://github.com/elastic/kibana/issues/20225",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/mistic/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/mistic/repos",
+    "following_url": "https://api.github.com/users/mistic/following{/other_user}",
+    "starred_url": "https://api.github.com/users/mistic/starred{/owner}{/repo}",
+    "login": "mistic",
+    "followers_url": "https://api.github.com/users/mistic/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/mistic",
+    "subscriptions_url": "https://api.github.com/users/mistic/subscriptions",
+    "received_events_url": "https://api.github.com/users/mistic/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/4440734?v=4",
+    "events_url": "https://api.github.com/users/mistic/events{/privacy}",
+    "html_url": "https://github.com/mistic",
+    "site_admin": false,
+    "id": 4440734,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjQ0NDA3MzQ=",
+    "organizations_url": "https://api.github.com/users/mistic/orgs"
+  },
+  "node_id": "MDU6SXNzdWUzMzU3ODE1NTc="
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071f1f443dd71267de20c6c"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/HypothesisWorks/hypothesis/issues/680",
+  "updated_at": "2017-06-07T09:05:51Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/HypothesisWorks/hypothesis/issues/680#issuecomment-306736110",
+  "created_at": "2017-06-07T09:05:51Z",
+  "id": 306736110,
+  "body": "I’d swear there was already an issue about this?",
+  "user": {
+    "gists_url": "https://api.github.com/users/alexwlchan/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/alexwlchan/repos",
+    "following_url": "https://api.github.com/users/alexwlchan/following{/other_user}",
+    "starred_url": "https://api.github.com/users/alexwlchan/starred{/owner}{/repo}",
+    "login": "alexwlchan",
+    "followers_url": "https://api.github.com/users/alexwlchan/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/alexwlchan",
+    "subscriptions_url": "https://api.github.com/users/alexwlchan/subscriptions",
+    "received_events_url": "https://api.github.com/users/alexwlchan/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/301220?v=4",
+    "events_url": "https://api.github.com/users/alexwlchan/events{/privacy}",
+    "html_url": "https://github.com/alexwlchan",
+    "site_admin": false,
+    "id": 301220,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjMwMTIyMA==",
+    "organizations_url": "https://api.github.com/users/alexwlchan/orgs"
+  },
+  "url": "https://api.github.com/repos/HypothesisWorks/hypothesis/issues/comments/306736110",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDMwNjczNjExMA=="
+}

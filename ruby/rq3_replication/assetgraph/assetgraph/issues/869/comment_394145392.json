@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071ba1e43dd71267de10dba"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/assetgraph/assetgraph/issues/869",
+  "updated_at": "2018-06-03T08:15:54Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/assetgraph/assetgraph/pull/869#issuecomment-394145392",
+  "created_at": "2018-06-03T08:15:54Z",
+  "id": 394145392,
+  "body": "Maybe add a license file for the fonts?",
+  "user": {
+    "gists_url": "https://api.github.com/users/bramstein/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/bramstein/repos",
+    "following_url": "https://api.github.com/users/bramstein/following{/other_user}",
+    "starred_url": "https://api.github.com/users/bramstein/starred{/owner}{/repo}",
+    "login": "bramstein",
+    "followers_url": "https://api.github.com/users/bramstein/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/bramstein",
+    "subscriptions_url": "https://api.github.com/users/bramstein/subscriptions",
+    "received_events_url": "https://api.github.com/users/bramstein/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/114871?v=4",
+    "events_url": "https://api.github.com/users/bramstein/events{/privacy}",
+    "html_url": "https://github.com/bramstein",
+    "site_admin": false,
+    "id": 114871,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjExNDg3MQ==",
+    "organizations_url": "https://api.github.com/users/bramstein/orgs"
+  },
+  "url": "https://api.github.com/repos/assetgraph/assetgraph/issues/comments/394145392",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM5NDE0NTM5Mg=="
+}

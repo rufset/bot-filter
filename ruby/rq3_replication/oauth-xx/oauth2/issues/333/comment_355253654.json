@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071b75e43dd71267de0dc46"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/oauth-xx/oauth2/issues/333",
+  "updated_at": "2018-01-04T10:54:26Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/oauth-xx/oauth2/issues/333#issuecomment-355253654",
+  "created_at": "2018-01-04T10:54:26Z",
+  "id": 355253654,
+  "body": "Also having trouble with granting access to this repo on CodeClimate 👎 ",
+  "user": {
+    "gists_url": "https://api.github.com/users/pboling/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/pboling/repos",
+    "following_url": "https://api.github.com/users/pboling/following{/other_user}",
+    "starred_url": "https://api.github.com/users/pboling/starred{/owner}{/repo}",
+    "login": "pboling",
+    "followers_url": "https://api.github.com/users/pboling/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/pboling",
+    "subscriptions_url": "https://api.github.com/users/pboling/subscriptions",
+    "received_events_url": "https://api.github.com/users/pboling/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19505?v=4",
+    "events_url": "https://api.github.com/users/pboling/events{/privacy}",
+    "html_url": "https://github.com/pboling",
+    "site_admin": false,
+    "id": 19505,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE5NTA1",
+    "organizations_url": "https://api.github.com/users/pboling/orgs"
+  },
+  "url": "https://api.github.com/repos/oauth-xx/oauth2/issues/comments/355253654",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM1NTI1MzY1NA=="
+}

@@ -1,0 +1,54 @@
+{
+  "_id": {
+    "$oid": "60720e0143dd71267de29398"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2019-11-03T13:49:57Z",
+  "title": "Support Conditional Requirements",
+  "body": "Some packages are only relevant to certain users, based on the selected options during project generation. We cannot currently use jinja templating in requirements files, however, because this causes dependabot parsing to fail.\r\n\r\nWe need to implement some functionality that would allow for unnecessary dependencies to be removed from requirements files during template generation.",
+  "labels_url": "https://api.github.com/repos/cookiecutter-flask/cookiecutter-flask/issues/608/labels{/name}",
+  "author_association": "COLLABORATOR",
+  "number": 608,
+  "score": 1,
+  "updated_at": "2019-12-01T15:51:19Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/cookiecutter-flask/cookiecutter-flask/issues/608/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/cookiecutter-flask/cookiecutter-flask",
+  "id": 516830358,
+  "state": "closed",
+  "locked": false,
+  "comments": 4,
+  "closed_at": "2019-12-01T15:13:19Z",
+  "url": "https://api.github.com/repos/cookiecutter-flask/cookiecutter-flask/issues/608",
+  "labels": [
+
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/cookiecutter-flask/cookiecutter-flask/issues/608/events",
+  "html_url": "https://github.com/cookiecutter-flask/cookiecutter-flask/issues/608",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/jamescurtin/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jamescurtin/repos",
+    "following_url": "https://api.github.com/users/jamescurtin/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jamescurtin/starred{/owner}{/repo}",
+    "login": "jamescurtin",
+    "followers_url": "https://api.github.com/users/jamescurtin/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jamescurtin",
+    "subscriptions_url": "https://api.github.com/users/jamescurtin/subscriptions",
+    "received_events_url": "https://api.github.com/users/jamescurtin/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10189269?v=4",
+    "events_url": "https://api.github.com/users/jamescurtin/events{/privacy}",
+    "html_url": "https://github.com/jamescurtin",
+    "site_admin": false,
+    "id": 10189269,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEwMTg5MjY5",
+    "organizations_url": "https://api.github.com/users/jamescurtin/orgs"
+  },
+  "node_id": "MDU6SXNzdWU1MTY4MzAzNTg="
+}

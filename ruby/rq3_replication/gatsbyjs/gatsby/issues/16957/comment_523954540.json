@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ec56cf0a13ef54bc1b6"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/16957",
+  "updated_at": "2019-08-22T15:49:06Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/16957#issuecomment-523954540",
+  "created_at": "2019-08-22T15:26:25Z",
+  "id": 523954540,
+  "body": "> Try adding these at the top of your `gatsby-nodes.js`:\r\n> \r\n> ```js\r\n> const sharp = require('sharp')\r\n> sharp.simd(false)\r\n> sharp.cache(false)\r\n> ```\r\n> \r\n> See [#6291 (comment)](https://github.com/gatsbyjs/gatsby/issues/6291#issuecomment-509783902)\r\n\r\nI just tried this and am still having the same error:\r\n\r\n```\r\n(sharp:44423): GLib-GObject-WARNING **: 11:24:41.418: cannot register existing type 'VipsObject'\r\n\r\n(sharp:44423): GLib-CRITICAL **: 11:24:41.418: g_once_init_leave: assertion 'result != 0' failed\r\n\r\n(sharp:44423): GLib-GObject-CRITICAL **: 11:24:41.418: g_type_register_static: assertion 'parent_type > 0' failed\r\n\r\n(sharp:44423): GLib-CRITICAL **: 11:24:41.418: g_once_init_leave: assertion 'result != 0' failed\r\n```",
+  "user": {
+    "gists_url": "https://api.github.com/users/klgh/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/klgh/repos",
+    "following_url": "https://api.github.com/users/klgh/following{/other_user}",
+    "starred_url": "https://api.github.com/users/klgh/starred{/owner}{/repo}",
+    "login": "klgh",
+    "followers_url": "https://api.github.com/users/klgh/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/klgh",
+    "subscriptions_url": "https://api.github.com/users/klgh/subscriptions",
+    "received_events_url": "https://api.github.com/users/klgh/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2472570?v=4",
+    "events_url": "https://api.github.com/users/klgh/events{/privacy}",
+    "html_url": "https://github.com/klgh",
+    "site_admin": false,
+    "id": 2472570,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI0NzI1NzA=",
+    "organizations_url": "https://api.github.com/users/klgh/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/523954540",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUyMzk1NDU0MA=="
+}

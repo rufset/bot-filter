@@ -1,0 +1,71 @@
+{
+  "_id": {
+    "$oid": "605aa9796cf0a13ef54c78e4"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2017-11-07T13:32:10Z",
+  "title": "Move to fuzzy dependency versions",
+  "body": "The package.json pins down dependencies pretty hard. This leads to duplicate dependencies in our project, e.g. `prop-types` which already has newer releases. Would you consider to updating all dependencies with carets `^` or at least tildes `~`? Or is there any reason why pinning them down, if you rely on yarn anyway.\r\n\r\nPS: I see that you have travis-ci in place, you could think about adding [greenkeeper](https://greenkeeper.io/) as well to update dependencies automatically and report breakages with newer versions of this package.",
+  "labels_url": "https://api.github.com/repos/atlassian/react-beautiful-dnd/issues/166/labels{/name}",
+  "author_association": "NONE",
+  "number": 166,
+  "score": 1,
+  "updated_at": "2017-11-20T04:28:24Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/atlassian/react-beautiful-dnd/issues/166/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/atlassian/react-beautiful-dnd",
+  "id": 271832166,
+  "state": "closed",
+  "locked": false,
+  "comments": 6,
+  "closed_at": "2017-11-20T03:45:59Z",
+  "url": "https://api.github.com/repos/atlassian/react-beautiful-dnd/issues/166",
+  "labels": [
+    {
+      "default": false,
+      "color": "0052cc",
+      "name": "engineering health 🛠",
+      "description": "",
+      "id": 665706981,
+      "url": "https://api.github.com/repos/atlassian/react-beautiful-dnd/labels/engineering%20health%20%F0%9F%9B%A0",
+      "node_id": "MDU6TGFiZWw2NjU3MDY5ODE="
+    },
+    {
+      "default": false,
+      "color": "5319e7",
+      "name": "idea 🤔",
+      "description": "",
+      "id": 665705209,
+      "url": "https://api.github.com/repos/atlassian/react-beautiful-dnd/labels/idea%20%F0%9F%A4%94",
+      "node_id": "MDU6TGFiZWw2NjU3MDUyMDk="
+    }
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/atlassian/react-beautiful-dnd/issues/166/events",
+  "html_url": "https://github.com/atlassian/react-beautiful-dnd/issues/166",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/leipert/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/leipert/repos",
+    "following_url": "https://api.github.com/users/leipert/following{/other_user}",
+    "starred_url": "https://api.github.com/users/leipert/starred{/owner}{/repo}",
+    "login": "leipert",
+    "followers_url": "https://api.github.com/users/leipert/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/leipert",
+    "subscriptions_url": "https://api.github.com/users/leipert/subscriptions",
+    "received_events_url": "https://api.github.com/users/leipert/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2906107?v=4",
+    "events_url": "https://api.github.com/users/leipert/events{/privacy}",
+    "html_url": "https://github.com/leipert",
+    "site_admin": false,
+    "id": 2906107,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI5MDYxMDc=",
+    "organizations_url": "https://api.github.com/users/leipert/orgs"
+  },
+  "node_id": "MDU6SXNzdWUyNzE4MzIxNjY="
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071b7b943dd71267de0e0d1"
+  },
+  "author_association": "COLLABORATOR",
+  "issue_url": "https://api.github.com/repos/consul/consul/issues/2829",
+  "updated_at": "2018-08-10T09:35:05Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/consul/consul/issues/2829#issuecomment-412031516",
+  "created_at": "2018-08-10T09:35:05Z",
+  "id": 412031516,
+  "body": "@viren140290, @greysteil I'd wait for feedback from @bertocq, @raul-fuentes, @aitbw or @voodoorai2000 if I were you.\r\n\r\nIt seems that a lot of dependencies have been updated in this [PR](https://github.com/consul/consul/pull/2631), most importantly Ruby and Rails but also nokogiri and some for which I created PRs.",
+  "user": {
+    "gists_url": "https://api.github.com/users/PierreMesure/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/PierreMesure/repos",
+    "following_url": "https://api.github.com/users/PierreMesure/following{/other_user}",
+    "starred_url": "https://api.github.com/users/PierreMesure/starred{/owner}{/repo}",
+    "login": "PierreMesure",
+    "followers_url": "https://api.github.com/users/PierreMesure/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/PierreMesure",
+    "subscriptions_url": "https://api.github.com/users/PierreMesure/subscriptions",
+    "received_events_url": "https://api.github.com/users/PierreMesure/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/7223028?v=4",
+    "events_url": "https://api.github.com/users/PierreMesure/events{/privacy}",
+    "html_url": "https://github.com/PierreMesure",
+    "site_admin": false,
+    "id": 7223028,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjcyMjMwMjg=",
+    "organizations_url": "https://api.github.com/users/PierreMesure/orgs"
+  },
+  "url": "https://api.github.com/repos/consul/consul/issues/comments/412031516",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQxMjAzMTUxNg=="
+}

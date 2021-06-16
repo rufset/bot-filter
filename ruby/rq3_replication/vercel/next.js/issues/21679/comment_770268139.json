@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3043dd71267de5395c"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-01-30T19:28:34Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-770268139",
+  "created_at": "2021-01-30T19:28:34Z",
+  "id": 770268139,
+  "body": "> With typescript I'm getting what I suspect is a related error:\r\n> \r\n> ```ts\r\n> ./node_modules/next/dist/build/webpack/plugins/build-manifest-plugin.d.ts:1:25\r\n> Type error: Could not find a declaration file for module 'next/dist/compiled/webpack/webpack'. '/home/adys/src/overframe/frontend/node_modules/next/dist/compiled/webpack/webpack.js' implicitly has an 'any' type.\r\n>   Try `npm i --save-dev @types/next` if it exists or add a new declaration (.d.ts) file containing `declare module 'next/dist/compiled/webpack/webpack';`\r\n> \r\n> > 1 | import { webpack } from 'next/dist/compiled/webpack/webpack';\r\n>     |                         ^\r\n>   2 | import { Rewrite } from '../../../lib/load-custom-routes';\r\n>   3 | export declare type ClientBuildManifest = Record<string, string[]>;\r\n>   4 | export default class BuildManifestPlugin {\r\n> error Command failed with exit code 1.\r\n> info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.\r\n> ```\r\n\r\nI'm getting the same issue",
+  "user": {
+    "gists_url": "https://api.github.com/users/aralroca/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/aralroca/repos",
+    "following_url": "https://api.github.com/users/aralroca/following{/other_user}",
+    "starred_url": "https://api.github.com/users/aralroca/starred{/owner}{/repo}",
+    "login": "aralroca",
+    "followers_url": "https://api.github.com/users/aralroca/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/aralroca",
+    "subscriptions_url": "https://api.github.com/users/aralroca/subscriptions",
+    "received_events_url": "https://api.github.com/users/aralroca/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/13313058?v=4",
+    "events_url": "https://api.github.com/users/aralroca/events{/privacy}",
+    "html_url": "https://github.com/aralroca",
+    "site_admin": false,
+    "id": 13313058,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEzMzEzMDU4",
+    "organizations_url": "https://api.github.com/users/aralroca/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/770268139",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3MDI2ODEzOQ=="
+}

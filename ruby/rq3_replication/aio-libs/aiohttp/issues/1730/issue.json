@@ -1,0 +1,62 @@
+{
+  "_id": {
+    "$oid": "6071e1be43dd71267de19b5c"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2017-03-20T10:04:22Z",
+  "title": "Changelog for 1.3.5 seems to be missing",
+  "body": "## Long story short\r\n\r\n<!-- Please describe your problem and why the fix is important. -->\r\nThe latest release in https://github.com/aio-libs/aiohttp/blob/master/HISTORY.rst is `1.3.4` and https://github.com/aio-libs/aiohttp/blob/master/CHANGES.rst begins at `2.0.0rc1`.\r\n\r\n## Expected behaviour\r\n\r\n<!-- What is the behaviour you expect? -->\r\nHave a changelog for 1.3.5.\r\n\r\n## Actual behaviour\r\n\r\n<!-- What's actually happening? -->\r\nNo changelog for 1.3.5.\r\n\r\n## Steps to reproduce\r\n\r\n<!-- Please describe steps to reproduce the issue.\r\n     If you have a script that does that please include it here within\r\n     markdown code markup -->\r\nOpen\r\n- https://github.com/aio-libs/aiohttp/blob/master/HISTORY.rst \r\n- https://github.com/aio-libs/aiohttp/blob/master/CHANGES.rst\r\n\r\nCTRL/CMD + F \r\n\r\n<img width=\"304\" alt=\"screen shot 2017-03-20 at 11 03 42\" src=\"https://cloud.githubusercontent.com/assets/2930472/24095333/f04954c4-0d5c-11e7-8bb1-8708f25bcb31.png\">",
+  "labels_url": "https://api.github.com/repos/aio-libs/aiohttp/issues/1730/labels{/name}",
+  "author_association": "NONE",
+  "number": 1730,
+  "score": 1,
+  "updated_at": "2019-10-28T23:01:46Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/aio-libs/aiohttp/issues/1730/comments",
+  "active_lock_reason": "resolved",
+  "repository_url": "https://api.github.com/repos/aio-libs/aiohttp",
+  "id": 215373482,
+  "state": "closed",
+  "locked": true,
+  "comments": 13,
+  "closed_at": "2017-03-20T17:13:18Z",
+  "url": "https://api.github.com/repos/aio-libs/aiohttp/issues/1730",
+  "labels": [
+    {
+      "default": false,
+      "color": "ededed",
+      "name": "outdated",
+      "description": null,
+      "id": 1641804445,
+      "url": "https://api.github.com/repos/aio-libs/aiohttp/labels/outdated",
+      "node_id": "MDU6TGFiZWwxNjQxODA0NDQ1"
+    }
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/aio-libs/aiohttp/issues/1730/events",
+  "html_url": "https://github.com/aio-libs/aiohttp/issues/1730",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/jayfk/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jayfk/repos",
+    "following_url": "https://api.github.com/users/jayfk/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jayfk/starred{/owner}{/repo}",
+    "login": "jayfk",
+    "followers_url": "https://api.github.com/users/jayfk/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jayfk",
+    "subscriptions_url": "https://api.github.com/users/jayfk/subscriptions",
+    "received_events_url": "https://api.github.com/users/jayfk/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2930472?v=4",
+    "events_url": "https://api.github.com/users/jayfk/events{/privacy}",
+    "html_url": "https://github.com/jayfk",
+    "site_admin": false,
+    "id": 2930472,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI5MzA0NzI=",
+    "organizations_url": "https://api.github.com/users/jayfk/orgs"
+  },
+  "node_id": "MDU6SXNzdWUyMTUzNzM0ODI="
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a9cb96cf0a13ef54c5297"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/standard/standard/issues/1629",
+  "updated_at": "2021-01-29T14:54:14Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/standard/standard/pull/1629#issuecomment-769852351",
+  "created_at": "2021-01-29T14:54:14Z",
+  "id": 769852351,
+  "body": "Also, do you want Dependabot to check for GitHub Action runner updates?\r\n\r\nRight now you won't get any notifications if the action runners get updates from `v2` to `v3`.\r\n\r\nDependabot opens a PR for each minor version though (and even alpha releases..), so this can get spammy...\r\n\r\nThe dependabot.yml file would get a addition like this:\r\n\r\n```yml\r\n# Set update schedule for GitHub Actions\r\n\r\nversion: 2\r\nupdates:\r\n\r\n  - package-ecosystem: \"github-actions\"\r\n    directory: \"/\"\r\n    schedule:\r\n      # Check for updates to GitHub Actions every weekday\r\n      interval: \"daily\"\r\n```\r\n\r\nGitHub docs: https://docs.github.com/en/github/administering-a-repository/keeping-your-actions-up-to-date-with-dependabot#about-dependabot-version-updates-for-actions",
+  "user": {
+    "gists_url": "https://api.github.com/users/HonkingGoose/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/HonkingGoose/repos",
+    "following_url": "https://api.github.com/users/HonkingGoose/following{/other_user}",
+    "starred_url": "https://api.github.com/users/HonkingGoose/starred{/owner}{/repo}",
+    "login": "HonkingGoose",
+    "followers_url": "https://api.github.com/users/HonkingGoose/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/HonkingGoose",
+    "subscriptions_url": "https://api.github.com/users/HonkingGoose/subscriptions",
+    "received_events_url": "https://api.github.com/users/HonkingGoose/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/34918129?v=4",
+    "events_url": "https://api.github.com/users/HonkingGoose/events{/privacy}",
+    "html_url": "https://github.com/HonkingGoose",
+    "site_admin": false,
+    "id": 34918129,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjM0OTE4MTI5",
+    "organizations_url": "https://api.github.com/users/HonkingGoose/orgs"
+  },
+  "url": "https://api.github.com/repos/standard/standard/issues/comments/769852351",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc2OTg1MjM1MQ=="
+}

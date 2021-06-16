@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071b7b943dd71267de0e0ce"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/consul/consul/issues/2829",
+  "updated_at": "2018-08-08T19:15:45Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/consul/consul/issues/2829#issuecomment-411520465",
+  "created_at": "2018-08-08T19:15:45Z",
+  "id": 411520465,
+  "body": "Thanks! It’s been amazing to see Dependabot get adopted by more and more teams there 😊",
+  "user": {
+    "gists_url": "https://api.github.com/users/greysteil/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/greysteil/repos",
+    "following_url": "https://api.github.com/users/greysteil/following{/other_user}",
+    "starred_url": "https://api.github.com/users/greysteil/starred{/owner}{/repo}",
+    "login": "greysteil",
+    "followers_url": "https://api.github.com/users/greysteil/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/greysteil",
+    "subscriptions_url": "https://api.github.com/users/greysteil/subscriptions",
+    "received_events_url": "https://api.github.com/users/greysteil/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1144873?v=4",
+    "events_url": "https://api.github.com/users/greysteil/events{/privacy}",
+    "html_url": "https://github.com/greysteil",
+    "site_admin": true,
+    "id": 1144873,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjExNDQ4NzM=",
+    "organizations_url": "https://api.github.com/users/greysteil/orgs"
+  },
+  "url": "https://api.github.com/repos/consul/consul/issues/comments/411520465",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQxMTUyMDQ2NQ=="
+}

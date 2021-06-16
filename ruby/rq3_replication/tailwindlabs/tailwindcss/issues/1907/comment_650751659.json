@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727e9943dd71267de52dd1"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/tailwindlabs/tailwindcss/issues/1907",
+  "updated_at": "2020-06-28T12:58:25Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/tailwindlabs/tailwindcss/pull/1907#issuecomment-650751659",
+  "created_at": "2020-06-28T12:57:42Z",
+  "id": 650751659,
+  "body": "> Cool didn't know about this — what's the main benefit of doing it this way?\r\n\r\nSince [Dependabot is joining GitHub](https://dependabot.com/blog/hello-github/), they've recommended to use the v2 config for all the dependabot-preview apps\r\n\r\nYou can check your updates in the repo itself in [this](https://github.com/tailwindcss/tailwindcss/network/updates) section\r\n\r\n<img width=\"948\" alt=\"Screenshot 2020-06-28 at 6 25 36 PM\" src=\"https://user-images.githubusercontent.com/19776877/85948140-c4f1aa00-b96c-11ea-88b4-aecf20929f99.png\">\r\n\r\nInstead of using [old dashboard](https://app.dependabot.com/accounts/tailwindcss), you can check the deps in the repo itself :)",
+  "user": {
+    "gists_url": "https://api.github.com/users/vinayakkulkarni/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/vinayakkulkarni/repos",
+    "following_url": "https://api.github.com/users/vinayakkulkarni/following{/other_user}",
+    "starred_url": "https://api.github.com/users/vinayakkulkarni/starred{/owner}{/repo}",
+    "login": "vinayakkulkarni",
+    "followers_url": "https://api.github.com/users/vinayakkulkarni/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/vinayakkulkarni",
+    "subscriptions_url": "https://api.github.com/users/vinayakkulkarni/subscriptions",
+    "received_events_url": "https://api.github.com/users/vinayakkulkarni/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19776877?v=4",
+    "events_url": "https://api.github.com/users/vinayakkulkarni/events{/privacy}",
+    "html_url": "https://github.com/vinayakkulkarni",
+    "site_admin": false,
+    "id": 19776877,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE5Nzc2ODc3",
+    "organizations_url": "https://api.github.com/users/vinayakkulkarni/orgs"
+  },
+  "url": "https://api.github.com/repos/tailwindlabs/tailwindcss/issues/comments/650751659",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY1MDc1MTY1OQ=="
+}

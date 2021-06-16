@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607252dc43dd71267de3d2f8"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/19050",
+  "updated_at": "2018-10-31T21:49:21Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/issues/19050#issuecomment-434859958",
+  "created_at": "2018-10-31T21:49:21Z",
+  "id": 434859958,
+  "body": "Thank you @kristoferbaxter for the detailed writeup! 👍 \r\n\r\nI like a lot of the points made, and agree **it may be a good idea to only support one node version**. Supporting multiple keeps coming up with these problems that we are facing, and have a hard time dealing with. **However, this leads to a few issues**: \r\n\r\n1. Anyone new to AMP or Node will already have a bit of a task getting node installed and running, and adding version requirements will make things just a bit more difficult than it could be.\r\n\r\n2. Veteran developers will have a the headache of trying to build AMP, and then realizing they need to switch node versions and get that all up and running before even start the project. Which, can be slightly annoying.\r\n\r\n3. We will need to make sure any documentation that references how to build or contribute to AMP mentions the exact node version we are currently supporting, and this needs to be updated along with any version change.\r\n\r\nHowever, I have another idea. **Can we soft-support the latest stable?** As in, we claim to only support LTS, but to avoid the headache of having to scramble to fix things for the newest node versions when the LTS changes, add the stable to our current Travis build pipeline, and throw warnings whenever something is breaking on Stable. That way our team can start to think about and open issues on things that will break. And anyone jumping into the project with whatever node version should be able to start developing without any issues 9/10 times 😄 . Any issues of them using features in the newest node version will be caught by travis, and they can do the usually small amount of refactoring to get their code working. 👍 \r\n\r\nLet me know what you think!\r\n\r\ncc @cvializ @jridgewell ",
+  "user": {
+    "gists_url": "https://api.github.com/users/torch2424/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/torch2424/repos",
+    "following_url": "https://api.github.com/users/torch2424/following{/other_user}",
+    "starred_url": "https://api.github.com/users/torch2424/starred{/owner}{/repo}",
+    "login": "torch2424",
+    "followers_url": "https://api.github.com/users/torch2424/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/torch2424",
+    "subscriptions_url": "https://api.github.com/users/torch2424/subscriptions",
+    "received_events_url": "https://api.github.com/users/torch2424/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1448289?v=4",
+    "events_url": "https://api.github.com/users/torch2424/events{/privacy}",
+    "html_url": "https://github.com/torch2424",
+    "site_admin": false,
+    "id": 1448289,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE0NDgyODk=",
+    "organizations_url": "https://api.github.com/users/torch2424/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/434859958",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQzNDg1OTk1OA=="
+}

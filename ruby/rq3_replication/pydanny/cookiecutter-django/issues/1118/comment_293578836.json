@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071e39d43dd71267de1c3ee"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/pydanny/cookiecutter-django/issues/1118",
+  "updated_at": "2017-04-12T13:37:23Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/pydanny/cookiecutter-django/issues/1118#issuecomment-293578836",
+  "created_at": "2017-04-12T13:37:23Z",
+  "id": 293578836,
+  "body": "Hmm looks like **chardet** can't detect the encoding for the ``docs/pycharm/images/1.png`` file and returns ``None``? I'm not familiar with the chardet implementation.\r\n\r\nSee [binaryornot/helpers.py](https://github.com/audreyr/binaryornot/blob/master/binaryornot/helpers.py#L91)",
+  "user": {
+    "gists_url": "https://api.github.com/users/hackebrot/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/hackebrot/repos",
+    "following_url": "https://api.github.com/users/hackebrot/following{/other_user}",
+    "starred_url": "https://api.github.com/users/hackebrot/starred{/owner}{/repo}",
+    "login": "hackebrot",
+    "followers_url": "https://api.github.com/users/hackebrot/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/hackebrot",
+    "subscriptions_url": "https://api.github.com/users/hackebrot/subscriptions",
+    "received_events_url": "https://api.github.com/users/hackebrot/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6024445?v=4",
+    "events_url": "https://api.github.com/users/hackebrot/events{/privacy}",
+    "html_url": "https://github.com/hackebrot",
+    "site_admin": false,
+    "id": 6024445,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYwMjQ0NDU=",
+    "organizations_url": "https://api.github.com/users/hackebrot/orgs"
+  },
+  "url": "https://api.github.com/repos/pydanny/cookiecutter-django/issues/comments/293578836",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDI5MzU3ODgzNg=="
+}

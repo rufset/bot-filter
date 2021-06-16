@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60721bdb43dd71267de2d879"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/pypa/warehouse/issues/3907",
+  "updated_at": "2018-05-15T18:25:35Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/pypa/warehouse/pull/3907#issuecomment-389266327",
+  "created_at": "2018-05-15T18:25:35Z",
+  "id": 389266327,
+  "body": "Hi @greysteil, thanks for this. I agree that these types of projects should all be listed somewhere but I'm not sure that this PyPI help page should be the place where it should be maintained. Do you have any ideas about what would be a better place for this to live?\r\n\r\nI think I would prefer if this FAQ were less opinionated (i.e., no service was explicitly named), and instead linked elsewhere to a list of 3rd party services that perform this function.\r\n\r\n(see also #3915).",
+  "user": {
+    "gists_url": "https://api.github.com/users/di/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/di/repos",
+    "following_url": "https://api.github.com/users/di/following{/other_user}",
+    "starred_url": "https://api.github.com/users/di/starred{/owner}{/repo}",
+    "login": "di",
+    "followers_url": "https://api.github.com/users/di/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/di",
+    "subscriptions_url": "https://api.github.com/users/di/subscriptions",
+    "received_events_url": "https://api.github.com/users/di/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/294415?v=4",
+    "events_url": "https://api.github.com/users/di/events{/privacy}",
+    "html_url": "https://github.com/di",
+    "site_admin": false,
+    "id": 294415,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI5NDQxNQ==",
+    "organizations_url": "https://api.github.com/users/di/orgs"
+  },
+  "url": "https://api.github.com/repos/pypa/warehouse/issues/comments/389266327",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM4OTI2NjMyNw=="
+}

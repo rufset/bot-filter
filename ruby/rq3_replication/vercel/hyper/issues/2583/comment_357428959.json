@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a80e86cf0a13ef54c0577"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/hyper/issues/2583",
+  "updated_at": "2018-01-13T11:46:04Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/hyper/pull/2583#issuecomment-357428959",
+  "created_at": "2018-01-13T11:46:04Z",
+  "id": 357428959,
+  "body": "I can't say.  Thought a project like Hyper.js — which uses a lot of node packages, would benefit from such a solution.  Greenkeeper seemed cool as well.\r\n\r\nTo quote their site:\r\n>Greenkeeper is officially recommended by npm!\r\n\r\nMy apologies if I seemed competent in the field.",
+  "user": {
+    "gists_url": "https://api.github.com/users/MindTooth/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/MindTooth/repos",
+    "following_url": "https://api.github.com/users/MindTooth/following{/other_user}",
+    "starred_url": "https://api.github.com/users/MindTooth/starred{/owner}{/repo}",
+    "login": "MindTooth",
+    "followers_url": "https://api.github.com/users/MindTooth/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/MindTooth",
+    "subscriptions_url": "https://api.github.com/users/MindTooth/subscriptions",
+    "received_events_url": "https://api.github.com/users/MindTooth/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/33870508?v=4",
+    "events_url": "https://api.github.com/users/MindTooth/events{/privacy}",
+    "html_url": "https://github.com/MindTooth",
+    "site_admin": false,
+    "id": 33870508,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjMzODcwNTA4",
+    "organizations_url": "https://api.github.com/users/MindTooth/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/hyper/issues/comments/357428959",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM1NzQyODk1OQ=="
+}

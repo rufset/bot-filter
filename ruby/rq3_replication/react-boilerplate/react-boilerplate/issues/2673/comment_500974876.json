@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a9b8c6cf0a13ef54c3d72"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/2673",
+  "updated_at": "2019-06-11T18:54:50Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/react-boilerplate/react-boilerplate/issues/2673#issuecomment-500974876",
+  "created_at": "2019-06-11T18:50:05Z",
+  "id": 500974876,
+  "body": "Very interesting feature request! Thanks for sharing, it'd definitely be nice to always have fresh dependencies.\r\n\r\nHave you used it on your projects? I have a couple questions because I feel like it maybe clashes with the way we work with `git`.\r\n\r\nWe have a `dev` branch which is ahead of `master` (new features, maintenance, etc.) and `dev` is merged into `master` whenever we release a new version.\r\n\r\nTo which branch does it make the PRs? I'm assuming it's configurable?\r\n\r\nIf we go with `dev`, we'd have to merge to `master` and release a new version on every PR. If not, the purpose would be defeated.\r\n\r\nIn this case, it negates the need for a `dev` branch and I guess we'd adopt trunk-based development.\r\n\r\nIf it's `master`, how does it work with `dev`? Would we have to merge `master` into `dev` regularly? Inconvenient but could be the best way to do this.",
+  "user": {
+    "gists_url": "https://api.github.com/users/julienben/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/julienben/repos",
+    "following_url": "https://api.github.com/users/julienben/following{/other_user}",
+    "starred_url": "https://api.github.com/users/julienben/starred{/owner}{/repo}",
+    "login": "julienben",
+    "followers_url": "https://api.github.com/users/julienben/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/julienben",
+    "subscriptions_url": "https://api.github.com/users/julienben/subscriptions",
+    "received_events_url": "https://api.github.com/users/julienben/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8948127?v=4",
+    "events_url": "https://api.github.com/users/julienben/events{/privacy}",
+    "html_url": "https://github.com/julienben",
+    "site_admin": false,
+    "id": 8948127,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjg5NDgxMjc=",
+    "organizations_url": "https://api.github.com/users/julienben/orgs"
+  },
+  "url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/comments/500974876",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUwMDk3NDg3Ng=="
+}

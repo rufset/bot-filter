@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6072468643dd71267de3a8ca"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/cypress-io/cypress/issues/5684",
+  "updated_at": "2019-11-13T11:24:01Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/cypress-io/cypress/pull/5684#issuecomment-553360842",
+  "created_at": "2019-11-13T11:24:01Z",
+  "id": 553360842,
+  "body": "Thanks for the contribution! Below are some guidelines Cypress uses when doing PR reviews.\n\n- Please write `[WIP]` in the title of your Pull Request if your PR is not ready for review - someone will review your PR as soon as the `[WIP]` is removed.\n- Please familiarize yourself with the PR Review Checklist and feel free to make updates on your PR based on these guidelines.\n\n## PR Review Checklist\n\nIf any of the following requirements can't be met, leave a comment in the review selecting 'Request changes', otherwise 'Approve'. \n\n### User Experience\n\n- The feature/bugfix is self-documenting from within the product.\n- The change provides the end user with a way to fix their problem (no dead ends).\n\n### Functionality\n\n- The code works and performs its intended function with the correct logic.\n- Performance has been factored in (for example, the code cleans up after itself to not cause memory leaks).\n- The code guards against edge cases and invalid input and has tests to cover it.\n\n### Maintainability\n\n- The code is readable (too many nested 'if's are a bad sign).\n- Names used for variables, methods, etc, clearly describe their function.\n- The code is easy to understood and there are relevant comments explaining.\n- New algorithms are documented in the code with link(s) to external docs (flowcharts, w3c, chrome, firefox).\n- There are comments containing link(s) to the addressed issue (in tests and code).\n\n### Quality\n\n- The change does not reimplement code. \n- There's not a module from the ecosystem that should be used instead.\n- There is no redundant or duplicate code. \n- There are no irrelevant comments left in the code.\n- Tests are testing the code’s intended functionality in the best way possible.\n\n### Internal\n\n- The original issue has been tagged with a release in ZenHub.",
+  "user": {
+    "gists_url": "https://api.github.com/users/cypress-bot%5Bbot%5D/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/cypress-bot%5Bbot%5D/repos",
+    "following_url": "https://api.github.com/users/cypress-bot%5Bbot%5D/following{/other_user}",
+    "starred_url": "https://api.github.com/users/cypress-bot%5Bbot%5D/starred{/owner}{/repo}",
+    "login": "cypress-bot[bot]",
+    "followers_url": "https://api.github.com/users/cypress-bot%5Bbot%5D/followers",
+    "type": "Bot",
+    "url": "https://api.github.com/users/cypress-bot%5Bbot%5D",
+    "subscriptions_url": "https://api.github.com/users/cypress-bot%5Bbot%5D/subscriptions",
+    "received_events_url": "https://api.github.com/users/cypress-bot%5Bbot%5D/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8908513?v=4",
+    "events_url": "https://api.github.com/users/cypress-bot%5Bbot%5D/events{/privacy}",
+    "html_url": "https://github.com/apps/cypress-bot",
+    "site_admin": false,
+    "id": 47117332,
+    "gravatar_id": "",
+    "node_id": "MDM6Qm90NDcxMTczMzI=",
+    "organizations_url": "https://api.github.com/users/cypress-bot%5Bbot%5D/orgs"
+  },
+  "url": "https://api.github.com/repos/cypress-io/cypress/issues/comments/553360842",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU1MzM2MDg0Mg=="
+}

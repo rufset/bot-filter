@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607254de43dd71267de40793"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/Automattic/wp-calypso/issues/48734",
+  "updated_at": "2021-02-20T04:08:05Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/Automattic/wp-calypso/pull/48734#issuecomment-782554847",
+  "created_at": "2021-02-20T04:02:29Z",
+  "id": 782554847,
+  "body": "(I'm assuming that the problem we want to solve is the need for a manual `nvm use`. I know volta does more things, but they either don't apply to us, or they haven't been mentioned as a problem yet)\r\n\r\n> Volta seems to be a better tool for the job to me.\r\n\r\nThen we should switch to volta, not having it just as an alternative to nvm. Honestly, having to change (and maintain) 194 files to provide a second option seems a bit too much. What would happen if we only change the root file? Also, what would happen if someone creates a new package and forgets to add that volta line? Or if they move folders and volta `extends` from a file that doesn't exists?\r\n\r\n> I've been using volta myself (without project support!)\r\n\r\nHow does that work? Can we give folks that alternative if they don't like `nvm`?\r\n\r\n> With nvm I have to think about the globals I have installed and where, and remember what node version is my default and which projects I have to run nvm use for (for every new terminal)\r\n\r\nnvm has solutions for that as well, but they are not enabled out of the box: https://github.com/nvm-sh/nvm/blob/master/README.md#deeper-shell-integration. From the dev experience and causing friction point of view, I don't see a huge difference between \"install volta to get rid of this problem\" and \"install this shell script to get rid of this problem\"\r\n\r\n> nvm is the de facto tool, but I don't think there's been any official decisions that we only support nvm.\r\n\r\nIs the official tool in the sense that is the only tool we use for our delivery process, all our CI config is based on `nvm` and the source of truth for the Node version is encoded in `.nvmrc`. The post with the updates mentions `n` only because it was already there in the template I use to copy from (not a very good reason, I know).\r\n\r\nI like giving devs the capacity to try out new tools and provide multiple options so they can choose the best one for their workflows. But I also believe we should keep one single source of truth (and not have node version encoded in two independant files). Looking at volta's issues looks like they won't support `.nvmrc`\r\n\r\n--- \r\n\r\nTo be clear: I don't like nvm. Is causing lots of duplication (check how many times we have to call `nvm.sh` in https://github.com/Automattic/wp-calypso/blob/trunk/.teamcity/settings.kts) and it is not particularly fast. I'm eager to find an alternative, and volta seems like it could be it.\r\n\r\nBut there is something I dislike more than nvm, and that's unnecessary complexity. In my opinion, having two tools for the same thing falls into the second category. That's why I think this PR should be reframed as a replacement for nvm.",
+  "user": {
+    "gists_url": "https://api.github.com/users/scinos/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/scinos/repos",
+    "following_url": "https://api.github.com/users/scinos/following{/other_user}",
+    "starred_url": "https://api.github.com/users/scinos/starred{/owner}{/repo}",
+    "login": "scinos",
+    "followers_url": "https://api.github.com/users/scinos/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/scinos",
+    "subscriptions_url": "https://api.github.com/users/scinos/subscriptions",
+    "received_events_url": "https://api.github.com/users/scinos/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/975703?v=4",
+    "events_url": "https://api.github.com/users/scinos/events{/privacy}",
+    "html_url": "https://github.com/scinos",
+    "site_admin": false,
+    "id": 975703,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjk3NTcwMw==",
+    "organizations_url": "https://api.github.com/users/scinos/orgs"
+  },
+  "url": "https://api.github.com/repos/Automattic/wp-calypso/issues/comments/782554847",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc4MjU1NDg0Nw=="
+}

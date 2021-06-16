@@ -1,0 +1,67 @@
+{
+  "_id": {
+    "$oid": "609fbee8c82b9e39bb3799c3"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2020-03-04T07:47:06Z",
+  "title": "Bump zipp from 3.0.0 to 3.1.0",
+  "body": "Bumps [zipp](https://github.com/jaraco/zipp) from 3.0.0 to 3.1.0.\n<details>\n<summary>Changelog</summary>\n<p><em>Sourced from <a href=\"https://github.com/jaraco/zipp/blob/master/CHANGES.rst\">zipp's changelog</a>.</em></p>\n<blockquote>\n<h1>v3.1.0</h1>\n<p><a href=\"https://github-redirect.dependabot.com/jaraco/zipp/issues/47\">#47</a>: <code>.open</code> now raises <code>FileNotFoundError</code> and <code>IsADirectoryError</code> when appropriate.</p>\n</blockquote>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/jaraco/zipp/commit/ec6ff0f1d65e0052ef7d38186d7f8a638a83d768\"><code>ec6ff0f</code></a> Merge pull request <a href=\"https://github-redirect.dependabot.com/jaraco/zipp/issues/47\">#47</a> from jaraco/feature/exceptions</li>\n<li><a href=\"https://github.com/jaraco/zipp/commit/200f0dd36d9e8ff9c8b3e897b9757aebdf74e59e\"><code>200f0dd</code></a> Update changelog. Ref <a href=\"https://github-redirect.dependabot.com/jaraco/zipp/issues/47\">#47</a>.</li>\n<li><a href=\"https://github.com/jaraco/zipp/commit/ffee5684095af4324bf11d7cba8b2a51b29d6d9c\"><code>ffee568</code></a> Raise more appropriate exceptions when 'open' is invoked on missing items or ...</li>\n<li><a href=\"https://github.com/jaraco/zipp/commit/bf4a22f325a302cc82dbca2c7bea65fc84d1a09f\"><code>bf4a22f</code></a> Add tests capturing expectation about specific Exceptions when opening direct...</li>\n<li><a href=\"https://github.com/jaraco/zipp/commit/5a06e14da5ff5c3b7a3a778aee17abd3ca9b6b0d\"><code>5a06e14</code></a> Add test capturing expectation that write works and can be binary or text.</li>\n<li><a href=\"https://github.com/jaraco/zipp/commit/19599b7a926b386f5e9b108d8dee99455fb0b8f5\"><code>19599b7</code></a> Rely on dict on Python 3.7 and later where ordering is guaranteed. Performanc...</li>\n<li><a href=\"https://github.com/jaraco/zipp/commit/3d17ee58654a24e8578f7979d7019e0f41ca060b\"><code>3d17ee5</code></a> Rely on Python syntax for pwd keyword argument.</li>\n<li><a href=\"https://github.com/jaraco/zipp/commit/d2ad6e06a8ece4237df99baa3bed16d75ea0510a\"><code>d2ad6e0</code></a> Remove unused import</li>\n<li>See full diff in <a href=\"https://github.com/jaraco/zipp/compare/v3.0.0...v3.1.0\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\n[![Dependabot compatibility score](https://api.dependabot.com/badges/compatibility_score?dependency-name=zipp&package-manager=pip&previous-version=3.0.0&new-version=3.1.0)](https://dependabot.com/compatibility-score/?dependency-name=zipp&package-manager=pip&previous-version=3.0.0&new-version=3.1.0)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it\n- `@dependabot merge` will merge this PR after your CI passes on it\n- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it\n- `@dependabot cancel merge` will cancel a previously requested merge and block automerging\n- `@dependabot reopen` will reopen this PR if it is closed\n- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language\n- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language\n- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language\n- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language\n- `@dependabot badge me` will comment on this PR with code to add a \"Dependabot enabled\" badge to your readme\n\nAdditionally, you can set the following in your Dependabot [dashboard](https://app.dependabot.com):\n- Update frequency (including time of day and day of week)\n- Pull request limits (per update run and/or open at any time)\n- Out-of-range updates (receive only lockfile updates, if desired)\n- Security updates (receive only security updates, if desired)\n\n\n\n</details>",
+  "labels_url": "https://api.github.com/repos/ohld/igbot/issues/1344/labels{/name}",
+  "author_association": "CONTRIBUTOR",
+  "number": 1344,
+  "updated_at": "2020-03-05T09:22:19Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/ohld/igbot/issues/1344/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/ohld/igbot",
+  "id": 575200399,
+  "state": "closed",
+  "locked": true,
+  "pull_request": {
+    "patch_url": "https://github.com/ohld/igbot/pull/1344.patch",
+    "html_url": "https://github.com/ohld/igbot/pull/1344",
+    "diff_url": "https://github.com/ohld/igbot/pull/1344.diff",
+    "url": "https://api.github.com/repos/ohld/igbot/pulls/1344"
+  },
+  "comments": 3,
+  "closed_at": "2020-03-04T08:00:42Z",
+  "url": "https://api.github.com/repos/ohld/igbot/issues/1344",
+  "labels": [
+    {
+      "default": false,
+      "color": "30388e",
+      "name": "dependencies",
+      "description": "",
+      "id": 1862007662,
+      "url": "https://api.github.com/repos/ohld/igbot/labels/dependencies",
+      "node_id": "MDU6TGFiZWwxODYyMDA3NjYy"
+    }
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/ohld/igbot/issues/1344/events",
+  "html_url": "https://github.com/ohld/igbot/pull/1344",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/repos",
+    "following_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/following{/other_user}",
+    "starred_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/starred{/owner}{/repo}",
+    "login": "dependabot-preview[bot]",
+    "followers_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/followers",
+    "type": "Bot",
+    "url": "https://api.github.com/users/dependabot-preview%5Bbot%5D",
+    "subscriptions_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/subscriptions",
+    "received_events_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/in/2141?v=4",
+    "events_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/events{/privacy}",
+    "html_url": "https://github.com/apps/dependabot-preview",
+    "site_admin": false,
+    "id": 27856297,
+    "gravatar_id": "",
+    "node_id": "MDM6Qm90Mjc4NTYyOTc=",
+    "organizations_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/orgs"
+  },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MzgzMzkwNDk0"
+}

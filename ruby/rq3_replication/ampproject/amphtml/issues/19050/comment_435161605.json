@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607252dc43dd71267de3d2fa"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/19050",
+  "updated_at": "2018-11-01T19:41:08Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/issues/19050#issuecomment-435161605",
+  "created_at": "2018-11-01T19:41:08Z",
+  "id": 435161605,
+  "body": "@jpettitt \r\n\r\nYes, I agree LTS changes don't happen to often, and changing them once a year isn't too bad 😄 \r\n\r\nBut I guess I am speaking more for the developer who may be new to development, or, a developer who doesn't work on AMP regularly. In both cases, it can be an extra step that can be annoying quickly if you are jumping around projects, or trying to understand why things aren't working. Though, I may just be nitpicking on their behalf.\r\n\r\nLet me know what you think 😄 ",
+  "user": {
+    "gists_url": "https://api.github.com/users/torch2424/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/torch2424/repos",
+    "following_url": "https://api.github.com/users/torch2424/following{/other_user}",
+    "starred_url": "https://api.github.com/users/torch2424/starred{/owner}{/repo}",
+    "login": "torch2424",
+    "followers_url": "https://api.github.com/users/torch2424/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/torch2424",
+    "subscriptions_url": "https://api.github.com/users/torch2424/subscriptions",
+    "received_events_url": "https://api.github.com/users/torch2424/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1448289?v=4",
+    "events_url": "https://api.github.com/users/torch2424/events{/privacy}",
+    "html_url": "https://github.com/torch2424",
+    "site_admin": false,
+    "id": 1448289,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE0NDgyODk=",
+    "organizations_url": "https://api.github.com/users/torch2424/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/435161605",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQzNTE2MTYwNQ=="
+}

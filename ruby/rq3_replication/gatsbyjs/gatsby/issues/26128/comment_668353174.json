@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ecc6cf0a13ef54bc341"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/26128",
+  "updated_at": "2020-08-04T03:04:14Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/26128#issuecomment-668353174",
+  "created_at": "2020-08-04T03:04:14Z",
+  "id": 668353174,
+  "body": "@herecydev Unfortunately did not work for me.  I'm using `npm` rather than `yarn` but I don't see why that would make a difference here.",
+  "user": {
+    "gists_url": "https://api.github.com/users/MatthewCushing/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/MatthewCushing/repos",
+    "following_url": "https://api.github.com/users/MatthewCushing/following{/other_user}",
+    "starred_url": "https://api.github.com/users/MatthewCushing/starred{/owner}{/repo}",
+    "login": "MatthewCushing",
+    "followers_url": "https://api.github.com/users/MatthewCushing/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/MatthewCushing",
+    "subscriptions_url": "https://api.github.com/users/MatthewCushing/subscriptions",
+    "received_events_url": "https://api.github.com/users/MatthewCushing/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10594068?v=4",
+    "events_url": "https://api.github.com/users/MatthewCushing/events{/privacy}",
+    "html_url": "https://github.com/MatthewCushing",
+    "site_admin": false,
+    "id": 10594068,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEwNTk0MDY4",
+    "organizations_url": "https://api.github.com/users/MatthewCushing/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/668353174",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY2ODM1MzE3NA=="
+}

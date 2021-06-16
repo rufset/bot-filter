@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6072531443dd71267de3dfed"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/25335",
+  "updated_at": "2019-10-30T18:49:05Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/pull/25335#issuecomment-548060512",
+  "created_at": "2019-10-30T18:49:05Z",
+  "id": 548060512,
+  "body": "Hi @Robdel12, thanks for the quick fix! We got a `renovate-bot` PR (#25334) to fix this, and your PR removes the `PERCY_PROJECT` variables (which we don't use anymore as you correctly stated) but it leaves a few more references to it (there are some places where it's `percy_project`, in lower-case) - do you want to push another commit to this or should I merge the other PR and remove that dangling env variable in a separate PR? :)",
+  "user": {
+    "gists_url": "https://api.github.com/users/danielrozenberg/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/danielrozenberg/repos",
+    "following_url": "https://api.github.com/users/danielrozenberg/following{/other_user}",
+    "starred_url": "https://api.github.com/users/danielrozenberg/starred{/owner}{/repo}",
+    "login": "danielrozenberg",
+    "followers_url": "https://api.github.com/users/danielrozenberg/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/danielrozenberg",
+    "subscriptions_url": "https://api.github.com/users/danielrozenberg/subscriptions",
+    "received_events_url": "https://api.github.com/users/danielrozenberg/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1839738?v=4",
+    "events_url": "https://api.github.com/users/danielrozenberg/events{/privacy}",
+    "html_url": "https://github.com/danielrozenberg",
+    "site_admin": false,
+    "id": 1839738,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE4Mzk3Mzg=",
+    "organizations_url": "https://api.github.com/users/danielrozenberg/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/548060512",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU0ODA2MDUxMg=="
+}

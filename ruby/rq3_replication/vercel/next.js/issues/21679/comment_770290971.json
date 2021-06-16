@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3043dd71267de5395d"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-01-30T22:33:19Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-770290971",
+  "created_at": "2021-01-30T22:33:19Z",
+  "id": 770290971,
+  "body": "Same here, once upgraded to next `10.0.6` I get this error:\r\n```\r\ninternal/modules/cjs/loader.js:883\r\n  throw err;\r\n  ^\r\n\r\nError: Cannot find module 'webpack'\r\nRequire stack:\r\n- /node_modules/mini-css-extract-plugin/dist/index.js\r\n```\r\nReverting back to `10.0.5` and everything goes back to normal",
+  "user": {
+    "gists_url": "https://api.github.com/users/darkmavis1980/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/darkmavis1980/repos",
+    "following_url": "https://api.github.com/users/darkmavis1980/following{/other_user}",
+    "starred_url": "https://api.github.com/users/darkmavis1980/starred{/owner}{/repo}",
+    "login": "darkmavis1980",
+    "followers_url": "https://api.github.com/users/darkmavis1980/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/darkmavis1980",
+    "subscriptions_url": "https://api.github.com/users/darkmavis1980/subscriptions",
+    "received_events_url": "https://api.github.com/users/darkmavis1980/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2980681?v=4",
+    "events_url": "https://api.github.com/users/darkmavis1980/events{/privacy}",
+    "html_url": "https://github.com/darkmavis1980",
+    "site_admin": false,
+    "id": 2980681,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI5ODA2ODE=",
+    "organizations_url": "https://api.github.com/users/darkmavis1980/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/770290971",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3MDI5MDk3MQ=="
+}

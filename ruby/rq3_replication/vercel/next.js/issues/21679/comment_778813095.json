@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3143dd71267de53976"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-14T17:48:00Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-778813095",
+  "created_at": "2021-02-14T17:48:00Z",
+  "id": 778813095,
+  "body": "> Unfortunately, it is still not working with `next-pwa` @timneutkens.\r\n> See: [shadowwalker/next-pwa#151 (comment)](https://github.com/shadowwalker/next-pwa/issues/151#issuecomment-778753393)\r\n\r\ntry this: remove _next & node_modules,  and edit package.json to next-js 10.0.4\r\n\r\nthe main problem is from next js@10.0.5 and up, they change some settings in webpack, and it's chained to buffer.js and utils.js , files need from next pwa, and others plugins that works with webpack.",
+  "user": {
+    "gists_url": "https://api.github.com/users/maickoldxd/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/maickoldxd/repos",
+    "following_url": "https://api.github.com/users/maickoldxd/following{/other_user}",
+    "starred_url": "https://api.github.com/users/maickoldxd/starred{/owner}{/repo}",
+    "login": "maickoldxd",
+    "followers_url": "https://api.github.com/users/maickoldxd/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/maickoldxd",
+    "subscriptions_url": "https://api.github.com/users/maickoldxd/subscriptions",
+    "received_events_url": "https://api.github.com/users/maickoldxd/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/25177926?v=4",
+    "events_url": "https://api.github.com/users/maickoldxd/events{/privacy}",
+    "html_url": "https://github.com/maickoldxd",
+    "site_admin": false,
+    "id": 25177926,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI1MTc3OTI2",
+    "organizations_url": "https://api.github.com/users/maickoldxd/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/778813095",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3ODgxMzA5NQ=="
+}

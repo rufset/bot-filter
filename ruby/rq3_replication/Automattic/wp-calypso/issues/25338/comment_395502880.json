@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607254ca43dd71267de4038d"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/Automattic/wp-calypso/issues/25338",
+  "updated_at": "2018-06-07T17:32:45Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/Automattic/wp-calypso/issues/25338#issuecomment-395502880",
+  "created_at": "2018-06-07T17:32:45Z",
+  "id": 395502880,
+  "body": "> Would it be alright if I raised a PR for that?\r\n\r\nDefinitely, yes please!  You can link it back to this issue as well.",
+  "user": {
+    "gists_url": "https://api.github.com/users/nylen/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/nylen/repos",
+    "following_url": "https://api.github.com/users/nylen/following{/other_user}",
+    "starred_url": "https://api.github.com/users/nylen/starred{/owner}{/repo}",
+    "login": "nylen",
+    "followers_url": "https://api.github.com/users/nylen/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/nylen",
+    "subscriptions_url": "https://api.github.com/users/nylen/subscriptions",
+    "received_events_url": "https://api.github.com/users/nylen/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/227022?v=4",
+    "events_url": "https://api.github.com/users/nylen/events{/privacy}",
+    "html_url": "https://github.com/nylen",
+    "site_admin": false,
+    "id": 227022,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjIyNzAyMg==",
+    "organizations_url": "https://api.github.com/users/nylen/orgs"
+  },
+  "url": "https://api.github.com/repos/Automattic/wp-calypso/issues/comments/395502880",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM5NTUwMjg4MA=="
+}

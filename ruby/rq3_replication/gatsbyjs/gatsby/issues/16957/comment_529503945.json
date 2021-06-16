@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ec66cf0a13ef54bc1d5"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/16957",
+  "updated_at": "2019-09-09T14:32:04Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/16957#issuecomment-529503945",
+  "created_at": "2019-09-09T14:32:04Z",
+  "id": 529503945,
+  "body": "I'm not really sure we've found the real cause of this issue, https://github.com/gatsbyjs/gatsby/issues/16957#issuecomment-526824124 worked for us but we're now stuck with sharp 0.22.1 (and warnings).\r\n\r\nNone of the above suggestions (`npm rebuild` mainly) worked on our end.",
+  "user": {
+    "gists_url": "https://api.github.com/users/b4stien/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/b4stien/repos",
+    "following_url": "https://api.github.com/users/b4stien/following{/other_user}",
+    "starred_url": "https://api.github.com/users/b4stien/starred{/owner}{/repo}",
+    "login": "b4stien",
+    "followers_url": "https://api.github.com/users/b4stien/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/b4stien",
+    "subscriptions_url": "https://api.github.com/users/b4stien/subscriptions",
+    "received_events_url": "https://api.github.com/users/b4stien/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1778107?v=4",
+    "events_url": "https://api.github.com/users/b4stien/events{/privacy}",
+    "html_url": "https://github.com/b4stien",
+    "site_admin": false,
+    "id": 1778107,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE3NzgxMDc=",
+    "organizations_url": "https://api.github.com/users/b4stien/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/529503945",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUyOTUwMzk0NQ=="
+}

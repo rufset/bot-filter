@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071e1bf43dd71267de19b5d"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/aio-libs/aiohttp/issues/1730",
+  "updated_at": "2017-03-20T10:09:20Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/aio-libs/aiohttp/issues/1730#issuecomment-287718323",
+  "created_at": "2017-03-20T10:09:20Z",
+  "id": 287718323,
+  "body": "Looks like the release page on PyPi has it: https://pypi.python.org/pypi/aiohttp\r\n\r\nForgot to commit and push `CHANGES.rst`?",
+  "user": {
+    "gists_url": "https://api.github.com/users/jayfk/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jayfk/repos",
+    "following_url": "https://api.github.com/users/jayfk/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jayfk/starred{/owner}{/repo}",
+    "login": "jayfk",
+    "followers_url": "https://api.github.com/users/jayfk/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jayfk",
+    "subscriptions_url": "https://api.github.com/users/jayfk/subscriptions",
+    "received_events_url": "https://api.github.com/users/jayfk/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2930472?v=4",
+    "events_url": "https://api.github.com/users/jayfk/events{/privacy}",
+    "html_url": "https://github.com/jayfk",
+    "site_admin": false,
+    "id": 2930472,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI5MzA0NzI=",
+    "organizations_url": "https://api.github.com/users/jayfk/orgs"
+  },
+  "url": "https://api.github.com/repos/aio-libs/aiohttp/issues/comments/287718323",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDI4NzcxODMyMw=="
+}

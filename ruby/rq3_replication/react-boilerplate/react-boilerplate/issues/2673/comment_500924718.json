@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a9b8c6cf0a13ef54c3d70"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/2673",
+  "updated_at": "2019-06-11T16:39:59Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/react-boilerplate/react-boilerplate/issues/2673#issuecomment-500924718",
+  "created_at": "2019-06-11T16:39:37Z",
+  "id": 500924718,
+  "body": "Here is an example configuration PR based on a fork I made which shows just what to expect: \r\n\r\nhttps://github.com/jamesdh/react-boilerplate/pull/1\r\n\r\nCurrently, there are 37 dependencies out of date. Would be nice to get something that stays on top of that automatically for everyone. ",
+  "user": {
+    "gists_url": "https://api.github.com/users/jamesdh/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jamesdh/repos",
+    "following_url": "https://api.github.com/users/jamesdh/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jamesdh/starred{/owner}{/repo}",
+    "login": "jamesdh",
+    "followers_url": "https://api.github.com/users/jamesdh/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jamesdh",
+    "subscriptions_url": "https://api.github.com/users/jamesdh/subscriptions",
+    "received_events_url": "https://api.github.com/users/jamesdh/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1085322?v=4",
+    "events_url": "https://api.github.com/users/jamesdh/events{/privacy}",
+    "html_url": "https://github.com/jamesdh",
+    "site_admin": false,
+    "id": 1085322,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEwODUzMjI=",
+    "organizations_url": "https://api.github.com/users/jamesdh/orgs"
+  },
+  "url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/comments/500924718",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUwMDkyNDcxOA=="
+}

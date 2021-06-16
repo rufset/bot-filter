@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605ab9d66cf0a13ef54ce452"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/highlightjs/highlight.js/issues/678",
+  "updated_at": "2019-12-11T23:46:20Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/highlightjs/highlight.js/issues/678#issuecomment-564783568",
+  "created_at": "2019-12-11T23:44:32Z",
+  "id": 564783568,
+  "body": "I see some big advantages to keeping NPM as a built deliverable rather than raw source files (which might be a possibility in the future).  People using the raw GitHub repo to build with should be uncommon (correct me if you think I'm wrong).\r\n\r\nHaving it as a built asset allows us to make larger behind the scenes changes to how the library is written and structured while still providing the same old \"npm API\" (same file path locations, mostly same deliverable structure, etc).  This ensures stability for those using npm normally, and also allows us to iterate faster with the core library.\r\n\r\nI'm not sure we want to encourage a lot of people to use the raw source if they don't truly need to... in my experience what people do then is hook into it in custom ways that make their project and ours project more fragile (for new releases).  I'm not speaking ill of anyone here (and indeed this is all OSS, so awesome), just pointing out that this often results in more fragility and maintenance time on both sides, increases the likelihood of bugs, etc...\r\n\r\n**We can only really guarantee our external documented API behavior, not the internal code/libs/etc and it's behavior...**\r\n\r\nAlso, often many of the things I see being done could be done better with a standardized plugin API (which we're pursuing).\r\n\r\nThose are my thoughts.\r\n\r\n---\r\n\r\nIF we shipped a cooked \"packed\" \"binary\" with the NPM... what do you see as the big disadvantage to that vs including TWO full copies of the source, cooked and raw...?",
+  "user": {
+    "gists_url": "https://api.github.com/users/joshgoebel/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/joshgoebel/repos",
+    "following_url": "https://api.github.com/users/joshgoebel/following{/other_user}",
+    "starred_url": "https://api.github.com/users/joshgoebel/starred{/owner}{/repo}",
+    "login": "joshgoebel",
+    "followers_url": "https://api.github.com/users/joshgoebel/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/joshgoebel",
+    "subscriptions_url": "https://api.github.com/users/joshgoebel/subscriptions",
+    "received_events_url": "https://api.github.com/users/joshgoebel/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6473?v=4",
+    "events_url": "https://api.github.com/users/joshgoebel/events{/privacy}",
+    "html_url": "https://github.com/joshgoebel",
+    "site_admin": false,
+    "id": 6473,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjY0NzM=",
+    "organizations_url": "https://api.github.com/users/joshgoebel/orgs"
+  },
+  "url": "https://api.github.com/repos/highlightjs/highlight.js/issues/comments/564783568",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU2NDc4MzU2OA=="
+}

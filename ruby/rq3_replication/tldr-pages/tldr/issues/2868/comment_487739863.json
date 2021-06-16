@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a014e6cf0a13ef5481a06"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/tldr-pages/tldr/issues/2868",
+  "updated_at": "2019-04-29T20:53:22Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/tldr-pages/tldr/pull/2868#issuecomment-487739863",
+  "created_at": "2019-04-29T20:53:22Z",
+  "id": 487739863,
+  "body": "Closing this as per my previous comment.",
+  "user": {
+    "gists_url": "https://api.github.com/users/mebeim/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/mebeim/repos",
+    "following_url": "https://api.github.com/users/mebeim/following{/other_user}",
+    "starred_url": "https://api.github.com/users/mebeim/starred{/owner}{/repo}",
+    "login": "mebeim",
+    "followers_url": "https://api.github.com/users/mebeim/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/mebeim",
+    "subscriptions_url": "https://api.github.com/users/mebeim/subscriptions",
+    "received_events_url": "https://api.github.com/users/mebeim/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/14198070?v=4",
+    "events_url": "https://api.github.com/users/mebeim/events{/privacy}",
+    "html_url": "https://github.com/mebeim",
+    "site_admin": false,
+    "id": 14198070,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE0MTk4MDcw",
+    "organizations_url": "https://api.github.com/users/mebeim/orgs"
+  },
+  "url": "https://api.github.com/repos/tldr-pages/tldr/issues/comments/487739863",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQ4NzczOTg2Mw=="
+}

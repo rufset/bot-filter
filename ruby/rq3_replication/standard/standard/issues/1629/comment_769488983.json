@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a9cb96cf0a13ef54c5295"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/standard/standard/issues/1629",
+  "updated_at": "2021-01-29T00:29:16Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/standard/standard/pull/1629#issuecomment-769488983",
+  "created_at": "2021-01-29T00:29:16Z",
+  "id": 769488983,
+  "body": "## About caching without a lockfile\r\n\r\nI think using caching without having a `package-lock.json` file is going to cause problems sooner or later...\r\nAs it stand now, I can only tell GitHub action to refresh the cache whenever the `package.json` file is changed.\r\n\r\nIf a peer-dependency or transient dependency updates, it will not change the `package.json` file. (A `package-lock` file would definitely change!). Now the GitHub Action runner is using old stuff!\r\n\r\n## If you want to cache, use a lock-file\r\n\r\nI think caching is only a good idea if you're actually using a lock-file.\r\nThis will also have the added benefit of making the build reproducible.\r\n\r\nIf you're scared of having to deal with package-lock updates manually, you could consider migrating to Renovate bot instead, and update the lockfile via a automated PR once a week.\r\n\r\nOr you can just not use the cache functionality. 😄 \r\nThat **might** slow down the tests a bit, but you're not messing around with a lock file either.\r\n\r\nI'll leave you to decide how to weigh this.",
+  "user": {
+    "gists_url": "https://api.github.com/users/HonkingGoose/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/HonkingGoose/repos",
+    "following_url": "https://api.github.com/users/HonkingGoose/following{/other_user}",
+    "starred_url": "https://api.github.com/users/HonkingGoose/starred{/owner}{/repo}",
+    "login": "HonkingGoose",
+    "followers_url": "https://api.github.com/users/HonkingGoose/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/HonkingGoose",
+    "subscriptions_url": "https://api.github.com/users/HonkingGoose/subscriptions",
+    "received_events_url": "https://api.github.com/users/HonkingGoose/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/34918129?v=4",
+    "events_url": "https://api.github.com/users/HonkingGoose/events{/privacy}",
+    "html_url": "https://github.com/HonkingGoose",
+    "site_admin": false,
+    "id": 34918129,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjM0OTE4MTI5",
+    "organizations_url": "https://api.github.com/users/HonkingGoose/orgs"
+  },
+  "url": "https://api.github.com/repos/standard/standard/issues/comments/769488983",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc2OTQ4ODk4Mw=="
+}

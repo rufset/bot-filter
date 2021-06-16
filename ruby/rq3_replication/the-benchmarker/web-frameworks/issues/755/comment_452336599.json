@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071aa7c43dd71267de0a76d"
+  },
+  "author_association": "COLLABORATOR",
+  "issue_url": "https://api.github.com/repos/the-benchmarker/web-frameworks/issues/755",
+  "updated_at": "2019-01-08T15:22:10Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/the-benchmarker/web-frameworks/issues/755#issuecomment-452336599",
+  "created_at": "2019-01-08T15:22:10Z",
+  "id": 452336599,
+  "body": "edit : it was no **dependabot** bot an other bot @renovatebot",
+  "user": {
+    "gists_url": "https://api.github.com/users/waghanza/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/waghanza/repos",
+    "following_url": "https://api.github.com/users/waghanza/following{/other_user}",
+    "starred_url": "https://api.github.com/users/waghanza/starred{/owner}{/repo}",
+    "login": "waghanza",
+    "followers_url": "https://api.github.com/users/waghanza/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/waghanza",
+    "subscriptions_url": "https://api.github.com/users/waghanza/subscriptions",
+    "received_events_url": "https://api.github.com/users/waghanza/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1440729?v=4",
+    "events_url": "https://api.github.com/users/waghanza/events{/privacy}",
+    "html_url": "https://github.com/waghanza",
+    "site_admin": false,
+    "id": 1440729,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE0NDA3Mjk=",
+    "organizations_url": "https://api.github.com/users/waghanza/orgs"
+  },
+  "url": "https://api.github.com/repos/the-benchmarker/web-frameworks/issues/comments/452336599",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MjMzNjU5OQ=="
+}

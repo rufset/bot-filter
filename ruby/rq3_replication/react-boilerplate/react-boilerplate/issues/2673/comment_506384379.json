@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a9b8c6cf0a13ef54c3d78"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/2673",
+  "updated_at": "2019-06-27T15:03:04Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/react-boilerplate/react-boilerplate/issues/2673#issuecomment-506384379",
+  "created_at": "2019-06-27T15:03:04Z",
+  "id": 506384379,
+  "body": "Looks great to me! Would you like to open a PR?",
+  "user": {
+    "gists_url": "https://api.github.com/users/julienben/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/julienben/repos",
+    "following_url": "https://api.github.com/users/julienben/following{/other_user}",
+    "starred_url": "https://api.github.com/users/julienben/starred{/owner}{/repo}",
+    "login": "julienben",
+    "followers_url": "https://api.github.com/users/julienben/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/julienben",
+    "subscriptions_url": "https://api.github.com/users/julienben/subscriptions",
+    "received_events_url": "https://api.github.com/users/julienben/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8948127?v=4",
+    "events_url": "https://api.github.com/users/julienben/events{/privacy}",
+    "html_url": "https://github.com/julienben",
+    "site_admin": false,
+    "id": 8948127,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjg5NDgxMjc=",
+    "organizations_url": "https://api.github.com/users/julienben/orgs"
+  },
+  "url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/comments/506384379",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUwNjM4NDM3OQ=="
+}

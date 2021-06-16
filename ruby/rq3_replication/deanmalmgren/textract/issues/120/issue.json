@@ -1,0 +1,62 @@
+{
+  "_id": {
+    "$oid": "60721ad543dd71267de2c7c9"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2016-08-19T17:26:22Z",
+  "title": "Reconciling the textract MIT license with code components under *GPL",
+  "body": "We're undergoing an internal software audit and identified at least one textract component released under the Affero GPL:  the _[EbookLib](https://github.com/aerkalov/ebooklib)_.\n\nLawyers are getting a bit antsy over this.  In general, compatibility with GPL means that code released under a different license (e.g. MIT) and combined with GPL'd code must be released under GPL.  This might create a bad situation for textract.\n\nWe're getting around this by disabling all functionality related to _EbookLib_ in our software, and uninstalling the _EbookLib_ from the virtual environment so that it's never used or bundled with our software.  If we required Epub capabilities in the future, and assuming nothing else changes in textract, we'd instruct users to install by themselves.  We may also have a click-to-install dialog for the same purpose, but warning the users that THEY are downloading and installing.\n\nOur situation:\nApache license, code still private, soon to be released for open distribution.  It relies on textract and other tools to do its job.  We found the *GPL code during a self-audit, need to figure out what to do in general; so far none of our basic functionality is affected if we remove offending code/libraries/tools, so we can afford to skip.  May not be the case in the future.\n\nWe like textract a lot, want to assist everyone in its users community from inadvertently getting in trouble due to _EbookLib_ or other stuff with a nasty license.  What do you guys think?\n",
+  "labels_url": "https://api.github.com/repos/deanmalmgren/textract/issues/120/labels{/name}",
+  "author_association": "NONE",
+  "number": 120,
+  "score": 1,
+  "updated_at": "2017-03-28T13:52:12Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/deanmalmgren/textract/issues/120/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/deanmalmgren/textract",
+  "id": 172180199,
+  "state": "open",
+  "locked": false,
+  "comments": 4,
+  "closed_at": null,
+  "url": "https://api.github.com/repos/deanmalmgren/textract/issues/120",
+  "labels": [
+    {
+      "default": true,
+      "color": "cc317c",
+      "name": "documentation",
+      "description": null,
+      "id": 111445095,
+      "url": "https://api.github.com/repos/deanmalmgren/textract/labels/documentation",
+      "node_id": "MDU6TGFiZWwxMTE0NDUwOTU="
+    }
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/deanmalmgren/textract/issues/120/events",
+  "html_url": "https://github.com/deanmalmgren/textract/issues/120",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/pr3d4t0r/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/pr3d4t0r/repos",
+    "following_url": "https://api.github.com/users/pr3d4t0r/following{/other_user}",
+    "starred_url": "https://api.github.com/users/pr3d4t0r/starred{/owner}{/repo}",
+    "login": "pr3d4t0r",
+    "followers_url": "https://api.github.com/users/pr3d4t0r/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/pr3d4t0r",
+    "subscriptions_url": "https://api.github.com/users/pr3d4t0r/subscriptions",
+    "received_events_url": "https://api.github.com/users/pr3d4t0r/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/148262?v=4",
+    "events_url": "https://api.github.com/users/pr3d4t0r/events{/privacy}",
+    "html_url": "https://github.com/pr3d4t0r",
+    "site_admin": false,
+    "id": 148262,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE0ODI2Mg==",
+    "organizations_url": "https://api.github.com/users/pr3d4t0r/orgs"
+  },
+  "node_id": "MDU6SXNzdWUxNzIxODAxOTk="
+}

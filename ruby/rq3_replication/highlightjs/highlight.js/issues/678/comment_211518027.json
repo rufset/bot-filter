@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605ab9d66cf0a13ef54ce44b"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/highlightjs/highlight.js/issues/678",
+  "updated_at": "2016-04-18T18:35:23Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/highlightjs/highlight.js/issues/678#issuecomment-211518027",
+  "created_at": "2016-04-18T18:35:23Z",
+  "id": 211518027,
+  "body": "@danvk There is also downsides:\n- There is [Browserify](http://browserify.org/) and [Webpack](https://webpack.github.io/). They have become the de facto standard in Frontend programming, bundling every `require`d dependency automatically.\n- Bundling dist files makes NPM packages heavier. Given the nature of deep & wide dependency trees in the JS world, this weighs in significantly.\n- [A lot of other projects use highlight.js](https://www.npmjs.com/browse/depended/highlight.js), [not only on the client side](https://github.com/isagalaev/highlight.js/issues/1086#issue-134898881). For these, bundles are unnecessary weight.\n- NPM hast `install` hooks to build stuff on install if that is required. NPM packages with large data sets and/or binaries do this.\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/derhuerst/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/derhuerst/repos",
+    "following_url": "https://api.github.com/users/derhuerst/following{/other_user}",
+    "starred_url": "https://api.github.com/users/derhuerst/starred{/owner}{/repo}",
+    "login": "derhuerst",
+    "followers_url": "https://api.github.com/users/derhuerst/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/derhuerst",
+    "subscriptions_url": "https://api.github.com/users/derhuerst/subscriptions",
+    "received_events_url": "https://api.github.com/users/derhuerst/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/5072613?v=4",
+    "events_url": "https://api.github.com/users/derhuerst/events{/privacy}",
+    "html_url": "https://github.com/derhuerst",
+    "site_admin": false,
+    "id": 5072613,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjUwNzI2MTM=",
+    "organizations_url": "https://api.github.com/users/derhuerst/orgs"
+  },
+  "url": "https://api.github.com/repos/highlightjs/highlight.js/issues/comments/211518027",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDIxMTUxODAyNw=="
+}

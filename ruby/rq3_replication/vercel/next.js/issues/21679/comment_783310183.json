@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3143dd71267de53986"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-22T11:39:23Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-783310183",
+  "created_at": "2021-02-22T11:33:26Z",
+  "id": 783310183,
+  "body": "@cobalt-medma This is what we did specifically for Ant Design with LESS, and with custom theming.\r\n\r\nIt is arguably a bit of a hack, but it yields similar results without needing to rely on `next-css` or manually adding `webpack`.\r\n\r\nI should warn however, I have mostly tried it with static rendering. I have never quite ran it with full server-side rendering (besides localhost) on Vercel.\r\n\r\n```js\r\n// next.config.js\r\n\r\nconst { loader } = require(\"next/dist/build/webpack/config/helpers\");\r\nconst {\r\n    getGlobalCssLoader,\r\n} = require(\"next/dist/build/webpack/config/blocks/css/loaders\");\r\n\r\nmodule.exports = {\r\n    webpack: (config, { isServer, dev, config: nextConfig }) => {\r\n        const isDevelopment = dev;\r\n        const { assetPrefix } = nextConfig;\r\n\r\n        let lessRules;\r\n\r\n        if (isServer) {\r\n            const origExternals = [...config.externals];\r\n            config.externals = [\r\n                (context, request, callback) => {\r\n                    if (request.match(/antd\\/.*?\\/style.*?/)) {\r\n                        return callback();\r\n                    }\r\n                    if (typeof origExternals[0] === \"function\") {\r\n                        origExternals[0](context, request, callback);\r\n                    } else {\r\n                        callback();\r\n                    }\r\n                },\r\n                ...(typeof origExternals[0] === \"function\"\r\n                    ? []\r\n                    : origExternals),\r\n            ];\r\n\r\n            lessRules = {\r\n                test: [/\\.less$/],\r\n                use: require.resolve(\"next/dist/compiled/ignore-loader\"),\r\n            };\r\n        } else {\r\n            // https://github.com/vercel/next.js/blob/41b7c524fa38f92a656b559809fd14fe23112c1e/packages/next/build/webpack/config/blocks/css/index.ts\r\n            const globalCssLoaderCtx = {\r\n                isClient: !isServer,\r\n                isDevelopment: isDevelopment,\r\n                assetPrefix: assetPrefix,\r\n            };\r\n            lessRules = {\r\n                sideEffects: true,\r\n                test: [/\\.less$/],\r\n                issuer: {\r\n                    not: [/node_modules\\/(?!(antd)\\/).*/],\r\n                },\r\n                use: getGlobalCssLoader(\r\n                    globalCssLoaderCtx,\r\n                    [],\r\n                    [\r\n                        {\r\n                            loader: \"less-loader\",\r\n                            options: {\r\n                                lessOptions: {\r\n                                    modifyVars: {\r\n                                        \"@primary-color\": \"#1890ff\",\r\n                                    },\r\n                                    javascriptEnabled: true,\r\n                                },\r\n                            },\r\n                        },\r\n                    ],\r\n                ),\r\n            };\r\n        }\r\n\r\n        config = loader({\r\n            oneOf: [lessRules],\r\n        })(config);\r\n\r\n        return config;\r\n    }\r\n};\r\n```\r\n\r\n(also, I had to pluck this out of the original `next.config.js` it was in, so I don't guarantee the snippet above works, but it is close enough to what we have)",
+  "user": {
+    "gists_url": "https://api.github.com/users/MrSaints/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/MrSaints/repos",
+    "following_url": "https://api.github.com/users/MrSaints/following{/other_user}",
+    "starred_url": "https://api.github.com/users/MrSaints/starred{/owner}{/repo}",
+    "login": "MrSaints",
+    "followers_url": "https://api.github.com/users/MrSaints/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/MrSaints",
+    "subscriptions_url": "https://api.github.com/users/MrSaints/subscriptions",
+    "received_events_url": "https://api.github.com/users/MrSaints/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/68859?v=4",
+    "events_url": "https://api.github.com/users/MrSaints/events{/privacy}",
+    "html_url": "https://github.com/MrSaints",
+    "site_admin": false,
+    "id": 68859,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjY4ODU5",
+    "organizations_url": "https://api.github.com/users/MrSaints/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/783310183",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc4MzMxMDE4Mw=="
+}

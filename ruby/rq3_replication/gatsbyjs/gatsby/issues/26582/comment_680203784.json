@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7eba6cf0a13ef54bbf8f"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/26582",
+  "updated_at": "2020-08-25T18:43:06Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/pull/26582#issuecomment-680203784",
+  "created_at": "2020-08-25T18:43:06Z",
+  "id": 680203784,
+  "body": "Thank you for the feedback! I reverted most updates to allow Renovate to do most of the work but kept those that required snapshot updates (katex) or code changes (@pmmmwh/react-refresh-webpack-plugin). I also kept the Renovate config change that adds express-graphql to the <1.0.0-minor group to avoid merging breaking changes from that module in the future. Finally, I cherrypicked updates for chokidar, webpack, whatwg-fetch, and a few dependencies of gatsby-telemetry.\r\n\r\nHere is a table of the included updates:\r\n\r\nPackage | Type | Update | Change\r\n-- | -- | -- | --\r\n[@pmmmwh/react-refresh-webpack-plugin](https://togithub.com/pmmmwh/react-refresh-webpack-plugin) | dependencies | minor | [`^0.3.3` -> `^0.4.1`](https://renovatebot.com/diffs/npm/@pmmmwh%2freact-refresh-webpack-plugin/0.3.3/0.4.1)\r\n[@pmmmwh/react-refresh-webpack-plugin](https://togithub.com/pmmmwh/react-refresh-webpack-plugin) | devDependencies | minor | [`^0.3.3` -> `^0.4.1`](https://renovatebot.com/diffs/npm/@pmmmwh%2freact-refresh-webpack-plugin/0.3.3/0.4.1)\r\n[chokidar](https://togithub.com/paulmillr/chokidar) | dependencies | patch | [`3.4.0` -> `^3.4.2`](https://renovatebot.com/diffs/npm/chokidar/3.4.0/3.4.2)\r\n[chokidar](https://togithub.com/paulmillr/chokidar) | devDependencies | patch | [`^3.4.0` -> `^3.4.2`](https://renovatebot.com/diffs/npm/chokidar/3.4.0/3.4.2)\r\n[envinfo](https://togithub.com/tabrindle/envinfo) | dependencies | minor | [`^7.5.1` -> `^7.7.3`](https://renovatebot.com/diffs/npm/envinfo/7.5.1/7.7.3)\r\n[eslint-plugin-react](https://togithub.com/yannickcr/eslint-plugin-react) | dependencies | patch | [`^7.20.2` -> `^7.20.6`](https://renovatebot.com/diffs/npm/eslint-plugin-react/7.20.2/7.20.6)\r\n[eslint-plugin-react](https://togithub.com/yannickcr/eslint-plugin-react) | devDependencies | patch | [`^7.20.2` -> `^7.20.6`](https://renovatebot.com/diffs/npm/eslint-plugin-react/7.20.2/7.20.6)\r\n[git-up](https://togithub.com/IonicaBizau/git-up) | dependencies | patch | [`4.0.1` -> `^4.0.2`](https://renovatebot.com/diffs/npm/git-up/4.0.1/4.0.2)\r\n[is-docker](https://togithub.com/sindresorhus/is-docker) | dependencies | minor | [`2.0.0` -> `^2.1.1`](https://renovatebot.com/diffs/npm/is-docker/2.0.0/2.1.1)\r\n[katex](https://katex.org/) ([source](https://togithub.com/KaTeX/KaTeX)) | devDependencies | minor | [`^0.11.1` -> `^0.12.0`](https://renovatebot.com/diffs/npm/katex/0.11.1/0.12.0)\r\n[webpack](https://togithub.com/webpack/webpack) | dependencies | minor | [`~4.43.0` -> `^4.44.1`](https://renovatebot.com/diffs/npm/webpack/4.43.0/4.44.1)\r\n[webpack](https://togithub.com/webpack/webpack) | devDependencies | minor | [`^4.43.0` -> `^4.44.1`](https://renovatebot.com/diffs/npm/webpack/4.43.0/4.44.1)\r\n[whatwg-fetch](https://togithub.com/github/fetch) | devDependencies | minor | [`3.0.0` -> `^3.4.0`](https://renovatebot.com/diffs/npm/whatwg-fetch/3.0.0/3.4.0)\r\n[whatwg-fetch](https://togithub.com/github/fetch) | devDependencies | minor | [`^3.1.0` -> `^3.4.0`](https://renovatebot.com/diffs/npm/whatwg-fetch/3.1.0/3.4.0)",
+  "user": {
+    "gists_url": "https://api.github.com/users/hoobdeebla/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/hoobdeebla/repos",
+    "following_url": "https://api.github.com/users/hoobdeebla/following{/other_user}",
+    "starred_url": "https://api.github.com/users/hoobdeebla/starred{/owner}{/repo}",
+    "login": "hoobdeebla",
+    "followers_url": "https://api.github.com/users/hoobdeebla/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/hoobdeebla",
+    "subscriptions_url": "https://api.github.com/users/hoobdeebla/subscriptions",
+    "received_events_url": "https://api.github.com/users/hoobdeebla/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3589140?v=4",
+    "events_url": "https://api.github.com/users/hoobdeebla/events{/privacy}",
+    "html_url": "https://github.com/hoobdeebla",
+    "site_admin": false,
+    "id": 3589140,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjM1ODkxNDA=",
+    "organizations_url": "https://api.github.com/users/hoobdeebla/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/680203784",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY4MDIwMzc4NA=="
+}

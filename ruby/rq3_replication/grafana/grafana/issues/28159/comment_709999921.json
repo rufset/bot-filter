@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6059f2816cf0a13ef547b862"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/grafana/grafana/issues/28159",
+  "updated_at": "2020-10-16T11:53:50Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/grafana/grafana/pull/28159#issuecomment-709999921",
+  "created_at": "2020-10-16T11:53:50Z",
+  "id": 709999921,
+  "body": "@jlosito Thanks, that's the sort of clarification I wanted at least. It's not obvious to someone not familiar with Dependabot configuration what is affected by the configuration you've written.",
+  "user": {
+    "gists_url": "https://api.github.com/users/aknuds1/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/aknuds1/repos",
+    "following_url": "https://api.github.com/users/aknuds1/following{/other_user}",
+    "starred_url": "https://api.github.com/users/aknuds1/starred{/owner}{/repo}",
+    "login": "aknuds1",
+    "followers_url": "https://api.github.com/users/aknuds1/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/aknuds1",
+    "subscriptions_url": "https://api.github.com/users/aknuds1/subscriptions",
+    "received_events_url": "https://api.github.com/users/aknuds1/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/281303?v=4",
+    "events_url": "https://api.github.com/users/aknuds1/events{/privacy}",
+    "html_url": "https://github.com/aknuds1",
+    "site_admin": false,
+    "id": 281303,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI4MTMwMw==",
+    "organizations_url": "https://api.github.com/users/aknuds1/orgs"
+  },
+  "url": "https://api.github.com/repos/grafana/grafana/issues/comments/709999921",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDcwOTk5OTkyMQ=="
+}

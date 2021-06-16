@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a8c986cf0a13ef54c2199"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/google/material-design-lite/issues/4464",
+  "updated_at": "2016-07-19T15:46:26Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/google/material-design-lite/issues/4464#issuecomment-233675691",
+  "created_at": "2016-07-19T15:46:16Z",
+  "id": 233675691,
+  "body": "It looks like [Greenkeeper](https://greenkeeper.io) seems to be the most powerful and recommended dep mgmt tool for JS projects, so I think I'm going to investigate using it.\n\nFurthermore, we should probably decide on commit message guidelines as well. Angular has [widely adopted commit message guidelines](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#-git-commit-guidelines) which I think would be a good choice for us. We can use [validate-commit-msg](https://github.com/kentcdodds/validate-commit-msg) to enforce it, and recommend tools like [commitizen](https://www.npmjs.com/package/commitizen) to make it super easy for contributors. This will help us with things like [changelogs](https://github.com/conventional-changelog/conventional-changelog), for example.\n\nAlso, if we want to integrate tools like semantic-release (see #4565) in the future, having these conventions in place makes it really easy.\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/traviskaufman/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/traviskaufman/repos",
+    "following_url": "https://api.github.com/users/traviskaufman/following{/other_user}",
+    "starred_url": "https://api.github.com/users/traviskaufman/starred{/owner}{/repo}",
+    "login": "traviskaufman",
+    "followers_url": "https://api.github.com/users/traviskaufman/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/traviskaufman",
+    "subscriptions_url": "https://api.github.com/users/traviskaufman/subscriptions",
+    "received_events_url": "https://api.github.com/users/traviskaufman/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1185269?v=4",
+    "events_url": "https://api.github.com/users/traviskaufman/events{/privacy}",
+    "html_url": "https://github.com/traviskaufman",
+    "site_admin": false,
+    "id": 1185269,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjExODUyNjk=",
+    "organizations_url": "https://api.github.com/users/traviskaufman/orgs"
+  },
+  "url": "https://api.github.com/repos/google/material-design-lite/issues/comments/233675691",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDIzMzY3NTY5MQ=="
+}

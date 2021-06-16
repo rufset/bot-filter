@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607252dc43dd71267de3d2ff"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/19050",
+  "updated_at": "2018-11-09T19:20:30Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/issues/19050#issuecomment-437466640",
+  "created_at": "2018-11-09T19:20:30Z",
+  "id": 437466640,
+  "body": "> Supporting multiple versions means we need to ensure (via travis) that each commit works against the supported versions.\r\n\r\nThis is what Travis is for.\r\n\r\n> When debugging an issue it will be important to know which versions are impacted.\r\n\r\nI think this is minor issue. As far as I'm aware, we've only had one issue with using a v8 feature when we were still supporting v6.\r\n\r\n> Developers working on the AMP codebase will likely need to use nvm or similar to test changes on multiple versions of Node (especially if leveraging newer APIs).\r\n\r\nThe infrastructure team, only. Everyone else will be fine with whatever they have installed during their setup.\r\n\r\n> As code is changing, we should have a strong preference around the usage of Node features if we support multiple versions of Node. Should all build code be transpiled to ensure it runs against the oldest supported version?\r\n\r\nI think you're overstating the speed at which normal devs adopt new features, and the speed at which features are added to node. This is the build side of the project, not the actual code we're trying to ship to users. Note that Babel itself doesn't try to use the latest features, it complies down to whatever is appropriate.\r\n\r\n> Because of these factors, I'd ask we support a single Node version going forward, and only one at a time. \"lts/*\" meets this criteria.\r\n\r\n@rsimha might be able to respond with issues that are raised every time we node releases a new version. Every time, one of the native build dependencies breaks because it wasn't updated to the new native APIs. Using a rolling, non-pinned major target is a terrible decision, regardless of our v8 vs v10 debate.\r\n\r\n> It's not hard to install a new version with nvm\r\n\r\nDevs don't always control the version. For instance, I had a discussion with the GCP devs about how they were still locked to v6 earlier this year.\r\n\r\nBut for normal devs on their own machines, I think `nvm` is an easy enough thing to install the necessary version.\r\n\r\n- - -\r\n\r\nWe don't gain any features by forcing v10 as the minimum version. The release summary for [v9](https://www.joyent.com/blog/nodejs-9-release-summary) and [v10](https://www.joyent.com/blog/nodejs-10-release-summary) doesn't have any necessary features node features. Even looking at [node.green](https://node.green/), the only language changes I can see are Shared arrays, `Promise.p.finally`, newer regex features, async iterators, and BigInt. Nothing in that is critical for new tooling development, and we're not even using those features in actual codebase.",
+  "user": {
+    "gists_url": "https://api.github.com/users/jridgewell/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jridgewell/repos",
+    "following_url": "https://api.github.com/users/jridgewell/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jridgewell/starred{/owner}{/repo}",
+    "login": "jridgewell",
+    "followers_url": "https://api.github.com/users/jridgewell/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jridgewell",
+    "subscriptions_url": "https://api.github.com/users/jridgewell/subscriptions",
+    "received_events_url": "https://api.github.com/users/jridgewell/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/112982?v=4",
+    "events_url": "https://api.github.com/users/jridgewell/events{/privacy}",
+    "html_url": "https://github.com/jridgewell",
+    "site_admin": false,
+    "id": 112982,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjExMjk4Mg==",
+    "organizations_url": "https://api.github.com/users/jridgewell/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/437466640",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQzNzQ2NjY0MA=="
+}

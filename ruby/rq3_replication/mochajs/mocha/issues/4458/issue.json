@@ -1,0 +1,123 @@
+{
+  "_id": {
+    "$oid": "605aab536cf0a13ef54c98a1"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2020-10-02T00:01:40Z",
+  "title": "chore(deps/security): upgrade to latest stable",
+  "body": "### Description of the Change\r\n\r\n- Upgrade dependencies to latest stable versions.\r\n- Replace `rollup-plugin-node-builtins` with  `rollup-plugin-node-polyfills`, as former causes audit failures and latter seems just a bit* more maintained.\r\n\r\n### Alternate Designs\r\n\r\nConsider using `dependabot` or `renovate` to automatically open PRs for updates.\r\n\r\n### Why should this be in core?\r\n\r\nTo resolve consumer deprecation messages when installing mocha:\r\n`warning mocha > yargs-unparser > flat@4.1.0: Fixed a prototype pollution security issue in 4.1.0, please upgrade to ^4.1.1 or ^5.0.1.`\r\n\r\nTo reduce the number of repo audit failures from:\r\n`found 51 vulnerabilities (5 low, 2 moderate, 44 high) in 2841 scanned packages`\r\nto:\r\n`found 3 low severity vulnerabilities in 2629 scanned packages`\r\n\r\n### Benefits\r\n\r\nBetter deduping for the other packages.\r\n\r\n### Possible Drawbacks\r\n\r\nNone that I'm aware.\r\n\r\n### Applicable issues\r\n\r\ncloses #4410",
+  "labels_url": "https://api.github.com/repos/mochajs/mocha/issues/4458/labels{/name}",
+  "author_association": "CONTRIBUTOR",
+  "number": 4458,
+  "score": 1,
+  "updated_at": "2020-10-16T21:14:09Z",
+  "performed_via_github_app": null,
+  "draft": false,
+  "comments_url": "https://api.github.com/repos/mochajs/mocha/issues/4458/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/mochajs/mocha",
+  "id": 713258841,
+  "state": "closed",
+  "locked": false,
+  "pull_request": {
+    "patch_url": "https://github.com/mochajs/mocha/pull/4458.patch",
+    "html_url": "https://github.com/mochajs/mocha/pull/4458",
+    "diff_url": "https://github.com/mochajs/mocha/pull/4458.diff",
+    "url": "https://api.github.com/repos/mochajs/mocha/pulls/4458"
+  },
+  "comments": 22,
+  "closed_at": "2020-10-09T21:25:06Z",
+  "url": "https://api.github.com/repos/mochajs/mocha/issues/4458",
+  "labels": [
+    {
+      "default": false,
+      "color": "7F7165",
+      "name": "chore",
+      "description": "generally involving deps, tooling, configuration, etc.",
+      "id": 125688233,
+      "url": "https://api.github.com/repos/mochajs/mocha/labels/chore",
+      "node_id": "MDU6TGFiZWwxMjU2ODgyMzM="
+    },
+    {
+      "default": false,
+      "color": "8F3127",
+      "name": "security",
+      "description": "involving vulnerabilities",
+      "id": 618785682,
+      "url": "https://api.github.com/repos/mochajs/mocha/labels/security",
+      "node_id": "MDU6TGFiZWw2MTg3ODU2ODI="
+    },
+    {
+      "default": false,
+      "color": "0e8a16",
+      "name": "semver-patch",
+      "description": "implementation requires increase of \"patch\" version number; \"bug fixes\"",
+      "id": 533082117,
+      "url": "https://api.github.com/repos/mochajs/mocha/labels/semver-patch",
+      "node_id": "MDU6TGFiZWw1MzMwODIxMTc="
+    }
+  ],
+  "milestone": {
+    "creator": {
+      "gists_url": "https://api.github.com/users/boneskull/gists{/gist_id}",
+      "repos_url": "https://api.github.com/users/boneskull/repos",
+      "following_url": "https://api.github.com/users/boneskull/following{/other_user}",
+      "starred_url": "https://api.github.com/users/boneskull/starred{/owner}{/repo}",
+      "login": "boneskull",
+      "followers_url": "https://api.github.com/users/boneskull/followers",
+      "type": "User",
+      "url": "https://api.github.com/users/boneskull",
+      "subscriptions_url": "https://api.github.com/users/boneskull/subscriptions",
+      "received_events_url": "https://api.github.com/users/boneskull/received_events",
+      "avatar_url": "https://avatars.githubusercontent.com/u/924465?v=4",
+      "events_url": "https://api.github.com/users/boneskull/events{/privacy}",
+      "html_url": "https://github.com/boneskull",
+      "site_admin": false,
+      "id": 924465,
+      "gravatar_id": "",
+      "node_id": "MDQ6VXNlcjkyNDQ2NQ==",
+      "organizations_url": "https://api.github.com/users/boneskull/orgs"
+    },
+    "closed_at": "2020-11-02T19:45:18Z",
+    "description": "",
+    "created_at": "2020-06-10T17:38:32Z",
+    "title": "v8.2.0",
+    "closed_issues": 26,
+    "url": "https://api.github.com/repos/mochajs/mocha/milestones/41",
+    "due_on": null,
+    "labels_url": "https://api.github.com/repos/mochajs/mocha/milestones/41/labels",
+    "number": 41,
+    "updated_at": "2020-11-02T19:45:18Z",
+    "html_url": "https://github.com/mochajs/mocha/milestone/41",
+    "id": 5529009,
+    "state": "closed",
+    "open_issues": 0,
+    "node_id": "MDk6TWlsZXN0b25lNTUyOTAwOQ=="
+  },
+  "events_url": "https://api.github.com/repos/mochajs/mocha/issues/4458/events",
+  "html_url": "https://github.com/mochajs/mocha/pull/4458",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/AviVahl/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/AviVahl/repos",
+    "following_url": "https://api.github.com/users/AviVahl/following{/other_user}",
+    "starred_url": "https://api.github.com/users/AviVahl/starred{/owner}{/repo}",
+    "login": "AviVahl",
+    "followers_url": "https://api.github.com/users/AviVahl/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/AviVahl",
+    "subscriptions_url": "https://api.github.com/users/AviVahl/subscriptions",
+    "received_events_url": "https://api.github.com/users/AviVahl/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8952081?v=4",
+    "events_url": "https://api.github.com/users/AviVahl/events{/privacy}",
+    "html_url": "https://github.com/AviVahl",
+    "site_admin": false,
+    "id": 8952081,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjg5NTIwODE=",
+    "organizations_url": "https://api.github.com/users/AviVahl/orgs"
+  },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0NDk2NjA4ODcx"
+}

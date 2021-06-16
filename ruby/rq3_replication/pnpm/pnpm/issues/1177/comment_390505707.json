@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6072601243dd71267de41ae2"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/pnpm/pnpm/issues/1177",
+  "updated_at": "2018-05-20T19:34:04Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/pnpm/pnpm/pull/1177#issuecomment-390505707",
+  "created_at": "2018-05-20T19:34:04Z",
+  "id": 390505707,
+  "body": "@zkochan that's certainly a pity! \r\n\r\nWhat is the difference that enables `npm` itself to generate lock files without downloading tarballs, and can you update to do the same technique soon?\r\n\r\nI will monitor the performance impact in the app - disk churn when using EBS on AWS can really drag performance. I assume that due to `pnpm`'s design, that if I can persist the `pnpm` cache then that would alleviate most of the network burden, transferring it instead to be a disk burden? I did that previous with `yarn` but it was ultimately too much disk I/O that it slowed things down almost as much.",
+  "user": {
+    "gists_url": "https://api.github.com/users/rarkins/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/rarkins/repos",
+    "following_url": "https://api.github.com/users/rarkins/following{/other_user}",
+    "starred_url": "https://api.github.com/users/rarkins/starred{/owner}{/repo}",
+    "login": "rarkins",
+    "followers_url": "https://api.github.com/users/rarkins/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/rarkins",
+    "subscriptions_url": "https://api.github.com/users/rarkins/subscriptions",
+    "received_events_url": "https://api.github.com/users/rarkins/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6311784?v=4",
+    "events_url": "https://api.github.com/users/rarkins/events{/privacy}",
+    "html_url": "https://github.com/rarkins",
+    "site_admin": false,
+    "id": 6311784,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYzMTE3ODQ=",
+    "organizations_url": "https://api.github.com/users/rarkins/orgs"
+  },
+  "url": "https://api.github.com/repos/pnpm/pnpm/issues/comments/390505707",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM5MDUwNTcwNw=="
+}

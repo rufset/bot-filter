@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071e39d43dd71267de1c3f9"
+  },
+  "author_association": "OWNER",
+  "issue_url": "https://api.github.com/repos/pydanny/cookiecutter-django/issues/1118",
+  "updated_at": "2017-04-12T17:57:42Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/pydanny/cookiecutter-django/issues/1118#issuecomment-293658606",
+  "created_at": "2017-04-12T17:57:42Z",
+  "id": 293658606,
+  "body": "@luzfcb, we've pushed out a new version of binaryornot that forces the user to the older version of chardet. Not a perfect solution, but it will mitigate the problem temporarily.",
+  "user": {
+    "gists_url": "https://api.github.com/users/pydanny/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/pydanny/repos",
+    "following_url": "https://api.github.com/users/pydanny/following{/other_user}",
+    "starred_url": "https://api.github.com/users/pydanny/starred{/owner}{/repo}",
+    "login": "pydanny",
+    "followers_url": "https://api.github.com/users/pydanny/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/pydanny",
+    "subscriptions_url": "https://api.github.com/users/pydanny/subscriptions",
+    "received_events_url": "https://api.github.com/users/pydanny/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/62857?v=4",
+    "events_url": "https://api.github.com/users/pydanny/events{/privacy}",
+    "html_url": "https://github.com/pydanny",
+    "site_admin": false,
+    "id": 62857,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYyODU3",
+    "organizations_url": "https://api.github.com/users/pydanny/orgs"
+  },
+  "url": "https://api.github.com/repos/pydanny/cookiecutter-django/issues/comments/293658606",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDI5MzY1ODYwNg=="
+}

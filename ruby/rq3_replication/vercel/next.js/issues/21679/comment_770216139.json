@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3043dd71267de5395a"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-01-30T13:55:28Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-770216139",
+  "created_at": "2021-01-30T13:55:28Z",
+  "id": 770216139,
+  "body": "With typescript I'm getting what I suspect is a related error:\r\n\r\n```ts\r\n./node_modules/next/dist/build/webpack/plugins/build-manifest-plugin.d.ts:1:25\r\nType error: Could not find a declaration file for module 'next/dist/compiled/webpack/webpack'. '/home/adys/src/overframe/frontend/node_modules/next/dist/compiled/webpack/webpack.js' implicitly has an 'any' type.\r\n  Try `npm i --save-dev @types/next` if it exists or add a new declaration (.d.ts) file containing `declare module 'next/dist/compiled/webpack/webpack';`\r\n\r\n> 1 | import { webpack } from 'next/dist/compiled/webpack/webpack';\r\n    |                         ^\r\n  2 | import { Rewrite } from '../../../lib/load-custom-routes';\r\n  3 | export declare type ClientBuildManifest = Record<string, string[]>;\r\n  4 | export default class BuildManifestPlugin {\r\nerror Command failed with exit code 1.\r\ninfo Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.\r\n```",
+  "user": {
+    "gists_url": "https://api.github.com/users/jleclanche/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jleclanche/repos",
+    "following_url": "https://api.github.com/users/jleclanche/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jleclanche/starred{/owner}{/repo}",
+    "login": "jleclanche",
+    "followers_url": "https://api.github.com/users/jleclanche/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jleclanche",
+    "subscriptions_url": "https://api.github.com/users/jleclanche/subscriptions",
+    "received_events_url": "https://api.github.com/users/jleclanche/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/235410?v=4",
+    "events_url": "https://api.github.com/users/jleclanche/events{/privacy}",
+    "html_url": "https://github.com/jleclanche",
+    "site_admin": false,
+    "id": 235410,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjIzNTQxMA==",
+    "organizations_url": "https://api.github.com/users/jleclanche/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/770216139",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3MDIxNjEzOQ=="
+}

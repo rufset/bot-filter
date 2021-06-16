@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607254de43dd71267de4078c"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/Automattic/wp-calypso/issues/48734",
+  "updated_at": "2021-02-18T04:28:02Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/Automattic/wp-calypso/pull/48734#issuecomment-781040949",
+  "created_at": "2021-02-18T04:28:02Z",
+  "id": 781040949,
+  "body": "It is great that we are looking for alternatives to NVM if NVM is causing problems. Could you expand on the problems we are trying to solve with `volta`?\r\n\r\nIn any case, I think that we should only have one tool to do one thing. In other words, if we go ahead with this change, it should be a migration from `nvm` to `volta` with the aim of removing `nvm` from our system. Otherwise we are increasing the maintenance burden and the risk of `nvm",
+  "user": {
+    "gists_url": "https://api.github.com/users/scinos/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/scinos/repos",
+    "following_url": "https://api.github.com/users/scinos/following{/other_user}",
+    "starred_url": "https://api.github.com/users/scinos/starred{/owner}{/repo}",
+    "login": "scinos",
+    "followers_url": "https://api.github.com/users/scinos/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/scinos",
+    "subscriptions_url": "https://api.github.com/users/scinos/subscriptions",
+    "received_events_url": "https://api.github.com/users/scinos/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/975703?v=4",
+    "events_url": "https://api.github.com/users/scinos/events{/privacy}",
+    "html_url": "https://github.com/scinos",
+    "site_admin": false,
+    "id": 975703,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjk3NTcwMw==",
+    "organizations_url": "https://api.github.com/users/scinos/orgs"
+  },
+  "url": "https://api.github.com/repos/Automattic/wp-calypso/issues/comments/781040949",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc4MTA0MDk0OQ=="
+}

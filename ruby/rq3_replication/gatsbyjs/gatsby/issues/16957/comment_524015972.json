@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ec56cf0a13ef54bc1bb"
+  },
+  "author_association": "COLLABORATOR",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/16957",
+  "updated_at": "2019-08-22T18:08:38Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/16957#issuecomment-524015972",
+  "created_at": "2019-08-22T18:08:38Z",
+  "id": 524015972,
+  "body": "I guess, it is more than downgrading `gatsby-plugin-sharp@2.2.12`. Here is the info for my project and downgrading still fails\r\n```\r\n\r\n  System:\r\n    OS: macOS 10.14.6\r\n    CPU: (8) x64 Intel(R) Core(TM) i7-4870HQ CPU @ 2.50GHz\r\n    Shell: 5.3 - /bin/zsh\r\n  Binaries:\r\n    Node: 11.14.0 - ~/.nvm/versions/node/v11.14.0/bin/node\r\n    Yarn: 1.17.3 - /usr/local/bin/yarn\r\n    npm: 6.10.3 - ~/.nvm/versions/node/v11.14.0/bin/npm\r\n  Languages:\r\n    Python: 2.7.10 - /usr/bin/python\r\n  Browsers:\r\n    Chrome: 76.0.3809.100\r\n    Safari: 12.1.2\r\n  npmPackages:\r\n    gatsby: ^2.13.76 => 2.13.76 \r\n    gatsby-image: ^2.0.15 => 2.2.10 \r\n    gatsby-plugin-favicon: ^3.1.4 => 3.1.6 \r\n    gatsby-plugin-offline: ^2.2.9 => 2.2.9 \r\n    gatsby-plugin-react-helmet: ^3.0.0 => 3.1.4 \r\n    gatsby-plugin-sharp: ^2.2.12 => 2.2.16 \r\n    gatsby-plugin-styled-components: ^3.0.1 => 3.1.2 \r\n    gatsby-source-filesystem: ^2.0.4 => 2.1.11 \r\n    gatsby-transformer-sharp: ^2.2.10 => 2.2.10 \r\n  npmGlobalPackages:\r\n    gatsby-cli: 2.7.30\r\n```\r\n\r\nTo be precise what I did, I used `@dependabot` to upgrade dependencies for my project and following pull-requests were offered to me\r\n\r\nhttps://github.com/bonsaiilabs/gatsby-material-ui-storybook-starter/pulls?q=is%3Apr+is%3Aclosed\r\n\r\nAfter downgrading \r\n```\r\n gatsby-plugin-sharp: ^2.2.12 => 2.2.16 \r\n```\r\nI still face the isse when I run `yarn start`.\r\n\r\n```\r\nyarn run v1.17.3\r\n$ gatsby develop -H 0.0.0.0\r\nsuccess open and validate gatsby-configs - 0.061 s\r\nsuccess load plugins - 0.921 s\r\nsuccess onPreInit - 0.034 s\r\nsuccess initialize cache - 0.046 s\r\nsuccess copy gatsby files - 0.122 s\r\nsuccess onPreBootstrap - 0.038 s\r\nsuccess source and transform nodes - 0.288 s\r\nsuccess Add explicit types - 0.041 s\r\nsuccess Add inferred types - 0.237 s\r\nsuccess Processing types - 0.148 s\r\nsuccess building schema - 0.543 s\r\nsuccess createPages - 0.028 s\r\nsuccess createPagesStatefully - 0.107 s\r\nsuccess onPreExtractQueries - 0.031 s\r\nsuccess update schema - 0.060 s\r\nsuccess extract queries from components - 0.565 s\r\nsuccess write out requires - 0.092 s\r\nsuccess write out redirect data - 0.028 s\r\nsuccess onPostBootstrap - 0.025 s\r\n⠀\r\ninfo bootstrap finished - 6.614 s\r\n⠀\r\nsuccess run static queries - 0.025 s\r\nsuccess run page queries - 0.107 s — 5/5 62.04 queries/second\r\n⠙ start webpack server\r\n\r\n(sharp:52830): GLib-GObject-WARNING **: 11:05:29.202: cannot register existing type 'VipsObject'\r\n\r\n(sharp:52830): GLib-CRITICAL **: 11:05:29.202: g_once_init_leave: assertion 'result != 0' failed\r\n\r\n(sharp:52830): GLib-GObject-CRITICAL **: 11:05:29.202: g_type_register_static: assertion 'parent_type > 0' failed\r\n\r\n(sharp:52830): GLib-CRITICAL **: 11:05:29.202: g_once_init_leave: assertion 'result != 0' failed\r\n```",
+  "user": {
+    "gists_url": "https://api.github.com/users/hhimanshu/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/hhimanshu/repos",
+    "following_url": "https://api.github.com/users/hhimanshu/following{/other_user}",
+    "starred_url": "https://api.github.com/users/hhimanshu/starred{/owner}{/repo}",
+    "login": "hhimanshu",
+    "followers_url": "https://api.github.com/users/hhimanshu/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/hhimanshu",
+    "subscriptions_url": "https://api.github.com/users/hhimanshu/subscriptions",
+    "received_events_url": "https://api.github.com/users/hhimanshu/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6589036?v=4",
+    "events_url": "https://api.github.com/users/hhimanshu/events{/privacy}",
+    "html_url": "https://github.com/hhimanshu",
+    "site_admin": false,
+    "id": 6589036,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjY1ODkwMzY=",
+    "organizations_url": "https://api.github.com/users/hhimanshu/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/524015972",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUyNDAxNTk3Mg=="
+}

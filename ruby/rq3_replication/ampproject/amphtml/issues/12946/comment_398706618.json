@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607252c743dd71267de3cf85"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/12946",
+  "updated_at": "2018-06-20T10:46:28Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/issues/12946#issuecomment-398706618",
+  "created_at": "2018-06-20T10:46:28Z",
+  "id": 398706618,
+  "body": "Hi @rsimha, thanks - I was really excited to see that pop up in my GitHub feed yesterday. \r\n\r\nFYI, I set up a \"mirror\" fork of this main amphtml project a while back to test Renovate on, because I could see that there still seems to be a large number of out of date dependencies here.\r\n\r\nI call it a mirror because it is a fork that syncs automatically with the ampproject/amphtml `master` branch once a day, which then allows Renovate to generate PRs with the same details as if it were running on the main repository. \r\n\r\nYou can see that there are 20+ PRs listed here: https://github.com/renovate-mirrors/amphtml/pulls\r\n\r\nYou can actually use this \"mirror\" repository already to create PRs yourself for the main amphtml project using the following approach:\r\n\r\n1. Open a mirror PR you're interested in, e.g. https://github.com/renovate-mirrors/amphtml/pull/10\r\n2. Click on the branch name that's just below the PR title, e.g. `renovate/express-4.x`. It will take you to a URL like https://github.com/renovate-mirrors/amphtml/tree/renovate%2Fexpress-4.x\r\n3. Click on the \"Compare\" button, it should take you to a URL like https://github.com/ampproject/amphtml/compare/master...renovate-mirrors:renovate/express-4.x which is comparing the mirror's PR branch to the main project's master\r\n4. Click the Create Pull Request button to create a PR to the *main* repository with yourself as author\r\n\r\nObviously the above is not as convenient as if Renovate was running on the main repo itself, but I still hope it will be a useful way to fill in some dependency updates which are otherwise missing.",
+  "user": {
+    "gists_url": "https://api.github.com/users/rarkins/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/rarkins/repos",
+    "following_url": "https://api.github.com/users/rarkins/following{/other_user}",
+    "starred_url": "https://api.github.com/users/rarkins/starred{/owner}{/repo}",
+    "login": "rarkins",
+    "followers_url": "https://api.github.com/users/rarkins/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/rarkins",
+    "subscriptions_url": "https://api.github.com/users/rarkins/subscriptions",
+    "received_events_url": "https://api.github.com/users/rarkins/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6311784?v=4",
+    "events_url": "https://api.github.com/users/rarkins/events{/privacy}",
+    "html_url": "https://github.com/rarkins",
+    "site_admin": false,
+    "id": 6311784,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYzMTE3ODQ=",
+    "organizations_url": "https://api.github.com/users/rarkins/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/398706618",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM5ODcwNjYxOA=="
+}

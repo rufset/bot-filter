@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071f1f443dd71267de20c6d"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/HypothesisWorks/hypothesis/issues/680",
+  "updated_at": "2017-06-07T09:09:48Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/HypothesisWorks/hypothesis/issues/680#issuecomment-306737080",
+  "created_at": "2017-06-07T09:09:48Z",
+  "id": 306737080,
+  "body": "> reduce the Pyup frequency to weekly\r\n\r\nNo particular objections, although I’d prefer we just had a way to auto-merge PyUp PRs.\r\n\r\n> add a filter to the check-requirements job, so it only fails if a pinned version that pip-compile would update has been superseded for at least eight days. This check can use the release-date history from PyPI\r\n\r\nThat requires us to do a bunch more checking and parsing of the requirements files and so on, where previously we could just hand that off to pip-tools. I’d be disinclined to pull in extra complexity like that to the build system – all of the other `check-{foo}` jobs bring you right up-to-date if run locally, and I think that’s a good default to preserve.",
+  "user": {
+    "gists_url": "https://api.github.com/users/alexwlchan/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/alexwlchan/repos",
+    "following_url": "https://api.github.com/users/alexwlchan/following{/other_user}",
+    "starred_url": "https://api.github.com/users/alexwlchan/starred{/owner}{/repo}",
+    "login": "alexwlchan",
+    "followers_url": "https://api.github.com/users/alexwlchan/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/alexwlchan",
+    "subscriptions_url": "https://api.github.com/users/alexwlchan/subscriptions",
+    "received_events_url": "https://api.github.com/users/alexwlchan/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/301220?v=4",
+    "events_url": "https://api.github.com/users/alexwlchan/events{/privacy}",
+    "html_url": "https://github.com/alexwlchan",
+    "site_admin": false,
+    "id": 301220,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjMwMTIyMA==",
+    "organizations_url": "https://api.github.com/users/alexwlchan/orgs"
+  },
+  "url": "https://api.github.com/repos/HypothesisWorks/hypothesis/issues/comments/306737080",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDMwNjczNzA4MA=="
+}

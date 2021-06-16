@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a9b8c6cf0a13ef54c3d74"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/2673",
+  "updated_at": "2019-06-11T20:58:14Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/react-boilerplate/react-boilerplate/issues/2673#issuecomment-501018290",
+  "created_at": "2019-06-11T20:52:09Z",
+  "id": 501018290,
+  "body": "> Have you used it on your projects? I have a couple questions because I feel like it maybe clashes with the way we work with `git`.\r\n\r\nI just started using it and I've immediately fallen in love with it. For me personally, the value is less in truly being up-to-date and more just being aware of updates. \r\n\r\n> To which branch does it make the PRs? I'm assuming it's configurable?\r\n\r\nThe base branch is configurable. So in this case, you'd set it to dev. \r\n\r\n> Can we maybe configure RenovateBot to make a once-per-month PRs with patch+minor version upgrades to master and all major dependency upgrades to dev? That could work well I think.\r\n\r\nI believe that can be done via a combination of [schedule](https://renovatebot.com/docs/configuration-options/#schedule) and multiple [packageRules](https://renovatebot.com/docs/configuration-options/#packagerules) configs using [baseBranchList](https://renovatebot.com/docs/configuration-options/#basebranchlist) combined with some minor/major configs similar to what I already have in my fork, but I think that might get a bit weird/confusing with the merges back and forth between master/dev, making it more work than it's worth. Plus, at that point, the concept of a releae loses a bit of value. Probably best just to do it all against dev, batching together all minor updates either every weekend/month but separating major updates in case they need additional work to integrate, and then just including that in your regular releases. It's probably overkill to do a release purely for updated dependencies. This just helps you stay on top of updates that are otherwise easy to miss. \r\n\r\nLet me know any additional thoughts! I'd be happy to contribute something back, namely a config that matches your desired setup. ",
+  "user": {
+    "gists_url": "https://api.github.com/users/jamesdh/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jamesdh/repos",
+    "following_url": "https://api.github.com/users/jamesdh/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jamesdh/starred{/owner}{/repo}",
+    "login": "jamesdh",
+    "followers_url": "https://api.github.com/users/jamesdh/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jamesdh",
+    "subscriptions_url": "https://api.github.com/users/jamesdh/subscriptions",
+    "received_events_url": "https://api.github.com/users/jamesdh/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1085322?v=4",
+    "events_url": "https://api.github.com/users/jamesdh/events{/privacy}",
+    "html_url": "https://github.com/jamesdh",
+    "site_admin": false,
+    "id": 1085322,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEwODUzMjI=",
+    "organizations_url": "https://api.github.com/users/jamesdh/orgs"
+  },
+  "url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/comments/501018290",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUwMTAxODI5MA=="
+}

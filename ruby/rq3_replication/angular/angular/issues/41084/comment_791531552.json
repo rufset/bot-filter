@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607243f643dd71267de369cc"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/angular/angular/issues/41084",
+  "updated_at": "2021-03-05T16:30:30Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/angular/angular/issues/41084#issuecomment-791531552",
+  "created_at": "2021-03-05T16:30:10Z",
+  "id": 791531552,
+  "body": "React also has hundreds of open issues. If you consider not releasing stable, just don't update Angular ever again and it's as stable as can be.\r\n\r\nAlso, which is it: you want to update often to keep updates small, or you want releases to be more rare and bigger?\r\n\r\nSeriously, though, releasing often is an industry standard best practice and it isn't going to change because you get a few too many emails. You can watch releases in a number of different ways, you don't need to subscribe to the emails.",
+  "user": {
+    "gists_url": "https://api.github.com/users/Airblader/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/Airblader/repos",
+    "following_url": "https://api.github.com/users/Airblader/following{/other_user}",
+    "starred_url": "https://api.github.com/users/Airblader/starred{/owner}{/repo}",
+    "login": "Airblader",
+    "followers_url": "https://api.github.com/users/Airblader/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/Airblader",
+    "subscriptions_url": "https://api.github.com/users/Airblader/subscriptions",
+    "received_events_url": "https://api.github.com/users/Airblader/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2392216?v=4",
+    "events_url": "https://api.github.com/users/Airblader/events{/privacy}",
+    "html_url": "https://github.com/Airblader",
+    "site_admin": false,
+    "id": 2392216,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjIzOTIyMTY=",
+    "organizations_url": "https://api.github.com/users/Airblader/orgs"
+  },
+  "url": "https://api.github.com/repos/angular/angular/issues/comments/791531552",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc5MTUzMTU1Mg=="
+}

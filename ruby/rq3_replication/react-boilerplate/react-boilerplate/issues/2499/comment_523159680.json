@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a9b8d6cf0a13ef54c3da6"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/2499",
+  "updated_at": "2019-08-20T19:24:58Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/react-boilerplate/react-boilerplate/issues/2499#issuecomment-523159680",
+  "created_at": "2019-08-20T19:24:58Z",
+  "id": 523159680,
+  "body": "yes, here are some screenshots of alert page:\r\n\r\n![image](https://user-images.githubusercontent.com/1539088/63377655-7e9be980-c35e-11e9-8963-4cff37e02a5f.png)\r\n\r\nand when you click through to an alert (see CVE info at bottom):\r\n\r\n![image](https://user-images.githubusercontent.com/1539088/63377689-8e1b3280-c35e-11e9-9138-8bf10f9a231f.png)\r\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/justingreenberg/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/justingreenberg/repos",
+    "following_url": "https://api.github.com/users/justingreenberg/following{/other_user}",
+    "starred_url": "https://api.github.com/users/justingreenberg/starred{/owner}{/repo}",
+    "login": "justingreenberg",
+    "followers_url": "https://api.github.com/users/justingreenberg/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/justingreenberg",
+    "subscriptions_url": "https://api.github.com/users/justingreenberg/subscriptions",
+    "received_events_url": "https://api.github.com/users/justingreenberg/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1539088?v=4",
+    "events_url": "https://api.github.com/users/justingreenberg/events{/privacy}",
+    "html_url": "https://github.com/justingreenberg",
+    "site_admin": false,
+    "id": 1539088,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE1MzkwODg=",
+    "organizations_url": "https://api.github.com/users/justingreenberg/orgs"
+  },
+  "url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/comments/523159680",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUyMzE1OTY4MA=="
+}

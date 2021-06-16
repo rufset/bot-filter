@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6072002c43dd71267de25822"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/okfn-brasil/serenata-de-amor/issues/427",
+  "updated_at": "2018-10-30T09:03:00Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/okfn-brasil/serenata-de-amor/issues/427#issuecomment-434221874",
+  "created_at": "2018-10-30T09:03:00Z",
+  "id": 434221874,
+  "body": "@jtemporal there's no official procedure for that, but we need to chase the developers who push those branches and kindly ask the status of their contributions, what's left to implement and if they can either finish or write a small guide to someone else that can pick up the left work.\r\n\r\nSome branches are so old that they might implement something that is no longer desired or even compatible with the current state of the project. In this case, just make a comment on the issue and remove the branch (which will automatically close the PR related).\r\n\r\nWhich leads me to kindly suggest that the project could/should have a workflow issue -> branch -> PR. Where you can trace every branch/merge to an issue that was previously discussed and approved. This way you improve traceability and avoid devs work on issues that are not desired and would later be denied to merge (which happened quite recent). This could be simply added to the CONTRIBUTING.md and reinforced in the issue and PR templates.",
+  "user": {
+    "gists_url": "https://api.github.com/users/willianpaixao/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/willianpaixao/repos",
+    "following_url": "https://api.github.com/users/willianpaixao/following{/other_user}",
+    "starred_url": "https://api.github.com/users/willianpaixao/starred{/owner}{/repo}",
+    "login": "willianpaixao",
+    "followers_url": "https://api.github.com/users/willianpaixao/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/willianpaixao",
+    "subscriptions_url": "https://api.github.com/users/willianpaixao/subscriptions",
+    "received_events_url": "https://api.github.com/users/willianpaixao/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/201236?v=4",
+    "events_url": "https://api.github.com/users/willianpaixao/events{/privacy}",
+    "html_url": "https://github.com/willianpaixao",
+    "site_admin": false,
+    "id": 201236,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjIwMTIzNg==",
+    "organizations_url": "https://api.github.com/users/willianpaixao/orgs"
+  },
+  "url": "https://api.github.com/repos/okfn-brasil/serenata-de-amor/issues/comments/434221874",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQzNDIyMTg3NA=="
+}

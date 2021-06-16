@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6072601243dd71267de41ae5"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/pnpm/pnpm/issues/1177",
+  "updated_at": "2018-05-20T19:44:49Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/pnpm/pnpm/pull/1177#issuecomment-390506328",
+  "created_at": "2018-05-20T19:44:49Z",
+  "id": 390506328,
+  "body": "> When you say \"download the tarball\" do you mean it would get downloaded even if it's already present in the PNPM store?\r\n\r\nNo, it would not be re-downloaded in that case\r\n\r\n> Is the NPM team saying that the huge dump of package.json returned from their REST endpoint may NOT accurately represent the actual contents of the package.json file? How would that happen?\r\n\r\nCorrect, they say there are packages that submit one particular `package.json` to the registry and pack another version into the tarball. I don't know how they do it.\r\n\r\n> I understood that --shrinkwrap-only is intended to be a fast way to update shrinkwrap.yaml, in cases where you don't care about the node_modules folder (e.g. because you're going to push to a PR branch without building locally). Is that true?\r\n\r\nCorrect. That is one of the usecase. @rarkins uses it in renovateapp, which is like greenkeeper but better.\r\n\r\n> Or was this feature intended to be usable without any network connection at all?\r\n\r\nno\r\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/zkochan/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/zkochan/repos",
+    "following_url": "https://api.github.com/users/zkochan/following{/other_user}",
+    "starred_url": "https://api.github.com/users/zkochan/starred{/owner}{/repo}",
+    "login": "zkochan",
+    "followers_url": "https://api.github.com/users/zkochan/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/zkochan",
+    "subscriptions_url": "https://api.github.com/users/zkochan/subscriptions",
+    "received_events_url": "https://api.github.com/users/zkochan/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1927579?v=4",
+    "events_url": "https://api.github.com/users/zkochan/events{/privacy}",
+    "html_url": "https://github.com/zkochan",
+    "site_admin": false,
+    "id": 1927579,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE5Mjc1Nzk=",
+    "organizations_url": "https://api.github.com/users/zkochan/orgs"
+  },
+  "url": "https://api.github.com/repos/pnpm/pnpm/issues/comments/390506328",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM5MDUwNjMyOA=="
+}

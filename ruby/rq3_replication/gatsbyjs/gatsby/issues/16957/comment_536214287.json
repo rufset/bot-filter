@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ec66cf0a13ef54bc1dd"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/16957",
+  "updated_at": "2019-09-28T18:34:39Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/16957#issuecomment-536214287",
+  "created_at": "2019-09-28T18:33:03Z",
+  "id": 536214287,
+  "body": "well that's unfortunate that favicons still seems stuck on an old sharp.\r\nperhaps it's down to the semver upgrade\r\nfunnily enough I have favicons working in my project, but without that dependency.\r\n\r\nAs far as I can tell it's a very deep problem to have two versions of sharp co-existing. We're dependent on the packages updating to use the same sub-deps of sharp.\r\n\r\nalso FWIW I stopped using yarn because of various problems with C extensions and native compiling. npm also has a cache now so i think the speed difference isn't so noticeable.\r\n\r\nI just installed latest favicons and indeed get that same problem.\r\n\r\n```\r\n➜  dc.rik.ai git:(master) ✗ yarn list --pattern sharp\r\nyarn list v1.17.3\r\n├─ favicons@5.4.1\r\n│  └─ sharp@0.22.1\r\n├─ gatsby-plugin-sharp@2.2.27\r\n├─ gatsby-transformer-sharp@2.2.19\r\n└─ sharp@0.23.1\r\n✨  Done in 8.55s.\r\n```\r\n\r\nmy app will still start but I guess it's because of the image cache or sharp not getting triggered.\r\n\r\n```\r\n➜  dc.rik.ai git:(master) ✗ rm -rf .cache\r\n➜  dc.rik.ai git:(master) ✗ npm start\r\n```\r\n\r\nhowever still starts... so it's hard to even know how to trigger this nasty problem.\r\nprobably running the whole install process again.\r\n\r\nfrom my side I just removed the favicons package for now, as I seem to have favicons anyway.\r\n\r\n\r\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/dcsan/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/dcsan/repos",
+    "following_url": "https://api.github.com/users/dcsan/following{/other_user}",
+    "starred_url": "https://api.github.com/users/dcsan/starred{/owner}{/repo}",
+    "login": "dcsan",
+    "followers_url": "https://api.github.com/users/dcsan/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/dcsan",
+    "subscriptions_url": "https://api.github.com/users/dcsan/subscriptions",
+    "received_events_url": "https://api.github.com/users/dcsan/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/514002?v=4",
+    "events_url": "https://api.github.com/users/dcsan/events{/privacy}",
+    "html_url": "https://github.com/dcsan",
+    "site_admin": false,
+    "id": 514002,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjUxNDAwMg==",
+    "organizations_url": "https://api.github.com/users/dcsan/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/536214287",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUzNjIxNDI4Nw=="
+}

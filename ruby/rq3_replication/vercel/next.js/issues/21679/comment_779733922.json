@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3143dd71267de53982"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-16T10:14:58Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-779733922",
+  "created_at": "2021-02-16T10:14:58Z",
+  "id": 779733922,
+  "body": "> @timneutkens Could you maybe require webpack 5 to be enabled a different way, eg. via an environment variable?\r\n\r\nWe're going to have everyone opt-in to webpack 5 over time so having it as an environment variable would not be ideal. Especially when we start automatically enabling webpack 5 for applications that do not have custom webpack configuration. Over time the double-loading of next.config.js can go away.\r\n\r\nNote that we've spend tremendous effort in making sure that this upgrade path to webpack 5 is as smooth as it can be and automatically enabled for applications where we know for sure that webpack 5 will work. For cases where you have custom webpack configuration we're going to warn on bootup asking to enable the `future.webpack5` flag manually (and upgrade your custom plugins).",
+  "user": {
+    "gists_url": "https://api.github.com/users/timneutkens/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/timneutkens/repos",
+    "following_url": "https://api.github.com/users/timneutkens/following{/other_user}",
+    "starred_url": "https://api.github.com/users/timneutkens/starred{/owner}{/repo}",
+    "login": "timneutkens",
+    "followers_url": "https://api.github.com/users/timneutkens/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/timneutkens",
+    "subscriptions_url": "https://api.github.com/users/timneutkens/subscriptions",
+    "received_events_url": "https://api.github.com/users/timneutkens/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6324199?v=4",
+    "events_url": "https://api.github.com/users/timneutkens/events{/privacy}",
+    "html_url": "https://github.com/timneutkens",
+    "site_admin": false,
+    "id": 6324199,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYzMjQxOTk=",
+    "organizations_url": "https://api.github.com/users/timneutkens/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/779733922",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3OTczMzkyMg=="
+}

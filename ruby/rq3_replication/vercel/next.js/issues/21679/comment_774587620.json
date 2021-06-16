@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3043dd71267de5396b"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-07T03:36:26Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-774587620",
+  "created_at": "2021-02-07T03:36:26Z",
+  "id": 774587620,
+  "body": "This work for me after a lot of error, first it show me a error in buffer.js at line 206, so looking some answer in stackoverflow, I drop here, and found that the problem is next js 10.0.6 introduces support for dual-loading webpack, but you need to make some changes in your next config js and update other repos that depend on webpack, so the fast solution is just downgrading next js to 10.0.5 and if you use next pwa update it to 3.1.5 and react stack to 17.0.1, and the error will dissappear.",
+  "user": {
+    "gists_url": "https://api.github.com/users/maickoldxd/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/maickoldxd/repos",
+    "following_url": "https://api.github.com/users/maickoldxd/following{/other_user}",
+    "starred_url": "https://api.github.com/users/maickoldxd/starred{/owner}{/repo}",
+    "login": "maickoldxd",
+    "followers_url": "https://api.github.com/users/maickoldxd/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/maickoldxd",
+    "subscriptions_url": "https://api.github.com/users/maickoldxd/subscriptions",
+    "received_events_url": "https://api.github.com/users/maickoldxd/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/25177926?v=4",
+    "events_url": "https://api.github.com/users/maickoldxd/events{/privacy}",
+    "html_url": "https://github.com/maickoldxd",
+    "site_admin": false,
+    "id": 25177926,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI1MTc3OTI2",
+    "organizations_url": "https://api.github.com/users/maickoldxd/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/774587620",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3NDU4NzYyMA=="
+}

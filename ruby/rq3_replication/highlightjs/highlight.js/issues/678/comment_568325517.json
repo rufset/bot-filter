@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605ab9d66cf0a13ef54ce462"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/highlightjs/highlight.js/issues/678",
+  "updated_at": "2019-12-23T01:39:44Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/highlightjs/highlight.js/issues/678#issuecomment-568325517",
+  "created_at": "2019-12-23T01:38:38Z",
+  "id": 568325517,
+  "body": "> You mean in the `build` folder or on the literal CDN?\r\n\r\nIn the `hightlightjs-assets` npm package similar to the [highlight.js npm package](https://unpkg.com/browse/highlight.js@9.17.1/) today, ie:\r\n```\r\n/package.json\r\n/README.md\r\n/LICENSE\r\n/build/hightlight.min.js\r\n...\r\n```",
+  "user": {
+    "gists_url": "https://api.github.com/users/rajsite/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/rajsite/repos",
+    "following_url": "https://api.github.com/users/rajsite/following{/other_user}",
+    "starred_url": "https://api.github.com/users/rajsite/starred{/owner}{/repo}",
+    "login": "rajsite",
+    "followers_url": "https://api.github.com/users/rajsite/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/rajsite",
+    "subscriptions_url": "https://api.github.com/users/rajsite/subscriptions",
+    "received_events_url": "https://api.github.com/users/rajsite/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1588923?v=4",
+    "events_url": "https://api.github.com/users/rajsite/events{/privacy}",
+    "html_url": "https://github.com/rajsite",
+    "site_admin": false,
+    "id": 1588923,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE1ODg5MjM=",
+    "organizations_url": "https://api.github.com/users/rajsite/orgs"
+  },
+  "url": "https://api.github.com/repos/highlightjs/highlight.js/issues/comments/568325517",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU2ODMyNTUxNw=="
+}

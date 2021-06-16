@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6072616343dd71267de43922"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/agenda/agenda/issues/1132",
+  "updated_at": "2020-10-16T16:39:14Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/agenda/agenda/pull/1132#issuecomment-710183450",
+  "created_at": "2020-10-16T16:31:08Z",
+  "id": 710183450,
+  "body": "Mhm I'm not quite sure if I understand the reasoning for pinning. \r\nWhat is the advantage of having them pinned instead of caret ranges? Minor and patch updates should be non breaking changes anyways.\r\n\r\nIs it just for Renovate to get started? Then it's totally fine for me ;)",
+  "user": {
+    "gists_url": "https://api.github.com/users/simllll/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/simllll/repos",
+    "following_url": "https://api.github.com/users/simllll/following{/other_user}",
+    "starred_url": "https://api.github.com/users/simllll/starred{/owner}{/repo}",
+    "login": "simllll",
+    "followers_url": "https://api.github.com/users/simllll/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/simllll",
+    "subscriptions_url": "https://api.github.com/users/simllll/subscriptions",
+    "received_events_url": "https://api.github.com/users/simllll/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/5757263?v=4",
+    "events_url": "https://api.github.com/users/simllll/events{/privacy}",
+    "html_url": "https://github.com/simllll",
+    "site_admin": false,
+    "id": 5757263,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjU3NTcyNjM=",
+    "organizations_url": "https://api.github.com/users/simllll/orgs"
+  },
+  "url": "https://api.github.com/repos/agenda/agenda/issues/comments/710183450",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDcxMDE4MzQ1MA=="
+}

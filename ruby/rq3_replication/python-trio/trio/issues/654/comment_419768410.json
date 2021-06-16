@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60720d1343dd71267de27f26"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/python-trio/trio/issues/654",
+  "updated_at": "2018-09-10T02:18:25Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/python-trio/trio/pull/654#issuecomment-419768410",
+  "created_at": "2018-09-10T02:18:25Z",
+  "id": 419768410,
+  "body": "> I note this doesn't support setup.py dependencies.\r\n\r\nRight, this is a limitation of all services like this, because there's no way to get those without actually executing setup.py. Hopefully someday python will have a somewhat less tangled way of handling this kind of package metadata, but in the mean time the workaround is that we list our general runtime dependencies in `setup.py`, and then list the exact versions that we want to test against in CI in a requirements file. So there's some redundancy, but it seems manageable. (And if we forget to add something to the requirements file, then we just end up testing against the latest version, not a big deal.)",
+  "user": {
+    "gists_url": "https://api.github.com/users/njsmith/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/njsmith/repos",
+    "following_url": "https://api.github.com/users/njsmith/following{/other_user}",
+    "starred_url": "https://api.github.com/users/njsmith/starred{/owner}{/repo}",
+    "login": "njsmith",
+    "followers_url": "https://api.github.com/users/njsmith/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/njsmith",
+    "subscriptions_url": "https://api.github.com/users/njsmith/subscriptions",
+    "received_events_url": "https://api.github.com/users/njsmith/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/609896?v=4",
+    "events_url": "https://api.github.com/users/njsmith/events{/privacy}",
+    "html_url": "https://github.com/njsmith",
+    "site_admin": false,
+    "id": 609896,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYwOTg5Ng==",
+    "organizations_url": "https://api.github.com/users/njsmith/orgs"
+  },
+  "url": "https://api.github.com/repos/python-trio/trio/issues/comments/419768410",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQxOTc2ODQxMA=="
+}

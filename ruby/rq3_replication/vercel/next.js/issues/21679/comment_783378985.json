@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3143dd71267de5398a"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-22T13:36:42Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-783378985",
+  "created_at": "2021-02-22T13:36:42Z",
+  "id": 783378985,
+  "body": "> It's so sad that this broke my production deployment on Vercel as well without me changing even a line of code.\r\n> \r\n> UPDATE:\r\n> So I just noticed that if you have\r\n> \"next\": \"^10.0.4\",\r\n> in you package.json file, and you update one of your deps/devDeps, it changed the lock file to this\r\n> \"@next/env@10.0.7\" !!\r\n> \r\n> So I just change it to this by removing the symbol ^\r\n> \"next\": \"10.0.4\",\r\n> remove the lock file, remove node modules, and re-install everyting and the lock file now return to normal\r\n> \"@next/env@10.0.4\"\r\n> \r\n> And now it works!!\r\n\r\nNot sure why NextJS decided to change the environment to 10.0.7 when obviously I only want to use 10.0.4.\r\n@revskill10 ",
+  "user": {
+    "gists_url": "https://api.github.com/users/techandmedia/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/techandmedia/repos",
+    "following_url": "https://api.github.com/users/techandmedia/following{/other_user}",
+    "starred_url": "https://api.github.com/users/techandmedia/starred{/owner}{/repo}",
+    "login": "techandmedia",
+    "followers_url": "https://api.github.com/users/techandmedia/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/techandmedia",
+    "subscriptions_url": "https://api.github.com/users/techandmedia/subscriptions",
+    "received_events_url": "https://api.github.com/users/techandmedia/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/15700861?v=4",
+    "events_url": "https://api.github.com/users/techandmedia/events{/privacy}",
+    "html_url": "https://github.com/techandmedia",
+    "site_admin": false,
+    "id": 15700861,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE1NzAwODYx",
+    "organizations_url": "https://api.github.com/users/techandmedia/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/783378985",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc4MzM3ODk4NQ=="
+}

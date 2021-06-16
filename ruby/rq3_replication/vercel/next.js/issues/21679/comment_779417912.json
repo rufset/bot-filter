@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3143dd71267de5397a"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-15T19:44:36Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-779417912",
+  "created_at": "2021-02-15T19:44:36Z",
+  "id": 779417912,
+  "body": "> You can now opt-in to webpack 5 support using the following `next.config.js`:\r\n> \r\n> ```js\r\n> // next.config.js\r\n> module.exports = {\r\n>   future: { webpack5: true }\r\n> }\r\n> ```\r\n\r\n**I've searched the release docs, as well as the Next.js website - is this documented somewhere besides this issue thread?**  \r\n\r\nUsing `v10.0.5`,  Storybook x Next.js monorepo users already had a difficult time enabling Webpack 5. After reading through #13341, I was finally able to find the correct `resolutions` configuration for my particular monorepo setup. \r\n\r\nAfter upgrading to `v10.0.6`, the `resolutions` config was a moot point - I was unable to run my app without receiving configuration schema errors. It seemed that Webpack 5 was no longer being resolved. Not entirely sure, but I'm guessing this can be traced back to the removal of the `webpack` dependency, as with this issue.\r\n\r\nThe code snippet above, however, is what I needed to run my app without errors. If there isn't already, it would be nice to have a discussion dedicated to Webpack 5 support thats regularly updated.\r\n\r\n@timneutkens\r\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/lexusdrumgold/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/lexusdrumgold/repos",
+    "following_url": "https://api.github.com/users/lexusdrumgold/following{/other_user}",
+    "starred_url": "https://api.github.com/users/lexusdrumgold/starred{/owner}{/repo}",
+    "login": "lexusdrumgold",
+    "followers_url": "https://api.github.com/users/lexusdrumgold/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/lexusdrumgold",
+    "subscriptions_url": "https://api.github.com/users/lexusdrumgold/subscriptions",
+    "received_events_url": "https://api.github.com/users/lexusdrumgold/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/20430108?v=4",
+    "events_url": "https://api.github.com/users/lexusdrumgold/events{/privacy}",
+    "html_url": "https://github.com/lexusdrumgold",
+    "site_admin": false,
+    "id": 20430108,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjIwNDMwMTA4",
+    "organizations_url": "https://api.github.com/users/lexusdrumgold/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/779417912",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3OTQxNzkxMg=="
+}

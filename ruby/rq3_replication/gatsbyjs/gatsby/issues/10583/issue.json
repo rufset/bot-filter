@@ -1,0 +1,54 @@
+{
+  "_id": {
+    "$oid": "605a7ea66cf0a13ef54bb9d5"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2018-12-20T16:48:11Z",
+  "title": "Automatic dependency updates for Gatsby packages",
+  "body": "Do we need automatic dependency updates for Gatsby packages?\r\n\r\n- [x] Starters\r\n- [x] Packages\r\n\r\n### Why we might\r\n- the current climate around attacks in dependencies \r\n- we've had several issues opened over time around `npm audit` issues with `gatsby` (typically pretty deep into the tree)\r\n\r\n### Options\r\n- https://greenkeeper.io\r\n- https://renovatebot.com/\r\n\r\n### Challenges\r\n- we don’t run e2e tests on Node 6 (e2e tests are generally problematic with dependency changes currently according to @pieh)",
+  "labels_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/10583/labels{/name}",
+  "author_association": "MEMBER",
+  "number": 10583,
+  "score": 1,
+  "updated_at": "2020-05-26T09:37:32Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/10583/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/gatsbyjs/gatsby",
+  "id": 393127625,
+  "state": "closed",
+  "locked": false,
+  "comments": 5,
+  "closed_at": "2019-08-24T01:02:47Z",
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/10583",
+  "labels": [
+
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/10583/events",
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/10583",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/sidharthachatterjee/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/sidharthachatterjee/repos",
+    "following_url": "https://api.github.com/users/sidharthachatterjee/following{/other_user}",
+    "starred_url": "https://api.github.com/users/sidharthachatterjee/starred{/owner}{/repo}",
+    "login": "sidharthachatterjee",
+    "followers_url": "https://api.github.com/users/sidharthachatterjee/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/sidharthachatterjee",
+    "subscriptions_url": "https://api.github.com/users/sidharthachatterjee/subscriptions",
+    "received_events_url": "https://api.github.com/users/sidharthachatterjee/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/7701981?v=4",
+    "events_url": "https://api.github.com/users/sidharthachatterjee/events{/privacy}",
+    "html_url": "https://github.com/sidharthachatterjee",
+    "site_admin": false,
+    "id": 7701981,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjc3MDE5ODE=",
+    "organizations_url": "https://api.github.com/users/sidharthachatterjee/orgs"
+  },
+  "node_id": "MDU6SXNzdWUzOTMxMjc2MjU="
+}

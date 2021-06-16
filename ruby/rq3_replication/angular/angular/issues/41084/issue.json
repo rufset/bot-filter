@@ -1,0 +1,54 @@
+{
+  "_id": {
+    "$oid": "607243f643dd71267de369c7"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2021-03-05T10:50:03Z",
+  "title": "Stop doing a release every week",
+  "body": "It's very annoying to follow your updates guys. can't you just do one release every month or every two weeks? I can't even see what has changed between minor releases. ",
+  "labels_url": "https://api.github.com/repos/angular/angular/issues/41084/labels{/name}",
+  "author_association": "NONE",
+  "number": 41084,
+  "score": 1,
+  "updated_at": "2021-04-05T16:08:46Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/angular/angular/issues/41084/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/angular/angular",
+  "id": 822971701,
+  "state": "closed",
+  "locked": true,
+  "comments": 7,
+  "closed_at": "2021-03-05T16:40:52Z",
+  "url": "https://api.github.com/repos/angular/angular/issues/41084",
+  "labels": [
+
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/angular/angular/issues/41084/events",
+  "html_url": "https://github.com/angular/angular/issues/41084",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/nbittich/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/nbittich/repos",
+    "following_url": "https://api.github.com/users/nbittich/following{/other_user}",
+    "starred_url": "https://api.github.com/users/nbittich/starred{/owner}{/repo}",
+    "login": "nbittich",
+    "followers_url": "https://api.github.com/users/nbittich/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/nbittich",
+    "subscriptions_url": "https://api.github.com/users/nbittich/subscriptions",
+    "received_events_url": "https://api.github.com/users/nbittich/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3816305?v=4",
+    "events_url": "https://api.github.com/users/nbittich/events{/privacy}",
+    "html_url": "https://github.com/nbittich",
+    "site_admin": false,
+    "id": 3816305,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjM4MTYzMDU=",
+    "organizations_url": "https://api.github.com/users/nbittich/orgs"
+  },
+  "node_id": "MDU6SXNzdWU4MjI5NzE3MDE="
+}

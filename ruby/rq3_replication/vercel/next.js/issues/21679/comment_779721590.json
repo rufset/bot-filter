@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3143dd71267de53980"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-16T09:56:47Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-779721590",
+  "created_at": "2021-02-16T09:56:14Z",
+  "id": 779721590,
+  "body": "So as it turns out the webpack require hook does not work in the case @carloscuesta showed because webpack is not initialized by the time a user's webpack plugins require webpack\r\n\r\nWhich is kind of a chicken/egg problem of having the config that enables webpack 5 in the file that has external modules that require webpack\r\n\r\nworkbox-webpack-plugin has this particular require at the top level which makes it even harder to solve:\r\n```js\r\nconst {\r\n  matchPart\r\n} = require('webpack').ModuleFilenameHelpers;\r\n```\r\n\r\nI can think of 2 ways to solve it:\r\n\r\n- We have users that need this behavior add the require hook at the top of their `next.config.js`: `require('next/webpack-backwards-compat-require-hook')`\r\n- We register the require hook with a default of webpack 4. Then when we check for `future.webpack5`, if it's `true` we delete the require cache for `next.config.js` and re-require it with webpack 5 set in the require hook configuration.\r\n\r\nI'm favoring the second approach as it allows for backwards compat with previous versions that have webpack customization that incorrectly requires webpack without having the dep available in it's dependencies.\r\n\r\nBoth approaches allow for adding a warning when modules require webpack internals or `webpack` allowing us to add an err.sh link for this issue so that webpack plugins can be updated to use `compiler.webpack` instead.",
+  "user": {
+    "gists_url": "https://api.github.com/users/timneutkens/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/timneutkens/repos",
+    "following_url": "https://api.github.com/users/timneutkens/following{/other_user}",
+    "starred_url": "https://api.github.com/users/timneutkens/starred{/owner}{/repo}",
+    "login": "timneutkens",
+    "followers_url": "https://api.github.com/users/timneutkens/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/timneutkens",
+    "subscriptions_url": "https://api.github.com/users/timneutkens/subscriptions",
+    "received_events_url": "https://api.github.com/users/timneutkens/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6324199?v=4",
+    "events_url": "https://api.github.com/users/timneutkens/events{/privacy}",
+    "html_url": "https://github.com/timneutkens",
+    "site_admin": false,
+    "id": 6324199,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYzMjQxOTk=",
+    "organizations_url": "https://api.github.com/users/timneutkens/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/779721590",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3OTcyMTU5MA=="
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a01016cf0a13ef5481506"
+  },
+  "author_association": "COLLABORATOR",
+  "issue_url": "https://api.github.com/repos/hexojs/hexo/issues/3370",
+  "updated_at": "2018-11-23T02:40:27Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/hexojs/hexo/issues/3370#issuecomment-441145992",
+  "created_at": "2018-11-23T02:39:44Z",
+  "id": 441145992,
+  "body": "> I believe that yarn now relies on package-lock.json\r\n\r\n@tomap What do you mean by `yarn now relies on package-lock.json`?\r\n\r\n> I wanna know hexo organization guideline.\r\n\r\n@YoshinoriN [Here](https://github.com/hexojs/hexo/pull/2641#issuecomment-315503499\r\n) is a historical talks around package lock files. At this time I think I can further convince @NoahDragon  that with the help of renovate we can handle dependencies bumps more smoothly.\r\n\r\nPackage lock files are not published to npm. Even if it is published by improper configuration, the package manager would not respect package lock file in node_modules.",
+  "user": {
+    "gists_url": "https://api.github.com/users/JLHwung/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/JLHwung/repos",
+    "following_url": "https://api.github.com/users/JLHwung/following{/other_user}",
+    "starred_url": "https://api.github.com/users/JLHwung/starred{/owner}{/repo}",
+    "login": "JLHwung",
+    "followers_url": "https://api.github.com/users/JLHwung/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/JLHwung",
+    "subscriptions_url": "https://api.github.com/users/JLHwung/subscriptions",
+    "received_events_url": "https://api.github.com/users/JLHwung/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3607926?v=4",
+    "events_url": "https://api.github.com/users/JLHwung/events{/privacy}",
+    "html_url": "https://github.com/JLHwung",
+    "site_admin": false,
+    "id": 3607926,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjM2MDc5MjY=",
+    "organizations_url": "https://api.github.com/users/JLHwung/orgs"
+  },
+  "url": "https://api.github.com/repos/hexojs/hexo/issues/comments/441145992",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQ0MTE0NTk5Mg=="
+}

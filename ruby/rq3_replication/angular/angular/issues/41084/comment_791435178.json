@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607243f643dd71267de369cb"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/angular/angular/issues/41084",
+  "updated_at": "2021-03-05T14:07:04Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/angular/angular/issues/41084#issuecomment-791435178",
+  "created_at": "2021-03-05T13:57:22Z",
+  "id": 791435178,
+  "body": "nope, the NodeJs world doesn't work like that. Only in the angular world. \r\n\r\nI wish I could just switch to react or vue as the other folks does.\r\n\r\nI wrote an app  in react 6 months ago. Version I'm using is 17.0.1. Didn't have to update since then. It's amazing how stable they are.\r\n<img width=\"625\" alt=\"image\" src=\"https://user-images.githubusercontent.com/3816305/110125467-9f525580-7dc3-11eb-8957-0a96745b4e43.png\">\r\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/nbittich/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/nbittich/repos",
+    "following_url": "https://api.github.com/users/nbittich/following{/other_user}",
+    "starred_url": "https://api.github.com/users/nbittich/starred{/owner}{/repo}",
+    "login": "nbittich",
+    "followers_url": "https://api.github.com/users/nbittich/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/nbittich",
+    "subscriptions_url": "https://api.github.com/users/nbittich/subscriptions",
+    "received_events_url": "https://api.github.com/users/nbittich/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3816305?v=4",
+    "events_url": "https://api.github.com/users/nbittich/events{/privacy}",
+    "html_url": "https://github.com/nbittich",
+    "site_admin": false,
+    "id": 3816305,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjM4MTYzMDU=",
+    "organizations_url": "https://api.github.com/users/nbittich/orgs"
+  },
+  "url": "https://api.github.com/repos/angular/angular/issues/comments/791435178",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc5MTQzNTE3OA=="
+}

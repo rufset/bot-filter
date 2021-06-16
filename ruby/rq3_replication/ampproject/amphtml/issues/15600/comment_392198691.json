@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "609f0fe1c12f0f030f910469"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/15600",
+  "updated_at": "2018-05-29T16:51:50Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/issues/15600#issuecomment-392198691",
+  "created_at": "2018-05-25T22:01:26Z",
+  "id": 392198691,
+  "body": "## UI\r\n\r\n### ✨ New Components/Features (available in production releases in 1-2 weeks)\r\n- `amp-lightbox-gallery:` Displays a lightbox gallery. It is launched 🎉 and out of experiment mode. [Documentation](https://www.ampproject.org/docs/reference/components/amp-lightbox-gallery), [Sample](https://ampbyexample.com/components/amp-lightbox-gallery/)<div><img alt=\"File upload example\" src=\"https://user-images.githubusercontent.com/2099009/40563200-cc167f86-6018-11e8-8be0-95b6c55fc138.png\" width=\"200\"></div>\r\n- `amp-3d-gltf`: Displays 3D models that are in gITF format. (Contribution by @mixtur) [Documentation](https://github.com/ampproject/amphtml/blob/master/extensions/amp-3d-gltf/amp-3d-gltf.md), [Sample](http://amphtml-nightly.herokuapp.com/examples/amp-3d-gltf.amp.html) <div><img alt=\"File upload example\" src=\"https://user-images.githubusercontent.com/2099009/40566626-7999cfde-6026-11e8-8962-1d8d00e7e3c0.gif\" width=\"200\"></div>\r\n- `amp-fx-collection=\"fade-in\"` and `amp-fx=\"fade-in-scroll\":` Allows for easy-to-use fade-in effects on any element. They are fully launched and out of experiment. [Documentation](https://www.ampproject.org/docs/reference/components/amp-fx-collection), [Sample](https://ampbyexample.com/components/amp-fx-collection/) <div><img alt=\"File upload example\" src=\"https://user-images.githubusercontent.com/2099009/40566810-51787298-6027-11e8-9f93-a1aa245a69a7.gif\" width=\"200\"></div>\r\n- `amp-bodymoving-animation:` Now supports scrollbound animations (Thanks @jessepinho) [Sample](https://codepen.io/aghassemi/pen/jxvzzq)  <div><img alt=\"File upload example\" src=\"https://user-images.githubusercontent.com/2099009/40567711-64dcece8-602b-11e8-8a3d-37b5d2b9cb64.gif\" width=\"200\"></div>\r\n- `input type=file` is available for use now. It is restricted to `POST` forms. [Documentation](https://www.ampproject.org/docs/reference/components/amp-form#inputs-and-fields)\r\n- `rotate-to-fullscreen:` Allows rotation of the phone to take a video to fullscreen. It is now supported on `amp-ima-video` in addition to `amp-video` [Documentation](https://github.com/ampproject/amphtml/blob/master/spec/amp-video-interface.md#rotate-to-fullscreen), [Sample](https://ampbyexample.com/advanced/video_rotate_to_fullscreen_with_hint/)\r\n- `amp-accordion animate:` The new `animate` attribute on `amp-accordion` allows expand/collapse actions to animate the height of the section.\r\n- `amp-facebook:` Now supports `data-order-by` attribute.\r\n\r\n### 🐣 New Experimental Features\r\n- `amp-next-page` now available as a [doc-level optin](https://github.com/ampproject/amphtml/blob/3a06c99f259b66998b61935a5ee5f0075481bfd2/tools/experiments/README.md#enable-an-experiment-for-a-particular-document). [Documentation](https://github.com/ampproject/amphtml/blob/106bafa2be210a33b0389e13a7245e6aa2d40351/extensions/amp-next-page/amp-next-page.md)\r\n- `amp-fx-collection=\"fly-in\"` experimentally available under flag `amp-fx-fly-in` [Documentation](https://github.com/ampproject/amphtml/blob/106bafa2be210a33b0389e13a7245e6aa2d40351/extensions/amp-fx-collection/amp-fx-collection.md#fly-in-bottom-fly-in-left-fly-in-right-fly-in-top-experimental)\r\n\r\n\r\n### 🐛 Bug Fixes\r\n- `amp-lightbox-gallery:` Now does not show nav or gallery controls if there is only one item. #15475\r\n- `amp-twitter`: Now resizes to placeholder/fallback when tweet is deleted/unavailable #15542\r\n- `amp-reddit`:  Now resizes dynamically when needed #15530\r\n- `amp-date-picker:` Dropshadow no longer cut off https://github.com/ampproject/amphtml/pull/15412\r\n- `validator`: `gulp validator --update_tests` now works to update validator test output.\r\n\r\n### What's next?\r\n- `general maintenance:` is the focus for short term.\r\n- `amp-video-iframe:` https://github.com/ampproject/amphtml/issues/8524: New component that allows implementation of `video-interface` by arbitrary iframed players so they can get the benefits such as autoplay, docking, etc...\r\n- `infinite scroll:` for `amp-list` https://github.com/ampproject/amphtml/issues/14060: New feature on `amp-list` that allows for `load-more` and `infinite scroll` use-cases.\r\n- `input-masking`: https://github.com/ampproject/amphtml/issues/14745 Allows for automatically inserting expected characters and spaces in a given form input.\r\n- `amp-content-viewer:` #13602: New component to allow zoom/pan for SVGs and potentially other elements. <div><img alt=\"File upload example\" src=\"https://user-images.githubusercontent.com/2099009/40567866-2751e44a-602c-11e8-9bb8-da615e96b47a.gif\" width=\"200\"></div>\r\n- `amp-video dock`: Ability to dock to a particular placeholder. <div><img alt=\"File upload example\" src=\"https://user-images.githubusercontent.com/2099009/40673160-cbac0894-6325-11e8-8818-1821a2bc422a.gif\" width=\"500\"></div>\r\n\r\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/aghassemi/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/aghassemi/repos",
+    "following_url": "https://api.github.com/users/aghassemi/following{/other_user}",
+    "starred_url": "https://api.github.com/users/aghassemi/starred{/owner}{/repo}",
+    "login": "aghassemi",
+    "followers_url": "https://api.github.com/users/aghassemi/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/aghassemi",
+    "subscriptions_url": "https://api.github.com/users/aghassemi/subscriptions",
+    "received_events_url": "https://api.github.com/users/aghassemi/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2099009?v=4",
+    "events_url": "https://api.github.com/users/aghassemi/events{/privacy}",
+    "html_url": "https://github.com/aghassemi",
+    "site_admin": false,
+    "id": 2099009,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjIwOTkwMDk=",
+    "organizations_url": "https://api.github.com/users/aghassemi/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/392198691",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM5MjE5ODY5MQ=="
+}

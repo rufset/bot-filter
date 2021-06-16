@@ -1,0 +1,71 @@
+{
+  "_id": {
+    "$oid": "605a01016cf0a13ef5481501"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2018-11-22T13:13:41Z",
+  "title": "Does we need exclude yarn.lock and package-lock.json from all repository ?",
+  "body": "@hexojs/core \r\n\r\nCurrently some repositories not exclude `yarn.lock` & `package-lock.json`.\r\nDependabot pull requests include `yarn.lock` like this.\r\n\r\nhttps://github.com/hexojs/site/pull/815/files\r\n\r\nDoes we need add them to .gitignore before merge dependabot's pull request ?",
+  "labels_url": "https://api.github.com/repos/hexojs/hexo/issues/3370/labels{/name}",
+  "author_association": "MEMBER",
+  "number": 3370,
+  "score": 1,
+  "updated_at": "2019-07-02T08:21:41Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/hexojs/hexo/issues/3370/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/hexojs/hexo",
+  "id": 383530576,
+  "state": "open",
+  "locked": false,
+  "comments": 15,
+  "closed_at": null,
+  "url": "https://api.github.com/repos/hexojs/hexo/issues/3370",
+  "labels": [
+    {
+      "default": false,
+      "color": "0025ff",
+      "name": "dependencies",
+      "description": "Pull requests that update a dependency file",
+      "id": 1136665502,
+      "url": "https://api.github.com/repos/hexojs/hexo/labels/dependencies",
+      "node_id": "MDU6TGFiZWwxMTM2NjY1NTAy"
+    },
+    {
+      "default": false,
+      "color": "5319e7",
+      "name": "discussion",
+      "description": null,
+      "id": 62396509,
+      "url": "https://api.github.com/repos/hexojs/hexo/labels/discussion",
+      "node_id": "MDU6TGFiZWw2MjM5NjUwOQ=="
+    }
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/hexojs/hexo/issues/3370/events",
+  "html_url": "https://github.com/hexojs/hexo/issues/3370",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/yoshinorin/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/yoshinorin/repos",
+    "following_url": "https://api.github.com/users/yoshinorin/following{/other_user}",
+    "starred_url": "https://api.github.com/users/yoshinorin/starred{/owner}{/repo}",
+    "login": "yoshinorin",
+    "followers_url": "https://api.github.com/users/yoshinorin/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/yoshinorin",
+    "subscriptions_url": "https://api.github.com/users/yoshinorin/subscriptions",
+    "received_events_url": "https://api.github.com/users/yoshinorin/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/11273093?v=4",
+    "events_url": "https://api.github.com/users/yoshinorin/events{/privacy}",
+    "html_url": "https://github.com/yoshinorin",
+    "site_admin": false,
+    "id": 11273093,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjExMjczMDkz",
+    "organizations_url": "https://api.github.com/users/yoshinorin/orgs"
+  },
+  "node_id": "MDU6SXNzdWUzODM1MzA1NzY="
+}

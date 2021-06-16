@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ecc6cf0a13ef54bc342"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/26128",
+  "updated_at": "2020-08-04T09:14:12Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/26128#issuecomment-668482662",
+  "created_at": "2020-08-04T09:13:51Z",
+  "id": 668482662,
+  "body": "> @cushmatt  Unfortunately did not work for me. I'm using `npm` rather than `yarn` but I don't see why that would make a difference here.\r\n\r\nI do believe that if you use Yarn, you have a different lock file than if you use npm. Yarn allows you to use the \"resolutions\" in your package.json, while npm does not. This might explain why you're not getting the same result with npm. Not sure how to do this with npm.\r\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/nmastroianni/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/nmastroianni/repos",
+    "following_url": "https://api.github.com/users/nmastroianni/following{/other_user}",
+    "starred_url": "https://api.github.com/users/nmastroianni/starred{/owner}{/repo}",
+    "login": "nmastroianni",
+    "followers_url": "https://api.github.com/users/nmastroianni/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/nmastroianni",
+    "subscriptions_url": "https://api.github.com/users/nmastroianni/subscriptions",
+    "received_events_url": "https://api.github.com/users/nmastroianni/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/4978154?v=4",
+    "events_url": "https://api.github.com/users/nmastroianni/events{/privacy}",
+    "html_url": "https://github.com/nmastroianni",
+    "site_admin": false,
+    "id": 4978154,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjQ5NzgxNTQ=",
+    "organizations_url": "https://api.github.com/users/nmastroianni/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/668482662",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY2ODQ4MjY2Mg=="
+}

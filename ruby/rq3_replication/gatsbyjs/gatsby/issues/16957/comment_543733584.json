@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ec66cf0a13ef54bc1de"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/16957",
+  "updated_at": "2019-10-18T13:04:43Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/16957#issuecomment-543733584",
+  "created_at": "2019-10-18T13:04:43Z",
+  "id": 543733584,
+  "body": "So to summarise, it appears that we're hitting this when multiple versions of `sharp` are encountered. When this is with other dependencies (like `favicons`), we can't really control that. \r\n\r\nHowever, we should probably improve the experience if people are hitting this using multiple gatsby plugins (like `gatsby-plugin-sharp` and `gatsby-plugin-manifest`)\r\n\r\nLet's track that in https://github.com/gatsbyjs/gatsby/issues/16985\r\n\r\nSince the original issue opened by the author here seems to be resolved, I'm closing this issue for now. Thank you all of you for participating in this and have a great weekend 🎉 ",
+  "user": {
+    "gists_url": "https://api.github.com/users/sidharthachatterjee/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/sidharthachatterjee/repos",
+    "following_url": "https://api.github.com/users/sidharthachatterjee/following{/other_user}",
+    "starred_url": "https://api.github.com/users/sidharthachatterjee/starred{/owner}{/repo}",
+    "login": "sidharthachatterjee",
+    "followers_url": "https://api.github.com/users/sidharthachatterjee/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/sidharthachatterjee",
+    "subscriptions_url": "https://api.github.com/users/sidharthachatterjee/subscriptions",
+    "received_events_url": "https://api.github.com/users/sidharthachatterjee/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/7701981?v=4",
+    "events_url": "https://api.github.com/users/sidharthachatterjee/events{/privacy}",
+    "html_url": "https://github.com/sidharthachatterjee",
+    "site_admin": false,
+    "id": 7701981,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjc3MDE5ODE=",
+    "organizations_url": "https://api.github.com/users/sidharthachatterjee/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/543733584",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU0MzczMzU4NA=="
+}

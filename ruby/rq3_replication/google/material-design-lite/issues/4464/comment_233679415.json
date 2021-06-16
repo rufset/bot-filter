@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a8c986cf0a13ef54c219a"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/google/material-design-lite/issues/4464",
+  "updated_at": "2016-07-19T16:11:15Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/google/material-design-lite/issues/4464#issuecomment-233679415",
+  "created_at": "2016-07-19T15:57:17Z",
+  "id": 233679415,
+  "body": "+1 to Greenkeeper. David-dm is useful, but having PRs opened automatically sounds useful, and the fact that it's the recommended tool gives us a bit more confidence.\n\n+1 to commit messages, particularly if we can have a good error message to teach folks committing for the first time.\n\nsemantic-release bears some investigation, but I'm concerned how much work it would take on for us. In a project of our dimension, we probably want to keep a fair amount of control over release notes, versioning, release pushing, etc. Packaging and generating changelogs (which we'd then copy into the release notes) sounds like something we could definitely add some automation to, though.\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/sgomes/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/sgomes/repos",
+    "following_url": "https://api.github.com/users/sgomes/following{/other_user}",
+    "starred_url": "https://api.github.com/users/sgomes/starred{/owner}{/repo}",
+    "login": "sgomes",
+    "followers_url": "https://api.github.com/users/sgomes/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/sgomes",
+    "subscriptions_url": "https://api.github.com/users/sgomes/subscriptions",
+    "received_events_url": "https://api.github.com/users/sgomes/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/409615?v=4",
+    "events_url": "https://api.github.com/users/sgomes/events{/privacy}",
+    "html_url": "https://github.com/sgomes",
+    "site_admin": false,
+    "id": 409615,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjQwOTYxNQ==",
+    "organizations_url": "https://api.github.com/users/sgomes/orgs"
+  },
+  "url": "https://api.github.com/repos/google/material-design-lite/issues/comments/233679415",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDIzMzY3OTQxNQ=="
+}

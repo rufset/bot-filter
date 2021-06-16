@@ -1,0 +1,69 @@
+{
+  "_id": {
+    "$oid": "6072468a43dd71267de3a94c"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2020-07-20T08:57:12Z",
+  "title": "Change lodash to caret semver range",
+  "body": "### User facing changelog\nChange `lodash` to use caret semver range due to frequent security issues.\n\n### Additional details\nThis allows consumers to update `lodash` versions to address security issues without using special tools like Yarn Resolutions or npm overrides. Since `lodash` is a volatile package in regards to security updates, this seems like a good tradeoff to make.\n\nThis changes the Renovate configuration originally specified by @bahmutov in https://github.com/cypress-io/cypress/pull/2992\n\nRenovate `rangeStrategy` Docs:\nhttps://docs.renovatebot.com/configuration-options/#rangestrategy\n\n### How has the user experience changed?\n* Users can update `lodash` without updating `cypress`\n* Bots such as Dependabot can do this automatically\n\n### PR Tasks\nNone applicable.\n\n\n\n┆Issue is synchronized with this [Jira Features](https://cypress-io.atlassian.net/browse/TR-136) by [Unito](https://www.unito.io/learn-more)\n",
+  "labels_url": "https://api.github.com/repos/cypress-io/cypress/issues/8032/labels{/name}",
+  "author_association": "CONTRIBUTOR",
+  "number": 8032,
+  "score": 1,
+  "updated_at": "2020-07-21T11:59:53Z",
+  "performed_via_github_app": null,
+  "draft": false,
+  "comments_url": "https://api.github.com/repos/cypress-io/cypress/issues/8032/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/cypress-io/cypress",
+  "id": 661558913,
+  "state": "closed",
+  "locked": false,
+  "pull_request": {
+    "patch_url": "https://github.com/cypress-io/cypress/pull/8032.patch",
+    "html_url": "https://github.com/cypress-io/cypress/pull/8032",
+    "diff_url": "https://github.com/cypress-io/cypress/pull/8032.diff",
+    "url": "https://api.github.com/repos/cypress-io/cypress/pulls/8032"
+  },
+  "comments": 4,
+  "closed_at": "2020-07-21T05:48:46Z",
+  "url": "https://api.github.com/repos/cypress-io/cypress/issues/8032",
+  "labels": [
+    {
+      "default": false,
+      "color": "e99695",
+      "name": "internal-priority",
+      "description": "",
+      "id": 2158915092,
+      "url": "https://api.github.com/repos/cypress-io/cypress/labels/internal-priority",
+      "node_id": "MDU6TGFiZWwyMTU4OTE1MDky"
+    }
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/cypress-io/cypress/issues/8032/events",
+  "html_url": "https://github.com/cypress-io/cypress/pull/8032",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/karlhorky/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/karlhorky/repos",
+    "following_url": "https://api.github.com/users/karlhorky/following{/other_user}",
+    "starred_url": "https://api.github.com/users/karlhorky/starred{/owner}{/repo}",
+    "login": "karlhorky",
+    "followers_url": "https://api.github.com/users/karlhorky/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/karlhorky",
+    "subscriptions_url": "https://api.github.com/users/karlhorky/subscriptions",
+    "received_events_url": "https://api.github.com/users/karlhorky/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1935696?v=4",
+    "events_url": "https://api.github.com/users/karlhorky/events{/privacy}",
+    "html_url": "https://github.com/karlhorky",
+    "site_admin": false,
+    "id": 1935696,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE5MzU2OTY=",
+    "organizations_url": "https://api.github.com/users/karlhorky/orgs"
+  },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0NDUzMjE3NDU0"
+}

@@ -1,0 +1,132 @@
+{
+  "_id": {
+    "$oid": "60726e1a43dd71267de46a45"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2020-10-27T02:01:13Z",
+  "title": "deps: Replace renovate configuration with dependabot",
+  "body": "<!--- See what makes a good Pull Request at : https://github.com/terraform-providers/terraform-provider-aws/blob/master/docs/CONTRIBUTING.md --->\r\n\r\n<!--- Please keep this note for the community --->\r\n\r\n### Community Note\r\n\r\n* Please vote on this pull request by adding a 👍 [reaction](https://blog.github.com/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) to the original pull request comment to help the community and maintainers prioritize this request\r\n* Please do not leave \"+1\" or other comments that do not add relevant new information or questions, they generate extra noise for pull request followers and do not help prioritize the request\r\n\r\n<!--- Thank you for keeping this note for the community --->\r\n\r\n<!--- If your PR fully resolves and should automatically close the linked issue, use Closes. Otherwise, use Relates --->\r\n\r\nRelease note for [CHANGELOG](https://github.com/terraform-providers/terraform-provider-aws/blob/master/CHANGELOG.md):\r\n<!--\r\nIf change is not user facing, just write \"NONE\" in the release-note block below.\r\n-->\r\n\r\n```release-note\r\nNONE\r\n```\r\n\r\nRenovate is having issues with the repository. Rather than troubleshoot it further when the long-term plans were to switch to dependabot, just migrate the configuration and handling now.\r\n\r\nOutput from acceptance testing: N/A (dependency management)\r\n",
+  "labels_url": "https://api.github.com/repos/hashicorp/terraform-provider-aws/issues/15846/labels{/name}",
+  "author_association": "MEMBER",
+  "number": 15846,
+  "score": 1,
+  "updated_at": "2020-11-26T17:10:01Z",
+  "performed_via_github_app": null,
+  "draft": false,
+  "comments_url": "https://api.github.com/repos/hashicorp/terraform-provider-aws/issues/15846/comments",
+  "active_lock_reason": "resolved",
+  "repository_url": "https://api.github.com/repos/hashicorp/terraform-provider-aws",
+  "id": 730035884,
+  "state": "closed",
+  "locked": true,
+  "pull_request": {
+    "patch_url": "https://github.com/hashicorp/terraform-provider-aws/pull/15846.patch",
+    "html_url": "https://github.com/hashicorp/terraform-provider-aws/pull/15846",
+    "diff_url": "https://github.com/hashicorp/terraform-provider-aws/pull/15846.diff",
+    "url": "https://api.github.com/repos/hashicorp/terraform-provider-aws/pulls/15846"
+  },
+  "comments": 3,
+  "closed_at": "2020-10-27T13:50:59Z",
+  "url": "https://api.github.com/repos/hashicorp/terraform-provider-aws/issues/15846",
+  "labels": [
+    {
+      "default": false,
+      "color": "1563ff",
+      "name": "dependencies",
+      "description": "",
+      "id": 625730320,
+      "url": "https://api.github.com/repos/hashicorp/terraform-provider-aws/labels/dependencies",
+      "node_id": "MDU6TGFiZWw2MjU3MzAzMjA="
+    },
+    {
+      "default": false,
+      "color": "623ce4",
+      "name": "provider",
+      "description": "",
+      "id": 819351775,
+      "url": "https://api.github.com/repos/hashicorp/terraform-provider-aws/labels/provider",
+      "node_id": "MDU6TGFiZWw4MTkzNTE3NzU="
+    },
+    {
+      "default": false,
+      "color": "12b4ba",
+      "name": "size/S",
+      "description": "",
+      "id": 737832199,
+      "url": "https://api.github.com/repos/hashicorp/terraform-provider-aws/labels/size/S",
+      "node_id": "MDU6TGFiZWw3Mzc4MzIxOTk="
+    },
+    {
+      "default": false,
+      "color": "00bc7f",
+      "name": "tests",
+      "description": "",
+      "id": 784095310,
+      "url": "https://api.github.com/repos/hashicorp/terraform-provider-aws/labels/tests",
+      "node_id": "MDU6TGFiZWw3ODQwOTUzMTA="
+    }
+  ],
+  "milestone": {
+    "creator": {
+      "gists_url": "https://api.github.com/users/breathingdust/gists{/gist_id}",
+      "repos_url": "https://api.github.com/users/breathingdust/repos",
+      "following_url": "https://api.github.com/users/breathingdust/following{/other_user}",
+      "starred_url": "https://api.github.com/users/breathingdust/starred{/owner}{/repo}",
+      "login": "breathingdust",
+      "followers_url": "https://api.github.com/users/breathingdust/followers",
+      "type": "User",
+      "url": "https://api.github.com/users/breathingdust",
+      "subscriptions_url": "https://api.github.com/users/breathingdust/subscriptions",
+      "received_events_url": "https://api.github.com/users/breathingdust/received_events",
+      "avatar_url": "https://avatars.githubusercontent.com/u/282361?v=4",
+      "events_url": "https://api.github.com/users/breathingdust/events{/privacy}",
+      "html_url": "https://github.com/breathingdust",
+      "site_admin": false,
+      "id": 282361,
+      "gravatar_id": "",
+      "node_id": "MDQ6VXNlcjI4MjM2MQ==",
+      "organizations_url": "https://api.github.com/users/breathingdust/orgs"
+    },
+    "closed_at": "2020-10-29T22:15:16Z",
+    "description": "",
+    "created_at": "2020-10-22T20:50:38Z",
+    "title": "v3.13.0",
+    "closed_issues": 69,
+    "url": "https://api.github.com/repos/hashicorp/terraform-provider-aws/milestones/158",
+    "due_on": null,
+    "labels_url": "https://api.github.com/repos/hashicorp/terraform-provider-aws/milestones/158/labels",
+    "number": 158,
+    "updated_at": "2020-11-04T21:10:27Z",
+    "html_url": "https://github.com/hashicorp/terraform-provider-aws/milestone/158",
+    "id": 6022545,
+    "state": "closed",
+    "open_issues": 0,
+    "node_id": "MDk6TWlsZXN0b25lNjAyMjU0NQ=="
+  },
+  "events_url": "https://api.github.com/repos/hashicorp/terraform-provider-aws/issues/15846/events",
+  "html_url": "https://github.com/hashicorp/terraform-provider-aws/pull/15846",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/bflad/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/bflad/repos",
+    "following_url": "https://api.github.com/users/bflad/following{/other_user}",
+    "starred_url": "https://api.github.com/users/bflad/starred{/owner}{/repo}",
+    "login": "bflad",
+    "followers_url": "https://api.github.com/users/bflad/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/bflad",
+    "subscriptions_url": "https://api.github.com/users/bflad/subscriptions",
+    "received_events_url": "https://api.github.com/users/bflad/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/189114?v=4",
+    "events_url": "https://api.github.com/users/bflad/events{/privacy}",
+    "html_url": "https://github.com/bflad",
+    "site_admin": false,
+    "id": 189114,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE4OTExNA==",
+    "organizations_url": "https://api.github.com/users/bflad/orgs"
+  },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0NTEwNDEyNTM2"
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "609fbee8c82b9e39bb3799c4"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/ohld/igbot/issues/1344",
+  "updated_at": "2020-03-04T07:51:14Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ohld/igbot/pull/1344#issuecomment-594375193",
+  "created_at": "2020-03-04T07:51:14Z",
+  "id": 594375193,
+  "body": "## Travis tests have failed\n\nHey @dependabot-preview[bot],\nPlease read the following log in order to understand the failure reason.\nIt'll be awesome if you fix what's wrong and commit the changes.\n\n\n### 1st Build\n\n<a href=\"https:&#x2F;&#x2F;travis-ci.org&#x2F;instagrambot&#x2F;instabot&#x2F;jobs&#x2F;658097765\">View build log</a>\n\n\n<details>\n  <summary>\n    <strong>\n     $PRE_COMMIT_CMD\n    </strong>\n  </summary>\n\n```\n[INFO] Initializing environment for https://github.com/pre-commit/pre-commit-hooks.\r\n[INFO] Initializing environment for https://github.com/psf/black.\r\n[INFO] Initializing environment for https://gitlab.com/pycqa/flake8.\r\n[INFO] Initializing environment for https://github.com/asottile/pyupgrade.\r\n[INFO] Installing environment for https://github.com/pre-commit/pre-commit-hooks.\r\n[INFO] Once installed this environment will be reused.\r\n[INFO] This may take a few minutes...\r\n[INFO] Installing environment for https://github.com/psf/black.\r\n[INFO] Once installed this environment will be reused.\r\n[INFO] This may take a few minutes...\r\n[INFO] Installing environment for https://gitlab.com/pycqa/flake8.\r\n[INFO] Once installed this environment will be reused.\r\n[INFO] This may take a few minutes...\r\n[INFO] Installing environment for https://github.com/asottile/pyupgrade.\r\n[INFO] Once installed this environment will be reused.\r\n[INFO] This may take a few minutes...\r\nFix End of Files.........................................................Passed\r\nTrim Trailing Whitespace.................................................Passed\r\nCheck docstring is first.................................................Passed\r\nCheck Yaml...............................................................Passed\r\nDebug Statements (Python)................................................Passed\r\nCheck python ast.........................................................Passed\r\nblack....................................................................Failed\r\n- hook id: black\r\n- files were modified by this hook\r\n\r\nreformatted /home/travis/build/instagrambot/instabot/instabot/api/api_login.py\r\nAll done! ✨ 🍰 ✨\r\n1 file reformatted, 112 files left unchanged.\r\n\r\nflake8...................................................................Passed\r\npyupgrade................................................................Passed\r\npre-commit hook(s) made changes.\r\nIf you are seeing this message in CI, reproduce locally with: `pre-commit run --all-files`.\r\nTo run `pre-commit` as part of git workflow, use `pre-commit install`.\r\nAll changes made by hooks:\r\ndiff --git a/instabot/api/api_login.py b/instabot/api/api_login.py\r\nindex 51bd390..6c737e1 100644\r\n--- a/instabot/api/api_login.py\r\n+++ b/instabot/api/api_login.py\r\n@@ -28,6 +28,7 @@ def sync_device_features(self, login=False):\r\n         \"qe/sync/\", data, login=login, headers={\"X-DEVICE-ID\": self.uuid}\r\n     )\r\n \r\n+\r\n def sync_launcher(self, login=False):\r\n     data = {\r\n         \"id\": self.uuid,\n```\n\n</details>\n\n\n###### TravisBuddy Request Identifier: eace6000-5dec-11ea-8706-0d65ca3fb05e\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/TravisBuddy/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/TravisBuddy/repos",
+    "following_url": "https://api.github.com/users/TravisBuddy/following{/other_user}",
+    "starred_url": "https://api.github.com/users/TravisBuddy/starred{/owner}{/repo}",
+    "login": "TravisBuddy",
+    "followers_url": "https://api.github.com/users/TravisBuddy/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/TravisBuddy",
+    "subscriptions_url": "https://api.github.com/users/TravisBuddy/subscriptions",
+    "received_events_url": "https://api.github.com/users/TravisBuddy/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/33237381?v=4",
+    "events_url": "https://api.github.com/users/TravisBuddy/events{/privacy}",
+    "html_url": "https://github.com/TravisBuddy",
+    "site_admin": false,
+    "id": 33237381,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjMzMjM3Mzgx",
+    "organizations_url": "https://api.github.com/users/TravisBuddy/orgs"
+  },
+  "url": "https://api.github.com/repos/ohld/igbot/issues/comments/594375193",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU5NDM3NTE5Mw=="
+}

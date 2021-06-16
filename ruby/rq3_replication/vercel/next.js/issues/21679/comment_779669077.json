@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3143dd71267de5397d"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-16T08:23:19Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-779669077",
+  "created_at": "2021-02-16T08:23:19Z",
+  "id": 779669077,
+  "body": "Hey @timneutkens thanks for the quick update 👍🏼 \r\n\r\nAfter trying to update to `10.0.7` I found that on development the error doesn't appears anymore. However as soon as I try to build the project with `next build`\r\n\r\nI see the `Error: Cannot find module 'webpack'` again coming from `next-pwa`\r\n\r\nHere's the build for the PR that tries to update to Next.js@10.0.7 - https://github.com/carloscuesta/carloscuesta.me/runs/1909044734\r\n\r\nI tried using `webpack5` setting but doesn't seems to workaround the problem 😕 \r\n\r\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/carloscuesta/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/carloscuesta/repos",
+    "following_url": "https://api.github.com/users/carloscuesta/following{/other_user}",
+    "starred_url": "https://api.github.com/users/carloscuesta/starred{/owner}{/repo}",
+    "login": "carloscuesta",
+    "followers_url": "https://api.github.com/users/carloscuesta/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/carloscuesta",
+    "subscriptions_url": "https://api.github.com/users/carloscuesta/subscriptions",
+    "received_events_url": "https://api.github.com/users/carloscuesta/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/7629661?v=4",
+    "events_url": "https://api.github.com/users/carloscuesta/events{/privacy}",
+    "html_url": "https://github.com/carloscuesta",
+    "site_admin": false,
+    "id": 7629661,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjc2Mjk2NjE=",
+    "organizations_url": "https://api.github.com/users/carloscuesta/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/779669077",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3OTY2OTA3Nw=="
+}

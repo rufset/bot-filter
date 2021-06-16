@@ -1,0 +1,61 @@
+{
+  "_id": {
+    "$oid": "6072468643dd71267de3a8c9"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2019-11-13T11:23:58Z",
+  "title": "Upgrade cli dependencies",
+  "body": "The `cli/package.json` file declares a lot of dependencies, and they are all pinned to exact versions. This means they fall out of date quickly, and any other project that depends on `cypress` must pull in these old versions of these dependencies for `cypress`.\r\n\r\nThis pull request updates _all_ dependencies in `cli/package.json`. This is probably more extreme than what we want, but it's a good first pass to see how much we need to change the code to accommodate these dependency updates. I'm happy to break this up into smaller pull requests, if asked.",
+  "labels_url": "https://api.github.com/repos/cypress-io/cypress/issues/5684/labels{/name}",
+  "author_association": "NONE",
+  "number": 5684,
+  "score": 1,
+  "updated_at": "2019-12-19T06:14:18Z",
+  "performed_via_github_app": null,
+  "draft": false,
+  "comments_url": "https://api.github.com/repos/cypress-io/cypress/issues/5684/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/cypress-io/cypress",
+  "id": 522142144,
+  "state": "closed",
+  "locked": false,
+  "pull_request": {
+    "patch_url": "https://github.com/cypress-io/cypress/pull/5684.patch",
+    "html_url": "https://github.com/cypress-io/cypress/pull/5684",
+    "diff_url": "https://github.com/cypress-io/cypress/pull/5684.diff",
+    "url": "https://api.github.com/repos/cypress-io/cypress/pulls/5684"
+  },
+  "comments": 3,
+  "closed_at": "2019-12-19T06:12:02Z",
+  "url": "https://api.github.com/repos/cypress-io/cypress/issues/5684",
+  "labels": [
+
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/cypress-io/cypress/issues/5684/events",
+  "html_url": "https://github.com/cypress-io/cypress/pull/5684",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/singingwolfboy/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/singingwolfboy/repos",
+    "following_url": "https://api.github.com/users/singingwolfboy/following{/other_user}",
+    "starred_url": "https://api.github.com/users/singingwolfboy/starred{/owner}{/repo}",
+    "login": "singingwolfboy",
+    "followers_url": "https://api.github.com/users/singingwolfboy/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/singingwolfboy",
+    "subscriptions_url": "https://api.github.com/users/singingwolfboy/subscriptions",
+    "received_events_url": "https://api.github.com/users/singingwolfboy/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/132355?v=4",
+    "events_url": "https://api.github.com/users/singingwolfboy/events{/privacy}",
+    "html_url": "https://github.com/singingwolfboy",
+    "site_admin": false,
+    "id": 132355,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEzMjM1NQ==",
+    "organizations_url": "https://api.github.com/users/singingwolfboy/orgs"
+  },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MzQwMzkyMzk5"
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607252dc43dd71267de3d2fe"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/19050",
+  "updated_at": "2018-11-07T18:37:53Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/issues/19050#issuecomment-436731351",
+  "created_at": "2018-11-07T18:37:53Z",
+  "id": 436731351,
+  "body": "*driving by 🚗*\r\n\r\nI would argue that \"we support LTS\" is a much clearer message than \"we support X and Y\". It's also easier to develop against, since the only contextual information needed is that support for LTS is available and so are its features.\r\n\r\nThe hurdle of switching Node versions should be just as frequent regardless of the versions we choose to support, assuming we're trying to keep a modern codebase.\r\n\r\nAutomating version switch (e.g. testing) is a problem regardless of the decision taken here as mentioned by @kristoferbaxter. However, by only supporting LTS we can fully automate the process, including the trigger (i.e. LTS version switch).",
+  "user": {
+    "gists_url": "https://api.github.com/users/alanorozco/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/alanorozco/repos",
+    "following_url": "https://api.github.com/users/alanorozco/following{/other_user}",
+    "starred_url": "https://api.github.com/users/alanorozco/starred{/owner}{/repo}",
+    "login": "alanorozco",
+    "followers_url": "https://api.github.com/users/alanorozco/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/alanorozco",
+    "subscriptions_url": "https://api.github.com/users/alanorozco/subscriptions",
+    "received_events_url": "https://api.github.com/users/alanorozco/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/254946?v=4",
+    "events_url": "https://api.github.com/users/alanorozco/events{/privacy}",
+    "html_url": "https://github.com/alanorozco",
+    "site_admin": false,
+    "id": 254946,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI1NDk0Ng==",
+    "organizations_url": "https://api.github.com/users/alanorozco/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/436731351",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQzNjczMTM1MQ=="
+}

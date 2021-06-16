@@ -1,0 +1,96 @@
+{
+  "_id": {
+    "$oid": "6072469d43dd71267de3ac2f"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2020-12-09T22:28:38Z",
+  "title": "ci: update remaining references to old pr targeting system",
+  "body": "Completes the migration to use the new unified target label system, updating\r\ndependabot, renovate and angular-robot to expect the new labels.",
+  "labels_url": "https://api.github.com/repos/angular/angular-cli/issues/19580/labels{/name}",
+  "author_association": "MEMBER",
+  "number": 19580,
+  "score": 1,
+  "updated_at": "2021-01-11T08:27:17Z",
+  "performed_via_github_app": null,
+  "draft": false,
+  "comments_url": "https://api.github.com/repos/angular/angular-cli/issues/19580/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/angular/angular-cli",
+  "id": 760720237,
+  "state": "closed",
+  "locked": true,
+  "pull_request": {
+    "patch_url": "https://github.com/angular/angular-cli/pull/19580.patch",
+    "html_url": "https://github.com/angular/angular-cli/pull/19580",
+    "diff_url": "https://github.com/angular/angular-cli/pull/19580.diff",
+    "url": "https://api.github.com/repos/angular/angular-cli/pulls/19580"
+  },
+  "comments": 3,
+  "closed_at": "2020-12-11T13:53:24Z",
+  "url": "https://api.github.com/repos/angular/angular-cli/issues/19580",
+  "labels": [
+    {
+      "default": false,
+      "color": "6cdd99",
+      "name": "action: merge",
+      "description": "PR author is ready for this to merge",
+      "id": 1726594430,
+      "url": "https://api.github.com/repos/angular/angular-cli/labels/action:%20merge",
+      "node_id": "MDU6TGFiZWwxNzI2NTk0NDMw"
+    },
+    {
+      "default": false,
+      "color": "0e8a16",
+      "name": "cla: yes",
+      "description": null,
+      "id": 393399567,
+      "url": "https://api.github.com/repos/angular/angular-cli/labels/cla:%20yes",
+      "node_id": "MDU6TGFiZWwzOTMzOTk1Njc="
+    },
+    {
+      "default": false,
+      "color": "c5def5",
+      "name": "comp: build & ci",
+      "description": "ONLY FOR INTERNAL ISSUES AFFECTING ANGULAR TEAM",
+      "id": 2086405922,
+      "url": "https://api.github.com/repos/angular/angular-cli/labels/comp:%20build%20&%20ci",
+      "node_id": "MDU6TGFiZWwyMDg2NDA1OTIy"
+    },
+    {
+      "default": false,
+      "color": "5319e7",
+      "name": "target: patch",
+      "description": "This PR is targeted for the next patch release",
+      "id": 1020656986,
+      "url": "https://api.github.com/repos/angular/angular-cli/labels/target:%20patch",
+      "node_id": "MDU6TGFiZWwxMDIwNjU2OTg2"
+    }
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/angular/angular-cli/issues/19580/events",
+  "html_url": "https://github.com/angular/angular-cli/pull/19580",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/josephperrott/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/josephperrott/repos",
+    "following_url": "https://api.github.com/users/josephperrott/following{/other_user}",
+    "starred_url": "https://api.github.com/users/josephperrott/starred{/owner}{/repo}",
+    "login": "josephperrott",
+    "followers_url": "https://api.github.com/users/josephperrott/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/josephperrott",
+    "subscriptions_url": "https://api.github.com/users/josephperrott/subscriptions",
+    "received_events_url": "https://api.github.com/users/josephperrott/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10864441?v=4",
+    "events_url": "https://api.github.com/users/josephperrott/events{/privacy}",
+    "html_url": "https://github.com/josephperrott",
+    "site_admin": false,
+    "id": 10864441,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEwODY0NDQx",
+    "organizations_url": "https://api.github.com/users/josephperrott/orgs"
+  },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0NTM1NTA0Mzg5"
+}

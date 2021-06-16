@@ -1,0 +1,71 @@
+{
+  "_id": {
+    "$oid": "6059f2c26cf0a13ef547c023"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2017-12-26T15:48:33Z",
+  "title": "Shall we install dependabot to stay up to date with the dependencies?",
+  "body": "We are using [dependabot](https://dependabot.com) all over at [Wire](https://github.com/wireapp) and we are happy with it ([example](https://github.com/wireapp/wire-webapp/pulls?q=is%3Apr+label%3Adependencies+is%3Aclosed))\r\n\r\nOnce installed of course there will be bunch of new PRs for every outdated dependency, but over time everything will be fine.. For every PR if there are more things to take care of, we can easily make changes there, otherwise dependabot is smart enough to rebase, so all the tests will run again if master is updated.\r\n\r\nHere is a screenshot of the outdated dependencies for the minor version..\r\n<img width=\"528\" alt=\"screen shot 2017-12-26 at 17 30 10\" src=\"https://user-images.githubusercontent.com/125676/34359871-37a02ea8-ea64-11e7-8148-d1e4b8b9e96a.png\">\r\n\r\nWDYT?",
+  "labels_url": "https://api.github.com/repos/prettier/prettier/issues/3582/labels{/name}",
+  "author_association": "MEMBER",
+  "number": 3582,
+  "score": 1,
+  "updated_at": "2018-07-06T04:05:17Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/prettier/prettier/issues/3582/comments",
+  "active_lock_reason": "resolved",
+  "repository_url": "https://api.github.com/repos/prettier/prettier",
+  "id": 284573549,
+  "state": "closed",
+  "locked": true,
+  "comments": 4,
+  "closed_at": "2017-12-27T15:09:35Z",
+  "url": "https://api.github.com/repos/prettier/prettier/issues/3582",
+  "labels": [
+    {
+      "default": false,
+      "color": "000000",
+      "name": "locked-due-to-inactivity",
+      "description": "Please open a new issue and fill out the template instead of commenting.",
+      "id": 985033474,
+      "url": "https://api.github.com/repos/prettier/prettier/labels/locked-due-to-inactivity",
+      "node_id": "MDU6TGFiZWw5ODUwMzM0NzQ="
+    },
+    {
+      "default": false,
+      "color": "0052cc",
+      "name": "type:meta",
+      "description": "Issues about the status of Prettier, or anything else about Prettier itself",
+      "id": 708021133,
+      "url": "https://api.github.com/repos/prettier/prettier/labels/type:meta",
+      "node_id": "MDU6TGFiZWw3MDgwMjExMzM="
+    }
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/prettier/prettier/issues/3582/events",
+  "html_url": "https://github.com/prettier/prettier/issues/3582",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/lipis/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/lipis/repos",
+    "following_url": "https://api.github.com/users/lipis/following{/other_user}",
+    "starred_url": "https://api.github.com/users/lipis/starred{/owner}{/repo}",
+    "login": "lipis",
+    "followers_url": "https://api.github.com/users/lipis/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/lipis",
+    "subscriptions_url": "https://api.github.com/users/lipis/subscriptions",
+    "received_events_url": "https://api.github.com/users/lipis/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/125676?v=4",
+    "events_url": "https://api.github.com/users/lipis/events{/privacy}",
+    "html_url": "https://github.com/lipis",
+    "site_admin": false,
+    "id": 125676,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEyNTY3Ng==",
+    "organizations_url": "https://api.github.com/users/lipis/orgs"
+  },
+  "node_id": "MDU6SXNzdWUyODQ1NzM1NDk="
+}

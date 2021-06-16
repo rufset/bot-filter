@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a63d96cf0a13ef54ace32"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/mui-org/material-ui/issues/14433",
+  "updated_at": "2019-02-06T13:25:26Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/mui-org/material-ui/pull/14433#issuecomment-461021760",
+  "created_at": "2019-02-06T13:25:26Z",
+  "id": 461021760,
+  "body": "I did explain.\r\n\r\nThis flag was needed because CI failed while locally I succeeded. Given I was up to date with yarn, did a full rebuild of node_modules, and still succeeded locally but failed on CI, this demonstrates a flaw somewhere.  The only reliable solution was to build with the lock and keep it up to date. My suggestion was to automate dependency updates with renovate or greenkeeper instead, but Olivier didn't want the PR noise and I can definitely understand that sentiment.\r\n\r\nGiven my theory about the cache, and what was not answered by @eps1lon in that PR was if we still need the offline cache hack he added? That is what I suggest the only diff between local and CI....and my inclination is to remove this offline cache hack and simplify the cache config.\r\n\r\nMy builds run on circleci and I need no such hack, perhaps we drop the offline cache and drop the frozen lockfile?",
+  "user": {
+    "gists_url": "https://api.github.com/users/rosskevin/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/rosskevin/repos",
+    "following_url": "https://api.github.com/users/rosskevin/following{/other_user}",
+    "starred_url": "https://api.github.com/users/rosskevin/starred{/owner}{/repo}",
+    "login": "rosskevin",
+    "followers_url": "https://api.github.com/users/rosskevin/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/rosskevin",
+    "subscriptions_url": "https://api.github.com/users/rosskevin/subscriptions",
+    "received_events_url": "https://api.github.com/users/rosskevin/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/136564?v=4",
+    "events_url": "https://api.github.com/users/rosskevin/events{/privacy}",
+    "html_url": "https://github.com/rosskevin",
+    "site_admin": false,
+    "id": 136564,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEzNjU2NA==",
+    "organizations_url": "https://api.github.com/users/rosskevin/orgs"
+  },
+  "url": "https://api.github.com/repos/mui-org/material-ui/issues/comments/461021760",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQ2MTAyMTc2MA=="
+}

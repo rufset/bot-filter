@@ -1,0 +1,62 @@
+{
+  "_id": {
+    "$oid": "6071aa7c43dd71267de0a767"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2019-01-08T13:06:43Z",
+  "title": "Dependabot can't parse your go.mod",
+  "body": "Dependabot couldn't parse the go.mod found at `/go/chi/go.mod`.\n\nYou can mention @dependabot in the comments below to contact the Dependabot team.",
+  "labels_url": "https://api.github.com/repos/the-benchmarker/web-frameworks/issues/755/labels{/name}",
+  "author_association": "CONTRIBUTOR",
+  "number": 755,
+  "score": 1,
+  "updated_at": "2019-01-10T19:44:31Z",
+  "performed_via_github_app": null,
+  "comments_url": "https://api.github.com/repos/the-benchmarker/web-frameworks/issues/755/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/the-benchmarker/web-frameworks",
+  "id": 396898705,
+  "state": "closed",
+  "locked": false,
+  "comments": 7,
+  "closed_at": "2019-01-10T19:44:31Z",
+  "url": "https://api.github.com/repos/the-benchmarker/web-frameworks/issues/755",
+  "labels": [
+    {
+      "default": false,
+      "color": "bbf489",
+      "name": "language:go",
+      "description": "",
+      "id": 1035310882,
+      "url": "https://api.github.com/repos/the-benchmarker/web-frameworks/labels/language:go",
+      "node_id": "MDU6TGFiZWwxMDM1MzEwODgy"
+    }
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/the-benchmarker/web-frameworks/issues/755/events",
+  "html_url": "https://github.com/the-benchmarker/web-frameworks/issues/755",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/repos",
+    "following_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/following{/other_user}",
+    "starred_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/starred{/owner}{/repo}",
+    "login": "dependabot-preview[bot]",
+    "followers_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/followers",
+    "type": "Bot",
+    "url": "https://api.github.com/users/dependabot-preview%5Bbot%5D",
+    "subscriptions_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/subscriptions",
+    "received_events_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/in/2141?v=4",
+    "events_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/events{/privacy}",
+    "html_url": "https://github.com/apps/dependabot-preview",
+    "site_admin": false,
+    "id": 27856297,
+    "gravatar_id": "",
+    "node_id": "MDM6Qm90Mjc4NTYyOTc=",
+    "organizations_url": "https://api.github.com/users/dependabot-preview%5Bbot%5D/orgs"
+  },
+  "node_id": "MDU6SXNzdWUzOTY4OTg3MDU="
+}

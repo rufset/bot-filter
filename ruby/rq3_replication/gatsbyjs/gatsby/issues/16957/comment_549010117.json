@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ec66cf0a13ef54bc1df"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/16957",
+  "updated_at": "2019-11-02T04:39:32Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/16957#issuecomment-549010117",
+  "created_at": "2019-11-02T04:39:32Z",
+  "id": 549010117,
+  "body": "I spent 2 days on this issue and here's how I finally found salvation\r\n* I switched to yarn - did nothing\r\n* I cleared node_modules rand gatsby clean did nothing\r\n* I was having issues with node so I reverted from node 12 to node 10 (that fixed another issue I was having)\r\n\r\n`$ npm i node@10.15.3 -g`\r\n\r\n* I did $ npm rebuild (did nothing)\r\n* I was desperate and tried audit fix (did nothing)\r\n* I uninstalled gatsby-plugin-favicon (did nothing - so reinstalled it)\r\n\r\nThen I had **GLib GObject-CRITICAL errors** and I checked for different versions of sharp\r\nusing\r\n\r\n`$ npm up`\r\n\r\nand\r\n\r\n`$ npm ls sharp`\r\n\r\n* I downgraded gatsby-plugin-sharp (did nothing)\r\n\r\nIn the end I believe from my google searching that the issue resides with different versions of sharp\r\n\r\n![before](https://i.imgur.com/VQ3T6wM.png)\r\n\r\n* And that will show that sharp versions are off\r\n\r\nI looked at the gatsby-transformer-sharp and it's version was off so I saw in the [repo](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-transformer-sharp/package.json) that it has the correct version of sharp but my gatsby-transformer-sharp was an older version. I upgraded to\r\n\r\n`$ npm i gatsby-transformer-sharp@2.3.2`\r\n\r\n* ANd now I get\r\n\r\n![new sharps are matching up](https://i.imgur.com/4UfsDbY.png)\r\n\r\n* Now I ran `$ gatsby develop` and life was great again. Hope this helps other Gatsby JS shipmates to avoid code sea sickness. Ahoy!",
+  "user": {
+    "gists_url": "https://api.github.com/users/ironcove/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/ironcove/repos",
+    "following_url": "https://api.github.com/users/ironcove/following{/other_user}",
+    "starred_url": "https://api.github.com/users/ironcove/starred{/owner}{/repo}",
+    "login": "ironcove",
+    "followers_url": "https://api.github.com/users/ironcove/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/ironcove",
+    "subscriptions_url": "https://api.github.com/users/ironcove/subscriptions",
+    "received_events_url": "https://api.github.com/users/ironcove/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/24324962?v=4",
+    "events_url": "https://api.github.com/users/ironcove/events{/privacy}",
+    "html_url": "https://github.com/ironcove",
+    "site_admin": false,
+    "id": 24324962,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI0MzI0OTYy",
+    "organizations_url": "https://api.github.com/users/ironcove/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/549010117",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU0OTAxMDExNw=="
+}

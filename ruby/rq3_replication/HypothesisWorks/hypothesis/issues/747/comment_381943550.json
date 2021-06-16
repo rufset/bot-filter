@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071f1f443dd71267de20c83"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/HypothesisWorks/hypothesis/issues/747",
+  "updated_at": "2018-04-17T10:42:34Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/HypothesisWorks/hypothesis/issues/747#issuecomment-381943550",
+  "created_at": "2018-04-17T10:42:34Z",
+  "id": 381943550,
+  "body": "> ...having taken a closer look at the commit-and-push proposal, I don't think we can do that in a way that doesn't expose commit access to someone sneaky who opens their own pull.\r\n\r\nI think we can! A distinguishing feature that prevents this is that the pyup branches are on this repo rather than an external fork, so anyone who can push to such a branch *already* has commit access.\r\n\r\nThat being said, you and @alexwlchan are so much more on the ball than I am about picking up these pulls that it doesn't really matter to me either way, so I'm happy to leave it up to you.",
+  "user": {
+    "gists_url": "https://api.github.com/users/DRMacIver/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/DRMacIver/repos",
+    "following_url": "https://api.github.com/users/DRMacIver/following{/other_user}",
+    "starred_url": "https://api.github.com/users/DRMacIver/starred{/owner}{/repo}",
+    "login": "DRMacIver",
+    "followers_url": "https://api.github.com/users/DRMacIver/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/DRMacIver",
+    "subscriptions_url": "https://api.github.com/users/DRMacIver/subscriptions",
+    "received_events_url": "https://api.github.com/users/DRMacIver/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/28623?v=4",
+    "events_url": "https://api.github.com/users/DRMacIver/events{/privacy}",
+    "html_url": "https://github.com/DRMacIver",
+    "site_admin": false,
+    "id": 28623,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI4NjIz",
+    "organizations_url": "https://api.github.com/users/DRMacIver/orgs"
+  },
+  "url": "https://api.github.com/repos/HypothesisWorks/hypothesis/issues/comments/381943550",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM4MTk0MzU1MA=="
+}

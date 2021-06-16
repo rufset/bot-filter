@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6059f2c26cf0a13ef547c026"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/prettier/prettier/issues/3582",
+  "updated_at": "2017-12-27T03:19:18Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/prettier/prettier/issues/3582#issuecomment-354044624",
+  "created_at": "2017-12-27T03:19:18Z",
+  "id": 354044624,
+  "body": "I agree with @ikatyang, I think it's more stable to not bump dependency versions unless we have a good reason to",
+  "user": {
+    "gists_url": "https://api.github.com/users/suchipi/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/suchipi/repos",
+    "following_url": "https://api.github.com/users/suchipi/following{/other_user}",
+    "starred_url": "https://api.github.com/users/suchipi/starred{/owner}{/repo}",
+    "login": "suchipi",
+    "followers_url": "https://api.github.com/users/suchipi/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/suchipi",
+    "subscriptions_url": "https://api.github.com/users/suchipi/subscriptions",
+    "received_events_url": "https://api.github.com/users/suchipi/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1341513?v=4",
+    "events_url": "https://api.github.com/users/suchipi/events{/privacy}",
+    "html_url": "https://github.com/suchipi",
+    "site_admin": false,
+    "id": 1341513,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEzNDE1MTM=",
+    "organizations_url": "https://api.github.com/users/suchipi/orgs"
+  },
+  "url": "https://api.github.com/repos/prettier/prettier/issues/comments/354044624",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM1NDA0NDYyNA=="
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ecc6cf0a13ef54bc33a"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/26128",
+  "updated_at": "2020-07-30T13:56:21Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/26128#issuecomment-666380292",
+  "created_at": "2020-07-30T13:56:21Z",
+  "id": 666380292,
+  "body": "and the renovate bot leaves the \"update-notifier\" dependency untouched - incorrectly:\r\nhttps://github.com/gatsbyjs/gatsby/pull/25546/files#diff-fad0dd845cf69afbd0d9c70239e6fff9R48",
+  "user": {
+    "gists_url": "https://api.github.com/users/mobidev111/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/mobidev111/repos",
+    "following_url": "https://api.github.com/users/mobidev111/following{/other_user}",
+    "starred_url": "https://api.github.com/users/mobidev111/starred{/owner}{/repo}",
+    "login": "mobidev111",
+    "followers_url": "https://api.github.com/users/mobidev111/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/mobidev111",
+    "subscriptions_url": "https://api.github.com/users/mobidev111/subscriptions",
+    "received_events_url": "https://api.github.com/users/mobidev111/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/7082367?v=4",
+    "events_url": "https://api.github.com/users/mobidev111/events{/privacy}",
+    "html_url": "https://github.com/mobidev111",
+    "site_admin": false,
+    "id": 7082367,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjcwODIzNjc=",
+    "organizations_url": "https://api.github.com/users/mobidev111/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/666380292",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY2NjM4MDI5Mg=="
+}

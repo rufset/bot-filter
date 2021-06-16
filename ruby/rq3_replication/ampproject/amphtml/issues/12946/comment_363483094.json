@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607252c743dd71267de3cf82"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/12946",
+  "updated_at": "2018-02-06T16:39:16Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/issues/12946#issuecomment-363483094",
+  "created_at": "2018-02-06T16:39:16Z",
+  "id": 363483094,
+  "body": "@rsimha-amp For the validator package dependencies, we could probably update them some. But I don't think it's a good idea to automate it, it'll just create churn / conflicts / busy work for us. Better to do this when needed or when it's easy. Also, all four package.json files are used.",
+  "user": {
+    "gists_url": "https://api.github.com/users/powdercloud/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/powdercloud/repos",
+    "following_url": "https://api.github.com/users/powdercloud/following{/other_user}",
+    "starred_url": "https://api.github.com/users/powdercloud/starred{/owner}{/repo}",
+    "login": "powdercloud",
+    "followers_url": "https://api.github.com/users/powdercloud/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/powdercloud",
+    "subscriptions_url": "https://api.github.com/users/powdercloud/subscriptions",
+    "received_events_url": "https://api.github.com/users/powdercloud/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/14113543?v=4",
+    "events_url": "https://api.github.com/users/powdercloud/events{/privacy}",
+    "html_url": "https://github.com/powdercloud",
+    "site_admin": false,
+    "id": 14113543,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE0MTEzNTQz",
+    "organizations_url": "https://api.github.com/users/powdercloud/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/363483094",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM2MzQ4MzA5NA=="
+}

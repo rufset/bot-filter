@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6072616343dd71267de43928"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/agenda/agenda/issues/1132",
+  "updated_at": "2020-12-08T09:31:31Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/agenda/agenda/pull/1132#issuecomment-740501259",
+  "created_at": "2020-12-08T09:31:31Z",
+  "id": 740501259,
+  "body": "@koresar works for me! 👍 ",
+  "user": {
+    "gists_url": "https://api.github.com/users/simison/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/simison/repos",
+    "following_url": "https://api.github.com/users/simison/following{/other_user}",
+    "starred_url": "https://api.github.com/users/simison/starred{/owner}{/repo}",
+    "login": "simison",
+    "followers_url": "https://api.github.com/users/simison/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/simison",
+    "subscriptions_url": "https://api.github.com/users/simison/subscriptions",
+    "received_events_url": "https://api.github.com/users/simison/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/87168?v=4",
+    "events_url": "https://api.github.com/users/simison/events{/privacy}",
+    "html_url": "https://github.com/simison",
+    "site_admin": false,
+    "id": 87168,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjg3MTY4",
+    "organizations_url": "https://api.github.com/users/simison/orgs"
+  },
+  "url": "https://api.github.com/repos/agenda/agenda/issues/comments/740501259",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc0MDUwMTI1OQ=="
+}

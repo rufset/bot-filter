@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60720d1343dd71267de27f1b"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/python-trio/trio/issues/652",
+  "updated_at": "2018-09-28T00:13:03Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/python-trio/trio/issues/652#issuecomment-425280933",
+  "created_at": "2018-09-28T00:13:03Z",
+  "id": 425280933,
+  "body": "Update: renovate looks great on paper, but it just... doesn't work. We've had stale pins for days, and it's not sending PRs for them. Also see #687. So I've just disabled it.\r\n\r\nI tried setting up requires.io to try, but (a) it was really confusing, (b) now that I finally seem to have everything set up, it doesn't seem to be sending an initial PR? Maybe that's intentional, because it's edge-triggered by releases rather than being level-triggered by dependencies being out of date? Still, not very helpful. Basically zero configurability, too. I guess I'll give up on this.\r\n\r\nI guess there's also dependabot? Apparently I turned that on a few weeks ago too and it just never did anything.\r\n\r\nI just turned on pyup.io, and it immediately took the lead over the other options by sending a PR (!), that updated our dependencies (!!) (#688).",
+  "user": {
+    "gists_url": "https://api.github.com/users/njsmith/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/njsmith/repos",
+    "following_url": "https://api.github.com/users/njsmith/following{/other_user}",
+    "starred_url": "https://api.github.com/users/njsmith/starred{/owner}{/repo}",
+    "login": "njsmith",
+    "followers_url": "https://api.github.com/users/njsmith/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/njsmith",
+    "subscriptions_url": "https://api.github.com/users/njsmith/subscriptions",
+    "received_events_url": "https://api.github.com/users/njsmith/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/609896?v=4",
+    "events_url": "https://api.github.com/users/njsmith/events{/privacy}",
+    "html_url": "https://github.com/njsmith",
+    "site_admin": false,
+    "id": 609896,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYwOTg5Ng==",
+    "organizations_url": "https://api.github.com/users/njsmith/orgs"
+  },
+  "url": "https://api.github.com/repos/python-trio/trio/issues/comments/425280933",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQyNTI4MDkzMw=="
+}

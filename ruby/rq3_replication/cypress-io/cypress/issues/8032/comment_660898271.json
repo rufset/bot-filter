@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6072468a43dd71267de3a94d"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/cypress-io/cypress/issues/8032",
+  "updated_at": "2020-07-20T08:57:15Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/cypress-io/cypress/pull/8032#issuecomment-660898271",
+  "created_at": "2020-07-20T08:57:15Z",
+  "id": 660898271,
+  "body": "Thanks for taking the time to open a PR! \n\n- Create a [Draft Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#draft-pull-requests) if your PR is not ready for review. [Mark the PR as **Ready for Review**](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/changing-the-stage-of-a-pull-request#marking-a-pull-request-as-ready-for-review) when you're ready for a Cypress team member to review the PR.\n- Become familiar with the [Code Review Checklist](https://github.com/cypress-io/cypress/blob/develop/CONTRIBUTING.md#Code-Review-Checklist) for guidelines on coding standards and what needs to be done before a PR can be merged.",
+  "user": {
+    "gists_url": "https://api.github.com/users/cypress-bot%5Bbot%5D/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/cypress-bot%5Bbot%5D/repos",
+    "following_url": "https://api.github.com/users/cypress-bot%5Bbot%5D/following{/other_user}",
+    "starred_url": "https://api.github.com/users/cypress-bot%5Bbot%5D/starred{/owner}{/repo}",
+    "login": "cypress-bot[bot]",
+    "followers_url": "https://api.github.com/users/cypress-bot%5Bbot%5D/followers",
+    "type": "Bot",
+    "url": "https://api.github.com/users/cypress-bot%5Bbot%5D",
+    "subscriptions_url": "https://api.github.com/users/cypress-bot%5Bbot%5D/subscriptions",
+    "received_events_url": "https://api.github.com/users/cypress-bot%5Bbot%5D/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8908513?v=4",
+    "events_url": "https://api.github.com/users/cypress-bot%5Bbot%5D/events{/privacy}",
+    "html_url": "https://github.com/apps/cypress-bot",
+    "site_admin": false,
+    "id": 47117332,
+    "gravatar_id": "",
+    "node_id": "MDM6Qm90NDcxMTczMzI=",
+    "organizations_url": "https://api.github.com/users/cypress-bot%5Bbot%5D/orgs"
+  },
+  "url": "https://api.github.com/repos/cypress-io/cypress/issues/comments/660898271",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY2MDg5ODI3MQ=="
+}

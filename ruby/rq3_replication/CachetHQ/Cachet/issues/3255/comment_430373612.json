@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a62f06cf0a13ef54abf9e"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/CachetHQ/Cachet/issues/3255",
+  "updated_at": "2018-10-16T19:43:40Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/CachetHQ/Cachet/issues/3255#issuecomment-430373612",
+  "created_at": "2018-10-16T19:43:40Z",
+  "id": 430373612,
+  "body": "I'd love to see this in Cachet. The interface allows configuring specific branches so it should work in the branching model of Cachet. \r\n\r\n![screenshot from 2018-10-16 21-41-35](https://user-images.githubusercontent.com/3368018/47042826-801fe280-d18c-11e8-948e-f1e8c257b8f9.png)\r\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/nstapelbroek/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/nstapelbroek/repos",
+    "following_url": "https://api.github.com/users/nstapelbroek/following{/other_user}",
+    "starred_url": "https://api.github.com/users/nstapelbroek/starred{/owner}{/repo}",
+    "login": "nstapelbroek",
+    "followers_url": "https://api.github.com/users/nstapelbroek/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/nstapelbroek",
+    "subscriptions_url": "https://api.github.com/users/nstapelbroek/subscriptions",
+    "received_events_url": "https://api.github.com/users/nstapelbroek/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3368018?v=4",
+    "events_url": "https://api.github.com/users/nstapelbroek/events{/privacy}",
+    "html_url": "https://github.com/nstapelbroek",
+    "site_admin": false,
+    "id": 3368018,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjMzNjgwMTg=",
+    "organizations_url": "https://api.github.com/users/nstapelbroek/orgs"
+  },
+  "url": "https://api.github.com/repos/CachetHQ/Cachet/issues/comments/430373612",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQzMDM3MzYxMg=="
+}

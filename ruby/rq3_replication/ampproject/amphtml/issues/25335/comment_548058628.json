@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6072531443dd71267de3dfec"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/ampproject/amphtml/issues/25335",
+  "updated_at": "2019-10-30T18:44:29Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/ampproject/amphtml/pull/25335#issuecomment-548058628",
+  "created_at": "2019-10-30T18:44:29Z",
+  "id": 548058628,
+  "body": "\nThanks for your pull request. It looks like this may be your first contribution to a Google open source project (if not, look below for help). Before we can look at your pull request, you'll need to sign a Contributor License Agreement (CLA).\n\n:memo: **Please visit <https://cla.developers.google.com/> to sign.**\n\nOnce you've signed (or fixed any issues), please reply here with `@googlebot I signed it!` and we'll verify it.\n\n----\n\n#### What to do if you already signed the CLA\n\n##### Individual signers\n\n*   It's possible we don't have your GitHub username or you're using a different email address on your commit. Check [your existing CLA data](https://cla.developers.google.com/clas) and verify that your [email is set on your git commits](https://help.github.com/articles/setting-your-email-in-git/).\n\n##### Corporate signers\n\n*   Your company has a Point of Contact who decides which employees are authorized to participate. Ask your POC to be added to the group of authorized contributors. If you don't know who your Point of Contact is, direct the Google project maintainer to [go/cla#troubleshoot](http://go/cla#troubleshoot) ([Public version](https://opensource.google/docs/cla/#troubleshoot)).\n*   The email used to register you as an authorized contributor must be the email used for the Git commit. Check [your existing CLA data](https://cla.developers.google.com/clas) and verify that your [email is set on your git commits](https://help.github.com/articles/setting-your-email-in-git/).\n*   The email used to register you as an authorized contributor must also be [attached to your GitHub account](https://github.com/settings/emails).\n\t\t\n\nℹ️ **Googlers: [Go here](https://goto.google.com/prinfo/https%3A%2F%2Fgithub.com%2Fampproject%2Famphtml%2Fpull%2F25335) for more info**.\n\n<!-- need_sender_cla -->",
+  "user": {
+    "gists_url": "https://api.github.com/users/googlebot/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/googlebot/repos",
+    "following_url": "https://api.github.com/users/googlebot/following{/other_user}",
+    "starred_url": "https://api.github.com/users/googlebot/starred{/owner}{/repo}",
+    "login": "googlebot",
+    "followers_url": "https://api.github.com/users/googlebot/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/googlebot",
+    "subscriptions_url": "https://api.github.com/users/googlebot/subscriptions",
+    "received_events_url": "https://api.github.com/users/googlebot/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/5384588?v=4",
+    "events_url": "https://api.github.com/users/googlebot/events{/privacy}",
+    "html_url": "https://github.com/googlebot",
+    "site_admin": false,
+    "id": 5384588,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjUzODQ1ODg=",
+    "organizations_url": "https://api.github.com/users/googlebot/orgs"
+  },
+  "url": "https://api.github.com/repos/ampproject/amphtml/issues/comments/548058628",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU0ODA1ODYyOA=="
+}

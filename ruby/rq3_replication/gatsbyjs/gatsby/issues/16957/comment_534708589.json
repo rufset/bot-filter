@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ec66cf0a13ef54bc1d8"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/16957",
+  "updated_at": "2019-09-24T19:17:41Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/16957#issuecomment-534708589",
+  "created_at": "2019-09-24T19:17:41Z",
+  "id": 534708589,
+  "body": "I confirm downgrading the packages worked for me. specifically the sharp pkg:\r\n````bash\r\nnpm i gatsby-plugin-sharp@2.2.9\r\nnpm i gatsby-transformer-sharp@2.2.5\r\n````\r\nI remember to actually run the bash commands on my terminal to set up my `package-lock.json` correctly. I guess this means something breaks with the packages upgrade.",
+  "user": {
+    "gists_url": "https://api.github.com/users/memoev/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/memoev/repos",
+    "following_url": "https://api.github.com/users/memoev/following{/other_user}",
+    "starred_url": "https://api.github.com/users/memoev/starred{/owner}{/repo}",
+    "login": "memoev",
+    "followers_url": "https://api.github.com/users/memoev/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/memoev",
+    "subscriptions_url": "https://api.github.com/users/memoev/subscriptions",
+    "received_events_url": "https://api.github.com/users/memoev/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/49665573?v=4",
+    "events_url": "https://api.github.com/users/memoev/events{/privacy}",
+    "html_url": "https://github.com/memoev",
+    "site_admin": false,
+    "id": 49665573,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjQ5NjY1NTcz",
+    "organizations_url": "https://api.github.com/users/memoev/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/534708589",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUzNDcwODU4OQ=="
+}

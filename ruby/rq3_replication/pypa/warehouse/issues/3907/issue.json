@@ -1,0 +1,61 @@
+{
+  "_id": {
+    "$oid": "60721bdb43dd71267de2d876"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2018-05-05T09:41:13Z",
+  "title": "Add Dependabot to list of release monitoring services",
+  "body": "Hi team,\r\n\r\nI noticed libraries.io and pyup.io listed as ways to receive notifications of new releases, and wondered if you'd be happy to list [Dependabot](https://dependabot.com), too. It offers Pipfile and requirements.txt support (although it's better at Pipfile), is free for open source and personal accounts, and we try to be good open source citizens by contributing back whenever we can. (We've helped fixed a few bugs in Pipenv recently, and will continue doing so whenever we encounter any.)",
+  "labels_url": "https://api.github.com/repos/pypa/warehouse/issues/3907/labels{/name}",
+  "author_association": "CONTRIBUTOR",
+  "number": 3907,
+  "score": 1,
+  "updated_at": "2018-05-15T18:47:22Z",
+  "performed_via_github_app": null,
+  "draft": false,
+  "comments_url": "https://api.github.com/repos/pypa/warehouse/issues/3907/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/pypa/warehouse",
+  "id": 320495223,
+  "state": "closed",
+  "locked": false,
+  "pull_request": {
+    "patch_url": "https://github.com/pypa/warehouse/pull/3907.patch",
+    "html_url": "https://github.com/pypa/warehouse/pull/3907",
+    "diff_url": "https://github.com/pypa/warehouse/pull/3907.diff",
+    "url": "https://api.github.com/repos/pypa/warehouse/pulls/3907"
+  },
+  "comments": 5,
+  "closed_at": "2018-05-15T18:47:22Z",
+  "url": "https://api.github.com/repos/pypa/warehouse/issues/3907",
+  "labels": [
+
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/pypa/warehouse/issues/3907/events",
+  "html_url": "https://github.com/pypa/warehouse/pull/3907",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/greysteil/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/greysteil/repos",
+    "following_url": "https://api.github.com/users/greysteil/following{/other_user}",
+    "starred_url": "https://api.github.com/users/greysteil/starred{/owner}{/repo}",
+    "login": "greysteil",
+    "followers_url": "https://api.github.com/users/greysteil/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/greysteil",
+    "subscriptions_url": "https://api.github.com/users/greysteil/subscriptions",
+    "received_events_url": "https://api.github.com/users/greysteil/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1144873?v=4",
+    "events_url": "https://api.github.com/users/greysteil/events{/privacy}",
+    "html_url": "https://github.com/greysteil",
+    "site_admin": true,
+    "id": 1144873,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjExNDQ4NzM=",
+    "organizations_url": "https://api.github.com/users/greysteil/orgs"
+  },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MTg2MTQ4ODUy"
+}

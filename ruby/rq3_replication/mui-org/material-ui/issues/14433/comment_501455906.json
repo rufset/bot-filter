@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a63d96cf0a13ef54ace35"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/mui-org/material-ui/issues/14433",
+  "updated_at": "2019-06-12T21:07:48Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/mui-org/material-ui/pull/14433#issuecomment-501455906",
+  "created_at": "2019-06-12T21:07:48Z",
+  "id": 501455906,
+  "body": "It's a bug in yarn 1.x as far as I know. Did you install it with `yarn workspace @material-ui/codemod @babel/core`?\r\n\r\n\r\n> Is temporarily turning off that flag in .yarnrc the only way\r\n\r\nTL;DR: yarn v2 will solve this\r\n\r\nYes. It's mainly there so that new contributors don't get a lockfile change on their first install or rather every clone having the same node_modules. We previously checked this different in CI but it also caused some issues with github dependencies.\r\n\r\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/eps1lon/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/eps1lon/repos",
+    "following_url": "https://api.github.com/users/eps1lon/following{/other_user}",
+    "starred_url": "https://api.github.com/users/eps1lon/starred{/owner}{/repo}",
+    "login": "eps1lon",
+    "followers_url": "https://api.github.com/users/eps1lon/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/eps1lon",
+    "subscriptions_url": "https://api.github.com/users/eps1lon/subscriptions",
+    "received_events_url": "https://api.github.com/users/eps1lon/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/12292047?v=4",
+    "events_url": "https://api.github.com/users/eps1lon/events{/privacy}",
+    "html_url": "https://github.com/eps1lon",
+    "site_admin": false,
+    "id": 12292047,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEyMjkyMDQ3",
+    "organizations_url": "https://api.github.com/users/eps1lon/orgs"
+  },
+  "url": "https://api.github.com/repos/mui-org/material-ui/issues/comments/501455906",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUwMTQ1NTkwNg=="
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071e39d43dd71267de1c3eb"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/pydanny/cookiecutter-django/issues/1118",
+  "updated_at": "2017-04-12T13:06:19Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/pydanny/cookiecutter-django/issues/1118#issuecomment-293569375",
+  "created_at": "2017-04-12T13:06:19Z",
+  "id": 293569375,
+  "body": "Re-created .venv, reinstalled everything. Still same error.",
+  "user": {
+    "gists_url": "https://api.github.com/users/plus500s/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/plus500s/repos",
+    "following_url": "https://api.github.com/users/plus500s/following{/other_user}",
+    "starred_url": "https://api.github.com/users/plus500s/starred{/owner}{/repo}",
+    "login": "plus500s",
+    "followers_url": "https://api.github.com/users/plus500s/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/plus500s",
+    "subscriptions_url": "https://api.github.com/users/plus500s/subscriptions",
+    "received_events_url": "https://api.github.com/users/plus500s/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/212579?v=4",
+    "events_url": "https://api.github.com/users/plus500s/events{/privacy}",
+    "html_url": "https://github.com/plus500s",
+    "site_admin": false,
+    "id": 212579,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjIxMjU3OQ==",
+    "organizations_url": "https://api.github.com/users/plus500s/orgs"
+  },
+  "url": "https://api.github.com/repos/pydanny/cookiecutter-django/issues/comments/293569375",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDI5MzU2OTM3NQ=="
+}

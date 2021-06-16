@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "609ec75ec12f0f030f8e8d4c"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/angular/angular/issues/20860",
+  "updated_at": "2018-02-09T21:48:42Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/angular/angular/issues/20860#issuecomment-364578874",
+  "created_at": "2018-02-09T21:48:42Z",
+  "id": 364578874,
+  "body": "Just discussed in person with @ocombe and @IgorMinar \r\n\r\nWe would like to start with renovate to solve the multi-repo CI problem, in a specific and limited capacity for angular/angular.\r\n\r\n- In each `integration/*` folder in this repo, we'll have two package.json files (and two WORKSPACE files for bazel examples). One will be against latest snapshots of dependencies, the other will be latest release of dependencies (will probably start with one integration/foo folder to start)\r\n- We'll configure renovate to update the two package.json files (and two WORKSPACE files) - probably only updating particular whitelisted deps we care about (projects under our own control)\r\n- We don't need renovate to auto-merge on green because we'll set up our own bot to do that (we want non-renovate PRs to also auto-merge on green)\r\n- We'll change the integration test runner so that it kicks off the test N times, once for each package.json file.\r\n\r\nThis basically gives us a test matrix of {integration scenario} x {released_deps, snapshot_deps}. User PRs against Angular will be red if they don't work with both kinds of deps, and Renovate PRs will be red if the deps broke any angular code.",
+  "user": {
+    "gists_url": "https://api.github.com/users/alexeagle/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/alexeagle/repos",
+    "following_url": "https://api.github.com/users/alexeagle/following{/other_user}",
+    "starred_url": "https://api.github.com/users/alexeagle/starred{/owner}{/repo}",
+    "login": "alexeagle",
+    "followers_url": "https://api.github.com/users/alexeagle/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/alexeagle",
+    "subscriptions_url": "https://api.github.com/users/alexeagle/subscriptions",
+    "received_events_url": "https://api.github.com/users/alexeagle/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/47395?v=4",
+    "events_url": "https://api.github.com/users/alexeagle/events{/privacy}",
+    "html_url": "https://github.com/alexeagle",
+    "site_admin": false,
+    "id": 47395,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjQ3Mzk1",
+    "organizations_url": "https://api.github.com/users/alexeagle/orgs"
+  },
+  "url": "https://api.github.com/repos/angular/angular/issues/comments/364578874",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM2NDU3ODg3NA=="
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607243f643dd71267de369cd"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/angular/angular/issues/41084",
+  "updated_at": "2021-03-05T16:40:52Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/angular/angular/issues/41084#issuecomment-791538276",
+  "created_at": "2021-03-05T16:40:52Z",
+  "id": 791538276,
+  "body": "@nbittich as other folks in the thread mentioned, you don't have to keep up to date with the individual patch releases if this introduces extra burden to your process. I'd still recommend keeping an eye on the changelog to make sure you don't miss a security fix by accident, but such changes are usually rare. We're working on making the update process as straightforward as possible with tools such as `ng update` and have predictable releases that people can easily follow.\r\n\r\nIn my personal projects, I'm using tools such as dependabot or renovatebot to automatically update my dependencies with a PR when there's a new version available. This would be my recommendation because you get the best form both worlds - you're always on the most performant and secure version without having to worry about manual updates or following changelogs. Combining this experience with `ng update` across minor/major releases should make your process as smooth as possible.",
+  "user": {
+    "gists_url": "https://api.github.com/users/mgechev/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/mgechev/repos",
+    "following_url": "https://api.github.com/users/mgechev/following{/other_user}",
+    "starred_url": "https://api.github.com/users/mgechev/starred{/owner}{/repo}",
+    "login": "mgechev",
+    "followers_url": "https://api.github.com/users/mgechev/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/mgechev",
+    "subscriptions_url": "https://api.github.com/users/mgechev/subscriptions",
+    "received_events_url": "https://api.github.com/users/mgechev/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/455023?v=4",
+    "events_url": "https://api.github.com/users/mgechev/events{/privacy}",
+    "html_url": "https://github.com/mgechev",
+    "site_admin": false,
+    "id": 455023,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjQ1NTAyMw==",
+    "organizations_url": "https://api.github.com/users/mgechev/orgs"
+  },
+  "url": "https://api.github.com/repos/angular/angular/issues/comments/791538276",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc5MTUzODI3Ng=="
+}

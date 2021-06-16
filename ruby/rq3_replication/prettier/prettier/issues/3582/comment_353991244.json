@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6059f2c26cf0a13ef547c025"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/prettier/prettier/issues/3582",
+  "updated_at": "2017-12-26T17:15:17Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/prettier/prettier/issues/3582#issuecomment-353991244",
+  "created_at": "2017-12-26T17:15:17Z",
+  "id": 353991244,
+  "body": "auto merges by bots are dangerous anyway.. we don't want that.. ",
+  "user": {
+    "gists_url": "https://api.github.com/users/lipis/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/lipis/repos",
+    "following_url": "https://api.github.com/users/lipis/following{/other_user}",
+    "starred_url": "https://api.github.com/users/lipis/starred{/owner}{/repo}",
+    "login": "lipis",
+    "followers_url": "https://api.github.com/users/lipis/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/lipis",
+    "subscriptions_url": "https://api.github.com/users/lipis/subscriptions",
+    "received_events_url": "https://api.github.com/users/lipis/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/125676?v=4",
+    "events_url": "https://api.github.com/users/lipis/events{/privacy}",
+    "html_url": "https://github.com/lipis",
+    "site_admin": false,
+    "id": 125676,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEyNTY3Ng==",
+    "organizations_url": "https://api.github.com/users/lipis/orgs"
+  },
+  "url": "https://api.github.com/repos/prettier/prettier/issues/comments/353991244",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDM1Mzk5MTI0NA=="
+}

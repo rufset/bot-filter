@@ -1,0 +1,69 @@
+{
+  "_id": {
+    "$oid": "6071e42443dd71267de1d47f"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2020-10-01T15:58:36Z",
+  "title": "Create automerge pyup GitHub action",
+  "body": "## Description\r\n\r\nFixes #2852 \r\nSupersedes #2868\r\n\r\nAdds auto-merging pip updates to this repository using ~~dependabot edit:~~ pyup to alleviate @browniebroke 's workload. Includes CI checking\r\n\r\n## Rationale\r\n\r\nMake updating this repository less stressful. Instead of updating dependabot, update pyup-bot. Hopefully that GitHub actor is correct!\r\n\r\nHere's a test of CI checking here: https://github.com/Andrew-Chen-Wang/test-dependabot-automerge/pull/11 in which the test failed.\r\n\r\nHere's a test of CI checking here which everything passed: https://github.com/Andrew-Chen-Wang/test-dependabot-automerge/commit/a3c7db1fb5a96a43c8f611d0fd313e31505f2a25\r\n\r\nMade interval checking the CI 300 seconds or 5 minutes to avoid any rate limit blockage. If anything, Travis CI does take awhile so...\r\n\r\nAlso added WIP just in case because that did make the action get stuck for a long time.",
+  "labels_url": "https://api.github.com/repos/pydanny/cookiecutter-django/issues/2872/labels{/name}",
+  "author_association": "CONTRIBUTOR",
+  "number": 2872,
+  "score": 1,
+  "updated_at": "2020-11-04T17:59:10Z",
+  "performed_via_github_app": null,
+  "draft": false,
+  "comments_url": "https://api.github.com/repos/pydanny/cookiecutter-django/issues/2872/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/pydanny/cookiecutter-django",
+  "id": 712975699,
+  "state": "closed",
+  "locked": false,
+  "pull_request": {
+    "patch_url": "https://github.com/pydanny/cookiecutter-django/pull/2872.patch",
+    "html_url": "https://github.com/pydanny/cookiecutter-django/pull/2872",
+    "diff_url": "https://github.com/pydanny/cookiecutter-django/pull/2872.diff",
+    "url": "https://api.github.com/repos/pydanny/cookiecutter-django/pulls/2872"
+  },
+  "comments": 7,
+  "closed_at": "2020-11-04T17:18:30Z",
+  "url": "https://api.github.com/repos/pydanny/cookiecutter-django/issues/2872",
+  "labels": [
+    {
+      "default": false,
+      "color": "d4c5f9",
+      "name": "project infrastructure",
+      "description": null,
+      "id": 445511264,
+      "url": "https://api.github.com/repos/pydanny/cookiecutter-django/labels/project%20infrastructure",
+      "node_id": "MDU6TGFiZWw0NDU1MTEyNjQ="
+    }
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/pydanny/cookiecutter-django/issues/2872/events",
+  "html_url": "https://github.com/pydanny/cookiecutter-django/pull/2872",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/Andrew-Chen-Wang/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/Andrew-Chen-Wang/repos",
+    "following_url": "https://api.github.com/users/Andrew-Chen-Wang/following{/other_user}",
+    "starred_url": "https://api.github.com/users/Andrew-Chen-Wang/starred{/owner}{/repo}",
+    "login": "Andrew-Chen-Wang",
+    "followers_url": "https://api.github.com/users/Andrew-Chen-Wang/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/Andrew-Chen-Wang",
+    "subscriptions_url": "https://api.github.com/users/Andrew-Chen-Wang/subscriptions",
+    "received_events_url": "https://api.github.com/users/Andrew-Chen-Wang/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/60190294?v=4",
+    "events_url": "https://api.github.com/users/Andrew-Chen-Wang/events{/privacy}",
+    "html_url": "https://github.com/Andrew-Chen-Wang",
+    "site_admin": false,
+    "id": 60190294,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYwMTkwMjk0",
+    "organizations_url": "https://api.github.com/users/Andrew-Chen-Wang/orgs"
+  },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0NDk2MzcwNzUz"
+}

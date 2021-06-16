@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6072601243dd71267de41aec"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/pnpm/pnpm/issues/1177",
+  "updated_at": "2018-08-17T00:48:22Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/pnpm/pnpm/pull/1177#issuecomment-413724593",
+  "created_at": "2018-08-17T00:41:11Z",
+  "id": 413724593,
+  "body": "> yes, it is still faster than w/o --shrinkwrap-only. Packages are not hardlinked into the project's node_modules. No node_modules is created at all.\r\n\r\nRight, but this isn't really the expensive part of the operation. From what I can tell pnpm still downloads the tarballs, stores on disk, unzips, etc. If you have an empty cache this takes almost as long as when not using the flag. In the case where you have a perfectly good cache, it still takes almost nearly as long. If it really isn't significantly faster, why have the flag around at all? It will just be bait for more GitHub issues when it doesn't really do what people are thinking (e.g. have a significant speed improvement). Is there anything creative we can do to make the flag work the way it did before, where it WAS significantly faster?\r\n\r\nFor some context, we wanted to add a flag to Rush that would utilize this PNPM flag. The idea was that someone could quickly (i.e. in 30 seconds) merge master into a branch with an outdated shrinkwrap and generate a new valid shrinkwrap that could be pushed to the CI to be built. In one case, we have a branch that a bot creates that we are trying to get merged quickly. Every time someone updates dependencies (often), it creates a merge conflict on this branch. Many times, we simply need to re-generate the shrinkwrap, as the CI would likely pass once this is updated. However, it takes quite a while to do this on a computer that has an empty pnpm cache or has a slow disk (20 minutes). Sometimes a couple people try running it at the same time and waste their time. Sometimes you are trying to do other things on your disk, but having to do the full install puts a lot of load on your disk. In these cases, we were hoping for a quick, \"fix my shrinkwrap in 30 seconds\" solution (which is what we thought --shrinkwrap-only was).",
+  "user": {
+    "gists_url": "https://api.github.com/users/nickpape/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/nickpape/repos",
+    "following_url": "https://api.github.com/users/nickpape/following{/other_user}",
+    "starred_url": "https://api.github.com/users/nickpape/starred{/owner}{/repo}",
+    "login": "nickpape",
+    "followers_url": "https://api.github.com/users/nickpape/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/nickpape",
+    "subscriptions_url": "https://api.github.com/users/nickpape/subscriptions",
+    "received_events_url": "https://api.github.com/users/nickpape/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/17131271?v=4",
+    "events_url": "https://api.github.com/users/nickpape/events{/privacy}",
+    "html_url": "https://github.com/nickpape",
+    "site_admin": false,
+    "id": 17131271,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE3MTMxMjcx",
+    "organizations_url": "https://api.github.com/users/nickpape/orgs"
+  },
+  "url": "https://api.github.com/repos/pnpm/pnpm/issues/comments/413724593",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQxMzcyNDU5Mw=="
+}

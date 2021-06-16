@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a9b8d6cf0a13ef54c3da9"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/2499",
+  "updated_at": "2019-08-21T20:39:20Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/react-boilerplate/react-boilerplate/issues/2499#issuecomment-523639621",
+  "created_at": "2019-08-21T20:39:20Z",
+  "id": 523639621,
+  "body": "@jamesdh thank you for your guidance, seems to be working for dependencies but the security patch for lodash is still \"stuck\", if it doesn't bump free i'll dismiss and update manually—hopefully this is resolved going forward\r\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/justingreenberg/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/justingreenberg/repos",
+    "following_url": "https://api.github.com/users/justingreenberg/following{/other_user}",
+    "starred_url": "https://api.github.com/users/justingreenberg/starred{/owner}{/repo}",
+    "login": "justingreenberg",
+    "followers_url": "https://api.github.com/users/justingreenberg/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/justingreenberg",
+    "subscriptions_url": "https://api.github.com/users/justingreenberg/subscriptions",
+    "received_events_url": "https://api.github.com/users/justingreenberg/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1539088?v=4",
+    "events_url": "https://api.github.com/users/justingreenberg/events{/privacy}",
+    "html_url": "https://github.com/justingreenberg",
+    "site_admin": false,
+    "id": 1539088,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE1MzkwODg=",
+    "organizations_url": "https://api.github.com/users/justingreenberg/orgs"
+  },
+  "url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/comments/523639621",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDUyMzYzOTYyMQ=="
+}

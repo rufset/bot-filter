@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a9b416cf0a13ef54c39b1"
+  },
+  "author_association": "COLLABORATOR",
+  "issue_url": "https://api.github.com/repos/preactjs/preact/issues/424",
+  "updated_at": "2016-12-01T21:55:25Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/preactjs/preact/issues/424#issuecomment-264307645",
+  "created_at": "2016-12-01T21:55:25Z",
+  "id": 264307645,
+  "body": "OK, created branch `remote-testing` to test the new behavior.\r\n\r\nWorks fine so far (only Chrome running): https://travis-ci.org/developit/preact/builds/180537936\r\n\r\nNow let's do a PR to `master` to complete walking through @greenkeeperio-bot's steps.",
+  "user": {
+    "gists_url": "https://api.github.com/users/mkxml/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/mkxml/repos",
+    "following_url": "https://api.github.com/users/mkxml/following{/other_user}",
+    "starred_url": "https://api.github.com/users/mkxml/starred{/owner}{/repo}",
+    "login": "mkxml",
+    "followers_url": "https://api.github.com/users/mkxml/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/mkxml",
+    "subscriptions_url": "https://api.github.com/users/mkxml/subscriptions",
+    "received_events_url": "https://api.github.com/users/mkxml/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1051644?v=4",
+    "events_url": "https://api.github.com/users/mkxml/events{/privacy}",
+    "html_url": "https://github.com/mkxml",
+    "site_admin": false,
+    "id": 1051644,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEwNTE2NDQ=",
+    "organizations_url": "https://api.github.com/users/mkxml/orgs"
+  },
+  "url": "https://api.github.com/repos/preactjs/preact/issues/comments/264307645",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDI2NDMwNzY0NQ=="
+}

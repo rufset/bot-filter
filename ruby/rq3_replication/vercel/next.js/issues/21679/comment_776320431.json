@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3043dd71267de53970"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-10T11:10:00Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-776320431",
+  "created_at": "2021-02-09T23:41:21Z",
+  "id": 776320431,
+  "body": "@kachkaev thank you so much ! i was losing my mind over this ",
+  "user": {
+    "gists_url": "https://api.github.com/users/kamilAqil/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/kamilAqil/repos",
+    "following_url": "https://api.github.com/users/kamilAqil/following{/other_user}",
+    "starred_url": "https://api.github.com/users/kamilAqil/starred{/owner}{/repo}",
+    "login": "kamilAqil",
+    "followers_url": "https://api.github.com/users/kamilAqil/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/kamilAqil",
+    "subscriptions_url": "https://api.github.com/users/kamilAqil/subscriptions",
+    "received_events_url": "https://api.github.com/users/kamilAqil/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/14122016?v=4",
+    "events_url": "https://api.github.com/users/kamilAqil/events{/privacy}",
+    "html_url": "https://github.com/kamilAqil",
+    "site_admin": false,
+    "id": 14122016,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE0MTIyMDE2",
+    "organizations_url": "https://api.github.com/users/kamilAqil/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/776320431",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3NjMyMDQzMQ=="
+}

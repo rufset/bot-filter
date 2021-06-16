@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ead6cf0a13ef54bbaa5"
+  },
+  "author_association": "COLLABORATOR",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/18615",
+  "updated_at": "2019-10-14T15:05:01Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/18615#issuecomment-541733795",
+  "created_at": "2019-10-14T15:05:01Z",
+  "id": 541733795,
+  "body": "@sidharthachatterjee would you like a rule like the one before to exclude the same/equivalent patterns (\"^react\", \"^@babel/\", \"^eslint\")? Or are absolutely all minor versions to be grouped in this rule?",
+  "user": {
+    "gists_url": "https://api.github.com/users/FailedSitcom/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/FailedSitcom/repos",
+    "following_url": "https://api.github.com/users/FailedSitcom/following{/other_user}",
+    "starred_url": "https://api.github.com/users/FailedSitcom/starred{/owner}{/repo}",
+    "login": "FailedSitcom",
+    "followers_url": "https://api.github.com/users/FailedSitcom/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/FailedSitcom",
+    "subscriptions_url": "https://api.github.com/users/FailedSitcom/subscriptions",
+    "received_events_url": "https://api.github.com/users/FailedSitcom/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6232253?v=4",
+    "events_url": "https://api.github.com/users/FailedSitcom/events{/privacy}",
+    "html_url": "https://github.com/FailedSitcom",
+    "site_admin": false,
+    "id": 6232253,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjYyMzIyNTM=",
+    "organizations_url": "https://api.github.com/users/FailedSitcom/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/541733795",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU0MTczMzc5NQ=="
+}

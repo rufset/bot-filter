@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6071c53043dd71267de119bd"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/react-native-mapbox-gl/maps/issues/546",
+  "updated_at": "2019-12-06T10:31:56Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/react-native-mapbox-gl/maps/pull/546#issuecomment-562520687",
+  "created_at": "2019-12-06T10:31:56Z",
+  "id": 562520687,
+  "body": "@ferdicus I gave you rights, please only edit the patch-6 branch ;)",
+  "user": {
+    "gists_url": "https://api.github.com/users/RichardLindhout/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/RichardLindhout/repos",
+    "following_url": "https://api.github.com/users/RichardLindhout/following{/other_user}",
+    "starred_url": "https://api.github.com/users/RichardLindhout/starred{/owner}{/repo}",
+    "login": "RichardLindhout",
+    "followers_url": "https://api.github.com/users/RichardLindhout/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/RichardLindhout",
+    "subscriptions_url": "https://api.github.com/users/RichardLindhout/subscriptions",
+    "received_events_url": "https://api.github.com/users/RichardLindhout/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6492229?v=4",
+    "events_url": "https://api.github.com/users/RichardLindhout/events{/privacy}",
+    "html_url": "https://github.com/RichardLindhout",
+    "site_admin": false,
+    "id": 6492229,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjY0OTIyMjk=",
+    "organizations_url": "https://api.github.com/users/RichardLindhout/orgs"
+  },
+  "url": "https://api.github.com/repos/react-native-mapbox-gl/maps/issues/comments/562520687",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU2MjUyMDY4Nw=="
+}

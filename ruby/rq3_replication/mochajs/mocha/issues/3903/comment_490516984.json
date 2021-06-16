@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605aab526cf0a13ef54c986a"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/mochajs/mocha/issues/3903",
+  "updated_at": "2019-05-08T14:57:09Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/mochajs/mocha/pull/3903#issuecomment-490516984",
+  "created_at": "2019-05-08T14:48:49Z",
+  "id": 490516984,
+  "body": "The original `coffee-script` package has been deprecated by its author, saying it moved to `coffeescript`. I'm not sure what's the benefit of testing the deprecated package instead of the currently-used one.\r\n\r\nThe upgrades are not \"just because\". There are upstream fixes in those third parties to use-cases you wouldn't necessarily test/account for. There's also the number of duplicate files (in user's node_modules) caused by `mocha` pinning third-parties to older versions.",
+  "user": {
+    "gists_url": "https://api.github.com/users/AviVahl/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/AviVahl/repos",
+    "following_url": "https://api.github.com/users/AviVahl/following{/other_user}",
+    "starred_url": "https://api.github.com/users/AviVahl/starred{/owner}{/repo}",
+    "login": "AviVahl",
+    "followers_url": "https://api.github.com/users/AviVahl/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/AviVahl",
+    "subscriptions_url": "https://api.github.com/users/AviVahl/subscriptions",
+    "received_events_url": "https://api.github.com/users/AviVahl/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8952081?v=4",
+    "events_url": "https://api.github.com/users/AviVahl/events{/privacy}",
+    "html_url": "https://github.com/AviVahl",
+    "site_admin": false,
+    "id": 8952081,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjg5NTIwODE=",
+    "organizations_url": "https://api.github.com/users/AviVahl/orgs"
+  },
+  "url": "https://api.github.com/repos/mochajs/mocha/issues/comments/490516984",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQ5MDUxNjk4NA=="
+}

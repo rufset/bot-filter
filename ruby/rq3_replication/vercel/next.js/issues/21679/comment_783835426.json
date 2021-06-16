@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3143dd71267de53991"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-23T02:32:27Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-783835426",
+  "created_at": "2021-02-23T02:32:27Z",
+  "id": 783835426,
+  "body": "It is kind of disheartening to find that relatively essential third party plugins like `next-pwa` are not tested at all. Would there be any interest in writing tests to ensure at least some of the basic examples actually build (if not work)?",
+  "user": {
+    "gists_url": "https://api.github.com/users/sever1an/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/sever1an/repos",
+    "following_url": "https://api.github.com/users/sever1an/following{/other_user}",
+    "starred_url": "https://api.github.com/users/sever1an/starred{/owner}{/repo}",
+    "login": "sever1an",
+    "followers_url": "https://api.github.com/users/sever1an/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/sever1an",
+    "subscriptions_url": "https://api.github.com/users/sever1an/subscriptions",
+    "received_events_url": "https://api.github.com/users/sever1an/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/53988640?v=4",
+    "events_url": "https://api.github.com/users/sever1an/events{/privacy}",
+    "html_url": "https://github.com/sever1an",
+    "site_admin": false,
+    "id": 53988640,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjUzOTg4NjQw",
+    "organizations_url": "https://api.github.com/users/sever1an/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/783835426",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc4MzgzNTQyNg=="
+}

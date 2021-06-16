@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60720d1343dd71267de27f2d"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/python-trio/trio/issues/654",
+  "updated_at": "2018-09-11T06:34:34Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/python-trio/trio/pull/654#issuecomment-420163136",
+  "created_at": "2018-09-11T06:34:34Z",
+  "id": 420163136,
+  "body": "Yeah, what Hypothesis is doing is impressive. The 'push back to the PR magic' PR is https://github.com/HypothesisWorks/hypothesis/pull/1562.\r\n\r\nSo I moved test-requirements.txt and ci/rtd-requirements.txt to the pip-compile format, but maybe we should keep a .in version in order to 1/ keep track of the direct dependencies and 2/ keep the comments we had until now? Of course, that's what Hypothesis does: https://github.com/HypothesisWorks/hypothesis/tree/master/requirements :)\r\n\r\nAnd yeah, I would be happy to remove my commits here and let @Zac-HD work on this! 😄 ",
+  "user": {
+    "gists_url": "https://api.github.com/users/pquentin/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/pquentin/repos",
+    "following_url": "https://api.github.com/users/pquentin/following{/other_user}",
+    "starred_url": "https://api.github.com/users/pquentin/starred{/owner}{/repo}",
+    "login": "pquentin",
+    "followers_url": "https://api.github.com/users/pquentin/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/pquentin",
+    "subscriptions_url": "https://api.github.com/users/pquentin/subscriptions",
+    "received_events_url": "https://api.github.com/users/pquentin/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/42327?v=4",
+    "events_url": "https://api.github.com/users/pquentin/events{/privacy}",
+    "html_url": "https://github.com/pquentin",
+    "site_admin": false,
+    "id": 42327,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjQyMzI3",
+    "organizations_url": "https://api.github.com/users/pquentin/orgs"
+  },
+  "url": "https://api.github.com/repos/python-trio/trio/issues/comments/420163136",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQyMDE2MzEzNg=="
+}

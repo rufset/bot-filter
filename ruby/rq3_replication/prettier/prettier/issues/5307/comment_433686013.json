@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6059f2bc6cf0a13ef547bf93"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/prettier/prettier/issues/5307",
+  "updated_at": "2018-10-28T08:28:00Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/prettier/prettier/pull/5307#issuecomment-433686013",
+  "created_at": "2018-10-28T08:26:09Z",
+  "id": 433686013,
+  "body": "Ouch, didn't know that. Thanks for ur time 👍 ",
+  "user": {
+    "gists_url": "https://api.github.com/users/sibiraj-s/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/sibiraj-s/repos",
+    "following_url": "https://api.github.com/users/sibiraj-s/following{/other_user}",
+    "starred_url": "https://api.github.com/users/sibiraj-s/starred{/owner}{/repo}",
+    "login": "sibiraj-s",
+    "followers_url": "https://api.github.com/users/sibiraj-s/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/sibiraj-s",
+    "subscriptions_url": "https://api.github.com/users/sibiraj-s/subscriptions",
+    "received_events_url": "https://api.github.com/users/sibiraj-s/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/20282546?v=4",
+    "events_url": "https://api.github.com/users/sibiraj-s/events{/privacy}",
+    "html_url": "https://github.com/sibiraj-s",
+    "site_admin": false,
+    "id": 20282546,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjIwMjgyNTQ2",
+    "organizations_url": "https://api.github.com/users/sibiraj-s/orgs"
+  },
+  "url": "https://api.github.com/repos/prettier/prettier/issues/comments/433686013",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQzMzY4NjAxMw=="
+}

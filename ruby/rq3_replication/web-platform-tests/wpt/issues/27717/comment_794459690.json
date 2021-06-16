@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60721a0843dd71267de2b777"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/web-platform-tests/wpt/issues/27717",
+  "updated_at": "2021-03-09T21:11:23Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/web-platform-tests/wpt/pull/27717#issuecomment-794459690",
+  "created_at": "2021-03-09T21:11:23Z",
+  "id": 794459690,
+  "body": "It that was the only issue, then having a single dependency bumper would be great!",
+  "user": {
+    "gists_url": "https://api.github.com/users/foolip/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/foolip/repos",
+    "following_url": "https://api.github.com/users/foolip/following{/other_user}",
+    "starred_url": "https://api.github.com/users/foolip/starred{/owner}{/repo}",
+    "login": "foolip",
+    "followers_url": "https://api.github.com/users/foolip/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/foolip",
+    "subscriptions_url": "https://api.github.com/users/foolip/subscriptions",
+    "received_events_url": "https://api.github.com/users/foolip/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/498917?v=4",
+    "events_url": "https://api.github.com/users/foolip/events{/privacy}",
+    "html_url": "https://github.com/foolip",
+    "site_admin": false,
+    "id": 498917,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjQ5ODkxNw==",
+    "organizations_url": "https://api.github.com/users/foolip/orgs"
+  },
+  "url": "https://api.github.com/repos/web-platform-tests/wpt/issues/comments/794459690",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc5NDQ1OTY5MA=="
+}

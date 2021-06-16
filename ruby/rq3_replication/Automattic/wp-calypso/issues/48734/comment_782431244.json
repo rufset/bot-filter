@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607254de43dd71267de40792"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/Automattic/wp-calypso/issues/48734",
+  "updated_at": "2021-02-19T22:56:58Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/Automattic/wp-calypso/pull/48734#issuecomment-782431244",
+  "created_at": "2021-02-19T22:56:58Z",
+  "id": 782431244,
+  "body": "> It is great that we are looking for alternatives to NVM if NVM is causing problems. Could you expand on the problems we are trying to solve with `volta`?\r\n\r\nVolta seems to be a better tool for the job to me. When configured for a project, it does exactly what I'd want and stays out of the way otherwise. With nvm I have to think about the globals I have installed and where, and remember what node version is my default and which projects I have to run `nvm use` for (for every new terminal). It's not that nvm isn't working, it just seems inferior. I've been using volta myself (without project support!) and I've been impressed. I wrote a bit about what I like [here](https://sirre.al/2021/02/12/volta-vs-nvm-for-managing-javascript-tooling/).\r\n\r\n> In any case, I think that we should only have one tool to do one thing. In other words, if we go ahead with this change, it should be a migration from `nvm` to `volta` with the aim of removing `nvm` from our system. Otherwise we are increasing the maintenance burden and the risk of `nvm\r\n\r\n`nvm` is the de facto tool, but I don't think there's been any official decisions that we only support nvm. When we've upgraded node, we'd post with instructions for `nvm` and `n`. (Incidentally, node upgrade announcements don't need to happen with volta). I don't think a hard switch/mandate will go over well, but if we give folks the option and folks find it compelling, we may gain a new de facto or enough support and confidence to tell folks this is the tool they should be using. We may see other related projects follow suit based on our experience. This is the approach I'm taking here: pbABiP-hR-p2.\r\n\r\n\r\n\r\n> One thing I noticed when testing this is that `yarn dev --sync` with ETK doesn't work. WHen running `npx chokidar`, volta said that it could not find the binary to use 🤔 I can solve this by using `yarn chokidar` instead, but I wonder if this means that `npx` wouldn't work (only if you are using volta, i imagine everything is still fine with nvm)\r\n\r\nI've just pinned `npm` which I believe will fix this, @noahtallen will you give it a try?",
+  "user": {
+    "gists_url": "https://api.github.com/users/sirreal/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/sirreal/repos",
+    "following_url": "https://api.github.com/users/sirreal/following{/other_user}",
+    "starred_url": "https://api.github.com/users/sirreal/starred{/owner}{/repo}",
+    "login": "sirreal",
+    "followers_url": "https://api.github.com/users/sirreal/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/sirreal",
+    "subscriptions_url": "https://api.github.com/users/sirreal/subscriptions",
+    "received_events_url": "https://api.github.com/users/sirreal/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/841763?v=4",
+    "events_url": "https://api.github.com/users/sirreal/events{/privacy}",
+    "html_url": "https://github.com/sirreal",
+    "site_admin": false,
+    "id": 841763,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjg0MTc2Mw==",
+    "organizations_url": "https://api.github.com/users/sirreal/orgs"
+  },
+  "url": "https://api.github.com/repos/Automattic/wp-calypso/issues/comments/782431244",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc4MjQzMTI0NA=="
+}

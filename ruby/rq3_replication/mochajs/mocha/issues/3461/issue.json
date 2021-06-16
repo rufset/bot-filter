@@ -1,0 +1,69 @@
+{
+  "_id": {
+    "$oid": "605aab546cf0a13ef54c98d2"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2018-08-18T11:49:42Z",
+  "title": "Upgrade some packages to deal with security issue seen from npm audit",
+  "body": "### Requirements\r\nNo.\r\n\r\n### Description of the Change\r\n\r\n'npm audit' found critical security issues. Package upgrade resolves some of these issues.\r\n\r\n### Alternate Designs\r\n\r\nRefer to npm audit to fix security issues.\r\n\r\n### Why should this be in core?\r\n\r\nCritical security issue maybe resolved.\r\n\r\n### Benefits\r\n\r\nCritical security issue maybe resolved.\r\n\r\n### Possible Drawbacks\r\n\r\nTested on Debian 10, so far it's ok. Not tested on windows or other platform yet.\r\n\r\n### Applicable issues\r\nThere are still 25 vulnerabilities to be reviewed. \r\n                                                                                \r\n                       === npm audit security report === \r\nfound 25 vulnerabilities (1 low, 24 moderate) in 32373 scanned packages\r\n  25 vulnerabilities require manual review. See the full report for details.\r\n",
+  "labels_url": "https://api.github.com/repos/mochajs/mocha/issues/3461/labels{/name}",
+  "author_association": "NONE",
+  "number": 3461,
+  "score": 1,
+  "updated_at": "2018-11-14T07:21:18Z",
+  "performed_via_github_app": null,
+  "draft": false,
+  "comments_url": "https://api.github.com/repos/mochajs/mocha/issues/3461/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/mochajs/mocha",
+  "id": 351814612,
+  "state": "closed",
+  "locked": false,
+  "pull_request": {
+    "patch_url": "https://github.com/mochajs/mocha/pull/3461.patch",
+    "html_url": "https://github.com/mochajs/mocha/pull/3461",
+    "diff_url": "https://github.com/mochajs/mocha/pull/3461.diff",
+    "url": "https://api.github.com/repos/mochajs/mocha/pulls/3461"
+  },
+  "comments": 4,
+  "closed_at": "2018-11-14T07:21:18Z",
+  "url": "https://api.github.com/repos/mochajs/mocha/issues/3461",
+  "labels": [
+    {
+      "default": false,
+      "color": "8F3127",
+      "name": "security",
+      "description": "involving vulnerabilities",
+      "id": 618785682,
+      "url": "https://api.github.com/repos/mochajs/mocha/labels/security",
+      "node_id": "MDU6TGFiZWw2MTg3ODU2ODI="
+    }
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/mochajs/mocha/issues/3461/events",
+  "html_url": "https://github.com/mochajs/mocha/pull/3461",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/ralic/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/ralic/repos",
+    "following_url": "https://api.github.com/users/ralic/following{/other_user}",
+    "starred_url": "https://api.github.com/users/ralic/starred{/owner}{/repo}",
+    "login": "ralic",
+    "followers_url": "https://api.github.com/users/ralic/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/ralic",
+    "subscriptions_url": "https://api.github.com/users/ralic/subscriptions",
+    "received_events_url": "https://api.github.com/users/ralic/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6745746?v=4",
+    "events_url": "https://api.github.com/users/ralic/events{/privacy}",
+    "html_url": "https://github.com/ralic",
+    "site_admin": false,
+    "id": 6745746,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjY3NDU3NDY=",
+    "organizations_url": "https://api.github.com/users/ralic/orgs"
+  },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MjA5MzA4NjUy"
+}

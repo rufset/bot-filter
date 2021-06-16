@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a9cb46cf0a13ef54c5230"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/standard/standard/issues/1582",
+  "updated_at": "2020-10-30T00:00:59Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/standard/standard/pull/1582#issuecomment-719090664",
+  "created_at": "2020-10-30T00:00:50Z",
+  "id": 719090664,
+  "body": "Your answers:\r\n\r\n- Daily is fine\r\n- No specific time\r\n- Don't assign to anyone\r\n- Don't request a review\r\n- No particular commit format\r\n- You can apply the label `dependency`\r\n- The \"increase\" strategy looks good\r\n\r\nAnd my question for you:\r\n\r\n- Is there a way to apply this configuration to the whole `standard` GitHub organization?",
+  "user": {
+    "gists_url": "https://api.github.com/users/feross/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/feross/repos",
+    "following_url": "https://api.github.com/users/feross/following{/other_user}",
+    "starred_url": "https://api.github.com/users/feross/starred{/owner}{/repo}",
+    "login": "feross",
+    "followers_url": "https://api.github.com/users/feross/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/feross",
+    "subscriptions_url": "https://api.github.com/users/feross/subscriptions",
+    "received_events_url": "https://api.github.com/users/feross/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/121766?v=4",
+    "events_url": "https://api.github.com/users/feross/events{/privacy}",
+    "html_url": "https://github.com/feross",
+    "site_admin": false,
+    "id": 121766,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjEyMTc2Ng==",
+    "organizations_url": "https://api.github.com/users/feross/orgs"
+  },
+  "url": "https://api.github.com/repos/standard/standard/issues/comments/719090664",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDcxOTA5MDY2NA=="
+}

@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60725fa543dd71267de413a5"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/commitizen/cz-cli/issues/715",
+  "updated_at": "2020-04-13T22:48:21Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/commitizen/cz-cli/issues/715#issuecomment-613134356",
+  "created_at": "2020-04-13T22:48:21Z",
+  "id": 613134356,
+  "body": "The pakage `core-js` also needs to be updated ...\r\n```\r\nwarning: commitizen > cz-conventional-changelog > @commitlint/load > babel-runtime > core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.\r\n```\r\n> From https://github.com/commitizen/cz-cli/issues/716",
+  "user": {
+    "gists_url": "https://api.github.com/users/tjapro/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/tjapro/repos",
+    "following_url": "https://api.github.com/users/tjapro/following{/other_user}",
+    "starred_url": "https://api.github.com/users/tjapro/starred{/owner}{/repo}",
+    "login": "tjapro",
+    "followers_url": "https://api.github.com/users/tjapro/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/tjapro",
+    "subscriptions_url": "https://api.github.com/users/tjapro/subscriptions",
+    "received_events_url": "https://api.github.com/users/tjapro/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/7900361?v=4",
+    "events_url": "https://api.github.com/users/tjapro/events{/privacy}",
+    "html_url": "https://github.com/tjapro",
+    "site_admin": false,
+    "id": 7900361,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjc5MDAzNjE=",
+    "organizations_url": "https://api.github.com/users/tjapro/orgs"
+  },
+  "url": "https://api.github.com/repos/commitizen/cz-cli/issues/comments/613134356",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDYxMzEzNDM1Ng=="
+}

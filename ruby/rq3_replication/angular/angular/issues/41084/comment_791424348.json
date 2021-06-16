@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "607243f643dd71267de369c9"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/angular/angular/issues/41084",
+  "updated_at": "2021-03-05T13:38:25Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/angular/angular/issues/41084#issuecomment-791424348",
+  "created_at": "2021-03-05T13:38:25Z",
+  "id": 791424348,
+  "body": "> @nbittich It's not necessary to do it on your side. It's only your decision. I think that the rest of the Angular community appreciate a weekly period as a compromise to get the latest updates, test them and react as soon as possible. With a longer period, it would mean that many things would concentrate on one point. Remember that the whole process also works as the third level of acceptance in the real world, based on thousands and thousands of apps.\r\n\r\nNo I don't think so. It's not my decision. If I don't update as often as possible, it will be a much bigger pain in the future (I know that by experience with angular). Every time a new version is released, I have to make sure the other libraries I'm using are also updated and/or not broken. It happened to me that a minor release broke the ng build --prod because I was using an \"old\" version of typescript in my package.json! (under v4 if I remember, but still 3.X smth, it was like 1-2 months ago). \r\n\r\nI had to make a new release to fix the prod. It's always LOTS of time lost and LOTS of stress for nothing. Maybe it works for basic project, but it definitely doesn't work for something running in production. More stress, more work, no idea what it does, this is my feeling about the current situation. \r\n\r\n\r\n\r\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/nbittich/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/nbittich/repos",
+    "following_url": "https://api.github.com/users/nbittich/following{/other_user}",
+    "starred_url": "https://api.github.com/users/nbittich/starred{/owner}{/repo}",
+    "login": "nbittich",
+    "followers_url": "https://api.github.com/users/nbittich/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/nbittich",
+    "subscriptions_url": "https://api.github.com/users/nbittich/subscriptions",
+    "received_events_url": "https://api.github.com/users/nbittich/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3816305?v=4",
+    "events_url": "https://api.github.com/users/nbittich/events{/privacy}",
+    "html_url": "https://github.com/nbittich",
+    "site_admin": false,
+    "id": 3816305,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjM4MTYzMDU=",
+    "organizations_url": "https://api.github.com/users/nbittich/orgs"
+  },
+  "url": "https://api.github.com/repos/angular/angular/issues/comments/791424348",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc5MTQyNDM0OA=="
+}

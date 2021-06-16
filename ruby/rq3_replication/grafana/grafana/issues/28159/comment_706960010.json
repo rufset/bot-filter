@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6059f2816cf0a13ef547b85b"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/grafana/grafana/issues/28159",
+  "updated_at": "2020-10-12T08:16:47Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/grafana/grafana/pull/28159#issuecomment-706960010",
+  "created_at": "2020-10-12T08:16:47Z",
+  "id": 706960010,
+  "body": "I don't feel like I understand the implications of this PR well enough to offer any kind of review. If you want we can chat about it and you can explain what the considerations are?",
+  "user": {
+    "gists_url": "https://api.github.com/users/xlson/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/xlson/repos",
+    "following_url": "https://api.github.com/users/xlson/following{/other_user}",
+    "starred_url": "https://api.github.com/users/xlson/starred{/owner}{/repo}",
+    "login": "xlson",
+    "followers_url": "https://api.github.com/users/xlson/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/xlson",
+    "subscriptions_url": "https://api.github.com/users/xlson/subscriptions",
+    "received_events_url": "https://api.github.com/users/xlson/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/114937?v=4",
+    "events_url": "https://api.github.com/users/xlson/events{/privacy}",
+    "html_url": "https://github.com/xlson",
+    "site_admin": false,
+    "id": 114937,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjExNDkzNw==",
+    "organizations_url": "https://api.github.com/users/xlson/orgs"
+  },
+  "url": "https://api.github.com/repos/grafana/grafana/issues/comments/706960010",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDcwNjk2MDAxMA=="
+}

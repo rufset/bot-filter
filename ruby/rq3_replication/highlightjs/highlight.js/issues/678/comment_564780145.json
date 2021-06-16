@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605ab9d66cf0a13ef54ce451"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/highlightjs/highlight.js/issues/678",
+  "updated_at": "2019-12-11T23:30:43Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/highlightjs/highlight.js/issues/678#issuecomment-564780145",
+  "created_at": "2019-12-11T23:30:43Z",
+  "id": 564780145,
+  "body": "Related:\r\n\r\n- https://github.com/highlightjs/highlight.js/issues/2061\r\n- https://github.com/highlightjs/highlight.js/issues/2248\r\n\r\nYou might be right, but I'm starting to think the opposite solution is correct.  Both the JS distributable and the NPM are \"built from source\", so we are currently only distributing distributabled assets, with the original source code being on GitHub.  \r\n\r\n- The CDN distributes the \"cooked\" web-usage library\r\n- The NPM distributes the \"cooked\" node library\r\n\r\nThis makes sense to me.\r\n\r\nThe issue seems to be that a lot of people use npm for versioning static assets... so it seems we really need:\r\n\r\n- The CDN distributes the \"cooked\" web-usage library\r\n- The NPM distributes the \"cooked\" node-usage library\r\n- NPM also distributes the \"cooked\" web-usage library\r\n- The source remains on GitHub.\r\n\r\nThat seems to answer what MOST people are asking for I think.  With version 10 I was planning on throwing in a pre-built minified \"common\" build and see if that helps.\r\n\r\nNothing will likely change here until post 10.0 anyways (I'd like the next release to be 10.0) since any changes to the build process are most likely going to be built on top of the new build system, not the old one.",
+  "user": {
+    "gists_url": "https://api.github.com/users/joshgoebel/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/joshgoebel/repos",
+    "following_url": "https://api.github.com/users/joshgoebel/following{/other_user}",
+    "starred_url": "https://api.github.com/users/joshgoebel/starred{/owner}{/repo}",
+    "login": "joshgoebel",
+    "followers_url": "https://api.github.com/users/joshgoebel/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/joshgoebel",
+    "subscriptions_url": "https://api.github.com/users/joshgoebel/subscriptions",
+    "received_events_url": "https://api.github.com/users/joshgoebel/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6473?v=4",
+    "events_url": "https://api.github.com/users/joshgoebel/events{/privacy}",
+    "html_url": "https://github.com/joshgoebel",
+    "site_admin": false,
+    "id": 6473,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjY0NzM=",
+    "organizations_url": "https://api.github.com/users/joshgoebel/orgs"
+  },
+  "url": "https://api.github.com/repos/highlightjs/highlight.js/issues/comments/564780145",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU2NDc4MDE0NQ=="
+}

@@ -1,0 +1,61 @@
+{
+  "_id": {
+    "$oid": "6071aa7c43dd71267de0a77b"
+  },
+  "assignees": [
+
+  ],
+  "created_at": "2020-04-20T13:49:41Z",
+  "title": "[Swift] Update Vapor to latest version",
+  "body": "This PR updates the Vapor framework to 4.3. Due to a bug in SwiftPM, I've had to rename the folder so it works. This PR supersedes #2502 \r\n\r\n---------\r\nCloses #2502 ",
+  "labels_url": "https://api.github.com/repos/the-benchmarker/web-frameworks/issues/2527/labels{/name}",
+  "author_association": "MEMBER",
+  "number": 2527,
+  "score": 1,
+  "updated_at": "2020-04-22T07:19:32Z",
+  "performed_via_github_app": null,
+  "draft": false,
+  "comments_url": "https://api.github.com/repos/the-benchmarker/web-frameworks/issues/2527/comments",
+  "active_lock_reason": null,
+  "repository_url": "https://api.github.com/repos/the-benchmarker/web-frameworks",
+  "id": 603254224,
+  "state": "closed",
+  "locked": false,
+  "pull_request": {
+    "patch_url": "https://github.com/the-benchmarker/web-frameworks/pull/2527.patch",
+    "html_url": "https://github.com/the-benchmarker/web-frameworks/pull/2527",
+    "diff_url": "https://github.com/the-benchmarker/web-frameworks/pull/2527.diff",
+    "url": "https://api.github.com/repos/the-benchmarker/web-frameworks/pulls/2527"
+  },
+  "comments": 9,
+  "closed_at": "2020-04-22T07:19:32Z",
+  "url": "https://api.github.com/repos/the-benchmarker/web-frameworks/issues/2527",
+  "labels": [
+
+  ],
+  "milestone": null,
+  "events_url": "https://api.github.com/repos/the-benchmarker/web-frameworks/issues/2527/events",
+  "html_url": "https://github.com/the-benchmarker/web-frameworks/pull/2527",
+  "assignee": null,
+  "user": {
+    "gists_url": "https://api.github.com/users/0xTim/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/0xTim/repos",
+    "following_url": "https://api.github.com/users/0xTim/following{/other_user}",
+    "starred_url": "https://api.github.com/users/0xTim/starred{/owner}{/repo}",
+    "login": "0xTim",
+    "followers_url": "https://api.github.com/users/0xTim/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/0xTim",
+    "subscriptions_url": "https://api.github.com/users/0xTim/subscriptions",
+    "received_events_url": "https://api.github.com/users/0xTim/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/9938337?v=4",
+    "events_url": "https://api.github.com/users/0xTim/events{/privacy}",
+    "html_url": "https://github.com/0xTim",
+    "site_admin": false,
+    "id": 9938337,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjk5MzgzMzc=",
+    "organizations_url": "https://api.github.com/users/0xTim/orgs"
+  },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0NDA2MDc2NjA0"
+}

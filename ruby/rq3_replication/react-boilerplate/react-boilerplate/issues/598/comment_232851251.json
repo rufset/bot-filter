@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a9b896cf0a13ef54c3d1b"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/598",
+  "updated_at": "2016-07-15T03:25:08Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/react-boilerplate/react-boilerplate/issues/598#issuecomment-232851251",
+  "created_at": "2016-07-15T03:25:08Z",
+  "id": 232851251,
+  "body": "@mxstbr I'm falling behind on the GK updates, some thoughts:\n1. It's not a big problem, at this point a dependency version roll-up is probably indicated.\n2. I Would rather spend the time I would put into testing the updates for the roll-up into getting to know Percy (UI integration tester) understood and operating.\n3. I have lost time recently with cleaning up a server compromise and need to get to some regular work.\n\nSo if you feel OK about letting the GK PRs go for a few days, I'll continue to take responsibility for  that area.\n\nGiven that you are OK with waiting, would you like to have the GK PRs deleted, just to clean the PR queue? If so, I'm glad to do that.\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/gihrig/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/gihrig/repos",
+    "following_url": "https://api.github.com/users/gihrig/following{/other_user}",
+    "starred_url": "https://api.github.com/users/gihrig/starred{/owner}{/repo}",
+    "login": "gihrig",
+    "followers_url": "https://api.github.com/users/gihrig/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/gihrig",
+    "subscriptions_url": "https://api.github.com/users/gihrig/subscriptions",
+    "received_events_url": "https://api.github.com/users/gihrig/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1481063?v=4",
+    "events_url": "https://api.github.com/users/gihrig/events{/privacy}",
+    "html_url": "https://github.com/gihrig",
+    "site_admin": false,
+    "id": 1481063,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE0ODEwNjM=",
+    "organizations_url": "https://api.github.com/users/gihrig/orgs"
+  },
+  "url": "https://api.github.com/repos/react-boilerplate/react-boilerplate/issues/comments/232851251",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDIzMjg1MTI1MQ=="
+}

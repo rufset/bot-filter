@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605aab526cf0a13ef54c986b"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/mochajs/mocha/issues/3903",
+  "updated_at": "2019-05-10T14:46:23Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/mochajs/mocha/pull/3903#issuecomment-491315162",
+  "created_at": "2019-05-10T14:46:23Z",
+  "id": 491315162,
+  "body": "I think we should merge this. The sooner the better, so we could catch potential breakages in time, before cutting the next release.",
+  "user": {
+    "gists_url": "https://api.github.com/users/juergba/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/juergba/repos",
+    "following_url": "https://api.github.com/users/juergba/following{/other_user}",
+    "starred_url": "https://api.github.com/users/juergba/starred{/owner}{/repo}",
+    "login": "juergba",
+    "followers_url": "https://api.github.com/users/juergba/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/juergba",
+    "subscriptions_url": "https://api.github.com/users/juergba/subscriptions",
+    "received_events_url": "https://api.github.com/users/juergba/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/44573692?v=4",
+    "events_url": "https://api.github.com/users/juergba/events{/privacy}",
+    "html_url": "https://github.com/juergba",
+    "site_admin": false,
+    "id": 44573692,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjQ0NTczNjky",
+    "organizations_url": "https://api.github.com/users/juergba/orgs"
+  },
+  "url": "https://api.github.com/repos/mochajs/mocha/issues/comments/491315162",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQ5MTMxNTE2Mg=="
+}

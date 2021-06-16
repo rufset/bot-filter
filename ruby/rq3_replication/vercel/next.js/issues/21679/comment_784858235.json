@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3143dd71267de53993"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-24T07:28:27Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-784858235",
+  "created_at": "2021-02-24T07:28:27Z",
+  "id": 784858235,
+  "body": "> Not sure how about the rest of you but this issue (combined with some other well known problems) has unfortunately plagued deployment of my project to insanity.\r\n> \r\n> I can confirm that removing the ^ works but only intermittently. As soon as I try to Dockerize the app the ghost of webpack dependency comes back.\r\n\r\nIt drives me insane as well, as it breaks my client application by simply deploying to Vercel. Why would they decide to use the latest env when the package.json file says otherwise?\r\n\r\nTry to rebuild the docker package from scratch by removing all previous instances; it might still have cache somewhere that still use the latest env and use it build your package.",
+  "user": {
+    "gists_url": "https://api.github.com/users/techandmedia/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/techandmedia/repos",
+    "following_url": "https://api.github.com/users/techandmedia/following{/other_user}",
+    "starred_url": "https://api.github.com/users/techandmedia/starred{/owner}{/repo}",
+    "login": "techandmedia",
+    "followers_url": "https://api.github.com/users/techandmedia/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/techandmedia",
+    "subscriptions_url": "https://api.github.com/users/techandmedia/subscriptions",
+    "received_events_url": "https://api.github.com/users/techandmedia/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/15700861?v=4",
+    "events_url": "https://api.github.com/users/techandmedia/events{/privacy}",
+    "html_url": "https://github.com/techandmedia",
+    "site_admin": false,
+    "id": 15700861,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjE1NzAwODYx",
+    "organizations_url": "https://api.github.com/users/techandmedia/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/784858235",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc4NDg1ODIzNQ=="
+}

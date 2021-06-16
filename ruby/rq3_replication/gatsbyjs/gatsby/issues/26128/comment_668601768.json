@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ecc6cf0a13ef54bc343"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/26128",
+  "updated_at": "2020-08-04T13:37:49Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/26128#issuecomment-668601768",
+  "created_at": "2020-08-04T13:37:49Z",
+  "id": 668601768,
+  "body": "yeah, I see Gatsby CLI does not update update-notifier to the latest version. I have 13 update-notifiers on package-lock.json and others have the latest version. is it a good idea to do 'npm audit fix --force' ?",
+  "user": {
+    "gists_url": "https://api.github.com/users/sakihayashi/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/sakihayashi/repos",
+    "following_url": "https://api.github.com/users/sakihayashi/following{/other_user}",
+    "starred_url": "https://api.github.com/users/sakihayashi/starred{/owner}{/repo}",
+    "login": "sakihayashi",
+    "followers_url": "https://api.github.com/users/sakihayashi/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/sakihayashi",
+    "subscriptions_url": "https://api.github.com/users/sakihayashi/subscriptions",
+    "received_events_url": "https://api.github.com/users/sakihayashi/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/5385193?v=4",
+    "events_url": "https://api.github.com/users/sakihayashi/events{/privacy}",
+    "html_url": "https://github.com/sakihayashi",
+    "site_admin": false,
+    "id": 5385193,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjUzODUxOTM=",
+    "organizations_url": "https://api.github.com/users/sakihayashi/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/668601768",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY2ODYwMTc2OA=="
+}

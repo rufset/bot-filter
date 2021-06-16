@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6072002c43dd71267de25821"
+  },
+  "author_association": "COLLABORATOR",
+  "issue_url": "https://api.github.com/repos/okfn-brasil/serenata-de-amor/issues/427",
+  "updated_at": "2018-10-29T22:51:01Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/okfn-brasil/serenata-de-amor/issues/427#issuecomment-434109964",
+  "created_at": "2018-10-29T22:51:01Z",
+  "id": 434109964,
+  "body": "I already deleted the pyup stale branches that I found. Other than that I would \r\n\r\n> change the schedule to once a month in our `.pyup.yml`.\r\n\r\nas you suggested @cuducos \r\n\r\nOther than that... there are a lot of branches of unfinished hypothesis study or things that we didn't want to be merged into master for any kind of reasons... @willianpaixao could you specify what other branches you think should be removed?",
+  "user": {
+    "gists_url": "https://api.github.com/users/jtemporal/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/jtemporal/repos",
+    "following_url": "https://api.github.com/users/jtemporal/following{/other_user}",
+    "starred_url": "https://api.github.com/users/jtemporal/starred{/owner}{/repo}",
+    "login": "jtemporal",
+    "followers_url": "https://api.github.com/users/jtemporal/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/jtemporal",
+    "subscriptions_url": "https://api.github.com/users/jtemporal/subscriptions",
+    "received_events_url": "https://api.github.com/users/jtemporal/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6595551?v=4",
+    "events_url": "https://api.github.com/users/jtemporal/events{/privacy}",
+    "html_url": "https://github.com/jtemporal",
+    "site_admin": false,
+    "id": 6595551,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjY1OTU1NTE=",
+    "organizations_url": "https://api.github.com/users/jtemporal/orgs"
+  },
+  "url": "https://api.github.com/repos/okfn-brasil/serenata-de-amor/issues/comments/434109964",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQzNDEwOTk2NA=="
+}

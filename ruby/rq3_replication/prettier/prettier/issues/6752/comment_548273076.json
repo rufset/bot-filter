@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6059f5086cf0a13ef547ef83"
+  },
+  "author_association": "COLLABORATOR",
+  "issue_url": "https://api.github.com/repos/prettier/prettier/issues/6752",
+  "updated_at": "2019-10-31T08:58:33Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/prettier/prettier/pull/6752#issuecomment-548273076",
+  "created_at": "2019-10-31T08:58:33Z",
+  "id": 548273076,
+  "body": "I have a theory that it rebases once a day.",
+  "user": {
+    "gists_url": "https://api.github.com/users/thorn0/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/thorn0/repos",
+    "following_url": "https://api.github.com/users/thorn0/following{/other_user}",
+    "starred_url": "https://api.github.com/users/thorn0/starred{/owner}{/repo}",
+    "login": "thorn0",
+    "followers_url": "https://api.github.com/users/thorn0/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/thorn0",
+    "subscriptions_url": "https://api.github.com/users/thorn0/subscriptions",
+    "received_events_url": "https://api.github.com/users/thorn0/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/94334?v=4",
+    "events_url": "https://api.github.com/users/thorn0/events{/privacy}",
+    "html_url": "https://github.com/thorn0",
+    "site_admin": false,
+    "id": 94334,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjk0MzM0",
+    "organizations_url": "https://api.github.com/users/thorn0/orgs"
+  },
+  "url": "https://api.github.com/repos/prettier/prettier/issues/comments/548273076",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDU0ODI3MzA3Ng=="
+}

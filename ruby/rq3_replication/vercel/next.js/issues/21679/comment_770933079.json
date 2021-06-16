@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60727f3043dd71267de53960"
+  },
+  "author_association": "NONE",
+  "issue_url": "https://api.github.com/repos/vercel/next.js/issues/21679",
+  "updated_at": "2021-02-01T15:39:22Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/vercel/next.js/issues/21679#issuecomment-770933079",
+  "created_at": "2021-02-01T15:18:38Z",
+  "id": 770933079,
+  "body": "If helps anyone, I had this same problem because of the css loader `@zeit/next-css` that [has been deprecated](https://github.com/vercel/next-plugins/tree/master/packages/next-css). This package is now supported in Next.js out of the box, but using it in new versions of next gave me this weird message error of ` Cannot find module 'webpack' `.\r\n\r\nJust removing this package from my `next.config.js` solved the issue.",
+  "user": {
+    "gists_url": "https://api.github.com/users/AndreiRupertti/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/AndreiRupertti/repos",
+    "following_url": "https://api.github.com/users/AndreiRupertti/following{/other_user}",
+    "starred_url": "https://api.github.com/users/AndreiRupertti/starred{/owner}{/repo}",
+    "login": "AndreiRupertti",
+    "followers_url": "https://api.github.com/users/AndreiRupertti/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/AndreiRupertti",
+    "subscriptions_url": "https://api.github.com/users/AndreiRupertti/subscriptions",
+    "received_events_url": "https://api.github.com/users/AndreiRupertti/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/21250689?v=4",
+    "events_url": "https://api.github.com/users/AndreiRupertti/events{/privacy}",
+    "html_url": "https://github.com/AndreiRupertti",
+    "site_admin": false,
+    "id": 21250689,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjIxMjUwNjg5",
+    "organizations_url": "https://api.github.com/users/AndreiRupertti/orgs"
+  },
+  "url": "https://api.github.com/repos/vercel/next.js/issues/comments/770933079",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc3MDkzMzA3OQ=="
+}

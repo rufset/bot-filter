@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "60721ad543dd71267de2c7ca"
+  },
+  "author_association": "OWNER",
+  "issue_url": "https://api.github.com/repos/deanmalmgren/textract/issues/120",
+  "updated_at": "2016-08-22T14:53:57Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/deanmalmgren/textract/issues/120#issuecomment-241439033",
+  "created_at": "2016-08-22T14:53:57Z",
+  "id": 241439033,
+  "body": "Thanks for opening up this as an issue, @pr3d4t0r! I'm glad to hear you are nearing distribution; that is very exciting indeed :)\n\nAs I mentioned in [our twitter conversation](https://twitter.com/ciurana/status/766486722704134144), perhaps we can separately install the GPL packages as `extra_requires` so that we can do things like `pip install textract[GPL]`, which not only installs all of the non-GPL code (which will continue to happen by default), but will also install the GPL'ed code. This looks like a good [StackOverflow](http://stackoverflow.com/questions/19096155/setuptools-and-pip-choice-of-minimal-and-complete-install) for this. What would you think of this solution?\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/deanmalmgren/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/deanmalmgren/repos",
+    "following_url": "https://api.github.com/users/deanmalmgren/following{/other_user}",
+    "starred_url": "https://api.github.com/users/deanmalmgren/starred{/owner}{/repo}",
+    "login": "deanmalmgren",
+    "followers_url": "https://api.github.com/users/deanmalmgren/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/deanmalmgren",
+    "subscriptions_url": "https://api.github.com/users/deanmalmgren/subscriptions",
+    "received_events_url": "https://api.github.com/users/deanmalmgren/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/255672?v=4",
+    "events_url": "https://api.github.com/users/deanmalmgren/events{/privacy}",
+    "html_url": "https://github.com/deanmalmgren",
+    "site_admin": false,
+    "id": 255672,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI1NTY3Mg==",
+    "organizations_url": "https://api.github.com/users/deanmalmgren/orgs"
+  },
+  "url": "https://api.github.com/repos/deanmalmgren/textract/issues/comments/241439033",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDI0MTQzOTAzMw=="
+}

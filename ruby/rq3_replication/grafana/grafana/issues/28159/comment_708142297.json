@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "6059f2816cf0a13ef547b85e"
+  },
+  "author_association": "CONTRIBUTOR",
+  "issue_url": "https://api.github.com/repos/grafana/grafana/issues/28159",
+  "updated_at": "2020-10-14T04:03:13Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/grafana/grafana/pull/28159#issuecomment-708142297",
+  "created_at": "2020-10-14T04:03:13Z",
+  "id": 708142297,
+  "body": "> I believe dependabot sends updates when there's security concerns but doesn't necessarily notify when there's package updates. This PR would send updates when there's version changes, for example action/checkout@v1 to action/checkout@v2, to any GitHub actions which this project uses only. To put it differently, this PR would not send updates if there were version changes upstream to any of Go modules that this project uses.\r\n> \r\n> Below is an example of a PR from dependabot which this code change would cause.\r\n> \r\n> [ubuntu/microk8s#1615](https://github.com/ubuntu/microk8s/pull/1615)\r\n\r\n@jlosito Can you please answer the following, I can't see from the above that you do:\r\n\r\n> Yea, will this have any effect on the current packages the dependabot does cover ?\r\n",
+  "user": {
+    "gists_url": "https://api.github.com/users/aknuds1/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/aknuds1/repos",
+    "following_url": "https://api.github.com/users/aknuds1/following{/other_user}",
+    "starred_url": "https://api.github.com/users/aknuds1/starred{/owner}{/repo}",
+    "login": "aknuds1",
+    "followers_url": "https://api.github.com/users/aknuds1/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/aknuds1",
+    "subscriptions_url": "https://api.github.com/users/aknuds1/subscriptions",
+    "received_events_url": "https://api.github.com/users/aknuds1/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/281303?v=4",
+    "events_url": "https://api.github.com/users/aknuds1/events{/privacy}",
+    "html_url": "https://github.com/aknuds1",
+    "site_admin": false,
+    "id": 281303,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjI4MTMwMw==",
+    "organizations_url": "https://api.github.com/users/aknuds1/orgs"
+  },
+  "url": "https://api.github.com/repos/grafana/grafana/issues/comments/708142297",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDcwODE0MjI5Nw=="
+}

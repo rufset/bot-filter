@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "605a7ea76cf0a13ef54bb9d6"
+  },
+  "author_association": "MEMBER",
+  "issue_url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/10583",
+  "updated_at": "2018-12-20T16:48:55Z",
+  "performed_via_github_app": null,
+  "html_url": "https://github.com/gatsbyjs/gatsby/issues/10583#issuecomment-449062652",
+  "created_at": "2018-12-20T16:48:55Z",
+  "id": 449062652,
+  "body": "Both the options mentioned above have monorepo support, just checked",
+  "user": {
+    "gists_url": "https://api.github.com/users/sidharthachatterjee/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/sidharthachatterjee/repos",
+    "following_url": "https://api.github.com/users/sidharthachatterjee/following{/other_user}",
+    "starred_url": "https://api.github.com/users/sidharthachatterjee/starred{/owner}{/repo}",
+    "login": "sidharthachatterjee",
+    "followers_url": "https://api.github.com/users/sidharthachatterjee/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/sidharthachatterjee",
+    "subscriptions_url": "https://api.github.com/users/sidharthachatterjee/subscriptions",
+    "received_events_url": "https://api.github.com/users/sidharthachatterjee/received_events",
+    "avatar_url": "https://avatars.githubusercontent.com/u/7701981?v=4",
+    "events_url": "https://api.github.com/users/sidharthachatterjee/events{/privacy}",
+    "html_url": "https://github.com/sidharthachatterjee",
+    "site_admin": false,
+    "id": 7701981,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjc3MDE5ODE=",
+    "organizations_url": "https://api.github.com/users/sidharthachatterjee/orgs"
+  },
+  "url": "https://api.github.com/repos/gatsbyjs/gatsby/issues/comments/449062652",
+  "node_id": "MDEyOklzc3VlQ29tbWVudDQ0OTA2MjY1Mg=="
+}
