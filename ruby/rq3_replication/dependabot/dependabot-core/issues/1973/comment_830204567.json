@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/830204567",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-830204567",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 830204567,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgzMDIwNDU2Nw==",
+  "user": {
+    "login": "mvz",
+    "id": 10898,
+    "node_id": "MDQ6VXNlcjEwODk4",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10898?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/mvz",
+    "html_url": "https://github.com/mvz",
+    "followers_url": "https://api.github.com/users/mvz/followers",
+    "following_url": "https://api.github.com/users/mvz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mvz/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/mvz/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/mvz/subscriptions",
+    "organizations_url": "https://api.github.com/users/mvz/orgs",
+    "repos_url": "https://api.github.com/users/mvz/repos",
+    "events_url": "https://api.github.com/users/mvz/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/mvz/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-04-30T16:15:44Z",
+  "updated_at": "2021-04-30T16:15:44Z",
+  "author_association": "NONE",
+  "body": "The PATs needed to make third-party solutions work also cannot be limited by repository, so if I choose to use one for my personal projects, I also expose all organisations that I'm a member of to any security problems with those third-party solutions.",
+  "performed_via_github_app": null
+}

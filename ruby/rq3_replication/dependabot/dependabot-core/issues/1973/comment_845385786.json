@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/845385786",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-845385786",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 845385786,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDg0NTM4NTc4Ng==",
+  "user": {
+    "login": "asciimike",
+    "id": 2575327,
+    "node_id": "MDQ6VXNlcjI1NzUzMjc=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2575327?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/asciimike",
+    "html_url": "https://github.com/asciimike",
+    "followers_url": "https://api.github.com/users/asciimike/followers",
+    "following_url": "https://api.github.com/users/asciimike/following{/other_user}",
+    "gists_url": "https://api.github.com/users/asciimike/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/asciimike/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/asciimike/subscriptions",
+    "organizations_url": "https://api.github.com/users/asciimike/orgs",
+    "repos_url": "https://api.github.com/users/asciimike/repos",
+    "events_url": "https://api.github.com/users/asciimike/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/asciimike/received_events",
+    "type": "User",
+    "site_admin": true
+  },
+  "created_at": "2021-05-20T18:52:10Z",
+  "updated_at": "2021-05-20T18:52:10Z",
+  "author_association": "CONTRIBUTOR",
+  "body": "That PM is me.\r\n\r\nIt sounds like the issue is that you view \"automatic upgrades\" to be \"zero action taken\" (where does this end? The manifest file? Or should we deploy the dep to prod for you too?) while I think the current view taken by Dependabot is that the scope ends when we create the pull request. If we changed the language to be, \"You can configure your repository so that Dependabot automatically creates pull requests to update packages you use\" does that clear up confusion?\r\n\r\nIMO, the difference between \"enable a config in a `dependabot.yml`\" and \"add an action that basically does the same thing\" is fairly minimal overhead wise but significantly more customizable from a developer perspective. It also plays nicer with existing functionality, e.g. we don't have to build an automerger that's constantly at odds with how GitHub's automerger works--we just allow devs to chain the functionality together.\r\n\r\nOur goal is to provide a set of first party primitives, upon which folks can build whatever functionality they want.",
+  "performed_via_github_app": null
+}

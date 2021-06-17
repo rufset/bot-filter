@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/830046589",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-830046589",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 830046589,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgzMDA0NjU4OQ==",
+  "user": {
+    "login": "jurre",
+    "id": 749864,
+    "node_id": "MDQ6VXNlcjc0OTg2NA==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/749864?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jurre",
+    "html_url": "https://github.com/jurre",
+    "followers_url": "https://api.github.com/users/jurre/followers",
+    "following_url": "https://api.github.com/users/jurre/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jurre/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jurre/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jurre/subscriptions",
+    "organizations_url": "https://api.github.com/users/jurre/orgs",
+    "repos_url": "https://api.github.com/users/jurre/repos",
+    "events_url": "https://api.github.com/users/jurre/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jurre/received_events",
+    "type": "User",
+    "site_admin": true
+  },
+  "created_at": "2021-04-30T12:03:34Z",
+  "updated_at": "2021-04-30T12:03:34Z",
+  "author_association": "MEMBER",
+  "body": "> Ultimately, it's tough because official support for auto-merging dependencies presents a huge ball of liability for GitHub. This liability exists because open source is really only a web of trust. Auto-merging dependencies would allow a nefarious actor to violate the trust faster, more severely, etc.\r\n\r\nYep, that's exactly our thought process. We have some exciting plans to improve this within the part of the organization that Dependabot is a part of, and once we've solved this or at least part of it, we'd love to revisit the decision.",
+  "performed_via_github_app": null
+}

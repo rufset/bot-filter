@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/729702398",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-729702398",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 729702398,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDcyOTcwMjM5OA==",
+  "user": {
+    "login": "asbjornu",
+    "id": 12283,
+    "node_id": "MDQ6VXNlcjEyMjgz",
+    "avatar_url": "https://avatars.githubusercontent.com/u/12283?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/asbjornu",
+    "html_url": "https://github.com/asbjornu",
+    "followers_url": "https://api.github.com/users/asbjornu/followers",
+    "following_url": "https://api.github.com/users/asbjornu/following{/other_user}",
+    "gists_url": "https://api.github.com/users/asbjornu/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/asbjornu/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/asbjornu/subscriptions",
+    "organizations_url": "https://api.github.com/users/asbjornu/orgs",
+    "repos_url": "https://api.github.com/users/asbjornu/repos",
+    "events_url": "https://api.github.com/users/asbjornu/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/asbjornu/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2020-11-18T14:10:23Z",
+  "updated_at": "2020-11-24T00:15:43Z",
+  "author_association": "NONE",
+  "body": "While I understand the refusal to implement this feature in Dependabot due to the security hole it opens up, the functionality provided by Dependabot's `automerged_updates` feature is very hard to replicate with the tools currently available.\r\n\r\nThe most important void in the current infrastructure is the lack of metadata (the version numbers being the most essential bits of information) in the pull requests submitted by Dependabot, or by any other bot, for that matter. This is needed to replicate the behaviour of `update_type: \"semver:minor\"` and similar in the non-GitHub-native Dependabot.\r\n\r\nWhile Probot could work as a way to provide this metadata – it is, as it even describes itself: A hack. To enable the community to build alternatives to the `automerged_updates` feature, GitHub needs to provide us with a non-hacky implementation of pull request metadata that can be used in GitHub actions so at least the version numbers are available for comparison.\r\n\r\nThe more metadata available, the better, of course. As an example, to address @mathiasrw's issue, a signature could be added to the metadata, so the origin of the PR could be verified before merging. ",
+  "performed_via_github_app": null
+}

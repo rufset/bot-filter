@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/829848077",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-829848077",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 829848077,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgyOTg0ODA3Nw==",
+  "user": {
+    "login": "asciimike",
+    "id": 2575327,
+    "node_id": "MDQ6VXNlcjI1NzUzMjc=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2575327?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/asciimike",
+    "html_url": "https://github.com/asciimike",
+    "followers_url": "https://api.github.com/users/asciimike/followers",
+    "following_url": "https://api.github.com/users/asciimike/following{/other_user}",
+    "gists_url": "https://api.github.com/users/asciimike/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/asciimike/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/asciimike/subscriptions",
+    "organizations_url": "https://api.github.com/users/asciimike/orgs",
+    "repos_url": "https://api.github.com/users/asciimike/repos",
+    "events_url": "https://api.github.com/users/asciimike/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/asciimike/received_events",
+    "type": "User",
+    "site_admin": true
+  },
+  "created_at": "2021-04-30T05:26:58Z",
+  "updated_at": "2021-04-30T05:26:58Z",
+  "author_association": "CONTRIBUTOR",
+  "body": "My comments are never intended as condescending, and I apologize if they came off as so. It was intended to just be a statement of us having different lenses through which we view the problem, as that's the heart of the disagreement. I respect everything folks have to say, and the arguments for why this feature makes sense in your use cases make sense. My concern isn't how folks on this thread use automerge, it's how everyone who isn't participating in this thread would use it.\r\n\r\nExisting solutions aren't perfect, e.g. Kodiak can do semver based merges, but not `dependency_type`, and I'm happy to see if we can add that info (likely as labels or a metadata comment on the PR) for folks to act on if that would help. For folks with good enough test coverage and CI, merging based off this info should be easy enough (e.g. https://github.com/pascalgn/automerge-action 's `MERGE_LABELS`) that it's a reasonable \"opt-in\" to prevent folks who don't from YOLO merging everything.",
+  "performed_via_github_app": null
+}

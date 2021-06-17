@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/675436573",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-675436573",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 675436573,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY3NTQzNjU3Mw==",
+  "user": {
+    "login": "danielbachhuber",
+    "id": 36432,
+    "node_id": "MDQ6VXNlcjM2NDMy",
+    "avatar_url": "https://avatars.githubusercontent.com/u/36432?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/danielbachhuber",
+    "html_url": "https://github.com/danielbachhuber",
+    "followers_url": "https://api.github.com/users/danielbachhuber/followers",
+    "following_url": "https://api.github.com/users/danielbachhuber/following{/other_user}",
+    "gists_url": "https://api.github.com/users/danielbachhuber/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/danielbachhuber/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/danielbachhuber/subscriptions",
+    "organizations_url": "https://api.github.com/users/danielbachhuber/orgs",
+    "repos_url": "https://api.github.com/users/danielbachhuber/repos",
+    "events_url": "https://api.github.com/users/danielbachhuber/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/danielbachhuber/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2020-08-18T12:02:13Z",
+  "updated_at": "2020-08-18T12:02:13Z",
+  "author_association": "NONE",
+  "body": "@chdsbd Can Kodiak distinguish between patch, minor, and major versions? ",
+  "performed_via_github_app": null
+}

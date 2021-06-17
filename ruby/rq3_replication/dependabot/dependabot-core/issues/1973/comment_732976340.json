@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/732976340",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-732976340",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 732976340,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDczMjk3NjM0MA==",
+  "user": {
+    "login": "markcellus",
+    "id": 1446916,
+    "node_id": "MDQ6VXNlcjE0NDY5MTY=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1446916?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/markcellus",
+    "html_url": "https://github.com/markcellus",
+    "followers_url": "https://api.github.com/users/markcellus/followers",
+    "following_url": "https://api.github.com/users/markcellus/following{/other_user}",
+    "gists_url": "https://api.github.com/users/markcellus/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/markcellus/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/markcellus/subscriptions",
+    "organizations_url": "https://api.github.com/users/markcellus/orgs",
+    "repos_url": "https://api.github.com/users/markcellus/repos",
+    "events_url": "https://api.github.com/users/markcellus/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/markcellus/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2020-11-24T13:34:33Z",
+  "updated_at": "2020-11-24T13:34:33Z",
+  "author_association": "NONE",
+  "body": "FWIW, I tried the github action approach @Andrew-Chen-Wang mentioned [above](https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-701889737) but it only works if there are no other pending github status checks. If you have another required status check that takes a while to finish (i.e. Travis CI), the action doesn't wait for it and fails with the following error:\r\n\r\n```bash\r\nError: Required status check \"Travis CI - Pull Request\" is queued.\r\n```\r\n\r\nThe action didn't wait for `Travis CI - Pull Request` status check to finish\r\n\r\n",
+  "performed_via_github_app": null
+}

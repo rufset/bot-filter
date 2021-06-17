@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/741824992",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-741824992",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 741824992,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc0MTgyNDk5Mg==",
+  "user": {
+    "login": "peaceiris",
+    "id": 30958501,
+    "node_id": "MDQ6VXNlcjMwOTU4NTAx",
+    "avatar_url": "https://avatars.githubusercontent.com/u/30958501?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/peaceiris",
+    "html_url": "https://github.com/peaceiris",
+    "followers_url": "https://api.github.com/users/peaceiris/followers",
+    "following_url": "https://api.github.com/users/peaceiris/following{/other_user}",
+    "gists_url": "https://api.github.com/users/peaceiris/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/peaceiris/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/peaceiris/subscriptions",
+    "organizations_url": "https://api.github.com/users/peaceiris/orgs",
+    "repos_url": "https://api.github.com/users/peaceiris/repos",
+    "events_url": "https://api.github.com/users/peaceiris/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/peaceiris/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2020-12-09T14:57:29Z",
+  "updated_at": "2020-12-09T14:57:29Z",
+  "author_association": "NONE",
+  "body": "We got the alternative here: https://twitter.com/github/status/1336360682221133827?s=20\r\n\r\n> Check out auto-merge! Now, when your branch protection rules are met, your changes approved, and your checks are green, GitHub can automatically merge your pull request for you.",
+  "performed_via_github_app": null
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/829626272",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-829626272",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 829626272,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgyOTYyNjI3Mg==",
+  "user": {
+    "login": "jrjohnson",
+    "id": 349624,
+    "node_id": "MDQ6VXNlcjM0OTYyNA==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/349624?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jrjohnson",
+    "html_url": "https://github.com/jrjohnson",
+    "followers_url": "https://api.github.com/users/jrjohnson/followers",
+    "following_url": "https://api.github.com/users/jrjohnson/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jrjohnson/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jrjohnson/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jrjohnson/subscriptions",
+    "organizations_url": "https://api.github.com/users/jrjohnson/orgs",
+    "repos_url": "https://api.github.com/users/jrjohnson/repos",
+    "events_url": "https://api.github.com/users/jrjohnson/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jrjohnson/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-04-29T22:05:16Z",
+  "updated_at": "2021-04-29T22:05:16Z",
+  "author_association": "NONE",
+  "body": "This change actually makes my application **less secure.** In the past we could rely on detection of new maintainers from dependabot to prevent auto-merging suspicious packages. That is the only supply chain attack that manual review prevents and it is easy to automate and hard for humans to do.\r\n\r\nIt isn't possible to audit every commit in every package we depend on, we rely on those package maintainers to do that work. The supply chain threat that seems to be the focus of this change is that an unknown malicious actor could push a new version of a package and have it propagate to everyone. Forcing us to rely on a third party action to auto merge removes this protection and adds significantly more work to the process of staying up to date. \r\n\r\nWhat is more likely to happen after this change is that deeply nested OSS packages who are now forced to manually merge updates will simply ignore those updates or be overwhelmed by the flood or work and abandon their packages. That is an actual critical threat to our supply chain. As transitive dependencies fall further behind and fail to patch known vulnerabilities those vulnerabilities will be easy to exploit with automated tools and detection. The theoretical risk of a malicious packages propagating to the ecosystem that is somehow prevented by application owners clicking a green button is nowhere near as important or as critical as using these components with known vulnerabilities will be.\r\n\r\nIt's too bad because dependabot was a fantastic service that did everything we needed. Sad to see this product damaged by a **miss understanding of the threats that face application owners** and our users.",
+  "performed_via_github_app": null
+}

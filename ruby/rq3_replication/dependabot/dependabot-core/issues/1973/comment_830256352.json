@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/830256352",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-830256352",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 830256352,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgzMDI1NjM1Mg==",
+  "user": {
+    "login": "jrjohnson",
+    "id": 349624,
+    "node_id": "MDQ6VXNlcjM0OTYyNA==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/349624?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jrjohnson",
+    "html_url": "https://github.com/jrjohnson",
+    "followers_url": "https://api.github.com/users/jrjohnson/followers",
+    "following_url": "https://api.github.com/users/jrjohnson/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jrjohnson/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jrjohnson/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jrjohnson/subscriptions",
+    "organizations_url": "https://api.github.com/users/jrjohnson/orgs",
+    "repos_url": "https://api.github.com/users/jrjohnson/repos",
+    "events_url": "https://api.github.com/users/jrjohnson/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jrjohnson/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-04-30T17:45:17Z",
+  "updated_at": "2021-04-30T19:00:08Z",
+  "author_association": "NONE",
+  "body": "> My comments are never intended as condescending, and I apologize if they came off as so\r\n\r\n@asciimike after thinking about this I believe this is the core of my frustration here. You don't trust me to make good choices for my own application. Automerge was already opt in so there is no risk that I could enable this feature accidentally and the \"folks who are not in this thread\" you're worried about would also have to opt-in to that behavior. The entire argument from the Github side is that developers cannot be trusted to make good security tradeoff decisions and so you have stepped in to save us. I asked for more labels almost a year ago in #2294, that is a possible solution that may help with this. More improvements to the new `Enable Auto Merge` option in the PR UI will also help. At the end of the day though I'm going to have to cobble together a solution that you could continue to provide, but are refusing to.",
+  "performed_via_github_app": null
+}

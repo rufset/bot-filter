@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/798828898",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-798828898",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 798828898,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc5ODgyODg5OA==",
+  "user": {
+    "login": "RoyalSix",
+    "id": 16184018,
+    "node_id": "MDQ6VXNlcjE2MTg0MDE4",
+    "avatar_url": "https://avatars.githubusercontent.com/u/16184018?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/RoyalSix",
+    "html_url": "https://github.com/RoyalSix",
+    "followers_url": "https://api.github.com/users/RoyalSix/followers",
+    "following_url": "https://api.github.com/users/RoyalSix/following{/other_user}",
+    "gists_url": "https://api.github.com/users/RoyalSix/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/RoyalSix/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/RoyalSix/subscriptions",
+    "organizations_url": "https://api.github.com/users/RoyalSix/orgs",
+    "repos_url": "https://api.github.com/users/RoyalSix/repos",
+    "events_url": "https://api.github.com/users/RoyalSix/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/RoyalSix/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-03-14T04:01:30Z",
+  "updated_at": "2021-03-14T04:01:30Z",
+  "author_association": "NONE",
+  "body": "I made this article to help explain how to auto merge\r\nhttps://jayisscott.medium.com/dependabot-auto-merging-prs-7b20459ed8e9",
+  "performed_via_github_app": null
+}

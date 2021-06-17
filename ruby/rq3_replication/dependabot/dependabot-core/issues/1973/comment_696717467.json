@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/696717467",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-696717467",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 696717467,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY5NjcxNzQ2Nw==",
+  "user": {
+    "login": "nemchik",
+    "id": 725456,
+    "node_id": "MDQ6VXNlcjcyNTQ1Ng==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/725456?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/nemchik",
+    "html_url": "https://github.com/nemchik",
+    "followers_url": "https://api.github.com/users/nemchik/followers",
+    "following_url": "https://api.github.com/users/nemchik/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nemchik/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/nemchik/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/nemchik/subscriptions",
+    "organizations_url": "https://api.github.com/users/nemchik/orgs",
+    "repos_url": "https://api.github.com/users/nemchik/repos",
+    "events_url": "https://api.github.com/users/nemchik/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/nemchik/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2020-09-22T13:21:21Z",
+  "updated_at": "2020-09-22T13:21:21Z",
+  "author_association": "NONE",
+  "body": "> In our org we have automerge setup for when branch conditions are met.\r\n> And we always require review, we like just being able to approve a PR and then it automatically merges.\r\n> \r\n> It saves a few clicks in the UI and also means that if CI is retriggered it will merge after CI is green.\r\n> \r\n> Saves have to type `@dependabot merge` which isn't too bad but would be nice to get automerge back\r\n\r\nThat makes me wonder if you could setup a GHA to auto comment `@dependabot merge` when a PR is approved in review. Doesn't solve people wanting unattended auto-merge, but might solve your use case.",
+  "performed_via_github_app": null
+}

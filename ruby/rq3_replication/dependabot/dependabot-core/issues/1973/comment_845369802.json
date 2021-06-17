@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/845369802",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-845369802",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 845369802,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDg0NTM2OTgwMg==",
+  "user": {
+    "login": "ms-ati",
+    "id": 592892,
+    "node_id": "MDQ6VXNlcjU5Mjg5Mg==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/592892?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ms-ati",
+    "html_url": "https://github.com/ms-ati",
+    "followers_url": "https://api.github.com/users/ms-ati/followers",
+    "following_url": "https://api.github.com/users/ms-ati/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ms-ati/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ms-ati/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ms-ati/subscriptions",
+    "organizations_url": "https://api.github.com/users/ms-ati/orgs",
+    "repos_url": "https://api.github.com/users/ms-ati/repos",
+    "events_url": "https://api.github.com/users/ms-ati/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ms-ati/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-05-20T18:38:34Z",
+  "updated_at": "2021-05-20T18:46:17Z",
+  "author_association": "NONE",
+  "body": "Thanks for this @asciimike! In principle, it seems as though the direction you outlined above would work in a \"roll your own\" fashion 🚀 \r\n\r\n_Crucially: the proposal above does not require trusting third-party actions!_\r\n\r\nI wonder if there is perhaps a PM we should be in touch with, in terms of understanding how we see this product feature interacting with messaging we are receiving around the product? I'm not hearing the **centrality of this feature to the product offering** being acknowledged in this thread, perhaps I missed it?\r\n\r\nMay I ask that our kind friends at Github also review how the [Supply Chain Security](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically) is actually being marketed to clients like us? It still seems to me that there may be a disconnect between the outward-facing messaging from Github, vs the content of this thread.\r\n\r\nFor example:\r\n\r\nhttps://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically\r\n> **Enabling and disabling version updates**\r\n>\r\n> You can configure your repository so that Dependabot automatically updates the packages you use.\r\n\r\nThanks again!",
+  "performed_via_github_app": null
+}

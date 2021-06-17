@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/829090106",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-829090106",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 829090106,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgyOTA5MDEwNg==",
+  "user": {
+    "login": "sehenst",
+    "id": 60508776,
+    "node_id": "MDQ6VXNlcjYwNTA4Nzc2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/60508776?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sehenst",
+    "html_url": "https://github.com/sehenst",
+    "followers_url": "https://api.github.com/users/sehenst/followers",
+    "following_url": "https://api.github.com/users/sehenst/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sehenst/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sehenst/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sehenst/subscriptions",
+    "organizations_url": "https://api.github.com/users/sehenst/orgs",
+    "repos_url": "https://api.github.com/users/sehenst/repos",
+    "events_url": "https://api.github.com/users/sehenst/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sehenst/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-04-29T09:41:31Z",
+  "updated_at": "2021-04-30T07:03:11Z",
+  "author_association": "NONE",
+  "body": "Workaround... 😄 \r\n\r\nPlease note that we only use this for internal dependencies (i.e., our own private packages).\r\n\r\n```\r\nname: Java CI with Gradle\r\n\r\non:\r\n  pull_request:\r\n    branches: [ main ]\r\n\r\njobs:\r\n  build:\r\n    runs-on: ubuntu-latest\r\n    timeout-minutes: 15\r\n\r\n    steps:\r\n      - uses: actions/checkout@v2\r\n\r\n      - uses: actions/setup-java@v2\r\n        with:\r\n          distribution: 'adopt'\r\n          java-version: '11'\r\n\r\n      - name: Build with Gradle\r\n        run: ./gradlew build\r\n        env:\r\n          GRADLE_BUILD_USERNAME: ${{ secrets.**********************}}\r\n          GRADLE_BUILD_TOKEN: ${{ secrets.********************** }}\r\n\r\n      - name: \"Auto-merge ********************** dependency updates\"\r\n        if: ${{ success() && github.actor == 'dependabot[bot]' && startsWith(github.event.pull_request.title, 'Bump ********************** from')  }}\r\n        uses: actions/github-script@v3\r\n        with:\r\n          github-token: ${{secrets.********************** }}\r\n          script: |\r\n            github.issues.createComment({\r\n              owner: context.payload.repository.owner.login,\r\n              repo: context.payload.repository.name,\r\n              issue_number: context.payload.pull_request.number,\r\n              body: '@dependabot squash and merge'\r\n            })\r\n\r\n      - name: Add reviewers on failed ********************** bumps\r\n        if: ${{ failure() && github.actor == 'dependabot[bot]' && startsWith(github.event.pull_request.title, 'Bump ********************** from') }}\r\n        uses: actions/github-script@v3\r\n        with:\r\n          github-token: ${{secrets.**********************}}\r\n          script: |\r\n            github.pulls.requestReviewers({\r\n              owner: context.payload.repository.owner.login,\r\n              repo: context.payload.repository.name,\r\n              pull_number: context.payload.pull_request.number,\r\n              team_reviewers: [ '@**********************' ]\r\n            })\r\n\r\n```",
+  "performed_via_github_app": null
+}

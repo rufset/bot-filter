@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/741826842",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-741826842",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 741826842,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc0MTgyNjg0Mg==",
+  "user": {
+    "login": "danielbachhuber",
+    "id": 36432,
+    "node_id": "MDQ6VXNlcjM2NDMy",
+    "avatar_url": "https://avatars.githubusercontent.com/u/36432?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/danielbachhuber",
+    "html_url": "https://github.com/danielbachhuber",
+    "followers_url": "https://api.github.com/users/danielbachhuber/followers",
+    "following_url": "https://api.github.com/users/danielbachhuber/following{/other_user}",
+    "gists_url": "https://api.github.com/users/danielbachhuber/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/danielbachhuber/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/danielbachhuber/subscriptions",
+    "organizations_url": "https://api.github.com/users/danielbachhuber/orgs",
+    "repos_url": "https://api.github.com/users/danielbachhuber/repos",
+    "events_url": "https://api.github.com/users/danielbachhuber/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/danielbachhuber/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2020-12-09T15:00:20Z",
+  "updated_at": "2020-12-09T15:00:20Z",
+  "author_association": "NONE",
+  "body": "@peaceiris It seems like someone still has to hit the button each time?",
+  "performed_via_github_app": null
+}

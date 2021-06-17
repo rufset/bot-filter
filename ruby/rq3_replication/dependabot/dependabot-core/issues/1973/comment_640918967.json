@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/640918967",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-640918967",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 640918967,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY0MDkxODk2Nw==",
+  "user": {
+    "login": "infin8x",
+    "id": 483400,
+    "node_id": "MDQ6VXNlcjQ4MzQwMA==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/483400?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/infin8x",
+    "html_url": "https://github.com/infin8x",
+    "followers_url": "https://api.github.com/users/infin8x/followers",
+    "following_url": "https://api.github.com/users/infin8x/following{/other_user}",
+    "gists_url": "https://api.github.com/users/infin8x/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/infin8x/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/infin8x/subscriptions",
+    "organizations_url": "https://api.github.com/users/infin8x/orgs",
+    "repos_url": "https://api.github.com/users/infin8x/repos",
+    "events_url": "https://api.github.com/users/infin8x/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/infin8x/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2020-06-08T22:23:19Z",
+  "updated_at": "2020-06-08T22:23:32Z",
+  "author_association": "CONTRIBUTOR",
+  "body": "(Duplicate comment removed)",
+  "performed_via_github_app": null
+}

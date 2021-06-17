@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/670114635",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-670114635",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 670114635,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY3MDExNDYzNQ==",
+  "user": {
+    "login": "seanconnollydev",
+    "id": 2985457,
+    "node_id": "MDQ6VXNlcjI5ODU0NTc=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2985457?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/seanconnollydev",
+    "html_url": "https://github.com/seanconnollydev",
+    "followers_url": "https://api.github.com/users/seanconnollydev/followers",
+    "following_url": "https://api.github.com/users/seanconnollydev/following{/other_user}",
+    "gists_url": "https://api.github.com/users/seanconnollydev/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/seanconnollydev/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/seanconnollydev/subscriptions",
+    "organizations_url": "https://api.github.com/users/seanconnollydev/orgs",
+    "repos_url": "https://api.github.com/users/seanconnollydev/repos",
+    "events_url": "https://api.github.com/users/seanconnollydev/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/seanconnollydev/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2020-08-06T18:38:44Z",
+  "updated_at": "2020-08-06T18:38:44Z",
+  "author_association": "NONE",
+  "body": "@infin8x I understand the security concern but we were hoping to set our target_branch to something that is not our default branch and then auto-merge into that branhc to limit the number of PRs that get opened per project. Many integration services like Chromatic, Heroku, etc. have costs associated with each PR that gets created in a repo so this is an important capability for us. I think you need to reconsider this policy to at least allow auto-merge on non-default branches.",
+  "performed_via_github_app": null
+}

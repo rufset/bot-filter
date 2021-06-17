@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/760958814",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-760958814",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 760958814,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc2MDk1ODgxNA==",
+  "user": {
+    "login": "juanibiapina",
+    "id": 568764,
+    "node_id": "MDQ6VXNlcjU2ODc2NA==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/568764?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/juanibiapina",
+    "html_url": "https://github.com/juanibiapina",
+    "followers_url": "https://api.github.com/users/juanibiapina/followers",
+    "following_url": "https://api.github.com/users/juanibiapina/following{/other_user}",
+    "gists_url": "https://api.github.com/users/juanibiapina/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/juanibiapina/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/juanibiapina/subscriptions",
+    "organizations_url": "https://api.github.com/users/juanibiapina/orgs",
+    "repos_url": "https://api.github.com/users/juanibiapina/repos",
+    "events_url": "https://api.github.com/users/juanibiapina/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/juanibiapina/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-01-15T14:01:53Z",
+  "updated_at": "2021-01-15T14:01:53Z",
+  "author_association": "NONE",
+  "body": "What would it take for this decision to be reconsidered?\r\n\r\nThe way I see, the security protection here is: updates will roll out slowly, so if it's malicious, it won't affect too many projects. Looks like this is only really slowing the whole process. I understand that as a temporary solution, but I'd expect something else to happen in the *short term future*.\r\n\r\nI also don't expect a manual review to catch a security issue, unless it is a very known issue and you're specifically looking for it. I can't keep them all in my head and I don't want to go over every dependency update. We get hundreds of those per day. I expect that people will configure auto merge anyway (with fewer features, because now we can't enable it only for minor versions), or simply do them manually, but blindly.",
+  "performed_via_github_app": null
+}

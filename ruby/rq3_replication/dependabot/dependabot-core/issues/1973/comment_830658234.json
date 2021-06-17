@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/830658234",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-830658234",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 830658234,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgzMDY1ODIzNA==",
+  "user": {
+    "login": "mercuriete",
+    "id": 7898144,
+    "node_id": "MDQ6VXNlcjc4OTgxNDQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/7898144?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/mercuriete",
+    "html_url": "https://github.com/mercuriete",
+    "followers_url": "https://api.github.com/users/mercuriete/followers",
+    "following_url": "https://api.github.com/users/mercuriete/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mercuriete/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/mercuriete/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/mercuriete/subscriptions",
+    "organizations_url": "https://api.github.com/users/mercuriete/orgs",
+    "repos_url": "https://api.github.com/users/mercuriete/repos",
+    "events_url": "https://api.github.com/users/mercuriete/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/mercuriete/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-05-01T16:31:02Z",
+  "updated_at": "2021-05-01T16:36:11Z",
+  "author_association": "NONE",
+  "body": "Leaving the decision of what package to be merged instead a human being it is the same.\r\n\r\nIf you have a compromised npm repository that contains a virus... If you are a human you will end up merging the PR as well and being compromised.\r\n\r\nSo your suggestion basically it is not to update packages what it is so weird because why make a bot for updates in the first place?\r\n\r\nI don't see why automerge feature is less secure than a human making the same mistake than a bot.\r\n\r\nI would like to have this feature under a big disclaimer and A I_KNOW_WHAT_I_AM_DOING disclaimer type of thing.\r\n\r\nThe discusion about compromised repositories ends up in dont have trust on any package on npm and therefore dont update any package what makes this bot totally discouraged.\r\n\r\nI think that a proper CVE announcements... automerge of CVE mitigations and even automerge a downgrade version on compromised repositories it is better than non supporting this feature at all.\r\n\r\nSorry if I said something stupid because my knowledge about security is very limited.\r\n\r\nThanks.\r\n\r\nTLDR; limit the scope of automerge feature only to CVE mitigations.",
+  "performed_via_github_app": null
+}

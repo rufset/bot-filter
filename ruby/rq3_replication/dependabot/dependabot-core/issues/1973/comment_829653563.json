@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/829653563",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-829653563",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 829653563,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgyOTY1MzU2Mw==",
+  "user": {
+    "login": "mercuriete",
+    "id": 7898144,
+    "node_id": "MDQ6VXNlcjc4OTgxNDQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/7898144?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/mercuriete",
+    "html_url": "https://github.com/mercuriete",
+    "followers_url": "https://api.github.com/users/mercuriete/followers",
+    "following_url": "https://api.github.com/users/mercuriete/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mercuriete/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/mercuriete/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/mercuriete/subscriptions",
+    "organizations_url": "https://api.github.com/users/mercuriete/orgs",
+    "repos_url": "https://api.github.com/users/mercuriete/repos",
+    "events_url": "https://api.github.com/users/mercuriete/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/mercuriete/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-04-29T23:08:39Z",
+  "updated_at": "2021-04-29T23:08:39Z",
+  "author_association": "NONE",
+  "body": "@honzajavorek \r\nI had the same problem as you had.\r\nI just drop dependabot and started use renovatebot.\r\n\r\njust install this: https://github.com/marketplace/renovate\r\n\r\nand drop a file similar to this one:\r\n\r\nrenovate.json\r\n```json\r\n{\r\n  \"extends\": [\r\n    \"config:base\"\r\n  ],\r\n  \"schedule\": [\"after 7pm and before 7am\"],\r\n  \"prConcurrentLimit\": 2,\r\n  \"packageRules\": [\r\n    {\r\n      \"matchUpdateTypes\": [\"minor\", \"patch\", \"pin\", \"digest\"],\r\n      \"automerge\": true\r\n    },\r\n    {\r\n      \"matchDepTypes\": [\"devDependencies\"],\r\n      \"automerge\": true\r\n    }\r\n  ]\r\n}\r\n```\r\n\r\nI hope you can evaluate if that tool is better for your use case.\r\n",
+  "performed_via_github_app": null
+}

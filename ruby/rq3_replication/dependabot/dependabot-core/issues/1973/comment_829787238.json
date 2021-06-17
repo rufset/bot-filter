@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/829787238",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-829787238",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 829787238,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgyOTc4NzIzOA==",
+  "user": {
+    "login": "jrjohnson",
+    "id": 349624,
+    "node_id": "MDQ6VXNlcjM0OTYyNA==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/349624?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jrjohnson",
+    "html_url": "https://github.com/jrjohnson",
+    "followers_url": "https://api.github.com/users/jrjohnson/followers",
+    "following_url": "https://api.github.com/users/jrjohnson/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jrjohnson/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jrjohnson/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jrjohnson/subscriptions",
+    "organizations_url": "https://api.github.com/users/jrjohnson/orgs",
+    "repos_url": "https://api.github.com/users/jrjohnson/repos",
+    "events_url": "https://api.github.com/users/jrjohnson/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jrjohnson/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-04-30T03:56:22Z",
+  "updated_at": "2021-04-30T03:56:58Z",
+  "author_association": "NONE",
+  "body": "@asciimike you're relying on a catch phrase \"correlation isn't causation\" to shrug off the very real fact that updated dependencies are a significant indicator of project quality and security.  Your specified threat of novel supply chain attacks, while interesting to dream about, are less of a risk for the majority of Github projects than the well researched OWASP [Using Components with Known Vulnerabilities](https://owasp.org/www-project-top-ten/2017/A9_2017-Using_Components_with_Known_Vulnerabilities) where the most applications are actually vulnerable. There are millions of examples of out of date dependencies causing real world breach for every one of your example targeted attacks. The real world isn't what you imagine it to be and our applications are substantially more likely to be compromised by an out of date dependency than a malicious commit and even if that were not the case clicking a green button when tests pass doesn't do anything to prevent the later.\r\n\r\nYou're also mixing up the automated security bump GitHub system built on dependabot with the opt in configuration driven tool that dependabot was built as. Projects which include a dependabot configuration file have to be close to 0% of the total projects on Github. Treating them as vulnerable to the same threats as a hobby project doesn't make any sense. Enabling dependabot and writing tests to ensure that only quality updates are merged is a hallmark of professionalism, please don't take away tools that help us to do our job well.\r\n\r\nLastly while blanket automerging may represent an issue the original dependabot allowed for significant narrowing of the scope for each PR which allows automerging to work securely. Security conscious maintainers of applications could restrict auto merging to specific packages with more trusted security practices and the auto merge automatically stopped when a new maintainer was detected. The solutions bandied about here and in other issues do not have access to the same depth of metadata on each update that dependabot does and so cannot be made as secure as the original feature. \r\n\r\nI know you're seeing these complaints as coming from maintainers with no clue and don't know what we're talking about. I don't know if you meant the google remark to be condescending or it just came off that way to me. Please understand that this (and many other threads on this subject) are full of professional developers who are disagreeing with you for very good reasons and have been doing so for months. This change will make our applications less secure and distract from the work of building great things in order to take a few moments every morning to blindly click a green button instead of allowing well informed automation to do it for us. That's not a good tradeoff.",
+  "performed_via_github_app": null
+}

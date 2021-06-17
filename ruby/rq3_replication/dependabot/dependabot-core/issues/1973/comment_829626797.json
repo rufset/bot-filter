@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/829626797",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-829626797",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 829626797,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgyOTYyNjc5Nw==",
+  "user": {
+    "login": "honzajavorek",
+    "id": 283441,
+    "node_id": "MDQ6VXNlcjI4MzQ0MQ==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/283441?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/honzajavorek",
+    "html_url": "https://github.com/honzajavorek",
+    "followers_url": "https://api.github.com/users/honzajavorek/followers",
+    "following_url": "https://api.github.com/users/honzajavorek/following{/other_user}",
+    "gists_url": "https://api.github.com/users/honzajavorek/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/honzajavorek/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/honzajavorek/subscriptions",
+    "organizations_url": "https://api.github.com/users/honzajavorek/orgs",
+    "repos_url": "https://api.github.com/users/honzajavorek/repos",
+    "events_url": "https://api.github.com/users/honzajavorek/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/honzajavorek/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-04-29T22:06:21Z",
+  "updated_at": "2021-04-29T22:06:56Z",
+  "author_association": "NONE",
+  "body": "How does 30s long manual merging of the PRs, which doesn't include any deeper consideration or investigation of the updates, prevent supply chain attacks? The only real difference is that it's me spending time on enabling them instead of a bot doing it for me.\n\nI wouldn't advocate for auto merging being anything near to default behavior, it should be opt-in with warnings and \"I know what I'm doing\" checks.",
+  "performed_via_github_app": null
+}

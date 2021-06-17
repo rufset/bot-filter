@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/811740859",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-811740859",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 811740859,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgxMTc0MDg1OQ==",
+  "user": {
+    "login": "sehenst",
+    "id": 60508776,
+    "node_id": "MDQ6VXNlcjYwNTA4Nzc2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/60508776?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sehenst",
+    "html_url": "https://github.com/sehenst",
+    "followers_url": "https://api.github.com/users/sehenst/followers",
+    "following_url": "https://api.github.com/users/sehenst/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sehenst/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sehenst/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sehenst/subscriptions",
+    "organizations_url": "https://api.github.com/users/sehenst/orgs",
+    "repos_url": "https://api.github.com/users/sehenst/repos",
+    "events_url": "https://api.github.com/users/sehenst/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sehenst/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-04-01T08:24:51Z",
+  "updated_at": "2021-04-01T08:24:51Z",
+  "author_association": "NONE",
+  "body": "> Auto-merge will not be supported in GitHub-native Dependabot for the foreseeable future. We know some of you have built great workflows that rely on auto-merge, but right now, we’re concerned about auto-merge being used to quickly propagate a malicious package across the ecosystem. We recommend always verifying your dependencies before merging them.\r\n\r\nWould it be possible to add support for auto-merge **if** the dependency is an internal organization package?\r\n@infin8x \r\n",
+  "performed_via_github_app": null
+}

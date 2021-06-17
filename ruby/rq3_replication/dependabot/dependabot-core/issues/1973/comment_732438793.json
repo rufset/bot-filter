@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/732438793",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-732438793",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 732438793,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDczMjQzODc5Mw==",
+  "user": {
+    "login": "CarlosHAraujo",
+    "id": 7379323,
+    "node_id": "MDQ6VXNlcjczNzkzMjM=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/7379323?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/CarlosHAraujo",
+    "html_url": "https://github.com/CarlosHAraujo",
+    "followers_url": "https://api.github.com/users/CarlosHAraujo/followers",
+    "following_url": "https://api.github.com/users/CarlosHAraujo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/CarlosHAraujo/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/CarlosHAraujo/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/CarlosHAraujo/subscriptions",
+    "organizations_url": "https://api.github.com/users/CarlosHAraujo/orgs",
+    "repos_url": "https://api.github.com/users/CarlosHAraujo/repos",
+    "events_url": "https://api.github.com/users/CarlosHAraujo/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/CarlosHAraujo/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2020-11-23T21:31:54Z",
+  "updated_at": "2020-11-23T21:31:54Z",
+  "author_association": "NONE",
+  "body": "I completely understand the security concerns, but I believe there's a gray area here between auto-merging unknown PR's and not having this feature at all.\r\nMaybe we can have a treat approval as request to merge, or auto-merge for specific semver like minor, or maybe have auto-merging to a non-default branch that will be fully reviewed ie. auto-merge in develop that will be reviewed before merge to master. ",
+  "performed_via_github_app": null
+}

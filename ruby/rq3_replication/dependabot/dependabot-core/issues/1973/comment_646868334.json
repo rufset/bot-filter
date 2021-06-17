@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/646868334",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-646868334",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 646868334,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY0Njg2ODMzNA==",
+  "user": {
+    "login": "chdsbd",
+    "id": 1929960,
+    "node_id": "MDQ6VXNlcjE5Mjk5NjA=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1929960?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/chdsbd",
+    "html_url": "https://github.com/chdsbd",
+    "followers_url": "https://api.github.com/users/chdsbd/followers",
+    "following_url": "https://api.github.com/users/chdsbd/following{/other_user}",
+    "gists_url": "https://api.github.com/users/chdsbd/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/chdsbd/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/chdsbd/subscriptions",
+    "organizations_url": "https://api.github.com/users/chdsbd/orgs",
+    "repos_url": "https://api.github.com/users/chdsbd/repos",
+    "events_url": "https://api.github.com/users/chdsbd/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/chdsbd/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2020-06-19T21:33:37Z",
+  "updated_at": "2020-06-19T21:33:37Z",
+  "author_association": "NONE",
+  "body": "If you don't mind adding another GitHub Bot to the mix, I built an [open source bot called Kodiak](http://github.com/chdsbd/kodiak) which supports auto merging pull requests.\r\n\r\nThere's specific instructions for using Kodiak with Dependabot here: https://kodiakhq.com/docs/recipes#automated-dependency-updates-with-dependabot\r\n\r\nAlso, there are a _ton_ of other GitHub Bots doing similar things. Here's a non-exhaustive list: https://kodiakhq.com/docs/prior-art-and-alternatives",
+  "performed_via_github_app": null
+}

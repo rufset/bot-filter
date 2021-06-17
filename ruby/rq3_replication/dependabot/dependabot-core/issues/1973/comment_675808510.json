@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/675808510",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-675808510",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 675808510,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY3NTgwODUxMA==",
+  "user": {
+    "login": "chdsbd",
+    "id": 1929960,
+    "node_id": "MDQ6VXNlcjE5Mjk5NjA=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1929960?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/chdsbd",
+    "html_url": "https://github.com/chdsbd",
+    "followers_url": "https://api.github.com/users/chdsbd/followers",
+    "following_url": "https://api.github.com/users/chdsbd/following{/other_user}",
+    "gists_url": "https://api.github.com/users/chdsbd/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/chdsbd/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/chdsbd/subscriptions",
+    "organizations_url": "https://api.github.com/users/chdsbd/orgs",
+    "repos_url": "https://api.github.com/users/chdsbd/repos",
+    "events_url": "https://api.github.com/users/chdsbd/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/chdsbd/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2020-08-19T02:04:03Z",
+  "updated_at": "2020-08-19T02:04:03Z",
+  "author_association": "NONE",
+  "body": "@danielbachhuber Sadly not.\r\n\r\nThere was a discussion about adding that kind of metadata in a structured form via [probot metadata](https://github.com/probot/metadata), but I don't think that's gone anywhere yet.\r\n\r\n#2294 would also make automatic updates based on type easy.\r\n\r\nA potentially less robust solution would be to parse the update type from the PR description.\r\n\r\nAssuming the following example is consistent I think a github action could label the PR based on the PR description.\r\n```\r\nBumps eslint from 7.6.0 to 7.7.0.\r\n\r\n...more content...\r\n```\r\n\r\nHere's a example script that could probably be integrated into some GitHub Action or bot:\r\n\r\nhttps://runkit.com/chdsbd/5f3c822e5eda78001ac183df\r\n```js\r\nconst semver = require('semver')\r\n\r\nconst PR_DESCRIPTION = `\\\r\nBumps eslint from 7.6.0 to 7.7.0.\r\nRelease notes\r\nSourced from ...`\r\n\r\nconst regex = /^Bumps\\s.*\\sfrom\\s(.*)\\sto\\s(.*)\\./;\r\n\r\n/* determine the update type (major, premajor, minor, preminor, patch, prepatch, or prerelease) from a dependabot PR */\r\nfunction parseUpdateType(x) {\r\n  const match = x.match(regex)\r\n  const prevVersion = match[1]\r\n  const newVersion = match[2]\r\n  return semver.diff(prevVersion, newVersion)\r\n}\r\n\r\nparseUpdateType(PR_DESCRIPTION)\r\n/* equals \"minor\" */\r\n```",
+  "performed_via_github_app": null
+}

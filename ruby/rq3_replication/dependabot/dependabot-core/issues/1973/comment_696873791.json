@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/696873791",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-696873791",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 696873791,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY5Njg3Mzc5MQ==",
+  "user": {
+    "login": "mathiasrw",
+    "id": 1063454,
+    "node_id": "MDQ6VXNlcjEwNjM0NTQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1063454?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/mathiasrw",
+    "html_url": "https://github.com/mathiasrw",
+    "followers_url": "https://api.github.com/users/mathiasrw/followers",
+    "following_url": "https://api.github.com/users/mathiasrw/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mathiasrw/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/mathiasrw/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/mathiasrw/subscriptions",
+    "organizations_url": "https://api.github.com/users/mathiasrw/orgs",
+    "repos_url": "https://api.github.com/users/mathiasrw/repos",
+    "events_url": "https://api.github.com/users/mathiasrw/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/mathiasrw/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2020-09-22T17:41:31Z",
+  "updated_at": "2020-09-22T17:41:31Z",
+  "author_association": "NONE",
+  "body": "> There is no automerging support in GitHub-native Dependabot [...] Several 3rd-party GitHub Actions and bots can replicate the automerge feature.\r\n\r\nI must say this is the least helpfull feature migration help I have ever encountered. What about putting a link to somewhere where you can read about what to do? \r\n\r\nPreferably a one-click-to deply action that just works. \r\n\r\n\r\n![image](https://user-images.githubusercontent.com/1063454/93917521-6342a100-fd0b-11ea-953c-a0b99abf11d3.png)\r\n",
+  "performed_via_github_app": null
+}

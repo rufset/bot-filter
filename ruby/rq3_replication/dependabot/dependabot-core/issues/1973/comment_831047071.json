@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/831047071",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-831047071",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 831047071,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgzMTA0NzA3MQ==",
+  "user": {
+    "login": "mvz",
+    "id": 10898,
+    "node_id": "MDQ6VXNlcjEwODk4",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10898?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/mvz",
+    "html_url": "https://github.com/mvz",
+    "followers_url": "https://api.github.com/users/mvz/followers",
+    "following_url": "https://api.github.com/users/mvz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mvz/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/mvz/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/mvz/subscriptions",
+    "organizations_url": "https://api.github.com/users/mvz/orgs",
+    "repos_url": "https://api.github.com/users/mvz/repos",
+    "events_url": "https://api.github.com/users/mvz/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/mvz/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-05-03T06:18:16Z",
+  "updated_at": "2021-05-03T06:18:16Z",
+  "author_association": "NONE",
+  "body": "As a practical solution, I made a simple script that I can run locally that uses the GitHub API to find relevant pull requests and add a `@dependabot merge` comment. Because it runs locally I don't have to give my PAT to any third party.",
+  "performed_via_github_app": null
+}

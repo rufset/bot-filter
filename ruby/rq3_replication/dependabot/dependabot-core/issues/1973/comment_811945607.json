@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/811945607",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-811945607",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 811945607,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgxMTk0NTYwNw==",
+  "user": {
+    "login": "chdsbd",
+    "id": 1929960,
+    "node_id": "MDQ6VXNlcjE5Mjk5NjA=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1929960?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/chdsbd",
+    "html_url": "https://github.com/chdsbd",
+    "followers_url": "https://api.github.com/users/chdsbd/followers",
+    "following_url": "https://api.github.com/users/chdsbd/following{/other_user}",
+    "gists_url": "https://api.github.com/users/chdsbd/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/chdsbd/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/chdsbd/subscriptions",
+    "organizations_url": "https://api.github.com/users/chdsbd/orgs",
+    "repos_url": "https://api.github.com/users/chdsbd/repos",
+    "events_url": "https://api.github.com/users/chdsbd/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/chdsbd/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-04-01T14:26:34Z",
+  "updated_at": "2021-04-01T14:26:34Z",
+  "author_association": "NONE",
+  "body": "If you don't mind using another GitHub App for helping with auto merge, I made an open source GitHub App, [Kodiak](https://github.com/chdsbd/kodiak), that supports [auto merging Dependabot PRs based on upgrade type (major, minor, patch)](https://kodiakhq.com/docs/recipes#configuring-automerge-by-upgrade-type).\r\n\r\nIt has a pretty simple config.\r\n```toml\r\n#.kodiak.toml\r\nversion = 1\r\n\r\n# auto merge minor and patch updates made by Dependabot\r\n[merge.automerge_dependencies]\r\nversions = [\"minor\", \"patch\"]\r\nusernames = [\"dependabot\"]\r\n\r\n# let Dependabot update its own PRs\r\n[update]\r\nignored_usernames = [\"dependabot\"]\r\n```",
+  "performed_via_github_app": null
+}

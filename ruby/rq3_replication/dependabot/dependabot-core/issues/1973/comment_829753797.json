@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/829753797",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-829753797",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 829753797,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgyOTc1Mzc5Nw==",
+  "user": {
+    "login": "asciimike",
+    "id": 2575327,
+    "node_id": "MDQ6VXNlcjI1NzUzMjc=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2575327?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/asciimike",
+    "html_url": "https://github.com/asciimike",
+    "followers_url": "https://api.github.com/users/asciimike/followers",
+    "following_url": "https://api.github.com/users/asciimike/following{/other_user}",
+    "gists_url": "https://api.github.com/users/asciimike/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/asciimike/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/asciimike/subscriptions",
+    "organizations_url": "https://api.github.com/users/asciimike/orgs",
+    "repos_url": "https://api.github.com/users/asciimike/repos",
+    "events_url": "https://api.github.com/users/asciimike/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/asciimike/received_events",
+    "type": "User",
+    "site_admin": true
+  },
+  "created_at": "2021-04-30T02:30:38Z",
+  "updated_at": "2021-04-30T02:31:22Z",
+  "author_association": "CONTRIBUTOR",
+  "body": "Dependabot's goal is to keep apps secure by keeping their dependencies up to date, not to simply keep dependencies always updated. We've found a correlation between up-to-date dependencies and more secure apps, but it's important to remember that [correlation isn't causation](https://xkcd.com/552/)! Keeping dependencies up to date is more likely to result in fixing latent bugs that might otherwise turn into vulnerabilities; however, it comes with an increased risk that a new release contains or enables malicious behavior. Security updates, while likely more safe, are still potentially vulnerable to this (imagine an attacker purposefully introducing a benign security vulnerability that's designed to get caught, followed by a patch that automerges an actual vulnerability). Is automerge a real risk in these cases? Recent history suggests [it is](https://blog.ryotak.me/post/homebrew-security-incident-en/).\r\n\r\nWhen I worked at Google, we used to joke that \"one in a million chances occur dozens of times every second\" (true story), and with the scale we're operating at (Dependabot is the single largest creator of PRs at GitHub), it's possible that even small vulnerabilities will affect a lot of users and cause a lot of harm. The difference here is not a \"misunderstanding of threats faced\" it's that we're considering risks differently.\r\n\r\nIt should not be surprising that individuals working on projects they know well have a higher appetite for risk than a product with millions of users ranging from students working on homework projects to organizations larger than GitHub. We have to build a product that keeps everyone secure, and sometimes that means making choices that aren't locally optimal for one set of customers, but are globally optimal across the customer base.\r\n\r\nThe team and I recognize that it is effort to keep dependencies up to date, especially for OSS maintainers (we built Dependabot, after all). For those of you who have vetted your supply chain or are willing to accept the risks, the \"opt-in\" solutions exist. There are a plethora of apps (e.g. kodiak), Actions (e.g. merge-me), other products (e.g. renovate), a cron job that just runs `npm update` every day, etc. that can be used instead if automerge is the number one feature. We think that a user's decision to use a tool like this is a stronger signal of their willingness to accept risk than `automerge: true`.\r\n\r\nI recognize that for some of you, nothing short of `automerge: true` will make you happy. As of right now, we can't offer that, and if that means you cease to use Dependabot, I'm sorry. Hopefully future changes to reduce noise, more precisely target vulnerable dependencies, or validate the integrity of packages will change the balance of power in supply chain attacks, and we can get to the point where folks can keep the right dependencies up to date with minimal burden. Until then, we'll do the best we can to work towards that goal, and welcome your feedback on how we can collectively make software more secure along the way.\r\n\r\n",
+  "performed_via_github_app": null
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/830019926",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-830019926",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 830019926,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgzMDAxOTkyNg==",
+  "user": {
+    "login": "asbjornu",
+    "id": 12283,
+    "node_id": "MDQ6VXNlcjEyMjgz",
+    "avatar_url": "https://avatars.githubusercontent.com/u/12283?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/asbjornu",
+    "html_url": "https://github.com/asbjornu",
+    "followers_url": "https://api.github.com/users/asbjornu/followers",
+    "following_url": "https://api.github.com/users/asbjornu/following{/other_user}",
+    "gists_url": "https://api.github.com/users/asbjornu/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/asbjornu/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/asbjornu/subscriptions",
+    "organizations_url": "https://api.github.com/users/asbjornu/orgs",
+    "repos_url": "https://api.github.com/users/asbjornu/repos",
+    "events_url": "https://api.github.com/users/asbjornu/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/asbjornu/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-04-30T11:07:28Z",
+  "updated_at": "2021-04-30T11:07:39Z",
+  "author_association": "NONE",
+  "body": "Relying on 3rd party actions to do auto-merge opens up another attack vector: Merging of non-Dependabot pull requests. If someone manages to create a user account that somehow matches the fragile string search for `dependabot` that 3rd party solutions require, they can easily submit pull requests on all repositories using the same matching algorithm and have their attack automatically merged. The attack would then not only be limited to dependencies, but to the actual code in the repository as well.\r\n\r\nEven with a cryptographic signature-based solution (see https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-729702398), bugs will occur in 3rd party actions that may open up this attack vector. Actions are dependencies as open to bugs as any other dependency, after all. Therefore, the fewer dependencies, the better.",
+  "performed_via_github_app": null
+}

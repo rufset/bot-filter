@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/829583388",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-829583388",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 829583388,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgyOTU4MzM4OA==",
+  "user": {
+    "login": "jeffwidman",
+    "id": 483314,
+    "node_id": "MDQ6VXNlcjQ4MzMxNA==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/483314?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jeffwidman",
+    "html_url": "https://github.com/jeffwidman",
+    "followers_url": "https://api.github.com/users/jeffwidman/followers",
+    "following_url": "https://api.github.com/users/jeffwidman/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jeffwidman/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jeffwidman/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jeffwidman/subscriptions",
+    "organizations_url": "https://api.github.com/users/jeffwidman/orgs",
+    "repos_url": "https://api.github.com/users/jeffwidman/repos",
+    "events_url": "https://api.github.com/users/jeffwidman/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jeffwidman/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-04-29T20:44:26Z",
+  "updated_at": "2021-04-29T20:44:26Z",
+  "author_association": "CONTRIBUTOR",
+  "body": "I've helped maintain a number of both popular and not-so-popular OSS projects, and while I understand the convenience, I also think Github is making a wise choice here. \r\n\r\nSupply chain attacks are already happening and they are only going to increase in the future. \r\n\r\nIf you really want auto-merge, either setup a GitHub action, or spin up your own copy of dependabot, or switch to renovate, or simply lower the frequency so that you can handle updates as a weekly task. \r\nIMO handling updates with a few manual clicks on PR's is trivial and takes less than 30 seconds for me most of the time.",
+  "performed_via_github_app": null
+}

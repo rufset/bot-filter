@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/845318084",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-845318084",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 845318084,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDg0NTMxODA4NA==",
+  "user": {
+    "login": "ms-ati",
+    "id": 592892,
+    "node_id": "MDQ6VXNlcjU5Mjg5Mg==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/592892?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ms-ati",
+    "html_url": "https://github.com/ms-ati",
+    "followers_url": "https://api.github.com/users/ms-ati/followers",
+    "following_url": "https://api.github.com/users/ms-ati/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ms-ati/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ms-ati/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ms-ati/subscriptions",
+    "organizations_url": "https://api.github.com/users/ms-ati/orgs",
+    "repos_url": "https://api.github.com/users/ms-ati/repos",
+    "events_url": "https://api.github.com/users/ms-ati/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ms-ati/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-05-20T17:32:39Z",
+  "updated_at": "2021-05-20T17:44:33Z",
+  "author_association": "NONE",
+  "body": "Thanks @asciimike for your genuine curiosity and empathy in presenting the reasoning in public here, knowing that a great many users and customers will see this as very bad news. We still appreciate you! ❤️ \r\n\r\nAs Github Team customers, however, I do think it's important to clarify that we consider having a narrow, security-maximizing native support for auto-merging to be vital. For example, an auto-merge dependabot feature that narrowly allows only:\r\n-  **allow-listed** dependencies\r\n- **passed** all CI tests\r\n- **semver patch** version change\r\n- with **no change of control** over the dependency (if possible)\r\n\r\n---\r\n\r\nQ: Is it clear why we are seeing this feature gap as squarely in the middle of the target for the \"[Github Advanced Security](https://github.com/features/security)\" product value?\r\n\r\nFor reference, this text is from the doc \"Github Enterprise Grade Security and Compliance\":\r\n> **Dependabot & Automated Security Fixes (Beta)**\r\n>\r\n> Automated maintance [sic] of vulnerable and out of date\r\ndependencies\r\n>\r\n> • Automated pull requests with changelogs, commits,\r\nand compatiblity [sic] scores for outdated dependencies\r\n>\r\n> • Resolve vulnerabilities using an automated\r\nsecurity fix in a pull request that corresponds to\r\nsecurity alerts\r\n\r\nWe do see this feature advocated heavily towards our organization as a reason to upgrade to GHE -- does that framing make sense?",
+  "performed_via_github_app": null
+}

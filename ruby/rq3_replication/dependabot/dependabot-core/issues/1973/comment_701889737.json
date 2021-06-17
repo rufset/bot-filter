@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/701889737",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-701889737",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 701889737,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDcwMTg4OTczNw==",
+  "user": {
+    "login": "Andrew-Chen-Wang",
+    "id": 60190294,
+    "node_id": "MDQ6VXNlcjYwMTkwMjk0",
+    "avatar_url": "https://avatars.githubusercontent.com/u/60190294?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Andrew-Chen-Wang",
+    "html_url": "https://github.com/Andrew-Chen-Wang",
+    "followers_url": "https://api.github.com/users/Andrew-Chen-Wang/followers",
+    "following_url": "https://api.github.com/users/Andrew-Chen-Wang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Andrew-Chen-Wang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Andrew-Chen-Wang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Andrew-Chen-Wang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Andrew-Chen-Wang/orgs",
+    "repos_url": "https://api.github.com/users/Andrew-Chen-Wang/repos",
+    "events_url": "https://api.github.com/users/Andrew-Chen-Wang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Andrew-Chen-Wang/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2020-10-01T05:13:53Z",
+  "updated_at": "2020-11-24T16:36:10Z",
+  "author_association": "NONE",
+  "body": "Edit: Use this instead: https://github.com/SimpleJWT/drf-SimpleJWT-React/blob/7fe37747f9b4385faeaf5ec57b650ff21d82c1ae/.github/workflows/automerge.yml#L1\r\n\r\nIt takes advantage of wait for status check GitHub action and automerge GitHub action (which can delete branch).\r\n\r\n---\r\n\r\nOld Response:\r\n\r\nFor anyone looking for auto-merge, I believe there is a marketplace GitHub action that can do it for you, but I've also created a GitHub action file here: https://github.com/pydanny/cookiecutter-django/pull/2868 but credit goes to the Medium blog post that I took the code from. I can't seem to find the blog post anymore, but I hope that file helps anyone who want further configuration! (EDIT: Found it! https://medium.com/@toufik.airane/automerge-github-dependabot-alerts-with-github-actions-7cd6f5763750):\r\n\r\nQuickly, here're the file contents:\r\n\r\n```\r\nname: \"Dependabot Automerge - Action\"\r\n\r\non:\r\n  pull_request:\r\n\r\njobs:\r\n  worker:\r\n    runs-on: ubuntu-latest\r\n\r\n    if: github.actor == 'dependabot[bot]'\r\n    steps:\r\n      - name: automerge\r\n        uses: actions/github-script@0.2.0\r\n        with:\r\n          script: |\r\n            github.pullRequests.createReview({\r\n              owner: context.payload.repository.owner.login,\r\n              repo: context.payload.repository.name,\r\n              pull_number: context.payload.pull_request.number,\r\n              event: 'APPROVE'\r\n            })\r\n            github.pullRequests.merge({\r\n              owner: context.payload.repository.owner.login,\r\n              repo: context.payload.repository.name,\r\n              pull_number: context.payload.pull_request.number\r\n            })\r\n          github-token: ${{github.token}}\r\n```",
+  "performed_via_github_app": null
+}

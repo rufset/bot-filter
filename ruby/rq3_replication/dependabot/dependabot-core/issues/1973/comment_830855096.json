@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/830855096",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-830855096",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 830855096,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgzMDg1NTA5Ng==",
+  "user": {
+    "login": "JustArchi",
+    "id": 1069029,
+    "node_id": "MDQ6VXNlcjEwNjkwMjk=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1069029?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/JustArchi",
+    "html_url": "https://github.com/JustArchi",
+    "followers_url": "https://api.github.com/users/JustArchi/followers",
+    "following_url": "https://api.github.com/users/JustArchi/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JustArchi/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/JustArchi/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/JustArchi/subscriptions",
+    "organizations_url": "https://api.github.com/users/JustArchi/orgs",
+    "repos_url": "https://api.github.com/users/JustArchi/repos",
+    "events_url": "https://api.github.com/users/JustArchi/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/JustArchi/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-05-02T18:58:11Z",
+  "updated_at": "2021-05-02T18:58:22Z",
+  "author_association": "NONE",
+  "body": "I've replaced dependabot with renovate bot, and I can recommend everybody interested doing the same. I don't know what was so difficult in renaming `automerge: true` to `i-know-what-im-doing-and-understand-the-risks-so-automerge-please: true` and keeping perfectly valid feature, but it's no longer any concern of mine.\r\n\r\nThe fact that you've decided to announce the shutdown of native Dependabot before resurrecting this feature as part of your \"investigation\" in https://github.com/dependabot/dependabot-core/issues/1823#issuecomment-641594279 was the final nail in the coffin for me. Defending your decision with that argument yet recommending people to use third-party solutions to re-enable automerge is a total hypocrisy to me.\r\n\r\nSo long dependabot, yet another great product that went downhill after acquisition.",
+  "performed_via_github_app": null
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/830108982",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-830108982",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 830108982,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgzMDEwODk4Mg==",
+  "user": {
+    "login": "neil-morrison44",
+    "id": 2095051,
+    "node_id": "MDQ6VXNlcjIwOTUwNTE=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2095051?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/neil-morrison44",
+    "html_url": "https://github.com/neil-morrison44",
+    "followers_url": "https://api.github.com/users/neil-morrison44/followers",
+    "following_url": "https://api.github.com/users/neil-morrison44/following{/other_user}",
+    "gists_url": "https://api.github.com/users/neil-morrison44/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/neil-morrison44/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/neil-morrison44/subscriptions",
+    "organizations_url": "https://api.github.com/users/neil-morrison44/orgs",
+    "repos_url": "https://api.github.com/users/neil-morrison44/repos",
+    "events_url": "https://api.github.com/users/neil-morrison44/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/neil-morrison44/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-04-30T13:50:12Z",
+  "updated_at": "2021-04-30T13:50:35Z",
+  "author_association": "NONE",
+  "body": "Similar to the point raised in https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-830019926\r\n\r\nTo me at least, there's a bit of a conflict between (paraphrasing)\r\n> \"auto-merging is too risky to be a core part of github / dependabot\" \r\n\r\nand the suggestion that \r\n> \"Several 3rd-party GitHub Actions and bots _[untrusted code, from untrusted devs]_ can replicate the automerge feature. _[by allowing them access to PATs that have full control over the repo]_\" \r\n\r\nI can understand how it reduces the legal liability faced by Github, but people looking to keep their current workflow will actively be making themselves _less_ secure.\r\n\r\nIdeally github / dependabot presents information about risk to me & I explicitly make an informed choice about what the acceptable trade off for me / my organisation is. \r\n\r\n@asciimike 's comment about labels (https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-829848077) makes a lot of sense, if dependabot added labels like `new maintainer` / `minor dev dependency patch` / `package from your own organisation`-  then I was able somewhere else in github to say at an organisation level \"automerge without approval if user is dependabot & labels have X but not Y\". \r\n\r\nSince trying to manually keep all 318 of our repos up to date is just slow manual \"automation\" but with the responsibility shifted to whoever is unlucky enough to be skimming over the big list of dependabot PRs and clicking merge without reading them.",
+  "performed_via_github_app": null
+}

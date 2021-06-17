@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/799217581",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-799217581",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 799217581,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc5OTIxNzU4MQ==",
+  "user": {
+    "login": "jurre",
+    "id": 749864,
+    "node_id": "MDQ6VXNlcjc0OTg2NA==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/749864?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jurre",
+    "html_url": "https://github.com/jurre",
+    "followers_url": "https://api.github.com/users/jurre/followers",
+    "following_url": "https://api.github.com/users/jurre/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jurre/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jurre/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jurre/subscriptions",
+    "organizations_url": "https://api.github.com/users/jurre/orgs",
+    "repos_url": "https://api.github.com/users/jurre/repos",
+    "events_url": "https://api.github.com/users/jurre/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jurre/received_events",
+    "type": "User",
+    "site_admin": true
+  },
+  "created_at": "2021-03-15T08:23:27Z",
+  "updated_at": "2021-03-15T08:23:27Z",
+  "author_association": "MEMBER",
+  "body": "cc @asciimike would love to get your thoughts on this. It's clearly something that a lot of people really valued from the old dependabot, and not all projects/workflows are affected by the risk equally (not everyone autodeploys the main branch and may do a dependency check before manually kicking off a release, libraries still require a manual release etc), but at the same time the potential risk for massively rolling out a malicious update are scary.",
+  "performed_via_github_app": null
+}

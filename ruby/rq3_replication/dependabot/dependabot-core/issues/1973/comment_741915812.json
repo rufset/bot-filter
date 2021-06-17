@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/741915812",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-741915812",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 741915812,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc0MTkxNTgxMg==",
+  "user": {
+    "login": "nemchik",
+    "id": 725456,
+    "node_id": "MDQ6VXNlcjcyNTQ1Ng==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/725456?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/nemchik",
+    "html_url": "https://github.com/nemchik",
+    "followers_url": "https://api.github.com/users/nemchik/followers",
+    "following_url": "https://api.github.com/users/nemchik/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nemchik/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/nemchik/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/nemchik/subscriptions",
+    "organizations_url": "https://api.github.com/users/nemchik/orgs",
+    "repos_url": "https://api.github.com/users/nemchik/repos",
+    "events_url": "https://api.github.com/users/nemchik/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/nemchik/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2020-12-09T17:15:25Z",
+  "updated_at": "2020-12-09T17:15:25Z",
+  "author_association": "NONE",
+  "body": "It seems like this (auto-merge) is applied individually to each pull request. The scenario is you are waiting for checks to pass or approvals to be applied via review, but you want the PR to merge once those conditions are met.\r\n\r\nIt does not seem you can globally apply this to an entire repository (and arguably probably don't want to).\r\n\r\nIt does not seem you can globally apply this to pull requests from repo admins, code owners, or specific users or groups that have been given permissions to a repository (this might be more reasonable than globally applying to an entire repository). I would imagine this option (if it were made available) would allow us to globally grant dependabot permissions to auto-merge within a repo, but not anything else (ex: admins, code owners, or other users/groups with permissions might not need/want auto-merge globally and would prefer it on an individual PR basis, which is how it currently seems to work).",
+  "performed_via_github_app": null
+}

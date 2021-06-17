@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/733095351",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-733095351",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 733095351,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDczMzA5NTM1MQ==",
+  "user": {
+    "login": "Andrew-Chen-Wang",
+    "id": 60190294,
+    "node_id": "MDQ6VXNlcjYwMTkwMjk0",
+    "avatar_url": "https://avatars.githubusercontent.com/u/60190294?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Andrew-Chen-Wang",
+    "html_url": "https://github.com/Andrew-Chen-Wang",
+    "followers_url": "https://api.github.com/users/Andrew-Chen-Wang/followers",
+    "following_url": "https://api.github.com/users/Andrew-Chen-Wang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Andrew-Chen-Wang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Andrew-Chen-Wang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Andrew-Chen-Wang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Andrew-Chen-Wang/orgs",
+    "repos_url": "https://api.github.com/users/Andrew-Chen-Wang/repos",
+    "events_url": "https://api.github.com/users/Andrew-Chen-Wang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Andrew-Chen-Wang/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2020-11-24T16:35:30Z",
+  "updated_at": "2020-11-24T16:41:44Z",
+  "author_association": "NONE",
+  "body": "@mkay581 I've redeveloped it in SimpleJWT's repositories to use two actions: wait for status check and automerge and delete branch. https://github.com/SimpleJWT/drf-SimpleJWT-React/blob/7fe37747f9b4385faeaf5ec57b650ff21d82c1ae/.github/workflows/automerge.yml#L1\r\n\r\nI want to mention as a fair warning that dependencies do break once in awhile, and you should always keep an eye out for even minor changes sometimes. I had a conversation with browniebroke in the cookiecutter-django library, and decided not to implement this automerge functionality there due to many packages having deprecated warnings, breaking changes, etc., agreeing to needing to manually review each one. And cookiecutter-django has a LOT of dependencies. So that's just something to think about.",
+  "performed_via_github_app": null
+}

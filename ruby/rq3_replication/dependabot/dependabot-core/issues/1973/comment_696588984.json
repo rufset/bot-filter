@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/696588984",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-696588984",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 696588984,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDY5NjU4ODk4NA==",
+  "user": {
+    "login": "timja",
+    "id": 21194782,
+    "node_id": "MDQ6VXNlcjIxMTk0Nzgy",
+    "avatar_url": "https://avatars.githubusercontent.com/u/21194782?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/timja",
+    "html_url": "https://github.com/timja",
+    "followers_url": "https://api.github.com/users/timja/followers",
+    "following_url": "https://api.github.com/users/timja/following{/other_user}",
+    "gists_url": "https://api.github.com/users/timja/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/timja/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/timja/subscriptions",
+    "organizations_url": "https://api.github.com/users/timja/orgs",
+    "repos_url": "https://api.github.com/users/timja/repos",
+    "events_url": "https://api.github.com/users/timja/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/timja/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2020-09-22T08:44:17Z",
+  "updated_at": "2020-09-22T08:44:17Z",
+  "author_association": "NONE",
+  "body": "In our org we have automerge setup for when branch conditions are met.\r\nAnd we always require review, we like just being able to approve a PR and then it automatically merges.\r\n\r\nIt saves a few clicks in the UI and also means that if CI is retriggered it will merge after CI is green.\r\n\r\nSaves have to type `@dependabot merge` which isn't too bad but would be nice to get automerge back",
+  "performed_via_github_app": null
+}

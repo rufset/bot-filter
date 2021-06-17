@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/812039437",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-812039437",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 812039437,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgxMjAzOTQzNw==",
+  "user": {
+    "login": "asciimike",
+    "id": 2575327,
+    "node_id": "MDQ6VXNlcjI1NzUzMjc=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2575327?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/asciimike",
+    "html_url": "https://github.com/asciimike",
+    "followers_url": "https://api.github.com/users/asciimike/followers",
+    "following_url": "https://api.github.com/users/asciimike/following{/other_user}",
+    "gists_url": "https://api.github.com/users/asciimike/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/asciimike/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/asciimike/subscriptions",
+    "organizations_url": "https://api.github.com/users/asciimike/orgs",
+    "repos_url": "https://api.github.com/users/asciimike/repos",
+    "events_url": "https://api.github.com/users/asciimike/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/asciimike/received_events",
+    "type": "User",
+    "site_admin": true
+  },
+  "created_at": "2021-04-01T16:54:16Z",
+  "updated_at": "2021-04-01T16:54:16Z",
+  "author_association": "CONTRIBUTOR",
+  "body": "Re: @sehenst\r\n> Would it be possible to add support for auto-merge if the dependency is an internal organization package?\r\n\r\nThis is one of the few situations that we think it's less-insecure to use auto-merge. I do think it's a little tough to know what \"internal\" packages are (e.g. is any private registry/repo considered internal? What if it's just mirroring a public registry?), so I doubt that we'll build it directly in, but instead recommend folks use an Action or a standalone app configured according to their security/risk profile. I'm working on some docs to help folks with this.\r\n\r\nSide note, _infin8x is no longer working on Dependabot, so he's probably not going to be responding.",
+  "performed_via_github_app": null
+}

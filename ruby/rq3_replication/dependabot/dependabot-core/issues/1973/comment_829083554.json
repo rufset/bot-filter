@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/829083554",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-829083554",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 829083554,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgyOTA4MzU1NA==",
+  "user": {
+    "login": "honzajavorek",
+    "id": 283441,
+    "node_id": "MDQ6VXNlcjI4MzQ0MQ==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/283441?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/honzajavorek",
+    "html_url": "https://github.com/honzajavorek",
+    "followers_url": "https://api.github.com/users/honzajavorek/followers",
+    "following_url": "https://api.github.com/users/honzajavorek/following{/other_user}",
+    "gists_url": "https://api.github.com/users/honzajavorek/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/honzajavorek/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/honzajavorek/subscriptions",
+    "organizations_url": "https://api.github.com/users/honzajavorek/orgs",
+    "repos_url": "https://api.github.com/users/honzajavorek/repos",
+    "events_url": "https://api.github.com/users/honzajavorek/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/honzajavorek/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-04-29T09:31:24Z",
+  "updated_at": "2021-04-29T09:34:36Z",
+  "author_association": "NONE",
+  "body": "I think one completely overlooked use case is that dependabot can keep dependencies of hobby and community projects updated. While serious projects, where the security impact is large, have the manpower and dedication to approve and review the updates, these small projects, where the security impact is none or low, do not. Also, many of my projects are static websites, where security issues in dev tools required to build the site have zero actual impact (like various DDoS security vulnerabilities, etc.). Today, [I woke up to this](https://twitter.com/honzajavorek/status/1387691480375046145):\r\n\r\n<img width=\"870\" alt=\"Screenshot 2021-04-29 at 10 42 06\" src=\"https://user-images.githubusercontent.com/283441/116528205-d6cd1200-a8db-11eb-8534-5073bc36928b.png\">\r\n\r\nExcept one, I'm not paid to maintain any of the projects. I want to keep them safe and updated, and I occasionally find some free time to make them better, or once, twice a year, we have a community sprint where we work on them. I can't imagine thoroughly reviewing the dependencies, it's just impossible. Even if the bot sends the PRs my way without automerging, it won't make me to review them. I'll just mindlessly click the PR to upgrade. It'll only add drag to maintaining them and drain my time and resources. The issues any vulnerability could cause on these projects are so small it just isn't worth the hassle of preventing them to happen, this is a hotfix scenario in case something happens (happened only once for the past 10 years). Letting the dependencies rot and upgrading them all once a year would be much worse.\r\n\r\nWe're advised to use bots and GitHub Actions, but for hobby and community projects, that's added complexity, which only requires installing on each repo, configuring on each repo, maintaining, explaining, documenting - so again, that's draining volunteering time and resources. Not mentioning not all the projects use GitHub Actions, so I'd have to find workarounds e.g. for CircleCI.\r\n\r\nPreviously, we could choose whether to turn automerging on or off, depending on how serious the project is. We could assess the risks ourselves. Now GitHub removes the option and decides for us, like a parent.\r\n\r\nUnlike others in this discussion, I do not entirely understand the security reasons for not implementing the feature. I think that requiring people to go to the PR and manually approve the upgrades won't add security, it'll only add annoyance. People won't be reviewing, they'll see green checks and will just merge the PR and see if something broke 🤷 I think this might cause the opposite, in fact. I think this can cause many volunteer maintainers to feel like there is an endlessly growing stack of dependency upgrade PRs to go through, which will drain their energy and time, which will make them feel like maintaining the project is not a joy, but a job. So they'll either let the PRs rot, or they'll disable dependabot, or they'll never turn it on in the first place. Which will cause the projects' dependenices to rot, and outdated dependencies are exactly where vulnerabilities thrive.",
+  "performed_via_github_app": null
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/799314547",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-799314547",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 799314547,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc5OTMxNDU0Nw==",
+  "user": {
+    "login": "asbjornu",
+    "id": 12283,
+    "node_id": "MDQ6VXNlcjEyMjgz",
+    "avatar_url": "https://avatars.githubusercontent.com/u/12283?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/asbjornu",
+    "html_url": "https://github.com/asbjornu",
+    "followers_url": "https://api.github.com/users/asbjornu/followers",
+    "following_url": "https://api.github.com/users/asbjornu/following{/other_user}",
+    "gists_url": "https://api.github.com/users/asbjornu/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/asbjornu/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/asbjornu/subscriptions",
+    "organizations_url": "https://api.github.com/users/asbjornu/orgs",
+    "repos_url": "https://api.github.com/users/asbjornu/repos",
+    "events_url": "https://api.github.com/users/asbjornu/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/asbjornu/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-03-15T10:42:14Z",
+  "updated_at": "2021-03-15T10:42:14Z",
+  "author_association": "NONE",
+  "body": "I've been testing @Mergifyio for a few weeks and just wanted to mention that they provide a great alternative to Dependabot's auto-merge functionality. Works for protected branches, required code reviews, required checks, `CODEOWNERS` and restricted push. This configuration handles it all:\r\n\r\n```yaml\r\npull_request_rules:\r\n  - name: Automatic approve on dependabot PR\r\n    conditions:\r\n      - author~=^dependabot(|-preview)\\[bot\\]$\r\n    actions:\r\n      review:\r\n        type: APPROVE\r\n\r\n  - name: Automatic merge on approval\r\n    conditions:\r\n      - author~=^dependabot(|-preview)\\[bot\\]$\r\n    actions:\r\n      merge:\r\n        method: merge\r\n        strict: smart\r\n```",
+  "performed_via_github_app": null
+}

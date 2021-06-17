@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/703619137",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-703619137",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 703619137,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDcwMzYxOTEzNw==",
+  "user": {
+    "login": "mathiasrw",
+    "id": 1063454,
+    "node_id": "MDQ6VXNlcjEwNjM0NTQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1063454?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/mathiasrw",
+    "html_url": "https://github.com/mathiasrw",
+    "followers_url": "https://api.github.com/users/mathiasrw/followers",
+    "following_url": "https://api.github.com/users/mathiasrw/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mathiasrw/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/mathiasrw/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/mathiasrw/subscriptions",
+    "organizations_url": "https://api.github.com/users/mathiasrw/orgs",
+    "repos_url": "https://api.github.com/users/mathiasrw/repos",
+    "events_url": "https://api.github.com/users/mathiasrw/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/mathiasrw/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2020-10-05T13:06:31Z",
+  "updated_at": "2020-10-05T13:06:31Z",
+  "author_association": "NONE",
+  "body": "Does anyone know if this will auto-merge whatever PR from a user who changed their username to `dependabot[bot]`?",
+  "performed_via_github_app": null
+}

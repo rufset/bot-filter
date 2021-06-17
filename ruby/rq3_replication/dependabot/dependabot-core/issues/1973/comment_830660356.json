@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/830660356",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-830660356",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 830660356,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDgzMDY2MDM1Ng==",
+  "user": {
+    "login": "sirosen",
+    "id": 1300022,
+    "node_id": "MDQ6VXNlcjEzMDAwMjI=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1300022?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sirosen",
+    "html_url": "https://github.com/sirosen",
+    "followers_url": "https://api.github.com/users/sirosen/followers",
+    "following_url": "https://api.github.com/users/sirosen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sirosen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sirosen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sirosen/subscriptions",
+    "organizations_url": "https://api.github.com/users/sirosen/orgs",
+    "repos_url": "https://api.github.com/users/sirosen/repos",
+    "events_url": "https://api.github.com/users/sirosen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sirosen/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-05-01T16:48:01Z",
+  "updated_at": "2021-05-01T16:48:01Z",
+  "author_association": "NONE",
+  "body": "> I recognize that for some of you, nothing short of `automerge: true` will make you happy.\r\n\r\nI don't think that's quite true. The issue, as I see it, is that GitHub/Dependabot hasn't taken on the development and documentation burden here. We aren't being told \"if you want to setup automerge, add the following workflow which invokes `actions/dependabot-merge@v1`\".\r\n\r\nThere is no clear, singular, and correct solution for this problem being offered up by Dependabot.\r\n\r\nWhere there was one vendor and one software solution before, we now have multiple vendors. We have to evaluate how much we trust them, how much it's worth learning a new toolchain, etc.\r\n\r\nAs a project maintainer using GitHub, I already have to trust GitHub. If I add another tool -- kodiak, renovate, etc -- then I'm trusting that maintainer with the relatively powerful and risky action of automatically merging PRs.\r\n\r\nThe reason a lot of people here have some frustration is this line in the migration doc:\r\n\r\n> For those of you who have vetted your dependencies, or are only using internal dependencies, we recommend adding third-party auto-merge apps, or setting up GitHub Actions to merge.\r\n\r\nThe guidance is incomplete and leaves finding a concrete solution \"as an exercise for the reader\". It might have been better for GitHub to have said nothing at all.\r\n\r\n---\r\n\r\nI'm trying to figure out what to do, and, in my case, I'm going to suggest to my co-maintainers that we just wait and see.\r\nDependabot is still offering me plenty of value, and as others have said it's not a huge problem to manually merge the PRs. I think some people are losing their heads a bit about how much of a pain that turns out to be; it's not fun but it's totally fine.",
+  "performed_via_github_app": null
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/dependabot/dependabot-core/issues/comments/760961501",
+  "html_url": "https://github.com/dependabot/dependabot-core/issues/1973#issuecomment-760961501",
+  "issue_url": "https://api.github.com/repos/dependabot/dependabot-core/issues/1973",
+  "id": 760961501,
+  "node_id": "MDEyOklzc3VlQ29tbWVudDc2MDk2MTUwMQ==",
+  "user": {
+    "login": "nemchik",
+    "id": 725456,
+    "node_id": "MDQ6VXNlcjcyNTQ1Ng==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/725456?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/nemchik",
+    "html_url": "https://github.com/nemchik",
+    "followers_url": "https://api.github.com/users/nemchik/followers",
+    "following_url": "https://api.github.com/users/nemchik/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nemchik/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/nemchik/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/nemchik/subscriptions",
+    "organizations_url": "https://api.github.com/users/nemchik/orgs",
+    "repos_url": "https://api.github.com/users/nemchik/repos",
+    "events_url": "https://api.github.com/users/nemchik/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/nemchik/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2021-01-15T14:06:57Z",
+  "updated_at": "2021-01-15T14:06:57Z",
+  "author_association": "NONE",
+  "body": "It would be interesting if it could auto merge if all github workflow checks pass, and there were a specific workflow available to check if any packages have known vulnerabilities and prevent merging if true. With that, auto merge could work for those who's packages are up to date with no known vulnerabilities, and if any vulnerability is present (even if it's not in the package being updated) all merges would have to be manual until the vulnerability is resolved.\r\n\r\nI know that's not perfect, but it might be reasonable enough.",
+  "performed_via_github_app": null
+}
